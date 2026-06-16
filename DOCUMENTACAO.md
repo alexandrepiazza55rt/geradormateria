@@ -277,3 +277,20 @@ de bug, tela nova) é outra. Opções:
 - [ ] **Build final do `.exe`** — aguardando seu aval (seção 3)
 - [ ] Atualização em nuvem ligada (quando você definir o host — seção 5)
 - [ ] Atualização automática do `.exe` e assinatura de código (quando quiser)
+
+---
+
+## 10. Próxima sessão (trabalho em andamento)
+Combinado com o usuário — **sem gerar o `.exe` ainda**:
+
+1. **Alterar o layout (UI).** Frontend em `app/src/` (telas em `app/src/components/`, estilos
+   Tailwind). Mexer no visual **não afeta** a camada de dados/persistência.
+2. **Configuração de chave de acesso / licenciamento.** Implementar o gate de ativação:
+   - `app/src/lib/license/activation.ts` → `ensureActivated()` (hoje no-op) é o ponto do gate.
+   - `app/src-tauri/src/fingerprint.rs` → `machine_fingerprint()` (trocar o stub por HWID real).
+   - Guardar o estado de ativação na tabela `meta` do SQLite (`user.db`).
+   - **Decisão a tomar:** a chave é validada **offline** (serial/assinatura local) ou **online**
+     (contra um backend)? Isso define a implementação.
+3. Build final do `.exe` só **depois**, com aval (seção 3).
+
+Para retomar: abrir o projeto em `C:\dev\gerador-materiais` e rodar `npx tauri dev` (seção 2.1).
