@@ -1,0 +1,479 @@
+
+##### Materiais e Valores [head] rows 1-70 cols 1-13 #####
+-- R1
+   A1	VALUE: RELAÇÃO DOS MATERIAIS PARA REDE DE ENERGIA ELÉTRICA
+-- R2
+   B2	VALUE: MONOFÁSICA, TENSÃO NOMINAL 7,97 KV
+   E2	FORMULA: =IF(SUM('Mono 13,8kv'!DW141:DW431)<=0,0,1)	CACHED=0
+-- R3
+   E3	FORMULA: =IF(SUM('Mono 13,8kv'!DW141:DW431)<=0,0,1)	CACHED=0
+-- R4
+   B4	VALUE: TRIFÁSICA, TENSÃO NOMINAL 13,8 KV
+   E4	FORMULA: =IF(SUM('Trifásico 13,8kv '!EX141:EX444)<=0,0,1)	CACHED=0
+-- R5
+   E5	FORMULA: =IF(SUM('Trifásico 13,8kv '!EX141:EX444)<=0,0,1)	CACHED=0
+-- R6
+   B6	VALUE: MONOFÁSICA, TENSÃO NOMINAL 19,92 KV
+   E6	FORMULA: =IF(SUM('Mono 34,5kv'!DS141:DS431)=0,0,1)	CACHED=0
+-- R7
+   E7	FORMULA: =IF(SUM('Mono 34,5kv'!DS141:DS431)=0,0,1)	CACHED=0
+-- R8
+   B8	VALUE: TRIFÁSICA, TENSÃO NOMINAL 34,5 KV
+   E8	FORMULA: =IF(SUM('Trifásico 34,5kv'!EX141:EX444)<=0,0,1)	CACHED=0
+-- R9
+   E9	FORMULA: =IF(SUM('Trifásico 34,5kv'!EX141:EX444)<=0,0,1)	CACHED=0
+-- R10
+   B10	VALUE: REGULADOR DE TENSÃO EM POSTE, TENSÃO 13,8 KV
+   E10	FORMULA: =REGULADORES!B6	CACHED=0
+-- R11
+   E11	FORMULA: =REGULADORES!B6	CACHED=0
+-- R12
+   B12	VALUE: REGULADOR DE TENSÃO EM POSTE, TENSÃO 19,92 KV
+   E12	FORMULA: =REGULADORES!C6	CACHED=0
+-- R13
+   E13	FORMULA: =REGULADORES!C6	CACHED=0
+-- R14
+   B14	VALUE: REGULADOR DE TENSÃO EM PLATAFORMA, TENSÃO 19,92 KV
+   E14	FORMULA: =REGULADORES!D6	CACHED=0
+-- R15
+   A15	VALUE: INSERIR NOME DA OBRA/PROPRIETÁRIO
+-- R16
+   A16	VALUE: INSERIR ENDEREÇO DE LOCALIZAÇÃO
+-- R17
+   A17	VALUE: INSERIR NOME DO MUNICÍPIO
+-- R18
+   A18	VALUE: Líder 7
+   B18	VALUE: Cód. SAP
+   C18	VALUE:         Descrição dos materiais
+   D18	VALUE: Unid.
+   E18	FORMULA: =IF(SUM(E19:E310)=0,0,"Quant")	CACHED=0
+-- R19
+   B19	VALUE: 3752
+   C19	VALUE: Afastador para isolador pilar
+   D19	VALUE:  pç 
+   E19	FORMULA: ='Mono 13,8kv'!DW141+'Mono 34,5kv'!DX141+'Trifásico 34,5kv'!EX141+'Trifásico 13,8kv '!EX141+REGULADORES!N141	CACHED=0
+-- R20
+   A20	VALUE: 3496
+   B20	VALUE: 2883
+   C20	VALUE: Alça pré-formada de estai p/ cabo de aço -6,4 mm
+   D20	VALUE: pç
+   E20	FORMULA: ='Mono 13,8kv'!DW142+'Mono 34,5kv'!DX142+'Trifásico 34,5kv'!EX142+'Trifásico 13,8kv '!EX142+REGULADORES!N142	CACHED=0
+-- R21
+   A21	VALUE: 3495
+   B21	VALUE: 4239
+   C21	VALUE: Alça pré-formada de estai p/ cabo de aço -7,9 mm
+   D21	VALUE: pç
+   E21	FORMULA: ='Mono 13,8kv'!DW143+'Mono 34,5kv'!DX143+'Trifásico 34,5kv'!EX143+'Trifásico 13,8kv '!EX143+REGULADORES!N143	CACHED=0
+-- R22
+   A22	VALUE: 3488
+   B22	VALUE: 2879
+   C22	VALUE: Alça pré formada de serviço para cabo triplex 10mm²
+   D22	VALUE:  pç 
+   E22	FORMULA: ='Mono 13,8kv'!DW144+'Mono 34,5kv'!DX144+'Trifásico 34,5kv'!EX144+'Trifásico 13,8kv '!EX144+REGULADORES!N144	CACHED=0
+-- R23
+   A23	VALUE: 3489
+   B23	VALUE: 116
+   C23	VALUE: Alça pré formada de serviço para cabo triplex 16mm²
+   D23	VALUE:  pç 
+   E23	FORMULA: ='Mono 13,8kv'!DW145+'Mono 34,5kv'!DX145+'Trifásico 34,5kv'!EX145+'Trifásico 13,8kv '!EX145+REGULADORES!N145	CACHED=0
+-- R24
+   A24	VALUE: 3490
+   B24	VALUE: 2880
+   C24	VALUE: Alça pré formada de serviço para cabo triplex 25mm²
+   D24	VALUE:  pç 
+   E24	FORMULA: ='Mono 13,8kv'!DW146+'Mono 34,5kv'!DX146+'Trifásico 34,5kv'!EX146+'Trifásico 13,8kv '!EX146+REGULADORES!N146	CACHED=0
+-- R25
+   A25	VALUE: 3492
+   B25	VALUE: 502815
+   C25	VALUE: Alça pré formada  de distribuição para cabo CA - CAA 2 AWG
+   D25	VALUE:  pç 
+   E25	FORMULA: ='Mono 13,8kv'!DW147+'Mono 34,5kv'!DX147+'Trifásico 34,5kv'!EX147+'Trifásico 13,8kv '!EX147+REGULADORES!N147	CACHED=0
+-- R26
+   A26	VALUE: 3491
+   B26	VALUE: 2816
+   C26	VALUE: Alça pré formada  de distribuição para cabo CA - CAA 1/0 AWG
+   D26	VALUE:  pç 
+   E26	FORMULA: ='Mono 13,8kv'!DW148+'Mono 34,5kv'!DX148+'Trifásico 34,5kv'!EX148+'Trifásico 13,8kv '!EX148+REGULADORES!N148	CACHED=0
+-- R27
+   A27	VALUE: 3494
+   B27	VALUE: 3374
+   C27	VALUE: Alça pré formada  de distribuição para cabo CA - CAA 4/0 AWG
+   D27	VALUE:  pç 
+   E27	FORMULA: ='Mono 13,8kv'!DW149+'Mono 34,5kv'!DX149+'Trifásico 34,5kv'!EX149+'Trifásico 13,8kv '!EX149+REGULADORES!N149	CACHED=0
+-- R28
+   B28	VALUE: 90310
+   C28	VALUE: Alça pré formada  de distribuição para cabo CA - CAA 336,4 AWG
+   D28	VALUE:  pç 
+   E28	FORMULA: ='Mono 13,8kv'!DW150+'Mono 34,5kv'!DX150+'Trifásico 34,5kv'!EX150+'Trifásico 13,8kv '!EX150+REGULADORES!N150	CACHED=0
+-- R29
+   A29	VALUE: 4244
+   B29	VALUE: 2817
+   C29	VALUE: Alça pré formada para Fio Aluministeel N8 awg
+   D29	VALUE:  pç 
+   E29	FORMULA: ='Mono 13,8kv'!DW151+'Mono 34,5kv'!DX151+'Trifásico 34,5kv'!EX151+'Trifásico 13,8kv '!EX151+REGULADORES!N151	CACHED=0
+-- R30
+   A30	VALUE: 3498
+   B30	VALUE: 3054
+   C30	VALUE: Arame aço galvanizado 14BWG
+   D30	VALUE:  kg 
+   E30	FORMULA: ='Mono 13,8kv'!DW152+'Mono 34,5kv'!DX152+'Trifásico 34,5kv'!EX152+'Trifásico 13,8kv '!EX152+REGULADORES!N152	CACHED=0
+-- R31
+   A31	VALUE: 3499
+   B31	VALUE: 2965
+   C31	VALUE: Armação secundaria 1x1 estribo
+   D31	VALUE:  pç 
+   E31	FORMULA: ='Mono 13,8kv'!DW153+'Mono 34,5kv'!DX153+'Trifásico 34,5kv'!EX153+'Trifásico 13,8kv '!EX153+REGULADORES!N153	CACHED=0
+-- R32
+   A32	VALUE: 3506
+   B32	VALUE: 90389
+   C32	VALUE: Arruela quadrada
+   D32	VALUE:  pç 
+   E32	FORMULA: ='Mono 13,8kv'!DW154+'Mono 34,5kv'!DX154+'Trifásico 34,5kv'!EX154+'Trifásico 13,8kv '!EX154+REGULADORES!N154	CACHED=0
+-- R33
+   B33	VALUE: 90272
+   C33	VALUE: Cabo Aluminio biplex XLPE 10 mm²
+   D33	VALUE:  pç 
+   E33	FORMULA: ='Mono 13,8kv'!DW155+'Mono 34,5kv'!DX155+'Trifásico 34,5kv'!EX155+'Trifásico 13,8kv '!EX155+REGULADORES!N155	CACHED=0
+-- R34
+   B34	VALUE: 90285
+   C34	VALUE: Cabo Aluminio quadriplex XLPE 10 mm²
+   D34	VALUE: m
+   E34	FORMULA: ='Mono 13,8kv'!DW156+'Mono 34,5kv'!DX156+'Trifásico 34,5kv'!EX156+'Trifásico 13,8kv '!EX156+REGULADORES!N156	CACHED=0
+-- R35
+   B35	VALUE: 90286
+   C35	VALUE: Cabo Aluminio quadriplex XLPE 16 mm²
+   D35	VALUE: m
+   E35	FORMULA: ='Mono 13,8kv'!DW157+'Mono 34,5kv'!DX157+'Trifásico 34,5kv'!EX157+'Trifásico 13,8kv '!EX157+REGULADORES!N157	CACHED=0
+-- R36
+   A36	VALUE: 4401
+   B36	VALUE: 90287
+   C36	VALUE: Cabo Aluminio quadriplex XLPE 25 mm²
+   D36	VALUE: m
+   E36	FORMULA: ='Mono 13,8kv'!DW158+'Mono 34,5kv'!DX158+'Trifásico 34,5kv'!EX158+'Trifásico 13,8kv '!EX158+REGULADORES!N158	CACHED=0
+-- R37
+   A37	VALUE: 3531
+   B37	VALUE: 90288
+   C37	VALUE: Cabo Aluminio quadriplex XLPE 35 mm²
+   D37	VALUE: m
+   E37	FORMULA: ='Mono 13,8kv'!DW159+'Mono 34,5kv'!DX159+'Trifásico 34,5kv'!EX159+'Trifásico 13,8kv '!EX159+REGULADORES!N159	CACHED=0
+-- R38
+   C38	VALUE: Cabo Aluminio quadriplex XLPE 50 mm²
+   D38	VALUE: m
+   E38	FORMULA: ='Mono 13,8kv'!DW160+'Mono 34,5kv'!DX160+'Trifásico 34,5kv'!EX160+'Trifásico 13,8kv '!EX160+REGULADORES!N160	CACHED=0
+-- R39
+   A39	VALUE: 3532
+   B39	VALUE: 90289
+   C39	VALUE: Cabo Aluminio quadriplex XLPE 70 mm²
+   D39	VALUE: m
+   E39	FORMULA: ='Mono 13,8kv'!DW161+'Mono 34,5kv'!DX161+'Trifásico 34,5kv'!EX161+'Trifásico 13,8kv '!EX161+REGULADORES!N161	CACHED=0
+-- R40
+   C40	VALUE: Cabo Aluminio triplex Xlpe 06 mm²
+   D40	VALUE: m
+   E40	FORMULA: ='Mono 13,8kv'!DW162+'Mono 34,5kv'!DX162+'Trifásico 34,5kv'!EX162+'Trifásico 13,8kv '!EX162+REGULADORES!N162	CACHED=0
+-- R41
+   A41	VALUE: 3512
+   B41	VALUE: 90274
+   C41	VALUE: Cabo Aluminio triplex Xlpe 10 mm²
+   D41	VALUE: m
+   E41	FORMULA: ='Mono 13,8kv'!DW163+'Mono 34,5kv'!DX163+'Trifásico 34,5kv'!EX163+'Trifásico 13,8kv '!EX163+REGULADORES!N163	CACHED=0
+-- R42
+   A42	VALUE: 3513
+   B42	VALUE: 90282
+   C42	VALUE: Cabo Aluminio triplex Xlpe 16 mm²
+   D42	VALUE: m
+   E42	FORMULA: ='Mono 13,8kv'!DW164+'Mono 34,5kv'!DX164+'Trifásico 34,5kv'!EX164+'Trifásico 13,8kv '!EX164+REGULADORES!N164	CACHED=0
+-- R43
+   A43	VALUE: 3514
+   B43	VALUE: 590283
+   C43	VALUE: Cabo Aluminio triplex Xlpe 25 mm²
+   D43	VALUE: m
+   E43	FORMULA: ='Mono 13,8kv'!DW165+'Mono 34,5kv'!DX165+'Trifásico 34,5kv'!EX165+'Trifásico 13,8kv '!EX165+REGULADORES!N165	CACHED=0
+-- R44
+   B44	VALUE: 90284
+   C44	VALUE: Cabo Aluminio triplex Xlpe 35 mm²
+   D44	VALUE: m
+   E44	FORMULA: ='Mono 13,8kv'!DW166+'Mono 34,5kv'!DX166+'Trifásico 34,5kv'!EX166+'Trifásico 13,8kv '!EX166+REGULADORES!N166	CACHED=0
+-- R45
+   C45	VALUE: Cabo Aluminio triplex Xlpe 50 mm²
+   D45	VALUE: m
+   E45	FORMULA: ='Mono 13,8kv'!DW167+'Mono 34,5kv'!DX167+'Trifásico 34,5kv'!EX167+'Trifásico 13,8kv '!EX167+REGULADORES!N167	CACHED=0
+-- R46
+   A46	VALUE: 3516
+   B46	VALUE: 2987
+   C46	VALUE: Cabo de aço galvanizado - 6,4mm² (cordoalha)
+   D46	VALUE: m
+   E46	FORMULA: ='Mono 13,8kv'!DW168+'Mono 34,5kv'!DX168+'Trifásico 34,5kv'!EX168+'Trifásico 13,8kv '!EX168+REGULADORES!N168	CACHED=0
+-- R47
+   A47	VALUE: 3517
+   B47	VALUE: 3357
+   C47	VALUE: Cabo de aço galvanizado - 7,9 mm² (cordoalha)
+   D47	VALUE: m
+   E47	FORMULA: ='Mono 13,8kv'!DW169+'Mono 34,5kv'!DX169+'Trifásico 34,5kv'!EX169+'Trifásico 13,8kv '!EX169+REGULADORES!N169	CACHED=0
+-- R48
+   A48	VALUE: 4183
+   B48	VALUE: 90258
+   C48	VALUE: Cabo de aluminio  nu 2 CAA - AWG
+   D48	VALUE:  kg 
+   E48	FORMULA: ='Mono 13,8kv'!DW170+'Mono 34,5kv'!DX170+'Trifásico 34,5kv'!EX170+'Trifásico 13,8kv '!EX170+REGULADORES!N170	CACHED=0
+-- R49
+   A49	VALUE: 3519
+   B49	VALUE: 90263
+   C49	VALUE: Cabo de aluminio  nu 1/0 CAA - AWG
+   D49	VALUE:  kg 
+   E49	FORMULA: ='Mono 13,8kv'!DW171+'Mono 34,5kv'!DX171+'Trifásico 34,5kv'!EX171+'Trifásico 13,8kv '!EX171+REGULADORES!N171	CACHED=0
+-- R50
+   A50	VALUE: 3521
+   B50	VALUE: 90264
+   C50	VALUE: Cabo de aluminio  nu 4/0 CAA - AWG
+   D50	VALUE:  kg 
+   E50	FORMULA: ='Mono 13,8kv'!DW172+'Mono 34,5kv'!DX172+'Trifásico 34,5kv'!EX172+'Trifásico 13,8kv '!EX172+REGULADORES!N172	CACHED=0
+-- R51
+   A51	VALUE: 4513
+   B51	VALUE: 621841
+   C51	VALUE: Cabo de aluminio  nu 336,4 CAA - AWG
+   D51	VALUE:  kg 
+   E51	FORMULA: ='Mono 13,8kv'!DW173+'Mono 34,5kv'!DX173+'Trifásico 34,5kv'!EX173+'Trifásico 13,8kv '!EX173+REGULADORES!N173	CACHED=0
+-- R52
+   A52	VALUE: 3522
+   B52	VALUE: 590294
+   C52	VALUE: Cabo de cobre coberto com XLPE - 15kv 16mm²
+   D52	VALUE: m
+   E52	FORMULA: ='Mono 13,8kv'!DW174+'Mono 34,5kv'!DX174+'Trifásico 34,5kv'!EX174+'Trifásico 13,8kv '!EX174+REGULADORES!N174	CACHED=0
+-- R53
+   B53	VALUE: 126
+   C53	VALUE: Cabo de cobre coberto com XLPE - 15kv 95mm²
+   D53	VALUE: m
+   E53	FORMULA: ='Mono 13,8kv'!DW175+'Mono 34,5kv'!DX175+'Trifásico 34,5kv'!EX175+'Trifásico 13,8kv '!EX175+REGULADORES!N175	CACHED=0
+-- R54
+   A54	VALUE: 3523
+   B54	VALUE: 623945
+   C54	VALUE: Cabo de cobre flexivel isolado - 10mm²
+   D54	VALUE: m
+   E54	FORMULA: ='Mono 13,8kv'!DW176+'Mono 34,5kv'!DX176+'Trifásico 34,5kv'!EX176+'Trifásico 13,8kv '!EX176+REGULADORES!N176	CACHED=0
+-- R55
+   B55	VALUE: 626275
+   C55	VALUE: Cabo de cobre nú 50mm²
+   D55	VALUE: m
+   E55	FORMULA: ='Mono 13,8kv'!DW177+'Mono 34,5kv'!DX177+'Trifásico 34,5kv'!EX177+'Trifásico 13,8kv '!EX177+REGULADORES!N177	CACHED=0
+-- R56
+   A56	VALUE: 4357
+   C56	VALUE: Caixa tubo de concreto para aterramento de padrão
+   D56	VALUE: m
+   E56	FORMULA: ='Mono 13,8kv'!DW178+'Mono 34,5kv'!DX178+'Trifásico 34,5kv'!EX178+'Trifásico 13,8kv '!EX178+REGULADORES!N178	CACHED=0
+-- R57
+   A57	VALUE: 3535
+   B57	VALUE: 2898
+   C57	VALUE: Cartucho tipo bala para conector cunha (azul)
+   D57	VALUE:  pç 
+   E57	FORMULA: ='Mono 13,8kv'!DW179+'Mono 34,5kv'!DX179+'Trifásico 34,5kv'!EX179+'Trifásico 13,8kv '!EX179+REGULADORES!N179	CACHED=0
+-- R58
+   A58	VALUE: 3536
+   B58	VALUE: 2900
+   C58	VALUE: Cartucho tipo bala para conector cunha (vermelho)
+   D58	VALUE:  pç 
+   E58	FORMULA: ='Mono 13,8kv'!DW180+'Mono 34,5kv'!DX180+'Trifásico 34,5kv'!EX180+'Trifásico 13,8kv '!EX180+REGULADORES!N180	CACHED=0
+-- R59
+   A59	VALUE: 4018
+   B59	VALUE: 90517
+   C59	VALUE: Chapa, fixação de estai, aço carbono zincado a quente
+   D59	VALUE: pç
+   E59	FORMULA: ='Mono 13,8kv'!DW181+'Mono 34,5kv'!DX181+'Trifásico 34,5kv'!EX181+'Trifásico 13,8kv '!EX181+REGULADORES!N181	CACHED=0
+-- R60
+   A60	VALUE: 3539
+   B60	VALUE: 3454
+   C60	VALUE: Chave faca - tipo C-  15kV 630A-NBI 95KV
+   D60	VALUE:  pç 
+   E60	FORMULA: ='Mono 13,8kv'!DW182+'Mono 34,5kv'!DX182+'Trifásico 34,5kv'!EX182+'Trifásico 13,8kv '!EX182+REGULADORES!N182	CACHED=0
+-- R61
+   A61	VALUE: 4016
+   B61	VALUE: 2808
+   C61	VALUE: Chave faca - tipo C-  36,2kV 400A-NBI 150KV
+   D61	VALUE:  pç 
+   E61	FORMULA: ='Mono 13,8kv'!DW183+'Mono 34,5kv'!DX183+'Trifásico 34,5kv'!EX183+'Trifásico 13,8kv '!EX183+REGULADORES!N183	CACHED=0
+-- R62
+   A62	VALUE: 4553
+   B62	VALUE: 90549
+   C62	VALUE: CHAVE FUSIVEL RELIG DISTRIBUIÇÃO TR 15KV 100A 1F M
+   D62	VALUE:  pç 
+   E62	FORMULA: ='Mono 13,8kv'!DW184+'Mono 34,5kv'!DX184+'Trifásico 34,5kv'!EX184+'Trifásico 13,8kv '!EX184+REGULADORES!N184	CACHED=0
+-- R63
+   A63	VALUE: 4554
+   B63	VALUE: 90550
+   C63	VALUE: CHAVE FUSIVEL RELIG 24,2/36,2KV 100A 1F MAN SECO SIM 4,5KA 3 INT
+   D63	VALUE:  pç 
+   E63	FORMULA: ='Mono 13,8kv'!DW185+'Mono 34,5kv'!DX185+'Trifásico 34,5kv'!EX185+'Trifásico 13,8kv '!EX185+REGULADORES!N185	CACHED=0
+-- R64
+   A64	VALUE: 4157
+   B64	VALUE: 4157
+   C64	VALUE: CHAVE FUSIVEL DISTRIBUIÇÃOTRIB 15,0KV 300A COM FERRAGEM
+   D64	VALUE:  pç 
+   E64	FORMULA: ='Mono 13,8kv'!DW186+'Mono 34,5kv'!DX186+'Trifásico 34,5kv'!EX186+'Trifásico 13,8kv '!EX186+REGULADORES!N186	CACHED=0
+-- R65
+   A65	VALUE: 3537
+   B65	VALUE: 4157
+   C65	VALUE: CHAVE FUSIVEL DISTRIBUIÇÃOTRIB 15,0KV 300A SEM FERRAGEM
+   D65	VALUE:  pç 
+   E65	FORMULA: ='Mono 13,8kv'!DW187+'Mono 34,5kv'!DX187+'Trifásico 34,5kv'!EX187+'Trifásico 13,8kv '!EX187+REGULADORES!N187	CACHED=0
+-- R66
+   A66	VALUE: 4158
+   B66	VALUE: 615062
+   C66	VALUE: CHAVE FUSIVEL DISTRIBUIÇÃOTRIB 36,2KV 300A 3F COM FERRAGEM
+   D66	VALUE:  pç 
+   E66	FORMULA: ='Mono 13,8kv'!DW188+'Mono 34,5kv'!DX188+'Trifásico 34,5kv'!EX188+'Trifásico 13,8kv '!EX188+REGULADORES!N188	CACHED=0
+-- R67
+   A67	VALUE: 3538
+   B67	VALUE: 615062
+   C67	VALUE: CHAVE FUSIVEL DISTRIBUIÇÃOTRIB 36,2KV 300A 3F SEM FERRAGEM
+   D67	VALUE:  pç 
+   E67	FORMULA: ='Mono 13,8kv'!DW189+'Mono 34,5kv'!DX189+'Trifásico 34,5kv'!EX189+'Trifásico 13,8kv '!EX189+REGULADORES!N189	CACHED=0
+-- R68
+   B68	VALUE: 3102
+   C68	VALUE: Cinta circular de Ø 140 mm
+   D68	VALUE: pç
+   E68	FORMULA: ='Mono 13,8kv'!DW190+'Mono 34,5kv'!DX190+'Trifásico 34,5kv'!EX190+'Trifásico 13,8kv '!EX190+REGULADORES!N190	CACHED=0
+-- R69
+   A69	VALUE: 3541
+   B69	VALUE: 2968
+   C69	VALUE: Cinta circular de Ø 150 mm
+   D69	VALUE:  pç 
+   E69	FORMULA: ='Mono 13,8kv'!DW191+'Mono 34,5kv'!DX191+'Trifásico 34,5kv'!EX191+'Trifásico 13,8kv '!EX191+REGULADORES!N191	CACHED=0
+-- R70
+   A70	VALUE: 3542
+   B70	VALUE: 590215
+   C70	VALUE: Cinta circular de Ø 160 mm
+   D70	VALUE:  pç 
+   E70	FORMULA: ='Mono 13,8kv'!DW192+'Mono 34,5kv'!DX192+'Trifásico 34,5kv'!EX192+'Trifásico 13,8kv '!EX192+REGULADORES!N192	CACHED=0
+
+##### Materiais e Valores [mid] rows 100-110 cols 1-13 #####
+-- R100
+   A100	VALUE: 3562
+   B100	VALUE: 90474
+   C100	VALUE: CONECTOR CUNHA C-C COBRE 2,54-6,55/ 1,27-4,65mm AZ TP IV
+   D100	VALUE:  pç 
+   E100	FORMULA: ='Mono 13,8kv'!DW222+'Mono 34,5kv'!DX222+'Trifásico 34,5kv'!EX222+'Trifásico 13,8kv '!EX222+REGULADORES!N222	CACHED=0
+-- R101
+   B101	VALUE: 159
+   C101	VALUE: CON CUNHA DER CN2 AL 15,2-17,3X11-17mm
+   D101	VALUE: pç
+   E101	FORMULA: ='Mono 13,8kv'!DW223+'Mono 34,5kv'!DX223+'Trifásico 34,5kv'!EX223+'Trifásico 13,8kv '!EX223+REGULADORES!N223	CACHED=0
+-- R102
+   A102	VALUE: 4294
+   C102	VALUE: Conector, cunha, liga de Alumínio, CN 3, série azul
+   D102	VALUE:  pç 
+   E102	FORMULA: ='Mono 13,8kv'!DW224+'Mono 34,5kv'!DX224+'Trifásico 34,5kv'!EX224+'Trifásico 13,8kv '!EX224+REGULADORES!N224	CACHED=0
+-- R103
+   A103	VALUE: 4104
+   C103	VALUE: Conector, cunha, liga de Alumínio, CN 4, série azul
+   D103	VALUE:  pç 
+   E103	FORMULA: ='Mono 13,8kv'!DW225+'Mono 34,5kv'!DX225+'Trifásico 34,5kv'!EX225+'Trifásico 13,8kv '!EX225+REGULADORES!N225	CACHED=0
+-- R104
+   A104	VALUE: 4133
+   C104	VALUE: Conector, cunha, liga de Alumínio, CN 6, série azul
+   D104	VALUE:  pç 
+   E104	FORMULA: ='Mono 13,8kv'!DW226+'Mono 34,5kv'!DX226+'Trifásico 34,5kv'!EX226+'Trifásico 13,8kv '!EX226+REGULADORES!N226	CACHED=0
+-- R105
+   A105	VALUE: 3553
+   C105	VALUE: Conector, cunha, liga de Alumínio, CN 10, série azul
+   D105	VALUE:  pç 
+   E105	FORMULA: ='Mono 13,8kv'!DW227+'Mono 34,5kv'!DX227+'Trifásico 34,5kv'!EX227+'Trifásico 13,8kv '!EX227+REGULADORES!N227	CACHED=0
+-- R106
+   A106	VALUE: 3554
+   B106	VALUE: 174
+   C106	VALUE: Conector, cunha, liga de Alumínio, CN 12, série vermelho
+   D106	VALUE:  pç 
+   E106	FORMULA: ='Mono 13,8kv'!DW228+'Mono 34,5kv'!DX228+'Trifásico 34,5kv'!EX228+'Trifásico 13,8kv '!EX228+REGULADORES!N228	CACHED=0
+-- R107
+   A107	VALUE: 3555
+   B107	VALUE: 502914
+   C107	VALUE: Conector, cunha, liga de Alumínio, CN 13, série vermelho
+   D107	VALUE:  pç 
+   E107	FORMULA: ='Mono 13,8kv'!DW229+'Mono 34,5kv'!DX229+'Trifásico 34,5kv'!EX229+'Trifásico 13,8kv '!EX229+REGULADORES!N229	CACHED=0
+-- R108
+   A108	VALUE: 4121
+   C108	VALUE: Conector, cunha, liga de Alumínio, CN 14, série vermelho
+   D108	VALUE:  pç 
+   E108	FORMULA: ='Mono 13,8kv'!DW230+'Mono 34,5kv'!DX230+'Trifásico 34,5kv'!EX230+'Trifásico 13,8kv '!EX230+REGULADORES!N230	CACHED=0
+-- R109
+   A109	VALUE: 4122
+   B109	VALUE: 178
+   C109	VALUE: CON CUNHA DER CN15 AL 9,2-14,5X9,2-14mm
+   D109	VALUE:  pç 
+   E109	FORMULA: ='Mono 13,8kv'!DW231+'Mono 34,5kv'!DX231+'Trifásico 34,5kv'!EX231+'Trifásico 13,8kv '!EX231+REGULADORES!N231	CACHED=0
+-- R110
+   B110	VALUE: 161
+   C110	VALUE: CON CUNHA DER CN16 AL 16,9-18,3X11-14mm
+   D110	VALUE: pç
+   E110	FORMULA: ='Mono 13,8kv'!DW232+'Mono 34,5kv'!DX232+'Trifásico 34,5kv'!EX232+'Trifásico 13,8kv '!EX232+REGULADORES!N232	CACHED=0
+
+##### Materiais e Valores [deep] rows 700-710 cols 1-13 #####
+-- R700
+   A700	VALUE: 3550
+   C700	VALUE: Cinta circular de Ø 240 mm
+   D700	VALUE: pç
+   E700	FORMULA: =Compcta!FU204+'BT-SI'!BN204+'ILUMINAÇÃO PUBLICA'!Q204	CACHED=0
+-- R701
+   A701	VALUE: 3551
+   C701	VALUE: Cinta circular de Ø 250 mm
+   D701	VALUE: pç
+   E701	FORMULA: =Compcta!FU205+'BT-SI'!BN205+'ILUMINAÇÃO PUBLICA'!Q205	CACHED=0
+-- R702
+   A702	VALUE: 3552
+   C702	VALUE: Cinta circular de Ø 260 mm
+   D702	VALUE: pç
+   E702	FORMULA: =Compcta!FU206+'BT-SI'!BN206+'ILUMINAÇÃO PUBLICA'!Q206	CACHED=0
+-- R703
+   C703	VALUE: Cinta circular de Ø 270 mm
+   D703	VALUE: pç
+   E703	FORMULA: =Compcta!FU207+'BT-SI'!BN207+'ILUMINAÇÃO PUBLICA'!Q207	CACHED=0
+-- R704
+   C704	VALUE: Cinta circular de Ø 280 mm
+   D704	VALUE: pç
+   E704	FORMULA: =Compcta!FU208+'BT-SI'!BN208+'ILUMINAÇÃO PUBLICA'!Q208	CACHED=0
+-- R705
+   C705	VALUE: Cinta circular de Ø 290 mm
+   D705	VALUE: pç
+   E705	FORMULA: =Compcta!FU209+'BT-SI'!BN209+'ILUMINAÇÃO PUBLICA'!Q209	CACHED=0
+-- R706
+   C706	VALUE: Cinta circular de Ø 300 mm
+   D706	VALUE: pç
+   E706	FORMULA: =Compcta!FU210+'BT-SI'!BN210+'ILUMINAÇÃO PUBLICA'!Q210	CACHED=0
+-- R707
+   C707	VALUE: Cinta circular de Ø 310 mm
+   D707	VALUE: pç
+   E707	FORMULA: =Compcta!FU211+'BT-SI'!BN211+'ILUMINAÇÃO PUBLICA'!Q211	CACHED=0
+-- R708
+   C708	VALUE: Cinta circular de Ø 320 mm
+   D708	VALUE: pç
+   E708	FORMULA: =Compcta!FU212+'BT-SI'!BN212+'ILUMINAÇÃO PUBLICA'!Q212	CACHED=0
+-- R709
+   C709	VALUE: Cinta circular de Ø 330 mm
+   D709	VALUE: pç
+   E709	FORMULA: =Compcta!FU213+'BT-SI'!BN213+'ILUMINAÇÃO PUBLICA'!Q213	CACHED=0
+-- R710
+   C710	VALUE: Cinta circular de Ø 340 mm
+   D710	VALUE: pç
+   E710	FORMULA: =Compcta!FU214+'BT-SI'!BN214+'ILUMINAÇÃO PUBLICA'!Q214	CACHED=0
+
+##### Materiais e Valores [tail] rows 1280-1290 cols 1-13 #####
+-- R1280
+   E1280	VALUE: 0
+-- R1281
+   E1281	VALUE: 0
+-- R1282
+   E1282	VALUE: 0
+-- R1283
+   E1283	VALUE: 0
+-- R1284
+   E1284	VALUE: 0
+-- R1285
+   E1285	VALUE: 0
+-- R1286
+   E1286	VALUE: 0
+-- R1287
+   E1287	VALUE: 0
+-- R1288
+   E1288	VALUE: 0
+-- R1289
+   E1289	VALUE: 0
+-- R1290
+   E1290	VALUE: 0

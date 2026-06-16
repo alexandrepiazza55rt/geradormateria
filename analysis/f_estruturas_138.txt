@@ -1,0 +1,274 @@
+
+##### Estruturas 13,8kv [headers-full-width] rows 1-14 cols 1-121 #####
+-- R2
+   D2	VALUE: ESTRUTURAS 13,8KV e BT
+-- R4
+   E4	VALUE: CFU TRIF AV
+   F4	FORMULA: =SUM(F5:F26)	CACHED=0
+-- R5
+   E5	VALUE: DT-10/150
+   F5	FORMULA: ='Trifásico 13,8kv '!F5	CACHED=0
+-- R6
+   E6	VALUE: DT-10/300
+   F6	FORMULA: ='Trifásico 13,8kv '!F6	CACHED=0
+-- R7
+   E7	VALUE: DT-10/600
+   F7	FORMULA: ='Trifásico 13,8kv '!F7	CACHED=0
+-- R8
+   E8	VALUE: DT-10/1000
+   F8	FORMULA: ='Trifásico 13,8kv '!F8	CACHED=0
+-- R9
+   E9	VALUE: DT-11/200
+   F9	FORMULA: ='Trifásico 13,8kv '!F9	CACHED=0
+-- R10
+   E10	VALUE: DT-11/300
+   F10	FORMULA: ='Trifásico 13,8kv '!F10	CACHED=0
+-- R11
+   E11	VALUE: DT-11/600
+   F11	FORMULA: ='Trifásico 13,8kv '!F11	CACHED=0
+-- R12
+   E12	VALUE: DT-11/1000
+   F12	FORMULA: ='Trifásico 13,8kv '!F12	CACHED=0
+-- R13
+   E13	VALUE: DT-12/300
+   F13	FORMULA: ='Trifásico 13,8kv '!F13	CACHED=0
+-- R14
+   E14	VALUE: DT-12/600
+   F14	FORMULA: ='Trifásico 13,8kv '!F14	CACHED=0
+
+##### Estruturas 13,8kv [topleft-detail] rows 1-40 cols 1-12 #####
+-- R2
+   D2	VALUE: ESTRUTURAS 13,8KV e BT
+-- R4
+   E4	VALUE: CFU TRIF AV
+   F4	FORMULA: =SUM(F5:F26)	CACHED=0
+-- R5
+   E5	VALUE: DT-10/150
+   F5	FORMULA: ='Trifásico 13,8kv '!F5	CACHED=0
+-- R6
+   E6	VALUE: DT-10/300
+   F6	FORMULA: ='Trifásico 13,8kv '!F6	CACHED=0
+-- R7
+   E7	VALUE: DT-10/600
+   F7	FORMULA: ='Trifásico 13,8kv '!F7	CACHED=0
+-- R8
+   E8	VALUE: DT-10/1000
+   F8	FORMULA: ='Trifásico 13,8kv '!F8	CACHED=0
+-- R9
+   E9	VALUE: DT-11/200
+   F9	FORMULA: ='Trifásico 13,8kv '!F9	CACHED=0
+-- R10
+   E10	VALUE: DT-11/300
+   F10	FORMULA: ='Trifásico 13,8kv '!F10	CACHED=0
+-- R11
+   E11	VALUE: DT-11/600
+   F11	FORMULA: ='Trifásico 13,8kv '!F11	CACHED=0
+-- R12
+   E12	VALUE: DT-11/1000
+   F12	FORMULA: ='Trifásico 13,8kv '!F12	CACHED=0
+-- R13
+   E13	VALUE: DT-12/300
+   F13	FORMULA: ='Trifásico 13,8kv '!F13	CACHED=0
+-- R14
+   E14	VALUE: DT-12/600
+   F14	FORMULA: ='Trifásico 13,8kv '!F14	CACHED=0
+-- R15
+   E15	VALUE: DT-12/1000
+   F15	FORMULA: ='Trifásico 13,8kv '!F15	CACHED=0
+-- R16
+   E16	VALUE: 10/150-C
+   F16	FORMULA: ='Trifásico 13,8kv '!F16	CACHED=0
+-- R17
+   E17	VALUE: 10/300-C
+   F17	FORMULA: ='Trifásico 13,8kv '!F17	CACHED=0
+-- R18
+   E18	VALUE: 10/600-C
+   F18	FORMULA: ='Trifásico 13,8kv '!F18	CACHED=0
+-- R19
+   E19	VALUE: 10/1000-C
+   F19	FORMULA: ='Trifásico 13,8kv '!F19	CACHED=0
+-- R20
+   E20	VALUE: 11/200-C
+   F20	FORMULA: ='Trifásico 13,8kv '!F20	CACHED=0
+-- R21
+   E21	VALUE: 11/300-C
+   F21	FORMULA: ='Trifásico 13,8kv '!F21	CACHED=0
+-- R22
+   E22	VALUE: 11/600-C
+   F22	FORMULA: ='Trifásico 13,8kv '!F22	CACHED=0
+-- R23
+   E23	VALUE: 11/1000-C
+   F23	FORMULA: ='Trifásico 13,8kv '!F23	CACHED=0
+-- R24
+   E24	VALUE: 12/300-C
+   F24	FORMULA: ='Trifásico 13,8kv '!F24	CACHED=0
+-- R25
+   E25	VALUE: 12/600-C
+   F25	FORMULA: ='Trifásico 13,8kv '!F25	CACHED=0
+-- R26
+   E26	VALUE: 12/1000-C
+   F26	FORMULA: ='Trifásico 13,8kv '!F26	CACHED=0
+-- R27
+   F27	FORMULA: =SUM(F5:F26)	CACHED=0
+-- R28
+   E28	VALUE: ESTAI ANC
+   F28	FORMULA: =SUM(F29:F50)	CACHED=0
+-- R29
+   E29	VALUE: DT-10/150
+   F29	FORMULA: ='Mono 13,8kv'!I5+'Trifásico 13,8kv '!K5	CACHED=0
+-- R30
+   E30	VALUE: DT-10/300
+   F30	FORMULA: ='Mono 13,8kv'!I6+'Trifásico 13,8kv '!K6	CACHED=0
+-- R31
+   E31	VALUE: DT-10/600
+   F31	FORMULA: ='Mono 13,8kv'!I7+'Trifásico 13,8kv '!K7	CACHED=0
+-- R32
+   E32	VALUE: DT-10/1000
+   F32	FORMULA: ='Mono 13,8kv'!I8+'Trifásico 13,8kv '!K8	CACHED=0
+-- R33
+   E33	VALUE: DT-11/200
+   F33	FORMULA: ='Mono 13,8kv'!I9+'Trifásico 13,8kv '!K9	CACHED=0
+-- R34
+   E34	VALUE: DT-11/300
+   F34	FORMULA: ='Mono 13,8kv'!I10+'Trifásico 13,8kv '!K10	CACHED=0
+-- R35
+   E35	VALUE: DT-11/600
+   F35	FORMULA: ='Mono 13,8kv'!I11+'Trifásico 13,8kv '!K11	CACHED=0
+-- R36
+   E36	VALUE: DT-11/1000
+   F36	FORMULA: ='Mono 13,8kv'!I12+'Trifásico 13,8kv '!K12	CACHED=0
+-- R37
+   E37	VALUE: DT-12/300
+   F37	FORMULA: ='Mono 13,8kv'!I13+'Trifásico 13,8kv '!K13	CACHED=0
+-- R38
+   E38	VALUE: DT-12/600
+   F38	FORMULA: ='Mono 13,8kv'!I14+'Trifásico 13,8kv '!K14	CACHED=0
+-- R39
+   E39	VALUE: DT-12/1000
+   F39	FORMULA: ='Mono 13,8kv'!I15+'Trifásico 13,8kv '!K15	CACHED=0
+-- R40
+   E40	VALUE: 10/150-C
+   F40	FORMULA: ='Mono 13,8kv'!I16+'Trifásico 13,8kv '!K16	CACHED=0
+
+##### Estruturas 13,8kv [rows40-80] rows 40-80 cols 1-12 #####
+-- R40
+   E40	VALUE: 10/150-C
+   F40	FORMULA: ='Mono 13,8kv'!I16+'Trifásico 13,8kv '!K16	CACHED=0
+-- R41
+   E41	VALUE: 10/300-C
+   F41	FORMULA: ='Mono 13,8kv'!I17+'Trifásico 13,8kv '!K17	CACHED=0
+-- R42
+   E42	VALUE: 10/600-C
+   F42	FORMULA: ='Mono 13,8kv'!I18+'Trifásico 13,8kv '!K18	CACHED=0
+-- R43
+   E43	VALUE: 10/1000-C
+   F43	FORMULA: ='Mono 13,8kv'!I19+'Trifásico 13,8kv '!K19	CACHED=0
+-- R44
+   E44	VALUE: 11/200-C
+   F44	FORMULA: ='Mono 13,8kv'!I20+'Trifásico 13,8kv '!K20	CACHED=0
+-- R45
+   E45	VALUE: 11/300-C
+   F45	FORMULA: ='Mono 13,8kv'!I21+'Trifásico 13,8kv '!K21	CACHED=0
+-- R46
+   E46	VALUE: 11/600-C
+   F46	FORMULA: ='Mono 13,8kv'!I22+'Trifásico 13,8kv '!K22	CACHED=0
+-- R47
+   E47	VALUE: 11/1000-C
+   F47	FORMULA: ='Mono 13,8kv'!I23+'Trifásico 13,8kv '!K23	CACHED=0
+-- R48
+   E48	VALUE: 12/300-C
+   F48	FORMULA: ='Mono 13,8kv'!I24+'Trifásico 13,8kv '!K24	CACHED=0
+-- R49
+   E49	VALUE: 12/600-C
+   F49	FORMULA: ='Mono 13,8kv'!I25+'Trifásico 13,8kv '!K25	CACHED=0
+-- R50
+   E50	VALUE: 12/1000-C
+   F50	FORMULA: ='Mono 13,8kv'!I26+'Trifásico 13,8kv '!K26	CACHED=0
+-- R51
+   F51	FORMULA: =SUM(F29:F50)	CACHED=0
+-- R52
+   E52	VALUE: HTE
+   F52	FORMULA: =SUM(F53:F74)	CACHED=0
+-- R53
+   E53	VALUE: DT-10/150
+   F53	FORMULA: ='Trifásico 13,8kv '!N5+'Trifásico 13,8kv '!O5+'Trifásico 13,8kv '!P5	CACHED=0
+-- R54
+   E54	VALUE: DT-10/300
+   F54	FORMULA: ='Trifásico 13,8kv '!N6+'Trifásico 13,8kv '!O6+'Trifásico 13,8kv '!P6	CACHED=0
+-- R55
+   E55	VALUE: DT-10/600
+   F55	FORMULA: ='Trifásico 13,8kv '!N7+'Trifásico 13,8kv '!O7+'Trifásico 13,8kv '!P7	CACHED=0
+-- R56
+   E56	VALUE: DT-10/1000
+   F56	FORMULA: ='Trifásico 13,8kv '!N8+'Trifásico 13,8kv '!O8+'Trifásico 13,8kv '!P8	CACHED=0
+-- R57
+   E57	VALUE: DT-11/200
+   F57	FORMULA: ='Trifásico 13,8kv '!N9+'Trifásico 13,8kv '!O9+'Trifásico 13,8kv '!P9	CACHED=0
+-- R58
+   E58	VALUE: DT-11/300
+   F58	FORMULA: ='Trifásico 13,8kv '!N10+'Trifásico 13,8kv '!O10+'Trifásico 13,8kv '!P10	CACHED=0
+-- R59
+   E59	VALUE: DT-11/600
+   F59	FORMULA: ='Trifásico 13,8kv '!N11+'Trifásico 13,8kv '!O11+'Trifásico 13,8kv '!P11	CACHED=0
+-- R60
+   E60	VALUE: DT-11/1000
+   F60	FORMULA: ='Trifásico 13,8kv '!N12+'Trifásico 13,8kv '!O12+'Trifásico 13,8kv '!P12	CACHED=0
+-- R61
+   E61	VALUE: DT-12/300
+   F61	FORMULA: ='Trifásico 13,8kv '!N13+'Trifásico 13,8kv '!O13+'Trifásico 13,8kv '!P13	CACHED=0
+-- R62
+   E62	VALUE: DT-12/600
+   F62	FORMULA: ='Trifásico 13,8kv '!N14+'Trifásico 13,8kv '!O14+'Trifásico 13,8kv '!P14	CACHED=0
+-- R63
+   E63	VALUE: DT-12/1000
+   F63	FORMULA: ='Trifásico 13,8kv '!N15+'Trifásico 13,8kv '!O15+'Trifásico 13,8kv '!P15	CACHED=0
+-- R64
+   E64	VALUE: 10/150-C
+   F64	FORMULA: ='Trifásico 13,8kv '!N16+'Trifásico 13,8kv '!O16+'Trifásico 13,8kv '!P16	CACHED=0
+-- R65
+   E65	VALUE: 10/300-C
+   F65	FORMULA: ='Trifásico 13,8kv '!N17+'Trifásico 13,8kv '!O17+'Trifásico 13,8kv '!P17	CACHED=0
+-- R66
+   E66	VALUE: 10/600-C
+   F66	FORMULA: ='Trifásico 13,8kv '!N18+'Trifásico 13,8kv '!O18+'Trifásico 13,8kv '!P18	CACHED=0
+-- R67
+   E67	VALUE: 10/1000-C
+   F67	FORMULA: ='Trifásico 13,8kv '!N19+'Trifásico 13,8kv '!O19+'Trifásico 13,8kv '!P19	CACHED=0
+-- R68
+   E68	VALUE: 11/200-C
+   F68	FORMULA: ='Trifásico 13,8kv '!N20+'Trifásico 13,8kv '!O20+'Trifásico 13,8kv '!P20	CACHED=0
+-- R69
+   E69	VALUE: 11/300-C
+   F69	FORMULA: ='Trifásico 13,8kv '!N21+'Trifásico 13,8kv '!O21+'Trifásico 13,8kv '!P21	CACHED=0
+-- R70
+   E70	VALUE: 11/600-C
+   F70	FORMULA: ='Trifásico 13,8kv '!N22+'Trifásico 13,8kv '!O22+'Trifásico 13,8kv '!P22	CACHED=0
+-- R71
+   E71	VALUE: 11/1000-C
+   F71	FORMULA: ='Trifásico 13,8kv '!N23+'Trifásico 13,8kv '!O23+'Trifásico 13,8kv '!P23	CACHED=0
+-- R72
+   E72	VALUE: 12/300-C
+   F72	FORMULA: ='Trifásico 13,8kv '!N24+'Trifásico 13,8kv '!O24+'Trifásico 13,8kv '!P24	CACHED=0
+-- R73
+   E73	VALUE: 12/600-C
+   F73	FORMULA: ='Trifásico 13,8kv '!N25+'Trifásico 13,8kv '!O25+'Trifásico 13,8kv '!P25	CACHED=0
+-- R74
+   E74	VALUE: 12/1000-C
+   F74	FORMULA: ='Trifásico 13,8kv '!N26+'Trifásico 13,8kv '!O26+'Trifásico 13,8kv '!P26	CACHED=0
+-- R75
+   F75	FORMULA: =SUM(F53:F74)	CACHED=0
+-- R76
+   E76	VALUE: P1
+   F76	FORMULA: =SUM(F77:F98)	CACHED=0
+-- R77
+   E77	VALUE: DT-10/150
+   F77	FORMULA: ='Trifásico 13,8kv '!S5+'Trifásico 13,8kv '!T5+'Trifásico 13,8kv '!U5	CACHED=0
+-- R78
+   E78	VALUE: DT-10/300
+   F78	FORMULA: ='Trifásico 13,8kv '!S6+'Trifásico 13,8kv '!T6+'Trifásico 13,8kv '!U6	CACHED=0
+-- R79
+   E79	VALUE: DT-10/600
+   F79	FORMULA: ='Trifásico 13,8kv '!S7+'Trifásico 13,8kv '!T7+'Trifásico 13,8kv '!U7	CACHED=0
+-- R80
+   E80	VALUE: DT-10/1000
+   F80	FORMULA: ='Trifásico 13,8kv '!S8+'Trifásico 13,8kv '!T8+'Trifásico 13,8kv '!U8	CACHED=0

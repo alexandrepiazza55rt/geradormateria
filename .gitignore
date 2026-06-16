@@ -1,0 +1,28 @@
+# Dependencies & build output
+node_modules/
+dist/
+.vite/
+
+# Large reference PDFs (utility NDU standards — not redistributed here)
+Docs/
+
+# Python
+__pycache__/
+*.pyc
+
+# Local Claude/editor settings
+.claude/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Temp
+*.tmp
+
+# Rust / Tauri build artifacts
+target/
+**/target/
+app/src-tauri/target/
+app/src-tauri/gen/
+WixTools/

@@ -1,0 +1,184 @@
+﻿Loading (data_only=True, cached values)...
+====================================================================================================
+SHEET: 'Mono 13,8kv'   max_row=465 max_col=128 state=visible
+  R2:  | Monofásica 13.8Kv |  |  |  |  |  |  |  |  |  |  |  | 
+  R3:  |  |  |  | CFU - AVULSO |  |  | ESTAI ÂNCORA |  |  | U1  |  |  | 
+  R4:  |  |  |  | POSTE | QUANT |  | POSTE | QUANT |  | CONDUTOR | 2CAA | N8 | 
+  R5:  | U3 PARA U4 e  as ~ |  |  | DT-10/150 |  |  | DT-10/150 |  |  | DT-10/150 |  |  | 
+  R6:  | U3 Derivação, U3-~ |  |  | DT-10/300 |  |  | DT-10/300 |  |  | DT-10/300 |  |  | 
+  R7:  | DESCRIÇÃO | QUANT. |  | DT-10/600 |  |  | DT-10/600 |  |  | DT-10/600 |  |  | 
+  R8:  | EXTENSÃO DA REDE ~ | 0 |  | DT-10/1000 |  |  | DT-10/1000 |  |  | DT-10/1000 |  |  | 
+====================================================================================================
+SHEET: 'Mono 34,5kv'   max_row=529 max_col=138 state=visible
+  R2:  | Monofásica 34.5Kv |  |  |  |  |  |  |  |  |  |  |  | 
+  R3:  |  |  |  | CFU - AVULSO |  |  | ESTAI ÂNCORA |  |  | U1  |  |  | 
+  R4:  |  |  |  | POSTE | QUANT |  | POSTE | QUANT |  | CONDUTOR | 2CAA | N8 | 
+  R5:  | U3 PARA U4 e  as ~ |  |  | DT-10/150 |  |  | DT-10/150 |  |  | DT-10/150 |  |  | 
+  R6:  | U3 Derivação, U3-~ |  |  | DT-10/300 |  |  | DT-10/300 |  |  | DT-10/300 |  |  | 
+  R7:  | DESCRIÇÃO | QUANT. |  | DT-10/600 |  |  | DT-10/600 |  |  | DT-10/600 |  |  | 
+  R8:  | EXTENSÃO DA REDE ~ | 0 |  | DT-10/1000 |  |  | DT-10/1000 |  |  | DT-10/1000 |  |  | 
+====================================================================================================
+SHEET: 'Trifásico 13,8kv '   max_row=466 max_col=155 state=visible
+  R2:  | Trifásica 13.8Kv |  |  | CHAVE ATENDERÁ QU~ |  |  |  |  |  |  |  |  | 
+  R3:  |  |  |  | CHAVE FUSÍVEL 3Ø ~ |  |  |  |  | ESTAI ÂNCORA |  |  | HTE  - ( SEM ESTA~ | 
+  R4:  |  |  |  | POSTE | 2CAA | 1/0CAA | 4/0CAA |  | EM POSTE: | QUANT |  | POSTE | 2CAA
+  R5:  | U3 PARA U4 e  as ~ |  |  | DT-10/150 |  |  |  |  | DT-10/150 |  |  | DT-10/150 | 
+  R6:  |  |  |  | DT-10/300 |  |  |  |  | DT-10/300 |  |  | DT-10/300 | 
+  R7:  |  |  |  | DT-10/600 |  |  |  |  | DT-10/600 |  |  | DT-10/600 | 
+  R8:  | EXTENSÃO DA REDE ~ | 0 |  | DT-10/1000 |  |  |  |  | DT-10/1000 |  |  | DT-10/1000 | 
+====================================================================================================
+SHEET: 'Trifásico 34,5kv'   max_row=466 max_col=155 state=visible
+  R2:  | Trifásica 34.5Kv |  |  | CHAVE ATENDERÁ QU~ |  |  |  |  |  |  |  |  | 
+  R3:  |  |  |  | CHAVE FUSÍVEL 3Ø ~ |  |  |  |  | ESTAI ÂNCORA |  |  | HTE  - ( SEM ESTA~ | 
+  R4:  |  |  |  | POSTE | 2CAA | 1/0CAA | 4/0CAA |  | POSTE | QUANT |  | POSTE | 2CAA
+  R5:  | U3 PARA U4 e  as ~ |  |  | DT-10/150 |  |  |  |  | DT-10/150 |  |  | DT-10/150 | 
+  R6:  |  |  |  | DT-10/300 |  |  |  |  | DT-10/300 |  |  | DT-10/300 | 
+  R7:  |  |  |  | DT-10/600 |  |  |  |  | DT-10/600 |  |  | DT-10/600 | 
+  R8:  | EXTENSÃO DA REDE ~ | 0 |  | DT-10/1000 |  |  |  |  | DT-10/1000 |  |  | DT-10/1000 | 
+====================================================================================================
+SHEET: 'Estruturas 34,5kv'   max_row=1593 max_col=119 state=visible
+  R2:  |  |  | ESTRUTURAS 34.5KV |  |  |  |  |  |  |  |  |  | 
+  R4:  |  |  |  | CFU TRIF AV | 0 |  |  |  |  |  |  |  | 
+  R5:  |  |  |  | DT-10/150 | 0 |  |  |  |  |  |  |  | 
+  R6:  |  |  |  | DT-10/300 | 0 |  |  |  |  |  |  |  | 
+  R7:  |  |  |  | DT-10/600 | 0 |  |  |  |  |  |  |  | 
+  R8:  |  |  |  | DT-10/1000 | 0 |  |  |  |  |  |  |  | 
+====================================================================================================
+SHEET: 'Materiais de Medições'   max_row=118 max_col=16 state=visible
+  R1: NÃO MEXER NESTA P~ |  |  |  | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0
+  R2: ARAME GALVANIZADO~ | Kg |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0
+  R3: ARRUELA P/ ELETRO~ | pç |  | 2 |  |  |  |  |  |  |  |  |  | 
+  R4: ARRUELA P/ ELETRO~ | pç |  | 2 |  |  |  |  | 0 |  |  |  |  | 
+  R5: ARRUELA P/ ELETRO~ | pç |  | 2 |  | 0 |  |  |  | 0 |  |  |  | 
+  R6: ARRUELA P/ ELETRO~ | pç |  | 2 | 0 |  | 0 | 0 |  |  | 0 | 0 |  | 0
+  R7: BUCHA P/ ELETRODU~ | pç |  | 2 |  |  |  |  |  |  |  |  |  | 
+  R8: BUCHA P/ ELETRODU~ | pç |  | 2 |  |  |  |  | 0 |  |  |  |  | 
+====================================================================================================
+SHEET: 'Materiais e Valores'   max_row=1290 max_col=13 state=visible
+  R1: RELAÇÃO DOS MATER~ |  |  |  |  |  |  |  |  |  |  |  | 
+  R2:  | MONOFÁSICA, TENSÃ~ |  |  | 0 |  |  |  |  |  |  |  | 
+  R3:  |  |  |  | 0 |  |  |  |  |  |  |  | 
+  R4:  | TRIFÁSICA, TENSÃO~ |  |  | 0 |  |  |  |  |  |  |  | 
+  R5:  |  |  |  | 0 |  |  |  |  |  |  |  | 
+  R6:  | MONOFÁSICA, TENSÃ~ |  |  | 0 |  |  |  |  |  |  |  | 
+  R7:  |  |  |  | 0 |  |  |  |  |  |  |  | 
+  R8:  | TRIFÁSICA, TENSÃO~ |  |  | 0 |  |  |  |  |  |  |  | 
+====================================================================================================
+SHEET: 'Materiais de Medições compacta'   max_row=118 max_col=17 state=visible
+  R1: NÃO MEXER NESTA P~ |  |  |  | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0
+  R2: ARAME GALVANIZADO~ | Kg |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0
+  R3: ARRUELA P/ ELETRO~ | pç |  | 2 |  |  |  |  |  |  |  |  |  | 
+  R4: ARRUELA P/ ELETRO~ | pç |  | 2 |  |  |  |  | 0 |  |  |  |  | 
+  R5: ARRUELA P/ ELETRO~ | pç |  | 2 |  | 0 |  |  |  | 0 |  |  |  | 
+  R6: ARRUELA P/ ELETRO~ | pç |  | 2 | 0 |  | 0 | 0 |  |  | 0 | 0 |  | 0
+  R7: BUCHA P/ ELETRODU~ | pç |  | 2 |  |  |  |  |  |  |  |  |  | 
+  R8: BUCHA P/ ELETRODU~ | pç |  | 2 |  |  |  |  | 0 |  |  |  |  | 
+====================================================================================================
+SHEET: 'Transformadores'   max_row=136 max_col=26 state=visible
+  R2:  |  |  |  | TRANSFORMADORES T~ |  |  |  |  |  | TRANSFORMADORES T~ |  |  | 
+  R6:  |  |  |  | POTÊNCIA | 220/127 |  | 380/220 |  |  | POTÊNCIA | 220/127 |  | 380/220
+  R8:  |  |  |  | 15 KVA |  |  |  |  |  | 15 KVA |  |  | 
+====================================================================================================
+SHEET: 'Compcta'   max_row=566 max_col=177 state=visible
+  R2:  | N3-CUF3, N3-CUF3-~ |  |  | DCC2 - DERIVANDO ~ |  |  |  |  |  |  |  |  | 
+  R3:  |  |  |  | INFORME A BITOLA ~ | 35mm² |  |  | 50mm² |  |  | 95mm² |  | 
+  R4:  |  |  |  |  | DERIVANDO DE |  |  | DERIVANDO DE |  |  | DERIVANDO DE |  | 
+  R5:  | NAS DERIVAÇÕES, E~ |  |  |  | 2 CAA | 1/0 CAA | 4/0 CAA | 2 CAA | 1/0 CAA | 4/0 CAA | 2 CAA | 1/0 CAA | 4/0 CAA
+  R6:  |  |  |  | POSTE |  |  |  |  |  |  |  |  | 
+  R7:  | EXTENSÃO DA REDE ~ | 0 |  | DT-10/150 |  |  |  |  |  |  |  |  | 
+  R8:  | EXTENSÃO DA REDE ~ | 0 |  | DT-10/300 |  |  |  |  |  |  |  |  | 
+====================================================================================================
+SHEET: 'BT-SI'   max_row=566 max_col=66 state=visible
+  R1:  |  |  | FÓRMULAS ESPECIAIS |  |  |  |  |  |  |  |  |  | 
+  R2:  | REDE SECUNDÁRIA C~ |  |  |  |  |  |  |  |  |  |  |  | 
+  R3:  |  |  |  | SI-T (Transição d~ |  |  |  |  |  | ATERRAMENTO AVULS~ |  |  | 
+  R4:  | ( REDE DE BAIXA T~ |  |  | POSTE | CONDUTOR | 35mm² | 70mm² | 120mm² |  | SI-1S,  SI-3 e SI~ |  |  | 
+  R5:  | EXTENSÃO REDE CAB~ | 0 |  | EM DUPLO "T" | 2 AWG CA |  |  |  |  | POSTE | 35mm² | 70~120 | 
+  R6:  | EXTENSÃO REDE CAB~ | 0 |  |  | 2/0 AWG CA |  |  |  |  | 10 METROS |  |  | 
+  R7:  | EXTENSÃO REDE CAB~ | 0 |  |  | 4/0 AWG CA |  |  |  |  | 11 METROS |  |  | 
+  R8:  | CRUZAMENTO INTERL~ | 0 |  |  |  |  |  |  |  | 12 METROS |  |  | 
+====================================================================================================
+SHEET: 'EXTRAS (2)'   max_row=499 max_col=17 state=visible
+  R1: ESTA PLANILHA SER~ |  |  |  |  |  |  |  |  |  |  |  |  | 
+  R2: DIGITE A QUANTIDA~ |  |  |  |  |  |  |  |  |  |  |  |  | 
+  R3: AO INSERIR POSTES~ |  |  |  |  |  |  |  |  |  |  |  |  | 
+  R4: Item | Descrição dos Mat~ | Unid. | Adicionar (+) | Subtrair (-) |  |  |  |  |  |  |  |  | 
+  R5: 1 | Alça pré formada ~ | pç |  |  |  |  |  |  |  |  |  |  | 
+  R6: 2 | Alça pré formada ~ | pç |  |  |  |  |  |  |  |  |  |  | 
+  R7: 3 | Alça pré formada ~ | pç |  |  |  |  |  |  |  |  |  |  | 
+  R8:  | Alça pré formada ~ | pç |  |  |  |  |  |  |  |  |  |  | 
+====================================================================================================
+SHEET: 'ILUMINAÇÃO PUBLICA'   max_row=566 max_col=17 state=visible
+  R2:  | ILUMINAÇÃO PÚBLIC~ |  |  |  |  |  |  |  | ILUMINAÇÃO PÚBLIC~ |  |  |  | 
+  R5:  | NA ESTRUTURA |  |  NO ESFORÇO | 150~200  | 300 | 600 | 1000 |  | NA ESTRUTURA |  |  NO ESFORÇO | 150~200C  | 300C
+  R7:  | BT s/ AT,  N1-13.~ |  |  |  |  |  |  |  | BT s/ AT,  N1-13.~ |  |  |  | 
+  R8:  | CUF3, CUF4, CHS |  |  |  |  |  |  |  | CUF3, CUF4, CLE, ~ |  |  |  | 
+====================================================================================================
+SHEET: 'EXTRAS'   max_row=392 max_col=17 state=visible
+  R1: ESTA PLANILHA SER~ |  |  |  |  |  |  |  |  |  |  |  |  | 
+  R2: ADICIONANDO OS PA~ |  |  |  |  |  |  |  |  |  |  |  |  | 
+  R3: ADICIONANDO OS PO~ |  |  |  |  |  |  |  |  |  |  |  |  | 
+  R4: Item | Descrição dos Mat~ | Unid. | Adicionar (+) | Subtrair (-) |  |  |  |  |  |  |  |  | 
+  R5: 1 | Afastador para is~ | pç |  |  |  |  |  |  |  |  |  |  | 
+  R6: 2 | Alça pré-formada ~ | pç |  |  |  |  |  |  |  |  |  |  | 
+  R7: 3 | Alça pré-formada ~ | pç |  |  |  |  |  |  |  |  |  |  | 
+  R8: 4 | Alça pré formada ~ | pç |  |  |  |  |  |  |  |  |  |  | 
+====================================================================================================
+SHEET: 'Estruturas 13,8kv'   max_row=2262 max_col=121 state=visible
+  R2:  |  |  | ESTRUTURAS 13,8KV~ |  |  |  |  |  |  |  |  |  | 
+  R4:  |  |  |  | CFU TRIF AV | 0 |  |  |  |  |  |  |  | 
+  R5:  |  |  |  | DT-10/150 | 0 |  |  |  |  |  |  |  | 
+  R6:  |  |  |  | DT-10/300 | 0 |  |  |  |  |  |  |  | 
+  R7:  |  |  |  | DT-10/600 | 0 |  |  |  |  |  |  |  | 
+  R8:  |  |  |  | DT-10/1000 | 0 |  |  |  |  |  |  |  | 
+====================================================================================================
+SHEET: 'MEDIDÇÕES TRIFÁSICAS'   max_row=52 max_col=7 state=hidden
+  R1: REDE SECUNDÁRIA E~ |  |  |  |  |  | 
+  R2: ITEM | QUTD | DESCRIÇÃO | V.VENDA | TOTAL |  | 
+  R3: 1 | 2 | ARAME GALVANIZADO~ | 12.82 | 25.64 | 2 | 
+  R4: 2 | 1 | HASTE ATERR.SIMPL~ | 23.55 | 23.55 | 1 | 
+  R5: 3 | 1 | CONECTOR P/ HASTE~ | 2.31 | 2.31 | 1 | 
+  R6: 4 | 7 | CABO DE COBRE NÚ ~ | 12 | 84 | 7 | 
+  R7: 5 | 2 | ELETRODUTO PVC - ~ | 5.84 | 11.68 | 2 | 
+  R8: 6 | 6 | ELETRODUTO PVC - ~ | 46.93 | 281.58 | 6 | 
+====================================================================================================
+SHEET: 'Menu'   max_row=26 max_col=13 state=visible
+====================================================================================================
+SHEET: 'MEDIÇÃO AT 34.5KV'   max_row=103 max_col=17 state=visible
+  R2:  |  |  | INSTALAÇÃO DE MED~ |  |  |  |  |  |  |  |  |  | 
+  R4:  |  |  | Digite o número d~ |  |  |  |  |  |  |  |  |  | 
+  R7:  |  |  | SOMA DAS MEDIÇÕES |  |  |  |  |  | QUANTAS COM DEMAN~ |  |  |  | 0
+  R8:  |  |  |  |  |  |  |  |  | QUANTAS COM DEMAN~ |  |  |  | 0
+====================================================================================================
+SHEET: 'RELIGADOR NOVA C.P.S'   max_row=105 max_col=23 state=visible
+  R2:  |  |  |  |  |  |  | TENSÃO 13.8KV |  |  |  |  |  | TENSÃO 34.5KV
+  R5:  |  |  |  |  |  |  | RELIGADOR TIPO "N~ |  |  |  |  |  | RELIGADOR TIPO "N~
+  R6:  |  |  |  |  |  |  | POSTE | 2CAA | 1/0CAA | 4/0CAA | 336.4 |  | POSTE
+  R7:  |  |  |  |  |  |  | DT-10/300 |  |  |  |  |  | DT-10/300
+  R8:  |  |  |  |  |  |  | DT-10/600 |  |  |  |  |  | DT-10/600
+====================================================================================================
+SHEET: 'RELIGADOR 13.8 e 34.5KV'   max_row=105 max_col=23 state=visible
+  R2:  |  |  |  |  |  |  | TENSÃO 13.8KV |  |  |  |  |  | TENSÃO 34.5KV
+  R5:  |  |  |  |  |  |  | RELIGADOR TIPO ES~ |  |  |  |  |  | RELIGADOR TIPO ES~
+  R6:  |  |  |  |  |  |  | POSTE | 2CAA | 1/0CAA | 4/0CAA | 336.4 |  | POSTE
+  R7:  |  |  |  |  |  |  | DT-10/300 |  |  |  |  |  | DT-10/300
+  R8:  |  |  |  |  |  |  | DT-10/600 |  |  |  |  |  | DT-10/600
+====================================================================================================
+SHEET: 'Plan1'   max_row=29 max_col=12 state=visible
+====================================================================================================
+SHEET: 'Subestação 34,5kv'   max_row=130 max_col=12 state=visible
+  R1:  |  |  | SUBESTAÇÃO AO TEM~ |  |  |  |  |  |  |  | 
+  R4:  |  |  | SE. SEM  POSTOS D~ |  |  |  |  |  |  |  | 
+  R5:  |  |  | CABO | 2CAA | 1/0CAA | 4/0CAA | 336.4 |  |  |  | 
+  R6:  |  |  | QUANT |  |  |  |  |  |  |  | 
+  R7:  |  |  | DT-12/600 |  |  |  |  |  |  |  | 
+====================================================================================================
+SHEET: 'REGULADORES'   max_row=432 max_col=14 state=visible
+  R2:  | REGULADORES EM TE~ |  |  |  |  |  |  |  |  |  |  |  | 
+  R3:  | REGULADOR 13,8KV ~ | REGULADOR 34,5KV ~ |  |  |       Obs.: _____~ |  |  |  |  |  |  |  | 
+  R5:  | EM POSTES | EM POSTES | PLATAFORMA |  |  |  |  |  |  |  |  |  | 
+  R6:  | 0 | 0 | 0 |  |  |  |  |  |  |  |  |  | 
+  R8: Fonte: NTE_034 - ~ |  |  |  |  |  |  |  |  |  |  |  |  | 
+====================================================================================================
+SHEET: 'Plan2'   max_row=1 max_col=1 state=visible
+DONE

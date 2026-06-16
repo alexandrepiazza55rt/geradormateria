@@ -1,0 +1,544 @@
+
+=================== PAGE 121 ===================
+c 
+______________________________________________________________________________________ 
+NDU 005 
+Versão 6.0 
+                       JULHO/2026 
+121 
+23. DESENHOS 
+DESENHO NDU005.0101/09.Engastamento de poste – Poste DT/SC – Engastamento 
+Simples Detalhes I.  
+DESENHO NDU005.0102/09.Engastamento de poste – Detalhes Fundação Simples 
+Poste DT/SC.  
+DESENHO NDU005.0103/09.Engastamento de poste – Detalhes da Fundação Reforçada 
+Poste DT/SC.   
+DESENHO NDU005.0103/09.Engastamento de poste – Detalhes da Fundação Reforçada 
+Poste DT/SC.   
+DESENHO NDU005.0104/09.Engastamento de poste – Detalhes da Base Concretada – 
+Poste DT/SC.   
+DESENHO NDU005.0105/09.Engastamento de poste – Detalhes da Base Concretada 
+em Manilha – Poste DT/SC.   
+DESENHO NDU005.0106/09.Engastamento de poste – Engastamento em Rocha – Poste 
+DT/SC.   
+DESENHO NDU005.0107/09.Engastamento de poste – Engastamento em Pântano com 
+Manilha – Poste DT.   
+DESENHO NDU005.0108/09.Engastamento de poste – Engastamento em Pântano com 
+Manilha – Poste SC.   
+DESENHO NDU005.0109/09.Engastamento de poste – Alternativa - Engastamento em 
+Pântano com Tambor – – Poste DT/SC.   
+DESENHO NDU005.0201/07.Estrutura N ou T – Afastamento Minimo de Estrutura.   
+DESENHO NDU005.0202/07.Estrutura N ou T – Detalhes Afastamento Minimo de 
+Estrutura.   
+DESENHO NDU005.0203/07.Afastamentos – 01 Cruzeta – Normal (N). 
+
+=================== PAGE 122 ===================
+c 
+______________________________________________________________________________________ 
+NDU 005 
+Versão 6.0 
+                       JULHO/2026 
+122 
+DESENHO NDU005.0204/07.Afastamentos – 01 Cruzeta – Meio Beco (MB). 
+DESENHO NDU005.0205/07.Afastamentos – 01 Cruzeta – Beco (B). 
+DESENHO NDU005.0206/07.Afastamentos – 02 Cruzetas – Normal (N). 
+DESENHO NDU005.0207/07.Afastamentos – 02 Cruzetas – Meio Beco (MB). 
+DESENHO NDU005.0301/07. Estruturas Monofásicas – Estrutura U1. 
+DESENHO NDU005.0302/07. Estruturas Monofásicas – Estrutura U1 (Alternativa). 
+DESENHO NDU005.0303/07. Estruturas Monofásicas – Estrutura U2. 
+DESENHO NDU005.0304/07. Estruturas Monofásicas – Estrutura U3. 
+DESENHO NDU005.0305/07. Estruturas Monofásicas – Estrutura U3-2. 
+DESENHO NDU005.0306/07. Estruturas Monofásicas – Estrutura U3-U3. 
+DESENHO NDU005.0307/07. Estruturas Monofásicas – Estrutura U4. 
+DESENHO NDU005.0401/16. Estruturas N (Normal) – Estrutura N1 – Cruzeta T 1,90 m. 
+DESENHO NDU005.0402/16. Estruturas N (Normal) – Estrutura N2 – Cruzeta T 1,90 m. 
+DESENHO NDU005.0403/16. Estruturas N (Normal) – Estrutura N3 – Cruzeta T 1,90 m. 
+DESENHO NDU005.0404/16. Estruturas N (Normal) – Estrutura N4 – Cruzeta T 1,90 m. 
+DESENHO NDU005.0405/16. Estruturas N (Normal) – Estrutura N1 – Cruzeta 2,00 m. 
+DESENHO NDU005.0406/16. Estruturas N (Normal) – Estrutura N2 – Cruzeta 2,00 m. 
+DESENHO NDU005.0407/16. Estruturas N (Normal) – Estrutura N3 – Cruzeta 2,00 m. 
+DESENHO NDU005.0408/16. Estruturas N (Normal) – Estrutura N4 – Cruzeta 2,00 m. 
+DESENHO NDU005.0409/16. Estruturas N (Normal) – Estrutura N1 – Cruzeta T 2,40 m. 
+DESENHO NDU005.0410/16. Estruturas N (Normal) – Estrutura N2 – Cruzeta T 2,40 m. 
+
+=================== PAGE 123 ===================
+c 
+______________________________________________________________________________________ 
+NDU 005 
+Versão 6.0 
+                       JULHO/2026 
+123 
+DESENHO NDU005.0411/16. Estruturas N (Normal) – Estrutura N3 – Cruzeta T 2,40 m. 
+DESENHO NDU005.0412/16. Estruturas N (Normal) – Estrutura N4 – Cruzeta T 2,40 m. 
+DESENHO NDU005.0413/16. Estruturas N (Normal) – Estrutura N1 – Cruzeta 2,40 m. 
+DESENHO NDU005.0414/16. Estruturas N (Normal) – Estrutura N2 – Cruzeta 2,40 m. 
+DESENHO NDU005.0415/16. Estruturas N (Normal) – Estrutura N3 – Cruzeta 2,40 m. 
+DESENHO NDU005.0416/16. Estruturas N (Normal) – Estrutura N4 – Cruzeta 2,40 m. 
+DESENHO NDU005.0501/01. Estruturas Básicas Trifásicas – Estruturas N3-N3 Cruzetas 
+tipo T, quadrada ou retangular. 
+DESENHO NDU005.0601/16. Estruturas T – Estrutura T1 – Cruzeta T 1,90 m. 
+DESENHO NDU005.0602/16. Estruturas T – Estrutura T2 – Cruzeta T 1,90 m. 
+DESENHO NDU005.0603/16. Estruturas T – Estrutura T3 – Cruzeta T 1,90 m. 
+DESENHO NDU005.0604/16. Estruturas T – Estrutura T4 – Cruzeta T 1,90 m. 
+DESENHO NDU005.0605/16. Estruturas T – Estrutura T1 – Cruzeta 2,00 m. 
+DESENHO NDU005.0606/16. Estruturas T – Estrutura T2 – Cruzeta 2,00 m. 
+DESENHO NDU005.0607/16. Estruturas T – Estrutura T3 – Cruzeta 2,00 m. 
+DESENHO NDU005.0608/16. Estruturas T – Estrutura T4 – Cruzeta 2,00 m. 
+DESENHO NDU005.0609/16. Estruturas T – Estrutura T1 – Cruzeta T 2,40 m. 
+DESENHO NDU005.0610/16. Estruturas T – Estrutura T2 – Cruzeta T 2,40 m. 
+DESENHO NDU005.0611/16. Estruturas T – Estrutura T3 – Cruzeta T 2,40 m. 
+DESENHO NDU005.0612/16. Estruturas T – Estrutura T4 – Cruzeta T 2,40 m. 
+DESENHO NDU005.0613/16. Estruturas T – Estrutura T1 – Cruzeta 2,40 m. 
+DESENHO NDU005.0614/16. Estruturas T – Estrutura T2 – Cruzeta 2,40 m. 
+
+=================== PAGE 124 ===================
+c 
+______________________________________________________________________________________ 
+NDU 005 
+Versão 6.0 
+                       JULHO/2026 
+124 
+DESENHO NDU005.0615/16. Estruturas T – Estrutura T3 – Cruzeta 2,40 m. 
+DESENHO NDU005.0616/16. Estruturas T – Estrutura T4 – Cruzeta 2,40 m. 
+DESENHO NDU005.0701/01. Estruturas Básicas Trifásicas – Estruturas N3-N3 Cruzetas 
+tipo T, quadrada ou retangular. 
+DESENHO NDU005.0801/04. Estruturas Especiais Afastamentos Mínimo – Estrutura TE 
+– Cruzeta T 1,90 m. 
+DESENHO NDU005.0802/04. Estruturas Especiais Afastamentos Mínimo – Estrutura TE 
+– Cruzeta T 2,00 m. 
+DESENHO NDU005.0803/04. Estruturas Especiais Afastamentos Mínimo – Estrutura TE 
+– Cruzeta 2,40 m. 
+DESENHO NDU005.0804/04. Estruturas Especiais Afastamentos Mínimo – Estrutura TE 
+– Cruzeta T 2,40 m. 
+DESENHO NDU005.0901/03. Estruturas Especiais Afastamentos Mínimo – Estrutura 
+HTE. 
+DESENHO NDU005.0902/03. Estruturas Especiais Afastamentos Mínimo – Estrutura 
+HTE – Detalhes. 
+DESENHO NDU005.0903/03. Estruturas Especiais Afastamentos Mínimo – Estrutura 
+HTTE. 
+DESENHO NDU005.1001/03. Estruturas Básicas Neutro – Estrutura S0. 
+DESENHO NDU005.1002/03. Estruturas Básicas Neutro – Estrutura S0T. 
+DESENHO NDU005.1003/03. Estruturas Básicas Neutro – Estrutura S1. 
+DESENHO NDU005.1101/04. Instalação de Para-Raios – Estrutura Monofásica. 
+DESENHO NDU005.1102/04. Instalação de Para-Raios – Estrutura Trifásica – 
+Alternativa horizontal. 
+
+=================== PAGE 125 ===================
+c 
+______________________________________________________________________________________ 
+NDU 005 
+Versão 6.0 
+                       JULHO/2026 
+125 
+DESENHO NDU005.1103/04. Instalação de Para-Raios – Estrutura Trifásica. 
+DESENHO NDU005.1104/04. Instalação de Para-Raios – Estrutura Trifásica TE. 
+DESENHO NDU005.1201/03. Instalação de Chaves Fusível – Estrutura Monofásica. 
+DESENHO NDU005.1202/03. Instalação de Chaves Fusível – Estrutura Trifásica. 
+DESENHO NDU005.1203/03. Instalação de Chaves Fusível – Derivação monofásica U1-
+U3. 
+DESENHO NDU005.1301/03. Chave Religadora Monofásica Poste 11 M. 
+DESENHO NDU005.1301/03. Chave Religadora Monofásica Perspectivas Poste 11 M. 
+DESENHO NDU005.1303/03. Chave Religadora Trifásica Poste 11 M. 
+DESENHO NDU005.1401/04. Instalação de Chave Faca – Estrutura monofásica. 
+DESENHO NDU005.1402/04. Instalação de Chave Faca – Estrutura trifásica. 
+DESENHO NDU005.1403/04. Instalação de Chave Faca – Estrutura monofásica 
+(Alternativa). 
+DESENHO NDU005.1404/04. Instalação de Chave Faca – Estrutura monofásica suporte 
+TL. 
+DESENHO NDU005.1501/12. Instalação de Transformadores – Monofásicos - Meio de   
+rede e com chave fusível. 
+DESENHO NDU005.1502/12. Instalação de Transformadores – Monofásicos - Fim de   
+rede sem chave fusível. 
+DESENHO NDU005.1503/12. Instalação de Transformadores – Monofásicos - Fim de   
+rede com chave fusível. 
+DESENHO NDU005.1504/12. Instalação de Transformadores – Trifásicos - Meio de   
+rede com chave fusível. 
+ 
+
+=================== PAGE 126 ===================
+c 
+______________________________________________________________________________________ 
+NDU 005 
+Versão 6.0 
+                       JULHO/2026 
+126 
+DESENHO NDU005.1505/12. Instalação de Transformadores – Trifásicos – Estrutura    
+N3-M-PR rede convencional. 
+DESENHO NDU005.1506/12. Instalação de Transformadores – Trifásicos – Fim de sem 
+chave fusível.  
+DESENHO NDU005.1507/12. Instalação de Transformadores – Trifásicos – Fim de com 
+chave fusível.  
+DESENHO NDU005.1508/12. Instalação de Transformadores – Trifásicos – Estrutura    
+N1-N-PR rede convencional. 
+DESENHO NDU005.1509/12. Instalação de Transformadores – Trifásicos – Estrutura    
+N3-M-PR rede convencional. 
+DESENHO NDU005.1510/12. Instalação de Transformadores – Monofásicos – Detalhe 
+interligação com neutro – Rural. 
+DESENHO NDU005.1511/12. Instalação de Transformadores – Monofásicos – Detalhe 
+aterramento – Rural. 
+DESENHO NDU005.1512/12. Instalação de Transformadores – Monofásicos – Detalhe 
+montagem – Rural. 
+DESENHO NDU005.1601/03. Interligação de Alimentadores. 
+DESENHO NDU005.1602/03. Interligação de Alimentadores em Paralelo. 
+DESENHO NDU005.1701/04. Estrutura de Transferência Circuito Simples - Vertical 
+para Horizontal - Alternativa 01. 
+DESENHO NDU005.1702/04. Estrutura de Transferência Circuito Simples - Vertical 
+para Horizontal - Alternativa 02. 
+DESENHO NDU005.1703/04. Estrutura de Transferência Circuito Simples - Circuito 
+Duplo - Vertical para Horizontal ou Vice-Versa. 
+DESENHO NDU005.1704/04. Estrutura de Transferência Circuito Simples - Indicação 
+de Fases da Rede Primária. 
+
+=================== PAGE 127 ===================
+c 
+______________________________________________________________________________________ 
+NDU 005 
+Versão 6.0 
+                       JULHO/2026 
+127 
+DESENHO NDU005.1801/07. Avifauna – Protetor Performado de Pássaros. 
+DESENHO NDU005.1802/07. Avifauna – Protetor João de Barro - Barreira Protetora 
+para Cruzetas. 
+DESENHO NDU005.1803/07. Avifauna – Capa Protetora para Chave Fusível. 
+DESENHO NDU005.1804/07. Avifauna – Estrutura N1 - Cruzeta Mão Francesa. 
+DESENHO NDU005.1805/07. Avifauna – Estrutura N2 - Cruzeta Mão Francesa. 
+DESENHO NDU005.1806/07. Avifauna – Estrutura TE3. 
+DESENHO NDU005.1807/07. Avifauna – Estrutura TE1. 
+DESENHO NDU005.1901/10. Cercas - Seccionamento e Aterramento - Alternativa 1 - 
+Cercas Transversais à Rede. 
+DESENHO NDU005.1902/10. Cercas - Seccionamento e Aterramento - Det. Montagem 
+- Alternativa 1 - Cercas Transversais à Rede. 
+DESENHO NDU005.1903/10. Cercas - Seccionamento e Aterramento - Alternativa 2 - 
+Cercas Transversais à Rede. 
+DESENHO NDU005.1904/10. Cercas - Seccionamento e Aterramento - Det. Montagem 
+- Alternativa 2 - Cercas Transversais à Rede. 
+DESENHO NDU005.1905/10. Cercas - Seccionamento e Aterramento - Cercas Paralelas 
+à Rede. 
+DESENHO NDU005.1906/10.  Cercas - Seccionamento e Aterramento - Det. Montagem 
+- Cercas Paralelas à Rede. 
+DESENHO NDU005.1907/10. Cercas - Seccionamento e Aterramento - Cercas 
+Bifurcadas Paralelas à Rede. 
+DESENHO NDU005.1908/10. Cercas - Seccionamento e Aterramento - Det. Montagem 
+- Cercas Bifurcadas Paralelas à Rede. 
+
+=================== PAGE 128 ===================
+c 
+______________________________________________________________________________________ 
+NDU 005 
+Versão 6.0 
+                       JULHO/2026 
+128 
+DESENHO NDU005.1909/10. Cercas - Seccionamento e Aterramento – Porteiras. 
+DESENHO NDU005.1910/10. Cercas - Seccionamento e Aterramento – Det. Montagem 
+– Porteiras. 
+ 
+ 
+ 
+ 
+ 
+ 
+
+=================== PAGE 129 ===================
+TERRENO NATURAL
+ESCAVAÇÃO
+POSTE DT / SC
+L
+E
+FORMATO A4
+Editado Por
+Substitui Des. Nº
+De Acordo
+Documento
+Pág. Doc.
+Revisão
+Desenho Nº
+Unidade
+Escala
+Folha
+N/A
+Código Energisa
+1 : 50
+28/11/23
+LOUBACK ARQ.
+01/09
+ENGASTAMENTO DE POSTE
+R0
+DANILO MARANHÃO
+POSTE DT / SC - ENGASTAMENTO SIMPLES DETALHES I
+                                  NDU 005.01
+    NDU 005
+mm
+VISTA EM PERSPECTIVA
+1 : 50
+VISTA CORTE FRONTAL
+Nota : 
+ I. Consultar Tabela 06 que referência os engastamamentos dos postes de distribuição. 
+
+=================== PAGE 130 ===================
+c 
+______________________________________________________________________________________ 
+NDU 005 
+Versão 6.0 
+                        JULHO/2026 
+130 
+Detalhes de Engastamento Simples em Contraposte.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTAS: 
+I. A haste de âncora deve ser instalada com 02 porcas a fim de garantir que todos 
+os filetes da rosca da porca absorvamos esforço mecânicos submetido à Haste.   
+II. Poderá ser utilizada chapa metálica ou placa de concreto, de acordo com as 
+diretrizes de cada unidade de negócio do Grupo Energisa. 
+III. O estai com contraposte é empregado quando não for possível o estai de âncora. 
+Corte AB 
+Vista em Perspectiva 
+Vista Superior 
+Solo em Camada de 200 mm 
+Sentido do Esforço Mecânico 
+Contraposte de Concreto 
+Solo não Atingido pela Escavação. 
+
+=================== PAGE 131 ===================
+ 
+______________________________________________________________________________________ 
+NDU 005 
+Versão 6.0 
+       JULHO/2026 
+131
+NOTAS: 
+I. A profundidade de engastamento e, para qualquer tipo de poste, é geralmente 
+calculada pela equação: 
+e = 10 % x L + 600 mm, 
+      Sendo: 
+     "E" - Profundidade do engastamento, mínimo igual a 1.600 mm; 
+     "L" - comprimento do poste. 
+      Para casos de escavação o diâmetro "D" do buraco é determinado pela fórmula: 
+D = B + 300 mm 
+II. No engastamento simples, o terreno em volta do poste deve ser reconstruído, 
+apilodando-se compactamente as camadas de 0,20 m de terra, até o nível do 
+solo. 
+III. Recomenda-se misturar brita, cascalho ou pedras, na terra de enchimento da 
+vala e molhar antes do apilotamento das camadas de reconstituição do solo, 
+conforme desenhos desse documento normativo. 
+IV. Os engastamentos que requeiram fundações especiais devem ser calculados 
+caso a caso em que serão considerados o tipo de terreno, tamanho do poste e 
+a carga que será aplicada ao mesmo, conforme desenhos de engastamentos. 
+V. Os comprimentos de B deverão ser consultados nas ETUs 114.1 e 114.3 que 
+correspondem aos postes de concreto e poliéster reforçado de fibra de vidro 
+(PRFV). 
+VI.Os postes poliéster reforçado de fibra de vidro (PRFV) deverão ser aplicados 
+exclusivamente em locais com limitações de acessibilidade 
+ 
+
+=================== PAGE 132 ===================
+c 
+______________________________________________________________________________________ 
+NDU 005 
+Versão 6.0 
+                         JULHO/2026 
+132 
+IV. O estai de contraposte absorve até 400 daN. Para esforços superiores à 400 daN, 
+o contraposte deverá ser estaiado (contra estai). 
+V.  Quando a estrutura não possuir aterramento, o estai deverá ser conectado ao 
+neutro através do próprio cabo do estai;  
+VI. O contraposte deverá ser instalado com o lado de maior resistência no sentido 
+do esforço. As especificações para contraposte estão na ETU 273.
+VII. A fundação do contra poste deverá obedecer aos mesmos critérios da fundação 
+para poste. 
+VIII.  Como medida de segurança, o estai deverá ser aterrado através do neutro, 
+quando houver baixa tensão. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+=================== PAGE 133 ===================
+F
+F
+100
+L
+D
+B
+E
+TERRENO NATURAL
+TERRA BEM SOCADA EM 
+CAMADAS DE 200MM
+POSTE DT / SC
+F
+FORMATO A4
+Editado Por
+Substitui Des. Nº
+De Acordo
+Documento
+Pág. Doc.
+Revisão
+Desenho Nº
+Unidade
+Escala
+Folha
+N/A
+Código Energisa
+1 : 50
+28/11/23
+LOUBACK ARQ.
+02/09
+ENGASTAMENTO DE POSTE
+R0
+DANILO MARANHÃO
+DETALHES DA FUNDAÇÃO SIMPLES POSTE DT /SC 
+NDU 005.01
+   NDU 005
+mm
+VISTA EM PERSPECTIVA
+1 : 50
+VISTA CORTE A
+1 : 50
+VISTA SUPERIOR
+VISTA EM PERSPECTIVA - DETALHE
+1 : 50
+VISTA CORTE B
+A
+A
+B
+B
+  I. Consultar Tabela 06 que referência os engastamamentos dos postes de distribuição. 
+Nota : 
+
+=================== PAGE 134 ===================
+ 
+______________________________________________________________________________________ 
+NDU 005 
+Versão 6.0 
+        JULHO/2026
+134 
+NOTAS: 
+I. No engastamento simples, o terreno em volta do poste deve ser reconstruído, 
+apilotando compactamente nas camadas de 0,20 m de terra até o nível do solo; 
+Comprimento 
+do poste (m) 
+Resistência 
+do poste 
+Concreto seção DT 
+Simples 
+Reforçado 
+Concretado 
+Resistência 
+Máxima (daN) 
+Resistência 
+Máxima (daN) 
+Dimensões de 
+escora (n x m) 
+Resistência 
+Máxima (daN) 
+Diâmetro 
+Mínimo da 
+vala (m) 
+11 
+300 
+280 
+380 
+0,2 x 1,0 
+510 
+0,7 
+600 
+280 
+380 
+0,2 x 1,0 
+950 
+1,1 
+1.000 
+310 
+410 
+0,2 x 1,0 
+1440 
+1,5 
+12 
+300 
+320 
+420 
+0,2 x 1,0 
+– 
+– 
+600 
+320 
+420 
+0,2 x 1,0 
+1000 
+1,1 
+1.000 
+350 
+450 
+0,2 x 1,0 
+1490 
+1,5 
+1.500 
+  
+  
+  
+  
+  
+3.000 
+440 
+520 
+0,2 x 1,0 
+– 
+– 
+13 
+300 
+370 
+470 
+0,2 x 1,0 
+– 
+– 
+600 
+370 
+470 
+0,2 x 1,0 
+1040 
+1,1 
+1.000 
+  
+  
+  
+  
+  
+1.500 
+  
+  
+  
+  
+  
+II. Recomenda-se misturar brita, cascalho ou pedras na terra de enchimento da 
+vala e molhar antes de apilotar energicamente as camadas de 0,20 m de 
+reconstituição do solo. 
+ 
+III.  Para as situações de engastamentos simples , reforçado e concretado deverá ser
+observada as informações da tabela descrita, logo abaixo que esta fundamentada,
+           Segundo NBR 15688. O coeficiente de  compressibilidade do especificada na tabela
+                       é de  C= 2.000 daN/m³. 
+        
+   
+ 
+ 
+ Tabela de engastamento de postes.

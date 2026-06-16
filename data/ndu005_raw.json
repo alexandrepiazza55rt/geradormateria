@@ -1,0 +1,4407 @@
+[
+ {
+  "page": 160,
+  "caption": "Estrutura U1",
+  "titulo": null,
+  "cruzeta": null,
+  "materiais": [
+   {
+    "sisup": "90389",
+    "desenho": "A-2",
+    "qtd": "02",
+    "descricao": "Arruela Quadrada 18,0 mm x 38,0 mm x 3 mm.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela A",
+    "desenho": "I-5",
+    "qtd": "01",
+    "descricao": "Isolador Tipo Pilar Porcelana Vertical.",
+    "etu": "126.1"
+   },
+   {
+    "sisup": "Tabela 01",
+    "desenho": "F-32",
+    "qtd": "02",
+    "descricao": "Parafuso de Rosca Total M16 x Tamanho.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90252",
+    "desenho": "F-36",
+    "qtd": "01",
+    "descricao": "Pino Isolador Aço Carbono 16,0 mm Autotravante.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela B",
+    "desenho": "P-2",
+    "qtd": "01",
+    "descricao": "Poste de Concreto de Distribuição.",
+    "etu": "114.1"
+   },
+   {
+    "sisup": "Tabela 02",
+    "desenho": "M-14",
+    "qtd": "01",
+    "descricao": "Laço pré-formado.",
+    "etu": "116.2"
+   },
+   {
+    "sisup": "90524",
+    "desenho": "F-51",
+    "qtd": "01",
+    "descricao": "Suporte P/Isolador Pilar.",
+    "etu": "130.1"
+   }
+  ]
+ },
+ {
+  "page": 166,
+  "caption": "Estrutura U2",
+  "titulo": null,
+  "cruzeta": null,
+  "materiais": [
+   {
+    "sisup": "90389",
+    "desenho": "A-2",
+    "qtd": "04",
+    "descricao": "Arruela Quadrada 18,0 mm x 38,0 mm x 3 mm.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela A",
+    "desenho": "I-5",
+    "qtd": "0,9",
+    "descricao": "Isolador Tipo Pilar Porcelana Vertical.",
+    "etu": "126.1"
+   },
+   {
+    "sisup": "Tabela 01",
+    "desenho": "F-32",
+    "qtd": "02",
+    "descricao": "Parafuso de Rosca Total M16 x Tamanho.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90252",
+    "desenho": "F-36",
+    "qtd": "02",
+    "descricao": "Pino Isolador Aço Carbono 16,0 mm Autotravante.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela B",
+    "desenho": "P-2",
+    "qtd": "01",
+    "descricao": "Poste de Concreto de Distribuição.",
+    "etu": "114.1"
+   },
+   {
+    "sisup": "Tabela 02",
+    "desenho": "M-14",
+    "qtd": "01",
+    "descricao": "Laço pré-formado.",
+    "etu": "116.2"
+   },
+   {
+    "sisup": "90524",
+    "desenho": "F-51",
+    "qtd": "02",
+    "descricao": "Suporte P/Isolador Pilar.",
+    "etu": "130.1"
+   }
+  ]
+ },
+ {
+  "page": 169,
+  "caption": "Estrutura U3",
+  "titulo": null,
+  "cruzeta": null,
+  "materiais": [
+   {
+    "sisup": "90389",
+    "desenho": "A-2",
+    "qtd": "04",
+    "descricao": "Arruela Quadrada 18,0 mm x38,0 mm x 3 mm.",
+    "etu": ""
+   },
+   {
+    "sisup": "Tabela D",
+    "desenho": "M-1",
+    "qtd": "01",
+    "descricao": "Alça Pré-Formada Distribuição.",
+    "etu": ""
+   },
+   {
+    "sisup": "90448",
+    "desenho": "F-13",
+    "qtd": "01",
+    "descricao": "Gancho Olhal 5.000 daN.",
+    "etu": ""
+   },
+   {
+    "sisup": "Tabela E",
+    "desenho": "I-6",
+    "qtd": "01",
+    "descricao": "Isolador Suspensão Tipo Bastão Polimérico.",
+    "etu": ""
+   },
+   {
+    "sisup": "90440",
+    "desenho": "F-22",
+    "qtd": "01",
+    "descricao": "Manilha Sapatilha 16,0mm 5.000 daN.",
+    "etu": ""
+   },
+   {
+    "sisup": "Tabela 01",
+    "desenho": "F-32",
+    "qtd": "01",
+    "descricao": "Parafuso de Rosca Total.",
+    "etu": ""
+   },
+   {
+    "sisup": "90387",
+    "desenho": "F-40",
+    "qtd": "01",
+    "descricao": "Porca Olhal M16 78,0 mm.",
+    "etu": ""
+   },
+   {
+    "sisup": "Tabela B",
+    "desenho": "P-2",
+    "qtd": "01",
+    "descricao": "Poste de Concreto de Distribuição.",
+    "etu": ""
+   }
+  ]
+ },
+ {
+  "page": 172,
+  "caption": "Estrutura U3-2",
+  "titulo": null,
+  "cruzeta": null,
+  "materiais": [
+   {
+    "sisup": "Tabela F",
+    "desenho": "-",
+    "qtd": "01",
+    "descricao": "Conector Tipo Cunha.",
+    "etu": "153.2"
+   },
+   {
+    "sisup": "90448",
+    "desenho": "F-13",
+    "qtd": "01",
+    "descricao": "Gancho olhal para 5.000 daN.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90252",
+    "desenho": "F-36",
+    "qtd": "02",
+    "descricao": "Pino Isolador Aço Carbono 16,0 mm Autotravante.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela 01",
+    "desenho": "F-32",
+    "qtd": "02",
+    "descricao": "Parafuso de Rosca Total.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela A",
+    "desenho": "I-5",
+    "qtd": "02",
+    "descricao": "Isolador Tipo Pilar Porcelana Vertical.",
+    "etu": "126.1"
+   },
+   {
+    "sisup": "90440",
+    "desenho": "F-22",
+    "qtd": "01",
+    "descricao": "Manilha Sapatilha 16,0mm 5.000 daN.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela E",
+    "desenho": "I-6",
+    "qtd": "01",
+    "descricao": "Isolador Suspensão Tipo Bastão Polimérico.",
+    "etu": "120.1"
+   },
+   {
+    "sisup": "Tabela 02",
+    "desenho": "-",
+    "qtd": "01",
+    "descricao": "Laço Pré-Formado",
+    "etu": "116.2"
+   },
+   {
+    "sisup": "Tabela B",
+    "desenho": "P-2",
+    "qtd": "01",
+    "descricao": "Poste de Concreto de Distribuição.",
+    "etu": "114.1"
+   }
+  ]
+ },
+ {
+  "page": 174,
+  "caption": "Estrutura U3-U3",
+  "titulo": null,
+  "cruzeta": null,
+  "materiais": [
+   {
+    "sisup": "90389",
+    "desenho": "A-2",
+    "qtd": "04",
+    "descricao": "Arruela Quadrada 18,0 mm x38,0 mm x 3 mm.",
+    "etu": ""
+   },
+   {
+    "sisup": "Tabela D",
+    "desenho": "M-1",
+    "qtd": "02",
+    "descricao": "Alça Pré-Formada de Distribuição.",
+    "etu": ""
+   },
+   {
+    "sisup": "90448",
+    "desenho": "F-13",
+    "qtd": "02",
+    "descricao": "Gancho Olhal 5.000 daN.",
+    "etu": ""
+   },
+   {
+    "sisup": "Tabela E",
+    "desenho": "I-6",
+    "qtd": "02",
+    "descricao": "Isolador Suspensão Tipo Bastão Polimérico.",
+    "etu": ""
+   },
+   {
+    "sisup": "90440",
+    "desenho": "F-22",
+    "qtd": "02",
+    "descricao": "Manilha Sapatilha 16,0mm 5.000 daN.",
+    "etu": ""
+   },
+   {
+    "sisup": "Tabela 01",
+    "desenho": "F-32",
+    "qtd": "02",
+    "descricao": "Parafuso de Rosca Total.",
+    "etu": ""
+   },
+   {
+    "sisup": "90387",
+    "desenho": "F-40",
+    "qtd": "02",
+    "descricao": "Porca Olhal M16 78,0 mm.",
+    "etu": ""
+   },
+   {
+    "sisup": "Tabela F",
+    "desenho": "-",
+    "qtd": "02",
+    "descricao": "Conector Tipo Cunha.",
+    "etu": ""
+   },
+   {
+    "sisup": "Tabela B",
+    "desenho": "P-2",
+    "qtd": "01",
+    "descricao": "Poste de Concreto de Distribuição.",
+    "etu": ""
+   }
+  ]
+ },
+ {
+  "page": 185,
+  "caption": "Estrutura Trifásica N2",
+  "titulo": "N2",
+  "cruzeta": "T 1,90 M",
+  "materiais": [
+   {
+    "sisup": "90389",
+    "desenho": "A-2",
+    "qtd": "22",
+    "descricao": "Arruela Quadrada 18,0 mm x38,0 mm x 3 mm.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90388",
+    "desenho": "A-21",
+    "qtd": "22",
+    "descricao": "Porca Quadra Pesada Aço Carbono M16.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela G",
+    "desenho": "R-3",
+    "qtd": "02",
+    "descricao": "Cruzeta Distribuição de Concreto T 1.900 mm.",
+    "etu": "115.3"
+   },
+   {
+    "sisup": "Tabela A",
+    "desenho": "I-5",
+    "qtd": "06",
+    "descricao": "Isolador Tipo Pilar Porcelana Vertical.",
+    "etu": "126.1"
+   },
+   {
+    "sisup": "Tabela 01",
+    "desenho": "F-32",
+    "qtd": "02",
+    "descricao": "Parafuso de Rosca Total.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela H",
+    "desenho": "F-36",
+    "qtd": "06",
+    "descricao": "Pino para Isolador Tipo Cruzeta.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela C",
+    "desenho": "-",
+    "qtd": "03",
+    "descricao": "Laço Pré-Formado.",
+    "etu": "116.2"
+   },
+   {
+    "sisup": "Tabela B",
+    "desenho": "P-2",
+    "qtd": "01",
+    "descricao": "Poste de Concreto de Distribuição.",
+    "etu": "114.1"
+   }
+  ]
+ },
+ {
+  "page": 187,
+  "caption": "Estrutura Trifásica N3",
+  "titulo": "N3",
+  "cruzeta": "T 1,90 M",
+  "materiais": [
+   {
+    "sisup": "Tabela D",
+    "desenho": "M-1",
+    "qtd": "03",
+    "descricao": "",
+    "etu": "Alça Pré-Formada de Distribuição."
+   },
+   {
+    "sisup": "90389",
+    "desenho": "A-2",
+    "qtd": "16",
+    "descricao": "",
+    "etu": "Arruela Quadrada 18,0 mm x38,0 mm x 3 mm."
+   },
+   {
+    "sisup": "90388",
+    "desenho": "A-21",
+    "qtd": "16",
+    "descricao": "",
+    "etu": "Porca Quadra Pesada Aço Carbono M16."
+   },
+   {
+    "sisup": "90662",
+    "desenho": "R-3",
+    "qtd": "02",
+    "descricao": "",
+    "etu": "Cruzeta Distribuição de Concreto T 1.900 mm."
+   },
+   {
+    "sisup": "90448",
+    "desenho": "F-13",
+    "qtd": "03",
+    "descricao": "",
+    "etu": "Gancho Olhal S/Trava Sae1045 5000 daN."
+   },
+   {
+    "sisup": "Tabela E",
+    "desenho": "I-6",
+    "qtd": "03",
+    "descricao": "",
+    "etu": "Isolador Suspensão Tipo Bastão Polimérico."
+   },
+   {
+    "sisup": "90440",
+    "desenho": "F-22",
+    "qtd": "03",
+    "descricao": "",
+    "etu": "Manilha Sapatilha 16,0mm 5.000 daN."
+   },
+   {
+    "sisup": "Tabela 01",
+    "desenho": "F-32",
+    "qtd": "06",
+    "descricao": "",
+    "etu": "Parafuso de Rosca Total."
+   },
+   {
+    "sisup": "90387",
+    "desenho": "F-40",
+    "qtd": "03",
+    "descricao": "",
+    "etu": "Porca Olhal M16 78,0 mm."
+   },
+   {
+    "sisup": "Tabela B",
+    "desenho": "P-2",
+    "qtd": "01",
+    "descricao": "",
+    "etu": "Poste de Concreto de Distribuição."
+   }
+  ]
+ },
+ {
+  "page": 189,
+  "caption": "Estrutura Trifásica N4",
+  "titulo": "N4",
+  "cruzeta": "T 1,90 M",
+  "materiais": [
+   {
+    "sisup": "Tabela 04",
+    "desenho": "M-1",
+    "qtd": "06",
+    "descricao": "Alça Pré-Formada Distribuição.",
+    "etu": "126.1"
+   },
+   {
+    "sisup": "90389",
+    "desenho": "A-2",
+    "qtd": "32",
+    "descricao": "Arruela Quadrada 18,0 mm x38,0 mm x 3 mm.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela G",
+    "desenho": "R-3",
+    "qtd": "04",
+    "descricao": "Cruzeta de Distribuição de Concreto T 1.900 mm.",
+    "etu": "115.3"
+   },
+   {
+    "sisup": "90448",
+    "desenho": "F-13",
+    "qtd": "06",
+    "descricao": "Gancho Olhal S/Trava Sae 1045 5000 daN.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela A",
+    "desenho": "I-5",
+    "qtd": "01",
+    "descricao": "Isolador Tipo Pilar Porcelana Vertical.",
+    "etu": "126.1"
+   },
+   {
+    "sisup": "Tabela E",
+    "desenho": "I-6",
+    "qtd": "06",
+    "descricao": "Isolador Suspensão Tipo Bastão Polimérico.",
+    "etu": "120.1"
+   },
+   {
+    "sisup": "90440",
+    "desenho": "F-22",
+    "qtd": "06",
+    "descricao": "Manilha Sapatilha 16,0mm 5.000 daN.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela 01",
+    "desenho": "F-32",
+    "qtd": "12",
+    "descricao": "Parafuso de Rosca Total.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela H",
+    "desenho": "F-36",
+    "qtd": "01",
+    "descricao": "Pino para Isolador Tipo Cruzeta.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90387",
+    "desenho": "F-40",
+    "qtd": "06",
+    "descricao": "Porca Olhal M16 78,0 mm.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90388",
+    "desenho": "A-21",
+    "qtd": "32",
+    "descricao": "Porca Quadra Pesada Aço Carbono M16.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela B",
+    "desenho": "P-2",
+    "qtd": "01",
+    "descricao": "Poste de Concreto de Distribuição.",
+    "etu": "114.1"
+   }
+  ]
+ },
+ {
+  "page": 193,
+  "caption": "Estrutura Trifásica N2",
+  "titulo": "N2",
+  "cruzeta": "2,00 M",
+  "materiais": [
+   {
+    "sisup": "90389",
+    "desenho": "A-2",
+    "qtd": "22",
+    "descricao": "Arruela Quadrada 18,0 mm x38,0 mm x 3 mm.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90388",
+    "desenho": "A-21",
+    "qtd": "22",
+    "descricao": "Porca Quadra Pesada Aço Carbono M16.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela G",
+    "desenho": "R-3",
+    "qtd": "02",
+    "descricao": "Cruzeta Distribuição de Concreto Quadrada 2.000 mm.",
+    "etu": "115.3"
+   },
+   {
+    "sisup": "Tabela A",
+    "desenho": "I-5",
+    "qtd": "06",
+    "descricao": "Isolador Tipo Pilar Porcelana Vertical.",
+    "etu": "126.1"
+   },
+   {
+    "sisup": "90442",
+    "desenho": "F-19",
+    "qtd": "04",
+    "descricao": "Mão Francesa Perfilada Aço Carbono.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela 01",
+    "desenho": "F-32",
+    "qtd": "02",
+    "descricao": "Parafuso de Rosca Total.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela H",
+    "desenho": "F-36",
+    "qtd": "06",
+    "descricao": "Pino para Isolador Tipo Cruzeta.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela C",
+    "desenho": "-",
+    "qtd": "03",
+    "descricao": "Laço Pré-Formado.",
+    "etu": "116.2"
+   },
+   {
+    "sisup": "Tabela B",
+    "desenho": "P-2",
+    "qtd": "01",
+    "descricao": "Poste de Concreto de Distribuição.",
+    "etu": "114.1"
+   }
+  ]
+ },
+ {
+  "page": 195,
+  "caption": "Estrutura Trifásica N3",
+  "titulo": "N3",
+  "cruzeta": "2,00 M",
+  "materiais": [
+   {
+    "sisup": "Tabela D",
+    "desenho": "M-1",
+    "qtd": "03",
+    "descricao": "",
+    "etu": "Alça Pré-Formada de Distribuição."
+   },
+   {
+    "sisup": "90389",
+    "desenho": "A-2",
+    "qtd": "16",
+    "descricao": "",
+    "etu": "Arruela Quadrada 18,0 mm x38,0 mm x 3 mm."
+   },
+   {
+    "sisup": "90388",
+    "desenho": "A-21",
+    "qtd": "16",
+    "descricao": "",
+    "etu": "Porca Quadra Pesada Aço Carbono M16."
+   },
+   {
+    "sisup": "90662",
+    "desenho": "R-3",
+    "qtd": "02",
+    "descricao": "",
+    "etu": "Cruzeta Distribuição de Concreto Quad. 2.000 mm."
+   },
+   {
+    "sisup": "90448",
+    "desenho": "F-13",
+    "qtd": "03",
+    "descricao": "",
+    "etu": "Gancho Olhal S/Trava Sae1045 5000 daN."
+   },
+   {
+    "sisup": "Tabela E",
+    "desenho": "I-6",
+    "qtd": "03",
+    "descricao": "",
+    "etu": "Isolador Suspensão Tipo Bastão Polimérico."
+   },
+   {
+    "sisup": "90440",
+    "desenho": "F-22",
+    "qtd": "03",
+    "descricao": "",
+    "etu": "Manilha Sapatilha 16,0mm 5.000 daN."
+   },
+   {
+    "sisup": "90442",
+    "desenho": "F-19",
+    "qtd": "04",
+    "descricao": "",
+    "etu": "Mão Francesa Perfilada Aço Carbono."
+   },
+   {
+    "sisup": "Tabela 01",
+    "desenho": "F-32",
+    "qtd": "06",
+    "descricao": "",
+    "etu": "Parafuso de Rosca Total."
+   },
+   {
+    "sisup": "90387",
+    "desenho": "F-40",
+    "qtd": "03",
+    "descricao": "",
+    "etu": "Porca Olhal M16 78,0 mm."
+   },
+   {
+    "sisup": "Tabela B",
+    "desenho": "P-2",
+    "qtd": "01",
+    "descricao": "",
+    "etu": "Poste de Concreto de Distribuição."
+   }
+  ]
+ },
+ {
+  "page": 197,
+  "caption": "Estrutura Trifásica N4",
+  "titulo": "N4",
+  "cruzeta": "2,00 M",
+  "materiais": [
+   {
+    "sisup": "Tabela 04",
+    "desenho": "M-1",
+    "qtd": "06",
+    "descricao": "Alça Pré-Formada Distribuição.",
+    "etu": "126.1"
+   },
+   {
+    "sisup": "90389",
+    "desenho": "A-2",
+    "qtd": "32",
+    "descricao": "Arruela Quadrada 18,0 mm x38,0 mm x 3 mm.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela G",
+    "desenho": "R-3",
+    "qtd": "02",
+    "descricao": "Cruzeta de Distribuição de Concreto Quad. 2.000 m",
+    "etu": ". 115.3"
+   },
+   {
+    "sisup": "Tabela A",
+    "desenho": "I-5",
+    "qtd": "01",
+    "descricao": "Isolador Tipo Pilar Porcelana Vertical.",
+    "etu": "126.1"
+   },
+   {
+    "sisup": "Tabela E",
+    "desenho": "I-6",
+    "qtd": "06",
+    "descricao": "Isolador Suspensão Tipo Bastão Polimérico.",
+    "etu": "120.1"
+   },
+   {
+    "sisup": "90440",
+    "desenho": "F-22",
+    "qtd": "06",
+    "descricao": "Manilha Sapatilha 16,0mm 5.000 daN.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90442",
+    "desenho": "F-19",
+    "qtd": "04",
+    "descricao": "Mão Francesa Perfilada Aço Carbono.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela 01",
+    "desenho": "F-32",
+    "qtd": "12",
+    "descricao": "Parafuso de Rosca Total.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela H",
+    "desenho": "F-36",
+    "qtd": "01",
+    "descricao": "Pino para Isolador Tipo Cruzeta.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90387",
+    "desenho": "F-40",
+    "qtd": "06",
+    "descricao": "Porca Olhal M16 78,0 mm.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90388",
+    "desenho": "A-21",
+    "qtd": "32",
+    "descricao": "Porca Quadra Pesada Aço Carbono M16.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela B",
+    "desenho": "P-2",
+    "qtd": "01",
+    "descricao": "Poste de Concreto de Distribuição.",
+    "etu": "114.1"
+   }
+  ]
+ },
+ {
+  "page": 199,
+  "caption": "Estrutura Trifásica N1",
+  "titulo": "N1",
+  "cruzeta": "T 2,40 M",
+  "materiais": [
+   {
+    "sisup": "90389",
+    "desenho": "A-2",
+    "qtd": "22",
+    "descricao": "Arruela Quadrada 18,0 mm x38,0 mm x 3 mm.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90388",
+    "desenho": "A-21",
+    "qtd": "22",
+    "descricao": "Porca Quadra Pesada Aço Carbono M16.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela G",
+    "desenho": "R-3",
+    "qtd": "01",
+    "descricao": "Cruzeta Distribuição de Concreto T 2.400 mm.",
+    "etu": "115.3"
+   },
+   {
+    "sisup": "Tabela A",
+    "desenho": "I-5",
+    "qtd": "03",
+    "descricao": "Isolador Tipo Pilar Porcelana Vertical.",
+    "etu": "126.1"
+   },
+   {
+    "sisup": "Tabela 01",
+    "desenho": "F-32",
+    "qtd": "02",
+    "descricao": "Parafuso de Rosca Total.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela H",
+    "desenho": "F-36",
+    "qtd": "03",
+    "descricao": "Pino para Isolador Tipo Cruzeta.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela C",
+    "desenho": "-",
+    "qtd": "03",
+    "descricao": "Laço Pré-Formado.",
+    "etu": "116.2"
+   },
+   {
+    "sisup": "Tabela B",
+    "desenho": "P-2",
+    "qtd": "06",
+    "descricao": "Poste de Concreto de Distribuição.",
+    "etu": "114.1"
+   }
+  ]
+ },
+ {
+  "page": 201,
+  "caption": "Estrutura Trifásica N2",
+  "titulo": "N2",
+  "cruzeta": "T 2,40 M",
+  "materiais": [
+   {
+    "sisup": "90389",
+    "desenho": "A-2",
+    "qtd": "22",
+    "descricao": "Arruela Quadrada 18,0 mm x38,0 mm x 3 mm.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90388",
+    "desenho": "A-21",
+    "qtd": "22",
+    "descricao": "Porca Quadra Pesada Aço Carbono M16.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela G",
+    "desenho": "R-3",
+    "qtd": "02",
+    "descricao": "Cruzeta Distribuição de Concreto T 2.400 mm.",
+    "etu": "115.3"
+   },
+   {
+    "sisup": "Tabela A",
+    "desenho": "I-5",
+    "qtd": "03",
+    "descricao": "Isolador Tipo Pilar Porcelana Vertical.",
+    "etu": "126.1"
+   },
+   {
+    "sisup": "Tabela 01",
+    "desenho": "F-32",
+    "qtd": "04",
+    "descricao": "Parafuso de Rosca Total.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela H",
+    "desenho": "F-36",
+    "qtd": "03",
+    "descricao": "Pino para Isolador Tipo Cruzeta.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela C",
+    "desenho": "-",
+    "qtd": "03",
+    "descricao": "Laço Pré-Formado.",
+    "etu": "116.2"
+   },
+   {
+    "sisup": "Tabela B",
+    "desenho": "P-2",
+    "qtd": "01",
+    "descricao": "Poste de Concreto de Distribuição.",
+    "etu": "114.1"
+   }
+  ]
+ },
+ {
+  "page": 203,
+  "caption": "Estrutura Trifásica N3",
+  "titulo": "N3",
+  "cruzeta": "T 2,40 M",
+  "materiais": [
+   {
+    "sisup": "Tabela D",
+    "desenho": "M-1",
+    "qtd": "03",
+    "descricao": "",
+    "etu": "Alça Pré-Formada de Distribuição."
+   },
+   {
+    "sisup": "90389",
+    "desenho": "A-2",
+    "qtd": "16",
+    "descricao": "",
+    "etu": "Arruela Quadrada 18,0 mm x38,0 mm x 3 mm."
+   },
+   {
+    "sisup": "90388",
+    "desenho": "A-21",
+    "qtd": "16",
+    "descricao": "",
+    "etu": "Porca Quadra Pesada Aço Carbono M16."
+   },
+   {
+    "sisup": "90662",
+    "desenho": "R-3",
+    "qtd": "02",
+    "descricao": "",
+    "etu": "Cruzeta Distribuição de Concreto T 2.400 mm."
+   },
+   {
+    "sisup": "90448",
+    "desenho": "F-13",
+    "qtd": "03",
+    "descricao": "",
+    "etu": "Gancho Olhal S/Trava Sae1045 5000 daN."
+   },
+   {
+    "sisup": "Tabela E",
+    "desenho": "I-6",
+    "qtd": "03",
+    "descricao": "",
+    "etu": "Isolador Suspensão Tipo Bastão Polimérico."
+   },
+   {
+    "sisup": "90440",
+    "desenho": "F-22",
+    "qtd": "03",
+    "descricao": "",
+    "etu": "Manilha Sapatilha 16,0mm 5.000 daN."
+   },
+   {
+    "sisup": "90442",
+    "desenho": "F-19",
+    "qtd": "02",
+    "descricao": "",
+    "etu": "Mão Francesa Perfilada Aço Carbono."
+   },
+   {
+    "sisup": "Tabela 01",
+    "desenho": "F-32",
+    "qtd": "06",
+    "descricao": "",
+    "etu": "Parafuso de Rosca Total."
+   },
+   {
+    "sisup": "90387",
+    "desenho": "F-40",
+    "qtd": "03",
+    "descricao": "",
+    "etu": "Porca Olhal M16 78,0 mm."
+   },
+   {
+    "sisup": "Tabela B",
+    "desenho": "P-2",
+    "qtd": "01",
+    "descricao": "",
+    "etu": "Poste de Concreto de Distribuição."
+   }
+  ]
+ },
+ {
+  "page": 205,
+  "caption": "Estrutura Trifásica N4",
+  "titulo": "N4",
+  "cruzeta": "T 2,40 M",
+  "materiais": [
+   {
+    "sisup": "Tabela 04",
+    "desenho": "M-1",
+    "qtd": "06",
+    "descricao": "Alça Pré-Formada Distribuição.",
+    "etu": "126.1"
+   },
+   {
+    "sisup": "90389",
+    "desenho": "A-2",
+    "qtd": "32",
+    "descricao": "Arruela Quadrada 18,0 mm x38,0 mm x 3 mm.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela G",
+    "desenho": "R-3",
+    "qtd": "04",
+    "descricao": "Cruzeta de Distribuição de Concreto T 2.400 mm.",
+    "etu": "115.3"
+   },
+   {
+    "sisup": "90448",
+    "desenho": "F-13",
+    "qtd": "06",
+    "descricao": "Gancho Olhal S/Trava Sae1045 5000 daN.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela A",
+    "desenho": "I-5",
+    "qtd": "01",
+    "descricao": "Isolador Tipo Pilar Porcelana Vertical.",
+    "etu": "126.1"
+   },
+   {
+    "sisup": "Tabela E",
+    "desenho": "I-6",
+    "qtd": "06",
+    "descricao": "Isolador Suspensão Tipo Bastão Polimérico.",
+    "etu": "120.1"
+   },
+   {
+    "sisup": "90440",
+    "desenho": "F-22",
+    "qtd": "06",
+    "descricao": "Manilha Sapatilha 16,0mm 5.000 daN.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela 01",
+    "desenho": "F-32",
+    "qtd": "12",
+    "descricao": "Parafuso de Rosca Total.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela H",
+    "desenho": "F-36",
+    "qtd": "01",
+    "descricao": "Pino para Isolador Tipo Cruzeta.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90387",
+    "desenho": "F-40",
+    "qtd": "06",
+    "descricao": "Porca Olhal M16 78,0 mm.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90388",
+    "desenho": "A-21",
+    "qtd": "32",
+    "descricao": "Porca Quadra Pesada Aço Carbono M16.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela B",
+    "desenho": "P-2",
+    "qtd": "01",
+    "descricao": "Poste de Concreto de Distribuição.",
+    "etu": "114.1"
+   }
+  ]
+ },
+ {
+  "page": 209,
+  "caption": "Estrutura Trifásica N2",
+  "titulo": "N2",
+  "cruzeta": "2,40 M",
+  "materiais": [
+   {
+    "sisup": "90389",
+    "desenho": "A-2",
+    "qtd": "22",
+    "descricao": "Arruela Quadrada 18,0 mm x38,0 mm x 3 mm.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90388",
+    "desenho": "A-21",
+    "qtd": "22",
+    "descricao": "Porca Quadra Pesada Aço Carbono M16.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela G",
+    "desenho": "R-3",
+    "qtd": "02",
+    "descricao": "Cruzeta Distribuição de Concreto Quadrado 2.400 mm.",
+    "etu": "115.3"
+   },
+   {
+    "sisup": "Tabela A",
+    "desenho": "I-5",
+    "qtd": "06",
+    "descricao": "Isolador Tipo Pilar Porcelana Vertical.",
+    "etu": "126.1"
+   },
+   {
+    "sisup": "90442",
+    "desenho": "F-19",
+    "qtd": "02",
+    "descricao": "Mão Francesa Perfilada Aço Carbono.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela 01",
+    "desenho": "F-32",
+    "qtd": "06",
+    "descricao": "Parafuso de Rosca Total.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela H",
+    "desenho": "F-36",
+    "qtd": "06",
+    "descricao": "Pino para Isolador Tipo Cruzeta.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela C",
+    "desenho": "-",
+    "qtd": "03",
+    "descricao": "Laço Pré-Formado.",
+    "etu": "116.2"
+   },
+   {
+    "sisup": "Tabela B",
+    "desenho": "P-2",
+    "qtd": "01",
+    "descricao": "Poste de Concreto de Distribuição.",
+    "etu": "114.1"
+   }
+  ]
+ },
+ {
+  "page": 211,
+  "caption": "Estrutura Trifásica N3",
+  "titulo": "N3",
+  "cruzeta": "2,40 M",
+  "materiais": [
+   {
+    "sisup": "Tabela D",
+    "desenho": "M-1",
+    "qtd": "03",
+    "descricao": "",
+    "etu": "Alça Pré-Formada de Distribuição."
+   },
+   {
+    "sisup": "90389",
+    "desenho": "A-2",
+    "qtd": "16",
+    "descricao": "",
+    "etu": "Arruela Quadrada 18,0 mm x38,0 mm x 3 mm."
+   },
+   {
+    "sisup": "90388",
+    "desenho": "A-21",
+    "qtd": "16",
+    "descricao": "",
+    "etu": "Porca Quadra Pesada Aço Carbono M16."
+   },
+   {
+    "sisup": "90662",
+    "desenho": "R-3",
+    "qtd": "02",
+    "descricao": "",
+    "etu": "Cruzeta Distribuição de Concreto Quad. 2.400 mm."
+   },
+   {
+    "sisup": "90448",
+    "desenho": "F-13",
+    "qtd": "03",
+    "descricao": "",
+    "etu": "Gancho Olhal S/Trava Sae1045 5000 daN."
+   },
+   {
+    "sisup": "Tabela E",
+    "desenho": "I-6",
+    "qtd": "03",
+    "descricao": "",
+    "etu": "Isolador Suspensão Tipo Bastão Polimérico."
+   },
+   {
+    "sisup": "90440",
+    "desenho": "F-22",
+    "qtd": "03",
+    "descricao": "",
+    "etu": "Manilha Sapatilha 16,0mm 5.000 daN."
+   },
+   {
+    "sisup": "90442",
+    "desenho": "F-19",
+    "qtd": "04",
+    "descricao": "",
+    "etu": "Mão Francesa Perfilada Aço Carbono."
+   },
+   {
+    "sisup": "Tabela 01",
+    "desenho": "F-32",
+    "qtd": "06",
+    "descricao": "",
+    "etu": "Parafuso de Rosca Total."
+   },
+   {
+    "sisup": "90387",
+    "desenho": "F-40",
+    "qtd": "03",
+    "descricao": "",
+    "etu": "Porca Olhal M16 78,0 mm."
+   },
+   {
+    "sisup": "Tabela B",
+    "desenho": "P-2",
+    "qtd": "01",
+    "descricao": "",
+    "etu": "Poste de Concreto de Distribuição."
+   }
+  ]
+ },
+ {
+  "page": 213,
+  "caption": "Estrutura Trifásica N4",
+  "titulo": "N4",
+  "cruzeta": "2,40 M",
+  "materiais": [
+   {
+    "sisup": "Tabela 04",
+    "desenho": "M-1",
+    "qtd": "06",
+    "descricao": "Alça Pré-Formada Distribuição.",
+    "etu": "126.1"
+   },
+   {
+    "sisup": "90389",
+    "desenho": "A-2",
+    "qtd": "32",
+    "descricao": "Arruela Quadrada 18,0 mm x38,0 mm x 3 mm.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela G",
+    "desenho": "R-3",
+    "qtd": "02",
+    "descricao": "Cruzeta de Distribuição de Concreto Quad.2.400 mm.",
+    "etu": "115.3"
+   },
+   {
+    "sisup": "90448",
+    "desenho": "F-13",
+    "qtd": "06",
+    "descricao": "Gancho Olhal S/Trava Sae 1045 5000 daN.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela A",
+    "desenho": "I-5",
+    "qtd": "01",
+    "descricao": "Isolador Tipo Pilar Porcelana Vertical.",
+    "etu": "126.1"
+   },
+   {
+    "sisup": "Tabela E",
+    "desenho": "I-6",
+    "qtd": "06",
+    "descricao": "Isolador Suspensão Tipo Bastão Polimérico.",
+    "etu": "120.1"
+   },
+   {
+    "sisup": "90440",
+    "desenho": "F-22",
+    "qtd": "06",
+    "descricao": "Manilha Sapatilha 16,0mm 5.000 daN.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90442",
+    "desenho": "F-19",
+    "qtd": "04",
+    "descricao": "Mão Francesa Perfilada Aço Carbono.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela 01",
+    "desenho": "F-32",
+    "qtd": "12",
+    "descricao": "Parafuso de Rosca Total.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela H",
+    "desenho": "F-36",
+    "qtd": "01",
+    "descricao": "Pino para Isolador Tipo Cruzeta.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90387",
+    "desenho": "F-40",
+    "qtd": "06",
+    "descricao": "Porca Olhal M16 78,0 mm.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90388",
+    "desenho": "A-21",
+    "qtd": "32",
+    "descricao": "Porca Quadra Pesada Aço Carbono M16.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela B",
+    "desenho": "P-2",
+    "qtd": "01",
+    "descricao": "Poste de Concreto de Distribuição.",
+    "etu": "114.1"
+   }
+  ]
+ },
+ {
+  "page": 215,
+  "caption": "Estrutura Trifásica – Estrutura N3 - N3",
+  "titulo": null,
+  "cruzeta": "Cruzeta de Distribuição de Concreto.",
+  "materiais": [
+   {
+    "sisup": "Tabela D",
+    "desenho": "M-1",
+    "qtd": "06",
+    "descricao": "Alça Pré-Formada de Distribuição.",
+    "etu": "116.1"
+   },
+   {
+    "sisup": "90389",
+    "desenho": "A-2",
+    "qtd": "32",
+    "descricao": "Arruela Quadrada 18,0 mm x38,0 mm x 3 mm.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela G",
+    "desenho": "R-3",
+    "qtd": "04",
+    "descricao": "Cruzeta de Distribuição de Concreto.",
+    "etu": "115.3"
+   },
+   {
+    "sisup": "90448",
+    "desenho": "F-13",
+    "qtd": "06",
+    "descricao": "Gancho Olhal S/Trava Sae1045 5000 daN",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela A",
+    "desenho": "I-5",
+    "qtd": "02",
+    "descricao": "Isolador Tipo Pilar Porcelana Vertical.",
+    "etu": "126.1"
+   },
+   {
+    "sisup": "Tabela E",
+    "desenho": "I-6",
+    "qtd": "06",
+    "descricao": "Isolador Suspensão Tipo Bastão Polimérico.",
+    "etu": "120.1"
+   },
+   {
+    "sisup": "90440",
+    "desenho": "F-22",
+    "qtd": "06",
+    "descricao": "Manilha Sapatilha 16,0mm 5.000 daN.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90442",
+    "desenho": "F-19",
+    "qtd": "04",
+    "descricao": "Mão Francesa Perfilada Aço Carbono.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela 01",
+    "desenho": "F-32",
+    "qtd": "12",
+    "descricao": "Parafuso de Rosca Total.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela H",
+    "desenho": "F-36",
+    "qtd": "02",
+    "descricao": "Pino para Isolador Tipo Cruzeta.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90387",
+    "desenho": "F-40",
+    "qtd": "06",
+    "descricao": "Porca Olhal M16 78,0 mm.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90388",
+    "desenho": "A-21",
+    "qtd": "32",
+    "descricao": "Porca Quadrada Pesada Aço Carbono M16.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela B",
+    "desenho": "P-2",
+    "qtd": "01",
+    "descricao": "Poste de Distribuição de Concreto.",
+    "etu": "114.1"
+   }
+  ]
+ },
+ {
+  "page": 223,
+  "caption": "Estrutura Trifásica T2",
+  "titulo": "T2",
+  "cruzeta": "1,90 M",
+  "materiais": [
+   {
+    "sisup": "90389",
+    "desenho": "A-2",
+    "qtd": "16",
+    "descricao": "Arruela Quadrada 18,0 mm x38,0 mm x 3 mm.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90388",
+    "desenho": "A-21",
+    "qtd": "20",
+    "descricao": "Porca Quadra Pesada Aço Carbono M16.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela G",
+    "desenho": "R-3",
+    "qtd": "02",
+    "descricao": "Cruzeta Distribuição de Concreto T 1.900 mm.",
+    "etu": "115.3"
+   },
+   {
+    "sisup": "Tabela A",
+    "desenho": "I-5",
+    "qtd": "06",
+    "descricao": "Isolador Tipo Pilar Porcelana Vertical.",
+    "etu": "126.1"
+   },
+   {
+    "sisup": "Tabela 01",
+    "desenho": "F-32",
+    "qtd": "08",
+    "descricao": "Parafuso de Rosca Total.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela H",
+    "desenho": "F-36",
+    "qtd": "02",
+    "descricao": "Pino para Isolador Tipo Cruzeta.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela B",
+    "desenho": "P-2",
+    "qtd": "01",
+    "descricao": "Poste de Concreto de Distribuição.",
+    "etu": "114.1"
+   },
+   {
+    "sisup": "Tabela C",
+    "desenho": "-",
+    "qtd": "03",
+    "descricao": "Laço Pré-Formado.",
+    "etu": "116.2"
+   },
+   {
+    "sisup": "90524",
+    "desenho": "F-51",
+    "qtd": "02",
+    "descricao": "Suporte P/Isolador Pilar.",
+    "etu": "130.1"
+   }
+  ]
+ },
+ {
+  "page": 227,
+  "caption": "Estrutura Trifásica T4",
+  "titulo": "T4",
+  "cruzeta": "1,90 M",
+  "materiais": [
+   {
+    "sisup": "Tabela 03",
+    "desenho": "M-1",
+    "qtd": "06",
+    "descricao": "Alça Pré-Formada Distribuição.",
+    "etu": ""
+   },
+   {
+    "sisup": "90535",
+    "desenho": "A-2",
+    "qtd": "08",
+    "descricao": "Arruela Quadrada 14,0 mm x32,0 mm x 3 mm.",
+    "etu": ""
+   },
+   {
+    "sisup": "90389",
+    "desenho": "A-2",
+    "qtd": "14",
+    "descricao": "Arruela Quadrada 18,0 mm x38,0 mm x 3 mm.",
+    "etu": ""
+   },
+   {
+    "sisup": "Tabela G",
+    "desenho": "R-3",
+    "qtd": "02",
+    "descricao": "Cruzeta de Distribuição de Concreto.",
+    "etu": ""
+   },
+   {
+    "sisup": "90448",
+    "desenho": "F-13",
+    "qtd": "06",
+    "descricao": "Gancho Olhal S/Trava Sae1045 5000 daN.",
+    "etu": ""
+   },
+   {
+    "sisup": "Tabela A",
+    "desenho": "I-5",
+    "qtd": "01",
+    "descricao": "Isolador Tipo Pilar Porcelana Vertical.",
+    "etu": ""
+   },
+   {
+    "sisup": "Tabela E",
+    "desenho": "I-6",
+    "qtd": "06",
+    "descricao": "Isolador Suspensão Tipo Bastão Polimérico.",
+    "etu": ""
+   },
+   {
+    "sisup": "90440",
+    "desenho": "F-22",
+    "qtd": "06",
+    "descricao": "Manilha Sapatilha Sae1020 16,0mm 5000 daN.",
+    "etu": ""
+   },
+   {
+    "sisup": "Tabela 01",
+    "desenho": "F-32",
+    "qtd": "18",
+    "descricao": "Parafuso de Rosca Total.",
+    "etu": ""
+   },
+   {
+    "sisup": "Tabela H",
+    "desenho": "F-36",
+    "qtd": "01",
+    "descricao": "Pino para Isolador Tipo Cruzeta.",
+    "etu": ""
+   },
+   {
+    "sisup": "90387",
+    "desenho": "F-40",
+    "qtd": "06",
+    "descricao": "Porca Olhal M16 78,0 mm.",
+    "etu": ""
+   },
+   {
+    "sisup": "90388",
+    "desenho": "A-21",
+    "qtd": "08",
+    "descricao": "Porca Quadra Pesada Aço Carbono M16.",
+    "etu": ""
+   },
+   {
+    "sisup": "Tabela B",
+    "desenho": "P-2",
+    "qtd": "01",
+    "descricao": "Poste de Concreto de Distribuição.",
+    "etu": ""
+   },
+   {
+    "sisup": "90524",
+    "desenho": "F-51",
+    "qtd": "01",
+    "descricao": "Suporte P/Isolador Pilar.",
+    "etu": ""
+   }
+  ]
+ },
+ {
+  "page": 231,
+  "caption": "Estrutura Trifásica T2",
+  "titulo": "T2",
+  "cruzeta": "2,00 M",
+  "materiais": [
+   {
+    "sisup": "90389",
+    "desenho": "A-2",
+    "qtd": "16",
+    "descricao": "Arruela Quadrada 18,0 mm x38,0 mm x 3 mm.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90388",
+    "desenho": "A-21",
+    "qtd": "20",
+    "descricao": "Porca Quadra Pesada Aço Carbono M16.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela G",
+    "desenho": "R-3",
+    "qtd": "02",
+    "descricao": "Cruzeta Distribuição de Concreto.",
+    "etu": "115.3"
+   },
+   {
+    "sisup": "Tabela A",
+    "desenho": "I-5",
+    "qtd": "06",
+    "descricao": "Isolador Tipo Pilar Porcelana Vertical.",
+    "etu": "126.1"
+   },
+   {
+    "sisup": "90442",
+    "desenho": "F-19",
+    "qtd": "04",
+    "descricao": "Mão Francesa Perfilada Aço Carbono.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela 01",
+    "desenho": "F-32",
+    "qtd": "08",
+    "descricao": "Parafuso de Rosca Total.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela H",
+    "desenho": "F-36",
+    "qtd": "01",
+    "descricao": "Pino para Isolador Tipo Cruzeta.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela B",
+    "desenho": "P-2",
+    "qtd": "01",
+    "descricao": "Poste de Concreto de Distribuição.",
+    "etu": "114.1"
+   },
+   {
+    "sisup": "Tabela C",
+    "desenho": "-",
+    "qtd": "03",
+    "descricao": "Laço Pré-Formado.",
+    "etu": "116.2"
+   },
+   {
+    "sisup": "90524",
+    "desenho": "F-51",
+    "qtd": "02",
+    "descricao": "Suporte P/Isolador Pilar.",
+    "etu": "130.1"
+   }
+  ]
+ },
+ {
+  "page": 235,
+  "caption": "Estrutura Trifásica T4",
+  "titulo": "T4",
+  "cruzeta": "2,00 M",
+  "materiais": [
+   {
+    "sisup": "Tabela 03",
+    "desenho": "M-1",
+    "qtd": "06",
+    "descricao": "Alça Pré-Formada Distribuição.",
+    "etu": ""
+   },
+   {
+    "sisup": "90535",
+    "desenho": "A-2",
+    "qtd": "08",
+    "descricao": "Arruela Quadrada 14,0 mm x32,0 mm x 3 mm.",
+    "etu": ""
+   },
+   {
+    "sisup": "90389",
+    "desenho": "A-2",
+    "qtd": "14",
+    "descricao": "Arruela Quadrada 18,0 mm x38,0 mm x 3 mm.",
+    "etu": ""
+   },
+   {
+    "sisup": "Tabela G",
+    "desenho": "R-3",
+    "qtd": "02",
+    "descricao": "Cruzeta de Distribuição de Concreto.",
+    "etu": ""
+   },
+   {
+    "sisup": "90448",
+    "desenho": "F-13",
+    "qtd": "06",
+    "descricao": "Gancho Olhal S/Trava Sae1045 5000 daN.",
+    "etu": ""
+   },
+   {
+    "sisup": "Tabela A",
+    "desenho": "I-5",
+    "qtd": "01",
+    "descricao": "Isolador Tipo Pilar Porcelana Vertical.",
+    "etu": ""
+   },
+   {
+    "sisup": "Tabela E",
+    "desenho": "I-6",
+    "qtd": "06",
+    "descricao": "Isolador Suspensão Tipo Bastão Polimérico.",
+    "etu": ""
+   },
+   {
+    "sisup": "90440",
+    "desenho": "F-22",
+    "qtd": "06",
+    "descricao": "Manilha Sapatilha Sae1020 16,0mm 5000 daN.",
+    "etu": ""
+   },
+   {
+    "sisup": "90442",
+    "desenho": "F-19",
+    "qtd": "02",
+    "descricao": "Mão Francesa Perfilada Aço Carbono.",
+    "etu": ""
+   },
+   {
+    "sisup": "Tabela 01",
+    "desenho": "F-32",
+    "qtd": "18",
+    "descricao": "Parafuso de Rosca Total.",
+    "etu": ""
+   },
+   {
+    "sisup": "Tabela H",
+    "desenho": "F-36",
+    "qtd": "01",
+    "descricao": "Pino para Isolador Tipo Cruzeta.",
+    "etu": ""
+   },
+   {
+    "sisup": "90387",
+    "desenho": "F-40",
+    "qtd": "06",
+    "descricao": "Porca Olhal M16 78,0 mm.",
+    "etu": ""
+   },
+   {
+    "sisup": "90388",
+    "desenho": "A-21",
+    "qtd": "08",
+    "descricao": "Porca Quadra Pesada Aço Carbono M16.",
+    "etu": ""
+   },
+   {
+    "sisup": "Tabela B",
+    "desenho": "P-2",
+    "qtd": "01",
+    "descricao": "Poste de Concreto de Distribuição.",
+    "etu": ""
+   },
+   {
+    "sisup": "90524",
+    "desenho": "F-51",
+    "qtd": "01",
+    "descricao": "Suporte P/Isolador Pilar.",
+    "etu": ""
+   }
+  ]
+ },
+ {
+  "page": 239,
+  "caption": "Estrutura Trifásica T2",
+  "titulo": "T2",
+  "cruzeta": "2,40 M",
+  "materiais": [
+   {
+    "sisup": "90389",
+    "desenho": "A-2",
+    "qtd": "16",
+    "descricao": "Arruela Quadrada 18,0 mm x38,0 mm x 3 mm.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90388",
+    "desenho": "A-21",
+    "qtd": "20",
+    "descricao": "Porca Quadra Pesada Aço Carbono M16.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela G",
+    "desenho": "R-3",
+    "qtd": "02",
+    "descricao": "Cruzeta Distribuição de Concreto.",
+    "etu": "115.3"
+   },
+   {
+    "sisup": "Tabela A",
+    "desenho": "I-5",
+    "qtd": "06",
+    "descricao": "Isolador Tipo Pilar Porcelana Vertical.",
+    "etu": "126.1"
+   },
+   {
+    "sisup": "Tabela 01",
+    "desenho": "F-32",
+    "qtd": "08",
+    "descricao": "Parafuso de Rosca Total.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela H",
+    "desenho": "F-36",
+    "qtd": "06",
+    "descricao": "Pino para Isolador Tipo Cruzeta.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela B",
+    "desenho": "P-2",
+    "qtd": "01",
+    "descricao": "Poste de Concreto de Distribuição.",
+    "etu": "114.1"
+   },
+   {
+    "sisup": "Tabela C",
+    "desenho": "-",
+    "qtd": "03",
+    "descricao": "Laço Pré-Formado.",
+    "etu": "116.2"
+   },
+   {
+    "sisup": "90524",
+    "desenho": "F-51",
+    "qtd": "02",
+    "descricao": "Suporte P/Isolador Pilar.",
+    "etu": "130.1"
+   }
+  ]
+ },
+ {
+  "page": 243,
+  "caption": "Estrutura Trifásica T4",
+  "titulo": "T4",
+  "cruzeta": "CONCRETO 2,40 M",
+  "materiais": [
+   {
+    "sisup": "Tabela 03",
+    "desenho": "M-1",
+    "qtd": "06",
+    "descricao": "Alça Pré-Formada Distribuição.",
+    "etu": ""
+   },
+   {
+    "sisup": "90535",
+    "desenho": "A-2",
+    "qtd": "08",
+    "descricao": "Arruela Quadrada 14,0 mm x32,0 mm x 3 mm.",
+    "etu": ""
+   },
+   {
+    "sisup": "90389",
+    "desenho": "A-2",
+    "qtd": "14",
+    "descricao": "Arruela Quadrada 18,0 mm x38,0 mm x 3 mm.",
+    "etu": ""
+   },
+   {
+    "sisup": "Tabela G",
+    "desenho": "R-3",
+    "qtd": "02",
+    "descricao": "Cruzeta de Distribuição de Concreto.",
+    "etu": ""
+   },
+   {
+    "sisup": "90448",
+    "desenho": "F-13",
+    "qtd": "06",
+    "descricao": "Gancho Olhal S/Trava Sae1045 5000 daN.",
+    "etu": ""
+   },
+   {
+    "sisup": "Tabela A",
+    "desenho": "I-5",
+    "qtd": "01",
+    "descricao": "Isolador Tipo Pilar Porcelana Vertical.",
+    "etu": ""
+   },
+   {
+    "sisup": "Tabela E",
+    "desenho": "I-6",
+    "qtd": "06",
+    "descricao": "Isolador Suspensão Tipo Bastão Polimérico.",
+    "etu": ""
+   },
+   {
+    "sisup": "90440",
+    "desenho": "F-22",
+    "qtd": "06",
+    "descricao": "Manilha Sapatilha Sae1020 16,0mm 5000 daN.",
+    "etu": ""
+   },
+   {
+    "sisup": "Tabela 01",
+    "desenho": "F-32",
+    "qtd": "12",
+    "descricao": "Parafuso de Rosca Total.",
+    "etu": ""
+   },
+   {
+    "sisup": "Tabela H",
+    "desenho": "F-36",
+    "qtd": "01",
+    "descricao": "Pino para Isolador Tipo Cruzeta.",
+    "etu": ""
+   },
+   {
+    "sisup": "90387",
+    "desenho": "F-40",
+    "qtd": "06",
+    "descricao": "Porca Olhal M16 78,0 mm.",
+    "etu": ""
+   },
+   {
+    "sisup": "90388",
+    "desenho": "A-21",
+    "qtd": "08",
+    "descricao": "Porca Quadra Pesada Aço Carbono M16.",
+    "etu": ""
+   },
+   {
+    "sisup": "Tabela B",
+    "desenho": "P-2",
+    "qtd": "01",
+    "descricao": "Poste de Concreto de Distribuição.",
+    "etu": ""
+   },
+   {
+    "sisup": "90524",
+    "desenho": "F-51",
+    "qtd": "01",
+    "descricao": "Suporte P/Isolador Pilar.",
+    "etu": ""
+   }
+  ]
+ },
+ {
+  "page": 248,
+  "caption": "Estrutura Trifásica T2",
+  "titulo": "T2",
+  "cruzeta": "POLÍMERO 2,40 M",
+  "materiais": [
+   {
+    "sisup": "90389",
+    "desenho": "A-2",
+    "qtd": "16",
+    "descricao": "Arruela Quadrada 18,0 mm x38,0 mm x 3 mm.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90388",
+    "desenho": "A-21",
+    "qtd": "20",
+    "descricao": "Porca Quadra Pesada Aço Carbono M16.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela G",
+    "desenho": "R-3",
+    "qtd": "02",
+    "descricao": "Cruzeta Distribuição de Concreto.",
+    "etu": "115.3"
+   },
+   {
+    "sisup": "Tabela A",
+    "desenho": "I-5",
+    "qtd": "06",
+    "descricao": "Isolador Tipo Pilar Porcelana Vertical.",
+    "etu": "126.1"
+   },
+   {
+    "sisup": "90442",
+    "desenho": "F-19",
+    "qtd": "04",
+    "descricao": "Mão Francesa Perfilada Aço Carbono.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela 01",
+    "desenho": "F-32",
+    "qtd": "08",
+    "descricao": "Parafuso de Rosca Total.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela H",
+    "desenho": "F-36",
+    "qtd": "01",
+    "descricao": "Pino para Isolador Tipo Cruzeta.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela B",
+    "desenho": "P-2",
+    "qtd": "01",
+    "descricao": "Poste de Concreto de Distribuição.",
+    "etu": "114.1"
+   },
+   {
+    "sisup": "Tabela C",
+    "desenho": "-",
+    "qtd": "03",
+    "descricao": "Laço Pré-Formado.",
+    "etu": "116.2"
+   },
+   {
+    "sisup": "90524",
+    "desenho": "F-51",
+    "qtd": "02",
+    "descricao": "Suporte P/Isolador Pilar.",
+    "etu": "130.1"
+   }
+  ]
+ },
+ {
+  "page": 252,
+  "caption": "Estrutura Trifásica T4",
+  "titulo": "T4",
+  "cruzeta": "POLÍMERO 2,40 M",
+  "materiais": [
+   {
+    "sisup": "Tabela 03",
+    "desenho": "M-1",
+    "qtd": "06",
+    "descricao": "Alça Pré-Formada Distribuição.",
+    "etu": ""
+   },
+   {
+    "sisup": "90535",
+    "desenho": "A-2",
+    "qtd": "08",
+    "descricao": "Arruela Quadrada 14,0 mm x32,0 mm x 3 mm.",
+    "etu": ""
+   },
+   {
+    "sisup": "90389",
+    "desenho": "A-2",
+    "qtd": "14",
+    "descricao": "Arruela Quadrada 18,0 mm x38,0 mm x 3 mm.",
+    "etu": ""
+   },
+   {
+    "sisup": "Tabela G",
+    "desenho": "R-3",
+    "qtd": "02",
+    "descricao": "Cruzeta de Distribuição de Concreto.",
+    "etu": ""
+   },
+   {
+    "sisup": "90448",
+    "desenho": "F-13",
+    "qtd": "06",
+    "descricao": "Gancho Olhal S/Trava Sae1045 5000 daN.",
+    "etu": ""
+   },
+   {
+    "sisup": "Tabela A",
+    "desenho": "I-5",
+    "qtd": "01",
+    "descricao": "Isolador Tipo Pilar Porcelana Vertical.",
+    "etu": ""
+   },
+   {
+    "sisup": "Tabela E",
+    "desenho": "I-6",
+    "qtd": "06",
+    "descricao": "Isolador Suspensão Tipo Bastão Polimérico.",
+    "etu": ""
+   },
+   {
+    "sisup": "90440",
+    "desenho": "F-22",
+    "qtd": "06",
+    "descricao": "Manilha Sapatilha Sae1020 16,0mm 5000 daN.",
+    "etu": ""
+   },
+   {
+    "sisup": "90442",
+    "desenho": "F-19",
+    "qtd": "04",
+    "descricao": "Mão Francesa Perfilada Aço Carbono.",
+    "etu": ""
+   },
+   {
+    "sisup": "Tabela 01",
+    "desenho": "F-32",
+    "qtd": "12",
+    "descricao": "Parafuso de Rosca Total.",
+    "etu": ""
+   },
+   {
+    "sisup": "Tabela H",
+    "desenho": "F-36",
+    "qtd": "01",
+    "descricao": "Pino para Isolador Tipo Cruzeta.",
+    "etu": ""
+   },
+   {
+    "sisup": "90387",
+    "desenho": "F-40",
+    "qtd": "06",
+    "descricao": "Porca Olhal M16 78,0 mm.",
+    "etu": ""
+   },
+   {
+    "sisup": "90388",
+    "desenho": "A-21",
+    "qtd": "08",
+    "descricao": "Porca Quadra Pesada Aço Carbono M16.",
+    "etu": ""
+   },
+   {
+    "sisup": "Tabela B",
+    "desenho": "P-2",
+    "qtd": "01",
+    "descricao": "Poste de Concreto de Distribuição.",
+    "etu": ""
+   },
+   {
+    "sisup": "90524",
+    "desenho": "F-51",
+    "qtd": "01",
+    "descricao": "Suporte P/Isolador Pilar.",
+    "etu": ""
+   }
+  ]
+ },
+ {
+  "page": 259,
+  "caption": "Estrutura TE",
+  "titulo": "TE",
+  "cruzeta": "2,40 M",
+  "materiais": [
+   {
+    "sisup": "Tabela D",
+    "desenho": "M-1",
+    "qtd": "06",
+    "descricao": "Alça pré-formada de Distribuição.",
+    "etu": "116.1"
+   },
+   {
+    "sisup": "90535",
+    "desenho": "A-2",
+    "qtd": "14",
+    "descricao": "Arruela quadrada 38x38x3mm Ø 18 mm.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela I",
+    "desenho": "-",
+    "qtd": "01",
+    "descricao": "Parafuso Rosca Total Ø 16x250 mm.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela G",
+    "desenho": "R-3",
+    "qtd": "02",
+    "descricao": "Cruzeta de Distribuição de Concreto.",
+    "etu": "115.3"
+   },
+   {
+    "sisup": "90448",
+    "desenho": "F-13",
+    "qtd": "06",
+    "descricao": "Gancho olhal para 5.000 daN.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela E",
+    "desenho": "I-6",
+    "qtd": "06",
+    "descricao": "Isolador Suspensão Tipo Bastão Polimérico.",
+    "etu": "120.1"
+   },
+   {
+    "sisup": "Tabela F",
+    "desenho": "-",
+    "qtd": "03",
+    "descricao": "Conector Tipo Cunha.",
+    "etu": "153.2"
+   },
+   {
+    "sisup": "Tabela C",
+    "desenho": "-",
+    "qtd": "01",
+    "descricao": "Laço pré-formado de topo.",
+    "etu": "116.2"
+   },
+   {
+    "sisup": "Tabela I",
+    "desenho": "-",
+    "qtd": "01",
+    "descricao": "Parafuso Rosca Total Ø 16x200 mm.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela I",
+    "desenho": "",
+    "qtd": "02",
+    "descricao": "Parafuso Rosca Total Ø 16x400 mm.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela I",
+    "desenho": "-",
+    "qtd": "02",
+    "descricao": "Parafuso Rosca Total Ø 16x400 mm.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela A",
+    "desenho": "I-5",
+    "qtd": "01",
+    "descricao": "Isolador Tipo Pilar Porcelana Vertical.",
+    "etu": "126.1"
+   },
+   {
+    "sisup": "90440",
+    "desenho": "F-22",
+    "qtd": "06",
+    "descricao": "Manilha sapatilha para alça pré-formada.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90388",
+    "desenho": "A-21",
+    "qtd": "04",
+    "descricao": "Porca quadrada rosca M16x2.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90524",
+    "desenho": "F-51",
+    "qtd": "01",
+    "descricao": "Suporte de Topo para Isolador Pilar.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela J",
+    "desenho": "-",
+    "qtd": "01",
+    "descricao": "Pino Pilar Autotravante M16.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90387",
+    "desenho": "F-40",
+    "qtd": "03",
+    "descricao": "Porca olhal rosca M16.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela B",
+    "desenho": "P-2",
+    "qtd": "01",
+    "descricao": "Poste de Concreto de Distribuição",
+    "etu": "114.1"
+   }
+  ]
+ },
+ {
+  "page": 262,
+  "caption": "Estrutura HTE",
+  "titulo": null,
+  "cruzeta": null,
+  "materiais": [
+   {
+    "sisup": "Tabela D",
+    "desenho": "M-1",
+    "qtd": "06",
+    "descricao": "Alça Pré-Formada de Distribuição.",
+    "etu": ""
+   },
+   {
+    "sisup": "90302",
+    "desenho": "M-1",
+    "qtd": "04",
+    "descricao": "Alca Pré-formada Cabo Aço Contra Poste 9,50mm.",
+    "etu": ""
+   },
+   {
+    "sisup": "90389",
+    "desenho": "A-2",
+    "qtd": "18",
+    "descricao": "Arruela Quadrada 18,0 mm x38,0 mm x 3 mm.",
+    "etu": ""
+   },
+   {
+    "sisup": "91714",
+    "desenho": "-",
+    "qtd": "3KG",
+    "descricao": "Cordoalha Aço SM 9,5mm.",
+    "etu": ""
+   },
+   {
+    "sisup": "90448",
+    "desenho": "F-13",
+    "qtd": "10",
+    "descricao": "Gancho Olhal S/Trava Sae1045 5000 daN.",
+    "etu": ""
+   },
+   {
+    "sisup": "Tabela A",
+    "desenho": "I-5",
+    "qtd": "03",
+    "descricao": "Isolador Tipo Pilar Porcelana Vertical.",
+    "etu": ""
+   },
+   {
+    "sisup": "Tabela E",
+    "desenho": "I-6",
+    "qtd": "06",
+    "descricao": "Isolador Suspensão Tipo Bastão Polimérico.",
+    "etu": ""
+   },
+   {
+    "sisup": "90440",
+    "desenho": "F-22",
+    "qtd": "06",
+    "descricao": "Manilha Sapatilha Sae1020 16,0mm 5000 daN.",
+    "etu": ""
+   },
+   {
+    "sisup": "Tabela 01",
+    "desenho": "F-32",
+    "qtd": "09",
+    "descricao": "Parafuso de Rosca Total.",
+    "etu": ""
+   },
+   {
+    "sisup": "90252",
+    "desenho": "F-35",
+    "qtd": "03",
+    "descricao": "Pino Isolador Aço Carbono 16,0 mm Autotravante.",
+    "etu": ""
+   },
+   {
+    "sisup": "90387",
+    "desenho": "F-40",
+    "qtd": "10",
+    "descricao": "Porca Olhal M16.",
+    "etu": ""
+   },
+   {
+    "sisup": "90388",
+    "desenho": "A-21",
+    "qtd": "03",
+    "descricao": "Porca Quadra Pesada Aço Carbono M16.",
+    "etu": ""
+   },
+   {
+    "sisup": "Tabela B",
+    "desenho": "P-2",
+    "qtd": "03",
+    "descricao": "Poste de Concreto de Distribuição.",
+    "etu": ""
+   },
+   {
+    "sisup": "90409",
+    "desenho": "A-25",
+    "qtd": "04",
+    "descricao": "Sapatilha 3/8.",
+    "etu": ""
+   },
+   {
+    "sisup": "90524",
+    "desenho": "F-51",
+    "qtd": "03",
+    "descricao": "Suporte P/Isolador Pilar.",
+    "etu": ""
+   }
+  ]
+ },
+ {
+  "page": 265,
+  "caption": "Estrutura HTTE",
+  "titulo": null,
+  "cruzeta": "Cruzeta de Eucalipto 5 metros.",
+  "materiais": [
+   {
+    "sisup": "90302",
+    "desenho": "",
+    "qtd": "16",
+    "descricao": "Alça Performada Cordoalha 9,50 mm.",
+    "etu": "116.1"
+   },
+   {
+    "sisup": "90389",
+    "desenho": "A-2",
+    "qtd": "31",
+    "descricao": "Alça Performada Cordoalha 9,50 mm.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "91716",
+    "desenho": "",
+    "qtd": "5,5",
+    "descricao": "Cordoalha de Aço Carbono 9,5 mm",
+    "etu": "119.1"
+   },
+   {
+    "sisup": "90448",
+    "desenho": "-",
+    "qtd": "28",
+    "descricao": "Gancho olhal para 5.000 daN.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90278",
+    "desenho": "I-6",
+    "qtd": "28",
+    "descricao": "Isolador Suspensão Tipo Bastão Polimérico.",
+    "etu": "120.1"
+   },
+   {
+    "sisup": "90254",
+    "desenho": "I-5",
+    "qtd": "13",
+    "descricao": "Isolador Tipo Pilar Porcelana Vertical.",
+    "etu": "126.1"
+   },
+   {
+    "sisup": "90440",
+    "desenho": "-",
+    "qtd": "28",
+    "descricao": "Manilha sapatilha para alça pré-formada.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90372",
+    "desenho": "F-32",
+    "qtd": "02",
+    "descricao": "Parafuso de Distribuição Cabeça Abaulada M16 x 45 mm",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90373",
+    "desenho": "F-32",
+    "qtd": "06",
+    "descricao": "Parafuso de Distribuição Cabeça Abaulada M16 x 70 mm.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90248",
+    "desenho": "-",
+    "qtd": "03",
+    "descricao": "Pino Isolador Topo 419 mm.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90387",
+    "desenho": "-",
+    "qtd": "03",
+    "descricao": "Porca olhal rosca M16.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90409",
+    "desenho": "-",
+    "qtd": "18",
+    "descricao": "Sapatilha de Distribuição.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "691622",
+    "desenho": "F-40",
+    "qtd": "02",
+    "descricao": "Cruzeta de Eucalipto 5 metros.",
+    "etu": "115.5"
+   },
+   {
+    "sisup": "90252",
+    "desenho": "F-36",
+    "qtd": "13",
+    "descricao": "Pino Isolador Aço Carbono 16,0 mm Autotravante.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90524",
+    "desenho": "F-51",
+    "qtd": "01",
+    "descricao": "Suporte P/Isolador Pilar.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "690903",
+    "desenho": "P-1",
+    "qtd": "05",
+    "descricao": "Poste de Eucalipto 12 metros.",
+    "etu": "114.4"
+   }
+  ]
+ },
+ {
+  "page": 270,
+  "caption": "Estrutura de Neutro Contínuo S0",
+  "titulo": null,
+  "cruzeta": null,
+  "materiais": [
+   {
+    "sisup": "Tabela D",
+    "desenho": "M-1",
+    "qtd": "02",
+    "descricao": "Alça Pré-Formada de Distribuição.",
+    "etu": "116.1"
+   },
+   {
+    "sisup": "90389",
+    "desenho": "A-2",
+    "qtd": "02",
+    "descricao": "Arruela Quadrada 18,0 mm x 38,0 mm x 3 mm.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela I",
+    "desenho": "F-32",
+    "qtd": "01",
+    "descricao": "Parafuso Rosca Total.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90387",
+    "desenho": "F-40",
+    "qtd": "01",
+    "descricao": "Porca Olhal M16.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90388",
+    "desenho": "A-21",
+    "qtd": "01",
+    "descricao": "Porca Quadra Pesada Aço Carbono M16.",
+    "etu": "130.1"
+   }
+  ]
+ },
+ {
+  "page": 272,
+  "caption": "Estrutura S0T",
+  "titulo": null,
+  "cruzeta": null,
+  "materiais": [
+   {
+    "sisup": "Tabela 01",
+    "desenho": "M-1",
+    "qtd": "01",
+    "descricao": "Alça Pré-Formada Distribuição.",
+    "etu": ""
+   },
+   {
+    "sisup": "90389",
+    "desenho": "A-2",
+    "qtd": "02",
+    "descricao": "Arruela Quadrada 18,0 mm x38,0 mm x 3 mm.",
+    "etu": ""
+   },
+   {
+    "sisup": "Tabela I",
+    "desenho": "F-32",
+    "qtd": "01",
+    "descricao": "Parafuso Rosca Total.",
+    "etu": ""
+   },
+   {
+    "sisup": "90387",
+    "desenho": "F-40",
+    "qtd": "01",
+    "descricao": "Porca Olhal M16 78,0 mm.",
+    "etu": ""
+   },
+   {
+    "sisup": "90388",
+    "desenho": "A-21",
+    "qtd": "01",
+    "descricao": "Porca Quadra Pesada Aço Carbono M16.",
+    "etu": ""
+   }
+  ]
+ },
+ {
+  "page": 274,
+  "caption": "Estrutura de Neutro Contínuo  S1",
+  "titulo": null,
+  "cruzeta": null,
+  "materiais": [
+   {
+    "sisup": "Tabela C",
+    "desenho": "M-13",
+    "qtd": "01",
+    "descricao": "Laço Pré-Formado de Roldana.",
+    "etu": "116.2"
+   },
+   {
+    "sisup": "90389",
+    "desenho": "A-2",
+    "qtd": "02",
+    "descricao": "Arruela Quadrada 18,0 mm x38,0 mm x 3 mm.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela I",
+    "desenho": "F-32",
+    "qtd": "01",
+    "descricao": "Parafuso Rosca Total.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90393",
+    "desenho": "F-3",
+    "qtd": "01",
+    "descricao": "Armação Secundária.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90295",
+    "desenho": "I-3",
+    "qtd": "01",
+    "descricao": "Isolador Roldana Porcelana Marrom.",
+    "etu": "154.1"
+   },
+   {
+    "sisup": "90388",
+    "desenho": "A-21",
+    "qtd": "02",
+    "descricao": "Porca Quadra Pesada Aço Carbono M16.",
+    "etu": "130.1"
+   }
+  ]
+ },
+ {
+  "page": 276,
+  "caption": "Instalação de Para-Raios Estrutura Monofásico",
+  "titulo": null,
+  "cruzeta": "cruzeta.",
+  "materiais": [
+   {
+    "sisup": "Tabela 01",
+    "desenho": "F-32",
+    "qtd": "02",
+    "descricao": "Parafuso de Rosca Total.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela P",
+    "desenho": "E-29",
+    "qtd": "01",
+    "descricao": "Para-Raios de Distribuição.",
+    "etu": "128.1"
+   },
+   {
+    "sisup": "90654",
+    "desenho": "F-64",
+    "qtd": "01",
+    "descricao": "Suporte Tipo T.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela N",
+    "desenho": "-",
+    "qtd": "01",
+    "descricao": "Elo Fusível de Distribuição.",
+    "etu": "122.1"
+   },
+   {
+    "sisup": "92172",
+    "desenho": "O-7",
+    "qtd": "01",
+    "descricao": "Conector Grampo de Linha-Viva com Estribo",
+    "etu": "140.2"
+   }
+  ]
+ },
+ {
+  "page": 278,
+  "caption": "Instalação de Para-Raios Estrutura Trifásico",
+  "titulo": null,
+  "cruzeta": "Cruzeta de Distribuição de Concreto.",
+  "materiais": [
+   {
+    "sisup": "92172",
+    "desenho": "A-2",
+    "qtd": "04",
+    "descricao": "Arruela quadrada 38x38x3mm.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "92172",
+    "desenho": "-",
+    "qtd": "Variável",
+    "descricao": "Cabo de Aço Cobreado 25 mm².",
+    "etu": "125.1"
+   },
+   {
+    "sisup": "Tabela P",
+    "desenho": "E-29",
+    "qtd": "03",
+    "descricao": "Para-Raios de Distribuição.",
+    "etu": "128.1"
+   },
+   {
+    "sisup": "92172",
+    "desenho": "O-7",
+    "qtd": "03",
+    "descricao": "Conector Grampo de Linha-Viva com Estribo",
+    "etu": "140.2"
+   },
+   {
+    "sisup": "Tabela G",
+    "desenho": "R-3",
+    "qtd": "01",
+    "descricao": "Cruzeta de Distribuição de Concreto.",
+    "etu": "115.3"
+   },
+   {
+    "sisup": "Tabela I",
+    "desenho": "F-32",
+    "qtd": "02",
+    "descricao": "Parafuso Rosca Total.",
+    "etu": "130.1"
+   }
+  ]
+ },
+ {
+  "page": 280,
+  "caption": "Instalação de Para-Raios Estrutura Trifásico",
+  "titulo": null,
+  "cruzeta": "Cruzeta de Distribuição de Concreto.",
+  "materiais": [
+   {
+    "sisup": "92172",
+    "desenho": "A-2",
+    "qtd": "04",
+    "descricao": "Arruela quadrada 38x38x3mm.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "92172",
+    "desenho": "-",
+    "qtd": "Variável",
+    "descricao": "Cabo de Aço Cobreado 25 mm².",
+    "etu": "125.1"
+   },
+   {
+    "sisup": "Tabela P",
+    "desenho": "E-29",
+    "qtd": "03",
+    "descricao": "Para-Raios de Distribuição.",
+    "etu": "128.1"
+   },
+   {
+    "sisup": "92172",
+    "desenho": "O-7",
+    "qtd": "03",
+    "descricao": "Conector Grampo de Linha-Viva com Estribo",
+    "etu": "140.2"
+   },
+   {
+    "sisup": "Tabela G",
+    "desenho": "R-3",
+    "qtd": "01",
+    "descricao": "Cruzeta de Distribuição de Concreto.",
+    "etu": "115.3"
+   },
+   {
+    "sisup": "Tabela I",
+    "desenho": "F-32",
+    "qtd": "02",
+    "descricao": "Parafuso Rosca Total.",
+    "etu": "130.1"
+   }
+  ]
+ },
+ {
+  "page": 283,
+  "caption": "Instalação de Estrutura Chave Fusível",
+  "titulo": null,
+  "cruzeta": "cruzetas de comprimentos 1.900, 2.000 ou 2.400 mm, na composição da Estrutura.",
+  "materiais": [
+   {
+    "sisup": "Tabela 01",
+    "desenho": "F-32",
+    "qtd": "02",
+    "descricao": "Parafuso de Rosca Total.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela M",
+    "desenho": "E-9",
+    "qtd": "01",
+    "descricao": "Chave Fusível de Distribuição.",
+    "etu": "122.1"
+   },
+   {
+    "sisup": "90654",
+    "desenho": "F-64",
+    "qtd": "01",
+    "descricao": "Suporte Tipo T.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela N",
+    "desenho": "-",
+    "qtd": "01",
+    "descricao": "Elo Fusível de Distribuição.",
+    "etu": "127"
+   },
+   {
+    "sisup": "92172",
+    "desenho": "O-7",
+    "qtd": "01",
+    "descricao": "Conector Grampo de Linha-Viva com Estribo",
+    "etu": "140.2"
+   }
+  ]
+ },
+ {
+  "page": 285,
+  "caption": "Instalação de Chaves Fusíveis em Estrutura",
+  "titulo": null,
+  "cruzeta": "Cruzetas de Distribuição de Concreto.",
+  "materiais": [
+   {
+    "sisup": "90389",
+    "desenho": "A-2",
+    "qtd": "04",
+    "descricao": "Arruela Quadrada 18,0 mm x38,0 mm x 3 mm.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela M",
+    "desenho": "E-9",
+    "qtd": "03",
+    "descricao": "Chave Fusível de Distribuição.",
+    "etu": "122.1"
+   },
+   {
+    "sisup": "92172",
+    "desenho": "O-7",
+    "qtd": "03",
+    "descricao": "Conector Grampo de Linha-Viva com Estribo.",
+    "etu": "140.2"
+   },
+   {
+    "sisup": "Tabela G",
+    "desenho": "R-3",
+    "qtd": "01",
+    "descricao": "Cruzetas de Distribuição de Concreto.",
+    "etu": "115.3"
+   },
+   {
+    "sisup": "Tabela I",
+    "desenho": "F-32",
+    "qtd": "01",
+    "descricao": "Parafuso Rosca Total Ø 16x400 mm.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela N",
+    "desenho": "-",
+    "qtd": "03",
+    "descricao": "Elo Fusível de Distribuição.",
+    "etu": "127"
+   },
+   {
+    "sisup": "Tabela H",
+    "desenho": "F-36",
+    "qtd": "3",
+    "descricao": "Pino para Isolador Tipo Cruzeta.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela A",
+    "desenho": "I-5",
+    "qtd": "3",
+    "descricao": "Isolador Tipo Pilar Porcelana Vertical.",
+    "etu": "126.1"
+   }
+  ]
+ },
+ {
+  "page": 287,
+  "caption": "Instalação de Estrutura Chave Fusível",
+  "titulo": null,
+  "cruzeta": "Cruzetas de Distribuição de Concreto.",
+  "materiais": [
+   {
+    "sisup": "Tabela 01",
+    "desenho": "F-32",
+    "qtd": "02",
+    "descricao": "Parafuso de Rosca Total.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela M",
+    "desenho": "E-9",
+    "qtd": "01",
+    "descricao": "Chave Fusível de Distribuição.",
+    "etu": "122.1"
+   },
+   {
+    "sisup": "90521",
+    "desenho": "F-64",
+    "qtd": "01",
+    "descricao": "Suporte Tipo L.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela N",
+    "desenho": "-",
+    "qtd": "01",
+    "descricao": "Elo Fusível de Distribuição.",
+    "etu": "127"
+   },
+   {
+    "sisup": "92172",
+    "desenho": "O-7",
+    "qtd": "01",
+    "descricao": "Conector Grampo de Linha-Viva com Estribo",
+    "etu": "140.2"
+   }
+  ]
+ },
+ {
+  "page": 290,
+  "caption": null,
+  "titulo": null,
+  "cruzeta": "Cruzeta de Concreto ou PRFV.",
+  "materiais": [
+   {
+    "sisup": "Tabela B",
+    "desenho": "",
+    "qtd": "01",
+    "descricao": "Poste de Concreto Duplo T/Seção Circular.",
+    "etu": "114.1"
+   },
+   {
+    "sisup": "Tabela G",
+    "desenho": "",
+    "qtd": "01",
+    "descricao": "Cruzeta de Concreto ou PRFV.",
+    "etu": "115.3"
+   },
+   {
+    "sisup": "90444",
+    "desenho": "",
+    "qtd": "02",
+    "descricao": "Mão Francesa Plana.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90446",
+    "desenho": "",
+    "qtd": "02",
+    "descricao": "Olhal para parafuso.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela E",
+    "desenho": "",
+    "qtd": "02",
+    "descricao": "Isolador Suspensão tipo Bastão.",
+    "etu": "120.1"
+   },
+   {
+    "sisup": "90448",
+    "desenho": "",
+    "qtd": "02",
+    "descricao": "Gancho olhal.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela I",
+    "desenho": "",
+    "qtd": "02",
+    "descricao": "Parafuso de Rosca Total.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela R",
+    "desenho": "",
+    "qtd": "01",
+    "descricao": "Chave Fusível Religadora.",
+    "etu": "122.4"
+   },
+   {
+    "sisup": "Tabela N",
+    "desenho": "",
+    "qtd": "01",
+    "descricao": "Elo Fusível Tipo K I Adequada. n",
+    "etu": "127"
+   },
+   {
+    "sisup": "90389",
+    "desenho": "",
+    "qtd": "05",
+    "descricao": "Arruela Quadrada 38 x 38 x 3 mm.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela D",
+    "desenho": "",
+    "qtd": "01",
+    "descricao": "Alça Pré-Formada de Distribuição",
+    "etu": "116.1"
+   },
+   {
+    "sisup": "Tabela A",
+    "desenho": "",
+    "qtd": "01",
+    "descricao": "Isolador Porcelana Tipo Pilar.",
+    "etu": "126.1"
+   },
+   {
+    "sisup": "Tabela H",
+    "desenho": "",
+    "qtd": "01",
+    "descricao": "Pino para Isolador Pilar.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela VII",
+    "desenho": "",
+    "qtd": "01",
+    "descricao": "Sistema de Aterramento.",
+    "etu": "NDU-034"
+   }
+  ]
+ },
+ {
+  "page": 297,
+  "caption": null,
+  "titulo": null,
+  "cruzeta": "Cruzeta de Concreto ou PRFV.",
+  "materiais": [
+   {
+    "sisup": "Tabela B",
+    "desenho": "",
+    "qtd": "P-1/P-2",
+    "descricao": "",
+    "etu": "01"
+   },
+   {
+    "sisup": "Tabela G",
+    "desenho": "",
+    "qtd": "R-1/R-2",
+    "descricao": "",
+    "etu": "04"
+   },
+   {
+    "sisup": "",
+    "desenho": "90444",
+    "qtd": "",
+    "descricao": "F-20",
+    "etu": "08"
+   },
+   {
+    "sisup": "90446",
+    "desenho": "",
+    "qtd": "-",
+    "descricao": "",
+    "etu": "06"
+   },
+   {
+    "sisup": "Tabela E",
+    "desenho": "",
+    "qtd": "I-6",
+    "descricao": "",
+    "etu": "06"
+   },
+   {
+    "sisup": "90448",
+    "desenho": "",
+    "qtd": "-",
+    "descricao": "",
+    "etu": "06"
+   },
+   {
+    "sisup": "Tabela I",
+    "desenho": "",
+    "qtd": "F-32",
+    "descricao": "",
+    "etu": "07"
+   },
+   {
+    "sisup": "Tabela R",
+    "desenho": "",
+    "qtd": "E-68",
+    "descricao": "",
+    "etu": "03"
+   },
+   {
+    "sisup": "Tabela N",
+    "desenho": "",
+    "qtd": "-",
+    "descricao": "",
+    "etu": "06"
+   },
+   {
+    "sisup": "90389",
+    "desenho": "",
+    "qtd": "-",
+    "descricao": "",
+    "etu": "21"
+   },
+   {
+    "sisup": "Tabela A",
+    "desenho": "",
+    "qtd": "I-5",
+    "descricao": "",
+    "etu": "03"
+   },
+   {
+    "sisup": "90893",
+    "desenho": "",
+    "qtd": "-",
+    "descricao": "",
+    "etu": "04"
+   },
+   {
+    "sisup": "Tabela VII",
+    "desenho": "",
+    "qtd": "-",
+    "descricao": "",
+    "etu": "01"
+   },
+   {
+    "sisup": "Tabela V",
+    "desenho": "",
+    "qtd": "-",
+    "descricao": "",
+    "etu": "06"
+   },
+   {
+    "sisup": "Tabela D",
+    "desenho": "",
+    "qtd": "-",
+    "descricao": "",
+    "etu": "03"
+   }
+  ]
+ },
+ {
+  "page": 305,
+  "caption": "Estrutura U4 - CFA – Cruzetas",
+  "titulo": null,
+  "cruzeta": "Cruzetas.",
+  "materiais": [
+   {
+    "sisup": "Tabela D",
+    "desenho": "M-1",
+    "qtd": "02",
+    "descricao": "Alça Pré-formada de Distribuição.",
+    "etu": "116.1"
+   },
+   {
+    "sisup": "90389",
+    "desenho": "A-2",
+    "qtd": "02",
+    "descricao": "Arruela quadrada 38x38x3mm.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela L",
+    "desenho": "E-11",
+    "qtd": "01",
+    "descricao": "Chave Seccionadora Tipo Faca Unipolar.",
+    "etu": "121.1"
+   },
+   {
+    "sisup": "90448",
+    "desenho": "F-13",
+    "qtd": "02",
+    "descricao": "Gancho Olhal para 5.000 daN.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela E",
+    "desenho": "I-6",
+    "qtd": "02",
+    "descricao": "Isolador Suspensão Tipo Bastão Polimérico.",
+    "etu": "120.1"
+   },
+   {
+    "sisup": "90440",
+    "desenho": "F-22",
+    "qtd": "02",
+    "descricao": "Manilha sapatilha para alça pré-formada.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela I",
+    "desenho": "F-32",
+    "qtd": "02",
+    "descricao": "Parafuso Rosca Total Ø 16x200 mm.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela I",
+    "desenho": "F-32",
+    "qtd": "01",
+    "descricao": "Parafuso Rosca Total ø 16x250 mm.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90387",
+    "desenho": "F-40",
+    "qtd": "01",
+    "descricao": "Porca olhal rosca M16.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela B",
+    "desenho": "P-0",
+    "qtd": "01",
+    "descricao": "Poste de Concreto de Distribuição.",
+    "etu": "114.1"
+   },
+   {
+    "sisup": "Tabela G",
+    "desenho": "R-3",
+    "qtd": "02",
+    "descricao": "Cruzetas de Distribuição de Concreto",
+    "etu": "115.3"
+   }
+  ]
+ },
+ {
+  "page": 307,
+  "caption": "Chaves Seccionadora Unipolar em Estrutura",
+  "titulo": null,
+  "cruzeta": "Cruzetas de Distribuição de Concreto",
+  "materiais": [
+   {
+    "sisup": "Tabela D",
+    "desenho": "M-1",
+    "qtd": "06",
+    "descricao": "Alça Pré-formada de Distribuição.",
+    "etu": "116.1"
+   },
+   {
+    "sisup": "90389",
+    "desenho": "A-2",
+    "qtd": "12",
+    "descricao": "Arruela quadrada 38x38x3mm.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela G",
+    "desenho": "R-3",
+    "qtd": "02",
+    "descricao": "Cruzetas de Distribuição de Concreto",
+    "etu": "115.3"
+   },
+   {
+    "sisup": "Tabela L",
+    "desenho": "E-11",
+    "qtd": "03",
+    "descricao": "Chave Seccionadora Tipo Faca Unipolar.",
+    "etu": "121.1"
+   },
+   {
+    "sisup": "90448",
+    "desenho": "F-13",
+    "qtd": "06",
+    "descricao": "Gancho olhal para 5.000 daN.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela E",
+    "desenho": "I-6",
+    "qtd": "06",
+    "descricao": "Isolador Suspensão Tipo Bastão Polimérico.",
+    "etu": "120.1"
+   },
+   {
+    "sisup": "90440",
+    "desenho": "F-22",
+    "qtd": "06",
+    "descricao": "Manilha sapatilha para alça pré-formada",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela I",
+    "desenho": "F-32",
+    "qtd": "01",
+    "descricao": "Parafuso Rosca Total Ø 16x400 mm",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela I",
+    "desenho": "F-32",
+    "qtd": "03",
+    "descricao": "Parafuso Rosca Total ø 16x400 mm",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90387",
+    "desenho": "F-40",
+    "qtd": "03",
+    "descricao": "Porca olhal rosca M16.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela B",
+    "desenho": "P-0",
+    "qtd": "01",
+    "descricao": "Poste de Concreto de Distribuição.",
+    "etu": "115.3"
+   }
+  ]
+ },
+ {
+  "page": 311,
+  "caption": "Estrutura U4 - CFA – Suporte TL",
+  "titulo": null,
+  "cruzeta": null,
+  "materiais": [
+   {
+    "sisup": "Tabela D",
+    "desenho": "M-1",
+    "qtd": "02",
+    "descricao": "Alça Pré-formada de Distribuição.",
+    "etu": "116.1"
+   },
+   {
+    "sisup": "90389",
+    "desenho": "A-2",
+    "qtd": "02",
+    "descricao": "Arruela quadrada 38x38x3mm.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela L",
+    "desenho": "E-11",
+    "qtd": "01",
+    "descricao": "Chave Seccionadora Tipo Faca Unipolar.",
+    "etu": "121.1"
+   },
+   {
+    "sisup": "90448",
+    "desenho": "F-13",
+    "qtd": "02",
+    "descricao": "Gancho Olhal para 5.000 daN.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela E",
+    "desenho": "I-6",
+    "qtd": "02",
+    "descricao": "Isolador Suspensão Tipo Bastão Polimérico.",
+    "etu": "120.1"
+   },
+   {
+    "sisup": "90440",
+    "desenho": "F-22",
+    "qtd": "02",
+    "descricao": "Manilha sapatilha para alça pré-formada.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela I",
+    "desenho": "F-32",
+    "qtd": "02",
+    "descricao": "Parafuso Rosca Total Ø 16x200 mm.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela I",
+    "desenho": "F-32",
+    "qtd": "01",
+    "descricao": "Parafuso Rosca Total Ø 16x250 mm.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90387",
+    "desenho": "F-40",
+    "qtd": "01",
+    "descricao": "Porca olhal rosca M16.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela B",
+    "desenho": "P-0",
+    "qtd": "01",
+    "descricao": "Poste de Concreto de Distribuição.",
+    "etu": "114.1"
+   },
+   {
+    "sisup": "90655",
+    "desenho": "F-65",
+    "qtd": "01",
+    "descricao": "Suporte “TL”.",
+    "etu": "130.1"
+   }
+  ]
+ },
+ {
+  "page": 315,
+  "caption": "Instalação de Transformadores Monofásico (Final de Rede",
+  "titulo": null,
+  "cruzeta": null,
+  "materiais": [
+   {
+    "sisup": "90389",
+    "desenho": "A-2",
+    "qtd": "05",
+    "descricao": "Arruela quadrada 38x38x3mm .",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "92172",
+    "desenho": "O-7",
+    "qtd": "03",
+    "descricao": "Conector Grampo de Linha-Viva com Estribo.",
+    "etu": "140.2"
+   },
+   {
+    "sisup": "92024",
+    "desenho": "C-12",
+    "qtd": "Variável",
+    "descricao": "Condutor de Aço Cobreado 25 mm².",
+    "etu": "125.1"
+   },
+   {
+    "sisup": "Tabela O",
+    "desenho": "E-45",
+    "qtd": "01",
+    "descricao": "Transformador Aéreo de Distribuição (Monofásico).",
+    "etu": "109.1"
+   },
+   {
+    "sisup": "Tabela 01",
+    "desenho": "F-32",
+    "qtd": "02",
+    "descricao": "Parafuso de Rosca Total.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90387",
+    "desenho": "-",
+    "qtd": "01",
+    "descricao": "Porca olhal rosca M16.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "92024",
+    "desenho": "C-12",
+    "qtd": "0,30 Kg",
+    "descricao": "Cabo de cobre nu, têmpera meio-dura, 25 mm².",
+    "etu": "125.1"
+   },
+   {
+    "sisup": "Tabela P",
+    "desenho": "E-29",
+    "qtd": "01",
+    "descricao": "Para-Raios de Distribuição.",
+    "etu": "128.1"
+   },
+   {
+    "sisup": "Tabela B",
+    "desenho": "P-2",
+    "qtd": "01",
+    "descricao": "Poste de Concreto de Distribuição.",
+    "etu": "115.3"
+   },
+   {
+    "sisup": "90521",
+    "desenho": "F-49",
+    "qtd": "01",
+    "descricao": "Suporte Tipo L.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela C",
+    "desenho": "-",
+    "qtd": "01",
+    "descricao": "Laço pré-formado de topo.",
+    "etu": "116.2"
+   },
+   {
+    "sisup": "90440",
+    "desenho": "F-22",
+    "qtd": "01",
+    "descricao": "Manilha sapatilha para alça pré-formada.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90524",
+    "desenho": "F-51",
+    "qtd": "01",
+    "descricao": "Suporte P/Isolador Pilar.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90252",
+    "desenho": "F-36",
+    "qtd": "01",
+    "descricao": "Pino Isolador Aço Carbono 16,0 mm Autotravante.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90586",
+    "desenho": "-",
+    "qtd": "01",
+    "descricao": "Capa Protetora para Bucha Primária de Transformador",
+    "etu": "197.2"
+   },
+   {
+    "sisup": "90969",
+    "desenho": "-",
+    "qtd": "01",
+    "descricao": "Capa Protetora de Para-Raios",
+    "etu": "197.3"
+   }
+  ]
+ },
+ {
+  "page": 320,
+  "caption": "Instalação de Transformadores – Meio de Rede com Chave",
+  "titulo": null,
+  "cruzeta": "Cruzeta de Distribuição de Concreto.",
+  "materiais": [
+   {
+    "sisup": "90389",
+    "desenho": "A-2",
+    "qtd": "18",
+    "descricao": "Arruela quadrada 38x38x3mm .",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "92172",
+    "desenho": "O-7",
+    "qtd": "03",
+    "descricao": "Conector Grampo de Linha-Viva com Estribo.",
+    "etu": "140.2"
+   },
+   {
+    "sisup": "92024",
+    "desenho": "C-12",
+    "qtd": "Variável",
+    "descricao": "Condutor de Aço Cobreado 25 mm².",
+    "etu": "125.1"
+   },
+   {
+    "sisup": "Tabela O",
+    "desenho": "E-45",
+    "qtd": "01",
+    "descricao": "Transformador Aéreo de Distribuição (Trifásico).",
+    "etu": "109.1"
+   },
+   {
+    "sisup": "Tabela 01",
+    "desenho": "F-32",
+    "qtd": "12",
+    "descricao": "Parafuso de Rosca Total.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90387",
+    "desenho": "-",
+    "qtd": "03",
+    "descricao": "Porca olhal rosca M16.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "92024",
+    "desenho": "C-12",
+    "qtd": "1,50 Kg",
+    "descricao": "Cabo de cobre nu, têmpera meio-dura, 25 mm².",
+    "etu": "125.1"
+   },
+   {
+    "sisup": "Tabela P",
+    "desenho": "E-29",
+    "qtd": "03",
+    "descricao": "Para-Raios de Distribuição.",
+    "etu": "128.1"
+   },
+   {
+    "sisup": "Tabela B",
+    "desenho": "P-2",
+    "qtd": "01",
+    "descricao": "Poste de Concreto de Distribuição.",
+    "etu": "115.3"
+   },
+   {
+    "sisup": "Tabela G",
+    "desenho": "R-3",
+    "qtd": "02",
+    "descricao": "Cruzeta de Distribuição de Concreto.",
+    "etu": "115.3"
+   },
+   {
+    "sisup": "Tabela C",
+    "desenho": "-",
+    "qtd": "06",
+    "descricao": "Laço pré-formado de topo.",
+    "etu": "116.2"
+   },
+   {
+    "sisup": "Tabela A",
+    "desenho": "I-5",
+    "qtd": "06",
+    "descricao": "Isolador Tipo Pilar Porcelana Vertical.",
+    "etu": "126.1"
+   },
+   {
+    "sisup": "90252",
+    "desenho": "F-36",
+    "qtd": "06",
+    "descricao": "Pino Isolador Aço Carbono 16,0 mm Autotravante.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela M",
+    "desenho": "E-9",
+    "qtd": "03",
+    "descricao": "Chave Fusível de Distribuição.",
+    "etu": "122.1"
+   },
+   {
+    "sisup": "Tabela N",
+    "desenho": "-",
+    "qtd": "03",
+    "descricao": "Elo Fusível de Distribuição.",
+    "etu": "127"
+   },
+   {
+    "sisup": "90586",
+    "desenho": "-",
+    "qtd": "03",
+    "descricao": "Capa Protetora para Bucha Primária de Transformador",
+    "etu": "197.2"
+   },
+   {
+    "sisup": "90969",
+    "desenho": "-",
+    "qtd": "03",
+    "descricao": "Capa Protetora de Para-Raios",
+    "etu": "197.3"
+   },
+   {
+    "sisup": "693918",
+    "desenho": "-",
+    "qtd": "03",
+    "descricao": "Capa Protetora para Chaves Fusíveis",
+    "etu": "197.6"
+   },
+   {
+    "sisup": "90252",
+    "desenho": "F-36",
+    "qtd": "03",
+    "descricao": "Pino Isolador Aço Carbono 16,0 mm Autotravante.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela Q",
+    "desenho": "F-74",
+    "qtd": "02",
+    "descricao": "Suporte para Transformador Circular ou Duplo T.",
+    "etu": "130.1"
+   }
+  ]
+ },
+ {
+  "page": 322,
+  "caption": "Instalação de Transformadores – Estrutura N3 – M – PR",
+  "titulo": null,
+  "cruzeta": "Cruzeta de Distribuição de Concreto.",
+  "materiais": [
+   {
+    "sisup": "90389",
+    "desenho": "A-2",
+    "qtd": "18",
+    "descricao": "Arruela quadrada 38x38x3mm .",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "92172",
+    "desenho": "O-7",
+    "qtd": "03",
+    "descricao": "Conector Grampo de Linha-Viva com Estribo.",
+    "etu": "140.2"
+   },
+   {
+    "sisup": "92024",
+    "desenho": "C-12",
+    "qtd": "variável",
+    "descricao": "Condutor de Aço Cobreado 25 mm².",
+    "etu": "125.1"
+   },
+   {
+    "sisup": "Tabela O",
+    "desenho": "E-45",
+    "qtd": "01",
+    "descricao": "Transformador Aéreo de Distribuição (Trifásico).",
+    "etu": "109.1"
+   },
+   {
+    "sisup": "Tabela 01",
+    "desenho": "F-32",
+    "qtd": "12",
+    "descricao": "Parafuso de Rosca Total.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90387",
+    "desenho": "-",
+    "qtd": "03",
+    "descricao": "Porca olhal rosca M16.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "92024",
+    "desenho": "C-12",
+    "qtd": "1,50 Kg",
+    "descricao": "Cabo de cobre nu, têmpera meio-dura, 25 mm².",
+    "etu": "125.1"
+   },
+   {
+    "sisup": "Tabela P",
+    "desenho": "E-29",
+    "qtd": "03",
+    "descricao": "Para-Raios de Distribuição.",
+    "etu": "128.1"
+   },
+   {
+    "sisup": "Tabela B",
+    "desenho": "P-2",
+    "qtd": "01",
+    "descricao": "Poste de Concreto de Distribuição.",
+    "etu": "115.3"
+   },
+   {
+    "sisup": "Tabela G",
+    "desenho": "R-3",
+    "qtd": "03",
+    "descricao": "Cruzeta de Distribuição de Concreto.",
+    "etu": "115.3"
+   },
+   {
+    "sisup": "90448",
+    "desenho": "F-13",
+    "qtd": "03",
+    "descricao": "Gancho olhal para 5.000 daN.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela E",
+    "desenho": "I-6",
+    "qtd": "03",
+    "descricao": "Isolador Suspensão Tipo Bastão Polimérico.",
+    "etu": "120.1"
+   },
+   {
+    "sisup": "90440",
+    "desenho": "F-22",
+    "qtd": "03",
+    "descricao": "Manilha sapatilha para alça pré-formada.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela M",
+    "desenho": "E-9",
+    "qtd": "03",
+    "descricao": "Chave Fusível de Distribuição.",
+    "etu": "122.1"
+   },
+   {
+    "sisup": "Tabela N",
+    "desenho": "-",
+    "qtd": "03",
+    "descricao": "Elo Fusível de Distribuição.",
+    "etu": "127"
+   },
+   {
+    "sisup": "90586",
+    "desenho": "-",
+    "qtd": "03",
+    "descricao": "Capa Protetora para Bucha Primária de Transformador",
+    "etu": "197.2"
+   },
+   {
+    "sisup": "90969",
+    "desenho": "-",
+    "qtd": "03",
+    "descricao": "Capa Protetora de Para-Raios",
+    "etu": "197.3"
+   },
+   {
+    "sisup": "693918",
+    "desenho": "-",
+    "qtd": "03",
+    "descricao": "Capa Protetora para Chaves Fusíveis",
+    "etu": "197.6"
+   },
+   {
+    "sisup": "Tabela Q",
+    "desenho": "F-74",
+    "qtd": "02",
+    "descricao": "Suporte para Transformador Circular ou Duplo T.",
+    "etu": "130.1"
+   }
+  ]
+ },
+ {
+  "page": 324,
+  "caption": "Instalação de Transformadores – Fim de Rede sem Chave",
+  "titulo": null,
+  "cruzeta": "Cruzeta de Distribuição de Concreto.",
+  "materiais": [
+   {
+    "sisup": "90389",
+    "desenho": "A-2",
+    "qtd": "18",
+    "descricao": "Arruela quadrada 38x38x3mm .",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "92024",
+    "desenho": "C-12",
+    "qtd": "Variável",
+    "descricao": "Condutor de Aço Cobreado 25 mm².",
+    "etu": "125.1"
+   },
+   {
+    "sisup": "Tabela O",
+    "desenho": "E-45",
+    "qtd": "01",
+    "descricao": "Transformador Aéreo de Distribuição (Trifásico).",
+    "etu": "109.1"
+   },
+   {
+    "sisup": "Tabela 01",
+    "desenho": "F-32",
+    "qtd": "12",
+    "descricao": "Parafuso de Rosca Total.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90387",
+    "desenho": "-",
+    "qtd": "03",
+    "descricao": "Porca olhal rosca M16.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "92024",
+    "desenho": "C-12",
+    "qtd": "1,50 Kg",
+    "descricao": "Cabo de cobre nu, têmpera meio-dura, 25 mm².",
+    "etu": "125.1"
+   },
+   {
+    "sisup": "Tabela P",
+    "desenho": "E-29",
+    "qtd": "03",
+    "descricao": "Para-Raios de Distribuição.",
+    "etu": "128.1"
+   },
+   {
+    "sisup": "Tabela B",
+    "desenho": "P-2",
+    "qtd": "01",
+    "descricao": "Poste de Concreto de Distribuição",
+    "etu": "115.3"
+   },
+   {
+    "sisup": "Tabela G",
+    "desenho": "R-3",
+    "qtd": "02",
+    "descricao": "Cruzeta de Distribuição de Concreto.",
+    "etu": "115.3"
+   },
+   {
+    "sisup": "Tabela C",
+    "desenho": "-",
+    "qtd": "03",
+    "descricao": "Laço pré-formado de topo.",
+    "etu": "116.2"
+   },
+   {
+    "sisup": "Tabela A",
+    "desenho": "I-5",
+    "qtd": "03",
+    "descricao": "Isolador Tipo Pilar Porcelana Vertical.",
+    "etu": "126.1"
+   },
+   {
+    "sisup": "90252",
+    "desenho": "F-36",
+    "qtd": "03",
+    "descricao": "Pino Isolador Aço Carbono 16,0 mm Autotravante.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90586",
+    "desenho": "-",
+    "qtd": "03",
+    "descricao": "Capa Protetora para Bucha Primária de Transformador",
+    "etu": "197.2"
+   },
+   {
+    "sisup": "90969",
+    "desenho": "-",
+    "qtd": "03",
+    "descricao": "Capa Protetora de Para-Raios",
+    "etu": "197.3"
+   },
+   {
+    "sisup": "90448",
+    "desenho": "F-13",
+    "qtd": "03",
+    "descricao": "Gancho olhal para 5.000 daN.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela E",
+    "desenho": "I-6",
+    "qtd": "03",
+    "descricao": "Isolador Suspensão Tipo Bastão Polimérico.",
+    "etu": "120.1"
+   },
+   {
+    "sisup": "90440",
+    "desenho": "F-22",
+    "qtd": "03",
+    "descricao": "Manilha sapatilha para alça pré-formada.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela Q",
+    "desenho": "F-74",
+    "qtd": "02",
+    "descricao": "Suporte para Transformador Circular ou Duplo T.",
+    "etu": "130.1"
+   }
+  ]
+ },
+ {
+  "page": 326,
+  "caption": "Instalação de Transformadores – Fim de Rede com",
+  "titulo": null,
+  "cruzeta": "Cruzeta de Distribuição de Concreto.",
+  "materiais": [
+   {
+    "sisup": "90389",
+    "desenho": "A-2",
+    "qtd": "18",
+    "descricao": "Arruela quadrada 38x38x3mm .",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "92172",
+    "desenho": "O-7",
+    "qtd": "03",
+    "descricao": "Conector Grampo de Linha-Viva com Estribo.",
+    "etu": "140.2"
+   },
+   {
+    "sisup": "92024",
+    "desenho": "C-12",
+    "qtd": "Variável",
+    "descricao": "Condutor de Aço Cobreado 25 mm².",
+    "etu": "125.1"
+   },
+   {
+    "sisup": "Tabela O",
+    "desenho": "E-45",
+    "qtd": "01",
+    "descricao": "Transformador Aéreo de Distribuição (Trifásico).",
+    "etu": "109.1"
+   },
+   {
+    "sisup": "Tabela 01",
+    "desenho": "F-32",
+    "qtd": "12",
+    "descricao": "Parafuso de Rosca Total.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90387",
+    "desenho": "-",
+    "qtd": "03",
+    "descricao": "Porca olhal rosca M16.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "92024",
+    "desenho": "C-12",
+    "qtd": "1,50 Kg",
+    "descricao": "Cabo de cobre nu, têmpera meio-dura, 25 mm².",
+    "etu": "125.1"
+   },
+   {
+    "sisup": "Tabela P",
+    "desenho": "E-29",
+    "qtd": "03",
+    "descricao": "Para-Raios de Distribuição.",
+    "etu": "128.1"
+   },
+   {
+    "sisup": "Tabela B",
+    "desenho": "P-2",
+    "qtd": "01",
+    "descricao": "Poste de Concreto de Distribuição.",
+    "etu": "115.3"
+   },
+   {
+    "sisup": "Tabela G",
+    "desenho": "R-3",
+    "qtd": "03",
+    "descricao": "Cruzeta de Distribuição de Concreto.",
+    "etu": "115.3"
+   },
+   {
+    "sisup": "90448",
+    "desenho": "F-13",
+    "qtd": "03",
+    "descricao": "Gancho olhal para 5.000 daN.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela E",
+    "desenho": "I-6",
+    "qtd": "03",
+    "descricao": "Isolador Suspensão Tipo Bastão Polimérico.",
+    "etu": "120.1"
+   },
+   {
+    "sisup": "90440",
+    "desenho": "F-22",
+    "qtd": "03",
+    "descricao": "Manilha sapatilha para alça pré-formada.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela M",
+    "desenho": "E-9",
+    "qtd": "03",
+    "descricao": "Chave Fusível de Distribuição.",
+    "etu": "122.1"
+   },
+   {
+    "sisup": "Tabela N",
+    "desenho": "-",
+    "qtd": "03",
+    "descricao": "Elo Fusível de Distribuição.",
+    "etu": "127"
+   },
+   {
+    "sisup": "90586",
+    "desenho": "-",
+    "qtd": "03",
+    "descricao": "Capa Protetora para Bucha Primária de Transformador",
+    "etu": "197.2"
+   },
+   {
+    "sisup": "90969",
+    "desenho": "-",
+    "qtd": "03",
+    "descricao": "Capa Protetora de Para-Raios",
+    "etu": "197.3"
+   },
+   {
+    "sisup": "693918",
+    "desenho": "-",
+    "qtd": "03",
+    "descricao": "Capa Protetora para Chaves Fusíveis.",
+    "etu": "197.6"
+   },
+   {
+    "sisup": "Tabela Q",
+    "desenho": "F-74",
+    "qtd": "02",
+    "descricao": "Suporte para Transformador Circular ou Duplo T.",
+    "etu": "130.1"
+   }
+  ]
+ },
+ {
+  "page": 328,
+  "caption": "Instalação de Transformadores – Estrutura N1 – N – PR",
+  "titulo": null,
+  "cruzeta": "Cruzeta de Distribuição de Concreto.",
+  "materiais": [
+   {
+    "sisup": "90389",
+    "desenho": "A-2",
+    "qtd": "18",
+    "descricao": "Arruela quadrada 38x38x3mm .",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "92024",
+    "desenho": "C-12",
+    "qtd": "variável",
+    "descricao": "Condutor de Aço Cobreado 25 mm².",
+    "etu": "125.1"
+   },
+   {
+    "sisup": "Tabela O",
+    "desenho": "E-45",
+    "qtd": "01",
+    "descricao": "Transformador Aéreo de Distribuição (Trifásico).",
+    "etu": "109.1"
+   },
+   {
+    "sisup": "Tabela 01",
+    "desenho": "F-32",
+    "qtd": "12",
+    "descricao": "Parafuso de Rosca Total.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90387",
+    "desenho": "-",
+    "qtd": "03",
+    "descricao": "Porca olhal rosca M16.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "92024",
+    "desenho": "C-12",
+    "qtd": "1,50 Kg",
+    "descricao": "Cabo de cobre nu, têmpera meio-dura, 25 mm².",
+    "etu": "125.1"
+   },
+   {
+    "sisup": "Tabela P",
+    "desenho": "E-29",
+    "qtd": "03",
+    "descricao": "Para-Raios de Distribuição.",
+    "etu": "128.1"
+   },
+   {
+    "sisup": "Tabela B",
+    "desenho": "P-2",
+    "qtd": "01",
+    "descricao": "Poste de Distribuição de Concreto.",
+    "etu": "115.3"
+   },
+   {
+    "sisup": "Tabela G",
+    "desenho": "R-3",
+    "qtd": "02",
+    "descricao": "Cruzeta de Distribuição de Concreto.",
+    "etu": "115.3"
+   },
+   {
+    "sisup": "Tabela C",
+    "desenho": "-",
+    "qtd": "03",
+    "descricao": "Laço pré-formado de topo.",
+    "etu": "116.2"
+   },
+   {
+    "sisup": "Tabela A",
+    "desenho": "I-5",
+    "qtd": "06",
+    "descricao": "Isolador Tipo Pilar Porcelana Vertical.",
+    "etu": "126.1"
+   },
+   {
+    "sisup": "90252",
+    "desenho": "F-36",
+    "qtd": "06",
+    "descricao": "Pino Isolador Aço Carbono 16,0 mm Autotravante.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90586",
+    "desenho": "-",
+    "qtd": "03",
+    "descricao": "Capa Protetora para Bucha Primária de Transformador",
+    "etu": "197.2"
+   },
+   {
+    "sisup": "90969",
+    "desenho": "-",
+    "qtd": "03",
+    "descricao": "Capa Protetora de Para-Raios",
+    "etu": "197.3"
+   },
+   {
+    "sisup": "Tabela Q",
+    "desenho": "F-74",
+    "qtd": "02",
+    "descricao": "Suporte para Transformador Circular ou Duplo T.",
+    "etu": "130.1"
+   }
+  ]
+ },
+ {
+  "page": 330,
+  "caption": "Instalação de Transformadores – Estrutura N3 – M – PR",
+  "titulo": null,
+  "cruzeta": "Cruzeta de Distribuição de Concreto.",
+  "materiais": [
+   {
+    "sisup": "90389",
+    "desenho": "A-2",
+    "qtd": "18",
+    "descricao": "Arruela quadrada 38x38x3mm .",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "92172",
+    "desenho": "O-7",
+    "qtd": "03",
+    "descricao": "Conector Grampo de Linha-Viva com Estribo.",
+    "etu": "140.2"
+   },
+   {
+    "sisup": "92024",
+    "desenho": "C-12",
+    "qtd": "variável",
+    "descricao": "Condutor de Aço Cobreado 25 mm².",
+    "etu": "125.1"
+   },
+   {
+    "sisup": "Tabela O",
+    "desenho": "E-45",
+    "qtd": "01",
+    "descricao": "Transformador Aéreo de Distribuição (Trifásico).",
+    "etu": "109.1"
+   },
+   {
+    "sisup": "Tabela 01",
+    "desenho": "F-32",
+    "qtd": "12",
+    "descricao": "Parafuso de Rosca Total.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "90387",
+    "desenho": "-",
+    "qtd": "03",
+    "descricao": "Porca olhal rosca M16.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "92024",
+    "desenho": "C-12",
+    "qtd": "1,50 Kg",
+    "descricao": "Cabo de cobre nu, têmpera meio-dura, 25 mm².",
+    "etu": "125.1"
+   },
+   {
+    "sisup": "Tabela P",
+    "desenho": "E-29",
+    "qtd": "03",
+    "descricao": "Para-Raios de Distribuição.",
+    "etu": "128.1"
+   },
+   {
+    "sisup": "Tabela B",
+    "desenho": "P-2",
+    "qtd": "01",
+    "descricao": "Poste de Concreto de Distribuição.",
+    "etu": "115.3"
+   },
+   {
+    "sisup": "Tabela G",
+    "desenho": "R-3",
+    "qtd": "03",
+    "descricao": "Cruzeta de Distribuição de Concreto.",
+    "etu": "115.3"
+   },
+   {
+    "sisup": "90448",
+    "desenho": "F-13",
+    "qtd": "03",
+    "descricao": "Gancho olhal para 5.000 daN.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela E",
+    "desenho": "I-6",
+    "qtd": "03",
+    "descricao": "Isolador Suspensão Tipo Bastão Polimérico.",
+    "etu": "120.1"
+   },
+   {
+    "sisup": "90440",
+    "desenho": "F-22",
+    "qtd": "03",
+    "descricao": "Manilha sapatilha para alça pré-formada.",
+    "etu": "130.1"
+   },
+   {
+    "sisup": "Tabela M",
+    "desenho": "E-9",
+    "qtd": "03",
+    "descricao": "Chave Fusível de Distribuição.",
+    "etu": "122.1"
+   },
+   {
+    "sisup": "Tabela N",
+    "desenho": "-",
+    "qtd": "03",
+    "descricao": "Elo Fusível de Distribuição.",
+    "etu": "127"
+   },
+   {
+    "sisup": "90586",
+    "desenho": "-",
+    "qtd": "03",
+    "descricao": "Capa Protetora para Bucha Primária de Transformador",
+    "etu": "197.2"
+   },
+   {
+    "sisup": "90969",
+    "desenho": "-",
+    "qtd": "03",
+    "descricao": "Capa Protetora de Para-Raios",
+    "etu": "197.3"
+   },
+   {
+    "sisup": "693918",
+    "desenho": "-",
+    "qtd": "03",
+    "descricao": "Capa Protetora para Chaves Fusíveis",
+    "etu": "197.6"
+   },
+   {
+    "sisup": "Tabela Q",
+    "desenho": "F-74",
+    "qtd": "02",
+    "descricao": "Suporte para Transformador Circular ou Duplo T.",
+    "etu": "130.1"
+   }
+  ]
+ }
+]

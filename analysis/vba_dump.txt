@@ -1,0 +1,662 @@
+﻿python : Encoding for stdout is only cp1252, will auto-encode text with 
+utf8 before output
+No linha:4 caractere:1
++ python -m oletools.olevba -c --no-xlm "$src" 2>&1 | Out-File -FilePat ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Encoding for st...8 before ou 
+   tput:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+olevba 0.60.2 on Python 3.14.3 - http://decalage.info/python/oletools
+===============================================================================
+FILE: C:\Users\alexa\OneDrive\Desktop\alexandre\Sistema\V3\GERAÇÃO DE MATERIAL.xlsm
+Type: OpenXML
+WARNING  For now, VBA stomping cannot be detected for files in memory
+-------------------------------------------------------------------------------
+VBA MACRO Módulo1.bas 
+in file: xl/vbaProject.bin - OLE stream: 'VBA/Módulo1'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Sub Macro2()
+Attribute Macro2.VB_ProcData.VB_Invoke_Func = " \n14"
+'
+' Macro1 Macro
+'
+
+'
+    Sheets("Mono 34.5kv").Select
+End Sub
+Sub Macro3()
+Attribute Macro3.VB_ProcData.VB_Invoke_Func = " \n14"
+'
+' Macro3 Macro
+'
+
+'
+    Sheets("Mono 13,8kv").Select
+    Range("G33").Select
+End Sub
+Sub Macro4()
+Attribute Macro4.VB_ProcData.VB_Invoke_Func = " \n14"
+'
+' Macro4 Macro
+'
+
+'
+    Sheets("Mono 34,5kv").Select
+End Sub
+Sub Macro5()
+Attribute Macro5.VB_ProcData.VB_Invoke_Func = " \n14"
+'
+' Macro5 Macro
+'
+
+'
+    Sheets("Trifásico 13,8kv ").Select
+End Sub
+Sub Macro6()
+Attribute Macro6.VB_ProcData.VB_Invoke_Func = " \n14"
+'
+' Macro6 Macro
+'
+
+'
+    Sheets("Trifásico 34,5kv").Select
+    Range("B4:C4").Select
+End Sub
+Sub Macro8()
+Attribute Macro8.VB_ProcData.VB_Invoke_Func = " \n14"
+'
+' Macro8 Macro
+'
+
+'
+    Sheets("Plan1").Select
+End Sub
+Sub Macro10()
+Attribute Macro10.VB_ProcData.VB_Invoke_Func = " \n14"
+'
+' Macro10 Macro
+'
+
+'
+    Sheets("Menu").Select
+    Range("H19").Select
+End Sub
+Sub Macro17gg()
+'
+' Macro17gg Macro
+'
+
+'
+    Sheets("Materiais e Valores").Select
+    ActiveSheet.Range("$E$1:$E$9999").AutoFilter Field:=1, Criteria1:="<>0", _
+        Operator:=xlAnd
+End Sub
+Sub Macro12()
+Attribute Macro12.VB_ProcData.VB_Invoke_Func = " \n14"
+'
+' Macro12 Macro
+'
+
+'
+    Sheets("EXTRAS").Select
+End Sub
+-------------------------------------------------------------------------------
+VBA MACRO EstaPasta_de_trabalho.cls 
+in file: xl/vbaProject.bin - OLE stream: 'VBA/EstaPasta_de_trabalho'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+(empty macro)
+-------------------------------------------------------------------------------
+VBA MACRO Plan1.cls 
+in file: xl/vbaProject.bin - OLE stream: 'VBA/Plan1'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+(empty macro)
+-------------------------------------------------------------------------------
+VBA MACRO Plan2.cls 
+in file: xl/vbaProject.bin - OLE stream: 'VBA/Plan2'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+(empty macro)
+-------------------------------------------------------------------------------
+VBA MACRO Plan3.cls 
+in file: xl/vbaProject.bin - OLE stream: 'VBA/Plan3'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+(empty macro)
+-------------------------------------------------------------------------------
+VBA MACRO Plan4.cls 
+in file: xl/vbaProject.bin - OLE stream: 'VBA/Plan4'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+(empty macro)
+-------------------------------------------------------------------------------
+VBA MACRO Plan5.cls 
+in file: xl/vbaProject.bin - OLE stream: 'VBA/Plan5'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+(empty macro)
+-------------------------------------------------------------------------------
+VBA MACRO Plan6.cls 
+in file: xl/vbaProject.bin - OLE stream: 'VBA/Plan6'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+(empty macro)
+-------------------------------------------------------------------------------
+VBA MACRO Plan7.cls 
+in file: xl/vbaProject.bin - OLE stream: 'VBA/Plan7'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+(empty macro)
+-------------------------------------------------------------------------------
+VBA MACRO Plan8.cls 
+in file: xl/vbaProject.bin - OLE stream: 'VBA/Plan8'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+(empty macro)
+-------------------------------------------------------------------------------
+VBA MACRO Plan9.cls 
+in file: xl/vbaProject.bin - OLE stream: 'VBA/Plan9'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+(empty macro)
+-------------------------------------------------------------------------------
+VBA MACRO Módulo2.bas 
+in file: xl/vbaProject.bin - OLE stream: 'VBA/Módulo2'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Sub Macro9()
+Attribute Macro9.VB_ProcData.VB_Invoke_Func = " \n14"
+'
+' Macro9 Macro
+'
+
+'
+    Range("B4:C4").Select
+    ActiveWindow.ScrollColumn = 115
+    ActiveWindow.ScrollColumn = 114
+    ActiveWindow.ScrollColumn = 113
+    ActiveWindow.ScrollColumn = 112
+    ActiveWindow.ScrollColumn = 110
+    ActiveWindow.ScrollColumn = 109
+    ActiveWindow.ScrollColumn = 106
+    ActiveWindow.ScrollColumn = 104
+    ActiveWindow.ScrollColumn = 102
+    ActiveWindow.ScrollColumn = 99
+    ActiveWindow.ScrollColumn = 97
+    ActiveWindow.ScrollColumn = 94
+    ActiveWindow.ScrollColumn = 92
+    ActiveWindow.ScrollColumn = 89
+    ActiveWindow.ScrollColumn = 87
+    ActiveWindow.ScrollColumn = 84
+    ActiveWindow.ScrollColumn = 81
+    ActiveWindow.ScrollColumn = 78
+    ActiveWindow.ScrollColumn = 74
+    ActiveWindow.ScrollColumn = 71
+    ActiveWindow.ScrollColumn = 67
+    ActiveWindow.ScrollColumn = 64
+    ActiveWindow.ScrollColumn = 62
+    ActiveWindow.ScrollColumn = 58
+    ActiveWindow.ScrollColumn = 53
+    ActiveWindow.ScrollColumn = 51
+    ActiveWindow.ScrollColumn = 49
+    ActiveWindow.ScrollColumn = 47
+    ActiveWindow.ScrollColumn = 46
+    ActiveWindow.ScrollColumn = 45
+    ActiveWindow.ScrollColumn = 44
+    ActiveWindow.ScrollColumn = 43
+    ActiveWindow.ScrollColumn = 42
+    ActiveWindow.ScrollColumn = 40
+    ActiveWindow.ScrollColumn = 39
+    ActiveWindow.ScrollColumn = 37
+    ActiveWindow.ScrollColumn = 36
+    ActiveWindow.ScrollColumn = 35
+    ActiveWindow.ScrollColumn = 34
+    ActiveWindow.ScrollColumn = 33
+    ActiveWindow.ScrollColumn = 32
+    ActiveWindow.ScrollColumn = 31
+    ActiveWindow.ScrollColumn = 29
+    ActiveWindow.ScrollColumn = 28
+    ActiveWindow.ScrollColumn = 26
+    ActiveWindow.ScrollColumn = 25
+    ActiveWindow.ScrollColumn = 23
+    ActiveWindow.ScrollColumn = 21
+    ActiveWindow.ScrollColumn = 20
+    ActiveWindow.ScrollColumn = 18
+    ActiveWindow.ScrollColumn = 17
+    ActiveWindow.ScrollColumn = 16
+    ActiveWindow.ScrollColumn = 15
+    ActiveWindow.ScrollColumn = 14
+    ActiveWindow.ScrollColumn = 13
+    ActiveWindow.ScrollColumn = 12
+    ActiveWindow.ScrollColumn = 11
+    ActiveWindow.ScrollColumn = 10
+    ActiveWindow.ScrollColumn = 9
+    ActiveWindow.ScrollColumn = 8
+    ActiveWindow.ScrollColumn = 7
+    ActiveWindow.ScrollColumn = 6
+    ActiveWindow.ScrollColumn = 5
+    ActiveWindow.ScrollColumn = 4
+    Range("B4:C4").Select
+    Selection.Borders(xlDiagonalDown).LineStyle = xlNone
+    Selection.Borders(xlDiagonalUp).LineStyle = xlNone
+    Selection.Borders(xlEdgeLeft).LineStyle = xlNone
+    Selection.Borders(xlEdgeTop).LineStyle = xlNone
+    Selection.Borders(xlEdgeBottom).LineStyle = xlNone
+    Selection.Borders(xlEdgeRight).LineStyle = xlNone
+    Selection.Borders(xlInsideVertical).LineStyle = xlNone
+    Selection.Borders(xlInsideHorizontal).LineStyle = xlNone
+    Range("B5:C6").Select
+    Selection.Borders(xlDiagonalDown).LineStyle = xlNone
+    Selection.Borders(xlDiagonalUp).LineStyle = xlNone
+    With Selection.Borders(xlEdgeLeft)
+        .LineStyle = xlContinuous
+        .ColorIndex = 0
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeTop)
+        .LineStyle = xlContinuous
+        .ColorIndex = 0
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeBottom)
+        .LineStyle = xlContinuous
+        .ColorIndex = 0
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeRight)
+        .LineStyle = xlContinuous
+        .ColorIndex = 0
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    Selection.Borders(xlInsideVertical).LineStyle = xlNone
+    Selection.Borders(xlInsideHorizontal).LineStyle = xlNone
+    Range("B4:D4").Select
+    Range("D4").Activate
+    Selection.Borders(xlDiagonalDown).LineStyle = xlNone
+    Selection.Borders(xlDiagonalUp).LineStyle = xlNone
+    Selection.Borders(xlEdgeLeft).LineStyle = xlNone
+    Selection.Borders(xlEdgeTop).LineStyle = xlNone
+    Selection.Borders(xlEdgeBottom).LineStyle = xlNone
+    Selection.Borders(xlEdgeRight).LineStyle = xlNone
+    Selection.Borders(xlInsideVertical).LineStyle = xlNone
+    Selection.Borders(xlInsideHorizontal).LineStyle = xlNone
+    Range("E4").Select
+    Selection.Borders(xlDiagonalDown).LineStyle = xlNone
+    Selection.Borders(xlDiagonalUp).LineStyle = xlNone
+    With Selection.Borders(xlEdgeLeft)
+        .LineStyle = xlContinuous
+        .ColorIndex = 0
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeTop)
+        .LineStyle = xlContinuous
+        .ColorIndex = 0
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeBottom)
+        .LineStyle = xlContinuous
+        .ColorIndex = 0
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlEdgeRight)
+        .LineStyle = xlContinuous
+        .ColorIndex = 0
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlInsideVertical)
+        .LineStyle = xlContinuous
+        .ColorIndex = 0
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    With Selection.Borders(xlInsideHorizontal)
+        .LineStyle = xlContinuous
+        .ColorIndex = 0
+        .TintAndShade = 0
+        .Weight = xlThin
+    End With
+    Range("B2:C3").Select
+    Selection.Borders(xlDiagonalDown).LineStyle = xlNone
+    Selection.Borders(xlDiagonalUp).LineStyle = xlNone
+    With Selection.Borders(xlEdgeLeft)
+        .LineStyle = xlContinuous
+        .ColorIndex = 0
+        .TintAndShade = 0
+        .Weight = xlMedium
+    End With
+    With Selection.Borders(xlEdgeTop)
+        .LineStyle = xlContinuous
+        .ColorIndex = 0
+        .TintAndShade = 0
+        .Weight = xlMedium
+    End With
+    With Selection.Borders(xlEdgeBottom)
+        .LineStyle = xlContinuous
+        .ColorIndex = 0
+        .TintAndShade = 0
+        .Weight = xlMedium
+    End With
+    With Selection.Borders(xlEdgeRight)
+        .LineStyle = xlContinuous
+        .ColorIndex = 0
+        .TintAndShade = 0
+        .Weight = xlMedium
+    End With
+    Selection.Borders(xlInsideVertical).LineStyle = xlNone
+    Selection.Borders(xlInsideHorizontal).LineStyle = xlNone
+    Range("B5:C6").Select
+    Selection.Borders(xlDiagonalDown).LineStyle = xlNone
+    Selection.Borders(xlDiagonalUp).LineStyle = xlNone
+    With Selection.Borders(xlEdgeLeft)
+        .LineStyle = xlContinuous
+        .ColorIndex = 0
+        .TintAndShade = 0
+        .Weight = xlMedium
+    End With
+    With Selection.Borders(xlEdgeTop)
+        .LineStyle = xlContinuous
+        .ColorIndex = 0
+        .TintAndShade = 0
+        .Weight = xlMedium
+    End With
+    With Selection.Borders(xlEdgeBottom)
+        .LineStyle = xlContinuous
+        .ColorIndex = 0
+        .TintAndShade = 0
+        .Weight = xlMedium
+    End With
+    With Selection.Borders(xlEdgeRight)
+        .LineStyle = xlContinuous
+        .ColorIndex = 0
+        .TintAndShade = 0
+        .Weight = xlMedium
+    End With
+    Selection.Borders(xlInsideVertical).LineStyle = xlNone
+    Selection.Borders(xlInsideHorizontal).LineStyle = xlNone
+    Range("B10").Select
+    ActiveWorkbook.Save
+    ChDir "F:\MILTON"
+End Sub
+-------------------------------------------------------------------------------
+VBA MACRO Plan11.cls 
+in file: xl/vbaProject.bin - OLE stream: 'VBA/Plan11'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+(empty macro)
+-------------------------------------------------------------------------------
+VBA MACRO Plan12.cls 
+in file: xl/vbaProject.bin - OLE stream: 'VBA/Plan12'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+(empty macro)
+-------------------------------------------------------------------------------
+VBA MACRO Módulo3.bas 
+in file: xl/vbaProject.bin - OLE stream: 'VBA/Módulo3'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Sub Macro13()
+Attribute Macro13.VB_ProcData.VB_Invoke_Func = " \n14"
+'
+' Macro13 Macro
+'
+
+'
+    Sheets("Estruturas 34,5kv").Select
+    Range("L5").Select
+    ActiveWindow.SmallScroll Down:=-21
+End Sub
+Sub Macro7()
+Attribute Macro7.VB_ProcData.VB_Invoke_Func = " \n14"
+'
+' Macro7 Macro
+'
+
+'
+    Sheets("Estruturas 13,8kv").Select
+    ActiveSheet.Range("$F$1:$F$99999").AutoFilter Field:=1, Criteria1:="<>0", _
+        Operator:=xlAnd
+End Sub
+Sub Macro14()
+Attribute Macro14.VB_ProcData.VB_Invoke_Func = " \n14"
+'
+' Macro14 Macro
+'
+
+'
+    Sheets("Estruturas 34,5kv").Select
+    ActiveSheet.Range("$F$1:$F$99999").AutoFilter Field:=1, Criteria1:="<>0", _
+        Operator:=xlAnd
+End Sub
+Sub Macro16()
+Attribute Macro16.VB_ProcData.VB_Invoke_Func = " \n14"
+'
+' Macro16 Macro
+'
+
+'
+    Sheets("Compcta").Select
+End Sub
+Sub Macro15()
+Attribute Macro15.VB_ProcData.VB_Invoke_Func = " \n14"
+'
+' Macro15 Macro
+'
+
+'
+    Sheets("BT-SI").Select
+End Sub
+-------------------------------------------------------------------------------
+VBA MACRO Plan10.cls 
+in file: xl/vbaProject.bin - OLE stream: 'VBA/Plan10'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+(empty macro)
+-------------------------------------------------------------------------------
+VBA MACRO Plan13.cls 
+in file: xl/vbaProject.bin - OLE stream: 'VBA/Plan13'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+(empty macro)
+-------------------------------------------------------------------------------
+VBA MACRO Módulo4.bas 
+in file: xl/vbaProject.bin - OLE stream: 'VBA/Módulo4'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Sub RELIGADOR()
+Attribute RELIGADOR.VB_ProcData.VB_Invoke_Func = " \n14"
+'
+' RELIGADOR Macro
+'
+
+'
+    Sheets("RELIGADOR 13.8 e 34.5KV").Select
+End Sub
+-------------------------------------------------------------------------------
+VBA MACRO Plan14.cls 
+in file: xl/vbaProject.bin - OLE stream: 'VBA/Plan14'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+(empty macro)
+-------------------------------------------------------------------------------
+VBA MACRO Plan15.cls 
+in file: xl/vbaProject.bin - OLE stream: 'VBA/Plan15'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+(empty macro)
+-------------------------------------------------------------------------------
+VBA MACRO Módulo5.bas 
+in file: xl/vbaProject.bin - OLE stream: 'VBA/Módulo5'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Sub MEDIÇÃO_345()
+Attribute MEDIÇÃO_345.VB_ProcData.VB_Invoke_Func = " \n14"
+'
+' MEDIÇÃO_345 Macro
+'
+
+'
+    Sheets("MEDIÇÃO AT 34.5KV").Select
+End Sub
+-------------------------------------------------------------------------------
+VBA MACRO Plan16.cls 
+in file: xl/vbaProject.bin - OLE stream: 'VBA/Plan16'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+(empty macro)
+-------------------------------------------------------------------------------
+VBA MACRO Plan17.cls 
+in file: xl/vbaProject.bin - OLE stream: 'VBA/Plan17'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+(empty macro)
+-------------------------------------------------------------------------------
+VBA MACRO Módulo6.bas 
+in file: xl/vbaProject.bin - OLE stream: 'VBA/Módulo6'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Sub Transformadores()
+Attribute Transformadores.VB_ProcData.VB_Invoke_Func = " \n14"
+'
+' Transformadores Macro
+'
+
+'
+    Sheets("Transformadores").Select
+End Sub
+-------------------------------------------------------------------------------
+VBA MACRO Plan18.cls 
+in file: xl/vbaProject.bin - OLE stream: 'VBA/Plan18'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+(empty macro)
+-------------------------------------------------------------------------------
+VBA MACRO Módulo7.bas 
+in file: xl/vbaProject.bin - OLE stream: 'VBA/Módulo7'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Sub POWER2()
+Attribute POWER2.VB_ProcData.VB_Invoke_Func = " \n14"
+'
+' POWER2 Macro
+'
+
+'
+    Sheets("RELIGADOR NOVA C.P.S").Select
+End Sub
+-------------------------------------------------------------------------------
+VBA MACRO Plan19.cls 
+in file: xl/vbaProject.bin - OLE stream: 'VBA/Plan19'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+(empty macro)
+-------------------------------------------------------------------------------
+VBA MACRO Módulo8.bas 
+in file: xl/vbaProject.bin - OLE stream: 'VBA/Módulo8'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Sub Macro1()
+'
+' Macro1 Macro
+'
+
+'
+    ActiveWorkbook.SaveAs Filename:=Application.GetSaveAsFilename & "xls", _
+        FileFormat:=xlExcel8, Password:="", WriteResPassword:="", _
+        ReadOnlyRecommended:=False, CreateBackup:=False
+        Application.DisplayAlerts = False
+    Sheets("Menu").Select
+    Range("H19").Select
+    Application.DisplayAlerts = False
+    End Sub
+-------------------------------------------------------------------------------
+VBA MACRO Plan21.cls 
+in file: xl/vbaProject.bin - OLE stream: 'VBA/Plan21'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+(empty macro)
+-------------------------------------------------------------------------------
+VBA MACRO Módulo9.bas 
+in file: xl/vbaProject.bin - OLE stream: 'VBA/Módulo9'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Sub EXTRASCOMBT()
+Attribute EXTRASCOMBT.VB_ProcData.VB_Invoke_Func = " \n14"
+'
+' EXTRASCOMBT Macro
+'
+
+'
+    ActiveSheet.Shapes.Range(Array("Button 31")).Select
+    Selection.OnAction = "EXTRASCOMBT"
+    Range("O16").Select
+End Sub
+Sub EXTRACOMBT()
+Attribute EXTRACOMBT.VB_ProcData.VB_Invoke_Func = " \n14"
+'
+' EXTRACOMBT Macro
+'
+
+'
+    Sheets("EXTRAS (2)").Select
+End Sub
+Sub MONO_13()
+Attribute MONO_13.VB_ProcData.VB_Invoke_Func = " \n14"
+'
+' MONO_13 Macro
+'
+
+'
+    Range("B2:C3").Select
+    ActiveWindow.SmallScroll Down:=-36
+    Sheets("Mono 13,8kv").Select
+End Sub
+-------------------------------------------------------------------------------
+VBA MACRO Módulo10.bas 
+in file: xl/vbaProject.bin - OLE stream: 'VBA/Módulo10'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Sub subestação()
+Attribute subestação.VB_ProcData.VB_Invoke_Func = " \n14"
+'
+' subestação Macro
+'
+
+'
+    Sheets("Subestação 34,5kv").Select
+End Sub
+-------------------------------------------------------------------------------
+VBA MACRO Plan20.cls 
+in file: xl/vbaProject.bin - OLE stream: 'VBA/Plan20'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+(empty macro)
+-------------------------------------------------------------------------------
+VBA MACRO Plan22.cls 
+in file: xl/vbaProject.bin - OLE stream: 'VBA/Plan22'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+(empty macro)
+-------------------------------------------------------------------------------
+VBA MACRO Módulo11.bas 
+in file: xl/vbaProject.bin - OLE stream: 'VBA/Módulo11'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Sub REGULADORES()
+Attribute REGULADORES.VB_ProcData.VB_Invoke_Func = " \n14"
+'
+' REGULADORES Macro
+'
+
+'
+    Sheets("REGULADORES").Select
+End Sub
+-------------------------------------------------------------------------------
+VBA MACRO Módulo12.bas 
+in file: xl/vbaProject.bin - OLE stream: 'VBA/Módulo12'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Sub ILUPUB()
+Attribute ILUPUB.VB_ProcData.VB_Invoke_Func = " \n14"
+'
+' ILUPUB Macro
+'
+
+'
+    Range("B1").Select
+End Sub
+Sub Macro18()
+Attribute Macro18.VB_ProcData.VB_Invoke_Func = " \n14"
+'
+' Macro18 Macro
+'
+
+'
+    Sheets("ILUMINAÇÃO PUBLICA").Select
+End Sub
+-------------------------------------------------------------------------------
+VBA MACRO Plan23.cls 
+in file: xl/vbaProject.bin - OLE stream: 'VBA/Plan23'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+(empty macro)
+-------------------------------------------------------------------------------
+VBA MACRO Plan24.cls 
+in file: xl/vbaProject.bin - OLE stream: 'VBA/Plan24'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+(empty macro)
+

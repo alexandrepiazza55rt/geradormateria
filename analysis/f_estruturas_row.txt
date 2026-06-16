@@ -1,0 +1,13 @@
+
+##### Estruturas 13,8kv [top-headers] R1-4 C1-121 #####
+R2: D2: ESTRUTURAS 13,8KV e BT
+R4: E4: CFU TRIF AV | F4= =SUM(F5:F26)  [=0]
+
+##### Estruturas 13,8kv [CFU/DT-10/150 full] R5-5 C1-121 #####
+R5: E5: DT-10/150 | F5= ='Trifásico 13,8kv '!F5  [=0]
+
+##### Estruturas 13,8kv [ESTAI/DT-10/150 full] R29-29 C1-121 #####
+R29: E29: DT-10/150 | F29= ='Mono 13,8kv'!I5+'Trifásico 13,8kv '!K5  [=0]
+
+##### Estruturas 13,8kv [CFU header row] R4-4 C1-121 #####
+R4: E4: CFU TRIF AV | F4= =SUM(F5:F26)  [=0]

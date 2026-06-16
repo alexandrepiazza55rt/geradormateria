@@ -1,0 +1,615 @@
+
+=================== PAGE 24 ===================
+c 
+______________________________________________________________________________________ 
+NDU 005 
+Versão 6.0 
+                       JULHO/2026 
+24 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Tensão Secundária (Baixa Tensão) 
+Tensão (kV) 
+Empresas do Grupo Energisa 
+Rede Trifásica 
+380/220 
+- 
+EPB 
+- 
+- 
+EMT 
+EMR 
+EPB 
+ESE 
+- 
+- 
+ETO 
+220/127 
+EAC 
+- 
+EMR 
+EMS 
+- 
+- 
+ERO 
+ESS 
+- 
+Rede Monofásica 
+440/220 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+ETO 
+254/127 
+- 
+- 
+- 
+EMS 
+EMT 
+- 
+- 
+- 
+- 
+ESS 
+- 
+240/120 
+EAC 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+ERO 
+- 
+- 
+230/115 
+- 
+- 
+EMR 
+- 
+- 
+EMR 
+- 
+ESE 
+- 
+- 
+- 
+230 ² 
+- 
+EPB 
+- 
+- 
+- 
+EPB 
+- 
+- 
+- 
+- 
+EAC – Energisa Acre.  
+EMR – Energisa Minas Rio. 
+EMS – Energisa Mato Grosso do Sul. 
+EMT – Energisa Mato Grosso. 
+EPB – Energisa Paraíba. 
+ 
+ 
+ESE – Energisa Sergipe. 
+ESS – Energisa Sul-Sudeste.  
+ETO – Energisa Tocantins. 
+ERO – Energisa Rondônia. 
+ 
+    Tabela XIX. Nível de tensão secundária nas áreas de concessão do Grupo Energisa. 
+ 
+I. 
+Todas as tensões nominais indicada deverão ser submetidas à aprovação prévia da 
+Concessionária; 
+II. 
+As tabelas I e II são compostas por tensão nominal fase-neutro (F/N) e fase-fase 
+(F/F). 
+
+=================== PAGE 25 ===================
+c 
+______________________________________________________________________________________ 
+NDU 005 
+Versão 6.0 
+                       JULHO/2026 
+25 
+7. TIPOS DE ESTRUTURAS 
+7.1. Rede Média Tensão 
+As Redes de Distribuição em Média Tensão serão em Estruturas Convencionais com 
+cabos de alumínio nus CAA ou CAL 6201 conforme desenho NDU 005.039 a seguir: 
+a) Estruturas Tipo Normal (N): N1, N2, N3 e N4; 
+b) Estruturas Monofásicas (U): U1, U2, U3 e U4; 
+c) Estruturas Tipo Triangular (T):  T1, T2, T3 e T4; 
+d) Estruturas Tipo Especial (H): TE, HTE e HTTE. 
+Também devem ser consultadas as NDU 016 e NDU 016.1 que tratam respectivamente 
+Compatibilização da arborização com as redes de distribuição de energia elétrica e 
+Gerenciamento do manejo de vegetação. 
+NOTA: 
+I. 
+(*) As estruturas tipo Beco em áreas rurais tem aplicabilidade limitada a vãos 
+inferior a 40 metros e nas situações em que a rede de distribuição passe por 
+vilarejos, aldeias, distritos etc., onde haja a necessidade de afastamento de 
+quaisquer edificações próximas a rede de distribuição aérea.   
+7.1.1. Estruturas Convencionais 
+As estruturas convencionais da rede de distribuição rural em média tensão, em cabo 
+de alumínio nu CAA ou CAL 6201, são denominadas U (monofásica), N (normal), T 
+(triangular) e especiais (TE, HTE, HTT e HTTE).  Para facilitar a identificação “carga 
+fonte”, recomenda-se que a cruzeta e/ou pino de topo nas estruturas "U1, U4, N1 N4 
+e T4", sejam instalados no lado da fonte.  
+Nas estruturas N1, N2 e N4, quando do lançamento da fase do meio, em vãos 
+superiores a 80 m, alternar a posição do (s) isolador (es) central (is) a cada estrutura, 
+conforme mostrado na figura 03. 
+
+=================== PAGE 26 ===================
+c 
+______________________________________________________________________________________ 
+NDU 005 
+Versão 6.0 
+                       JULHO/2026 
+26 
+ 
+ 
+ 
+ 
+ 
+ 
+7.1.2. Estruturas Monofásicas 
+• 
+Estrutura U1 - Usada em tangência, podendo também ser empregada em 
+ângulos. Neste caso, a instalação do condutor no isolador deverá ser feita 
+lateralmente. Recomenda-se que o pino de topo da estrutura U1, seja instalado 
+do lado oposto ao sentido de tracionamento do condutor, conforme desenho NDU 
+005.03. 
+• 
+Estrutura U2 - Usada em ângulos, podendo também ser empregada em 
+tangências. Essas estruturas podem ser substituídas pela estrutura U4. Vetada 
+sua utilização em derivação e fim de rede, conforme desenho NDU 005.03. 
+• 
+Estrutura U3 - Usada em derivações e fins de redes, conforme desenho NDU 
+005.025. 
+• 
+Estrutura U3-U3 – Nas estruturas tipo "U3-U3", a estrutura usada nas construções 
+com angulação horizontal acima de 60° até 90. Conforme desenho NDU 005.03. 
+A estrutura do nível superior deverá receber a rede do lado fonte, enquanto o 
+nível inferior, lado carga. O poste padronizado que será escolhido mediante 
+cálculo de esforço mecânico. A utilização desta estrutura deve se limitar a uma 
+deflexão máxima de 90°. O esforço do poste deverá ser definido através de 
+cálculo dos esforços mecânicos.  
+Estrutura U4 - Usada em ângulos e em mudança de seções transversais   condutores, 
+conforme desenho NDU 005.03. 
+Figura 03. Lançamento da fase do meio. 
+
+=================== PAGE 27 ===================
+c 
+______________________________________________________________________________________ 
+NDU 005 
+Versão 6.0 
+                       JULHO/2026 
+27 
+     Tabela XII. Ângulo de deflexão horizontal – Primário Estrutura Tipo N2. 
+Tabela XI. Ângulo de deflexão horizontal – Primário Estrutura Tipo N1. 
+ 
+ 
+7.1.3.  Estruturas Trifásicas – Tipo N / T  
+Estrutura N1 / T1 - Usadas em tangências, podendo também ser empregadas em 
+ângulos, neste caso sempre fixada no pescoço, nunca na altura das saias.  
+Recomenda-se que a cruzeta das estruturas T1/N1, seja instalada do lado oposto ao 
+sentido de tracionamento dos condutores, conforme desenhos NDU 005.04 e 06.  
+     
+ 
+ 
+ 
+Estrutura N2 / T2 - Usadas em ângulos, podendo também ser instalados sempre no 
+pescoço, nunca na altura das saias. Vetada sua utilização em derivação e fim de 
+rede, conforme desenhos NDU 005.029 e 034. Os afastamentos mínimos constam nos 
+desenhos NDU 005.04 e 06.  
+ 
+ 
+ 
+Seção Transversal dos 
+Condutores 
+Ângulos (º) 
+U1 
+U2 
+U4 
+U3 - U3 
+2 AWG 
+0º ≤ + α ≤ 60º 
+______ 
+______ 
+61º ≤ + α ≤ 90º 
+1/0 AWG 
+0º ≤ + α ≤ 45º 
+46º ≤ + α ≤ 60º 
+______ 
+4/0 AWG 
+0º ≤ + α ≤ 20º 
+21º ≤ + α ≤ 40º 
+41º ≤ + α ≤ 60º 
+336,4 MCM 
+0º ≤ + α ≤ 15º 
+16º ≤ + α ≤ 25º 
+26º ≤ + α ≤ 60º 
+Seção Transversal dos Condutores 
+Ângulo Máximo da Estrutura   
+2 AWG 
+≤ 30º 
+1/0 AWG 
+≤ 20º 
+4/0 AWG 
+≤ 10º 
+336,4 MCM 
+≤ 5º 
+Seção Transversal dos Condutores  
+Ângulo Máximo da Estrutura   
+2 AWG 
+20°< α ≤ 30 
+1/0 AWG 
+10°< α ≤ 20º 
+4/0 AWG 
+5°< α ≤ 10º 
+336,4 MCM 
+2°< α ≤ 5º 
+Tabela X. Ângulo de deflexão horizontal – Primário Estrutura Tipo U. 
+
+=================== PAGE 28 ===================
+c 
+______________________________________________________________________________________ 
+NDU 005 
+Versão 6.0 
+                       JULHO/2026 
+28 
+• 
+Estrutura N3 / T3 - Usadas em derivações e fins de rede, conforme desenhos 
+NDU 005.04 e 06.  
+• 
+Estrutura N3-N3 / T3-T3 - Nas estruturas tipo "N3-N3", a estrutura primeiro nível 
+deve receber o circuito oriundo da fonte e a de segundo nível, da carga, 
+conforme desenho NDU 005.05. O lado de maior resistência do poste deverá ficar 
+voltado para o sentido do maior vão ou maior esforço mecânico. O esforço do 
+poste deverá ser definido através de cálculo dos esforços mecânicos. A utilização 
+desta estrutura deve se limitar a uma deflexão máxima de 90°.  
+• 
+Estrutura N4 / T4 - Usadas em ângulos, em mudança de bitolas de condutores e 
+em tangência, conforme desenhos NDU 005.04 e 06. A estrutura T4 só aplica para 
+trifaseamento de rede monofásica para transformação de U4 para T4, pois para 
+construção a solução técnica adequada é aplicar estrutura TE.  
+ 
+ 
+ 
+ 
+ 
+NOTA: 
+I. 
+Para as redes de distribuição com classe de tensão de 36,2 kV localizadas em 
+áreas de nível moderado/alto de descarga atmosférica deverá optar pela 
+estrutura trifásica tipo T, haja vista que durante o fenômeno de backflashover 
+as ondas trafegantes advindas das descargas atmosféricas não propagará sobre 
+a cruzeta e posteriormente nas mãos francesas, pois o isolador central estará 
+instalado sobre o topo do poste.  
+ 
+ 
+Seção Transversal dos Condutores 
+Condições Necessárias  
+2 AWG 
+60º 
+1/0 AWG 
+50°< α ≤ 60º 
+4/0 AWG 
+40°< α ≤ 60º 
+336,4 MCM 
+25°< α ≤ 60º 
+Tabela XIII. Ângulo de deflexão horizontal – Primário Estrutura Tipo N4. 
+
+=================== PAGE 29 ===================
+c 
+______________________________________________________________________________________ 
+NDU 005 
+Versão 6.0 
+                       JULHO/2026 
+29 
+7.1.4.  Estruturas Trifásicas – Especiais 
+• 
+Estrutura TE - Usadas em ângulos, em mudança de seção transversal e ou tipo 
+condutores e em tangência, conforme desenho NDU 005.08.  O esforço do poste 
+deverá ser definido através de cálculo dos esforços mecânicos.  
+• 
+Estruturas HTE - Usadas em ângulos, em mudança de bitolas de condutores e em 
+tangência, conforme desenho NDU 005.09. O esforço do poste deverá ser definido 
+através de cálculo dos esforços mecânicos. A resistência nominal mínima do 
+poste deve ser igual a 300 daN para postes de 11 metros de comprimento, 
+conforme Desenho NDU 005.09.  
+• 
+Estruturas HTTE - Usadas em ângulos superiores as 60°, conforme desenho NDU 
+005.09. O esforço do poste deverá ser definido através de cálculo dos esforços 
+mecânicos. O lado de maior resistência dos postes deve ficar na direção da rede. 
+7.1.5. Estruturas do Neutro Contínuo 
+• 
+Estrutura S0 – A estrutura de neutro contínuo ancorado é associada às estruturas 
+de ancoragem do meio de rede (U4, T4/N4, TE, HTE e HTTE), independente da 
+tensão. Sua amarração é com a alça pré-formada de distribuição, do mesmo tipo 
+utilizado no primário, segundo desenho NDU 005.10. 
+• 
+Estrutura S0T - Estrutura de neutro contínuo ancorado em derivação e final de 
+rede aérea de distribuição. É associada às estruturas de final de rede (U3 e 
+T3/N3), independente da tensão. Sua amarração é com a alça pré-formada de 
+distribuição, do mesmo tipo utilizado no primário, segundo desenho NDU 005.10. 
+• 
+Estruturas S1 – A estrutura de neutro contínuo passante é associada às estruturas 
+de passagem do primário (U1, U2, T1/N1 e T2/N2), independente da tensão. A 
+utilização de coxim é opcional. Sua amarração deve ser por laço pré-formado, 
+conforme desenho NDU 005.10. 
+NOTA: 
+I. 
+Nas amarrações não deverão ser aplicados fios e fitas de alumínios.   
+
+=================== PAGE 30 ===================
+c 
+______________________________________________________________________________________ 
+NDU 005 
+Versão 6.0 
+                       JULHO/2026 
+30 
+7.2. Rede de Baixa Tensão 
+As Redes de Distribuição Secundárias terão estruturas conforme padrão da NDU 
+004.3.  
+É vetada toda e qualquer construção de rede de distribuição aérea em baixa tensão 
+que contemple aplicação de cabos de alumínio nu.  
+8. INSTALAÇÃO DE EQUIPAMENTOS 
+Toda estrutura com equipamentos, com exceção das chaves-facas e fusíveis, deverá 
+ter uma malha de terra onde as carcaças dos equipamentos serão aterradas através 
+da conexão com o neutro de baixa tensão ou neutro contínuo, segundo critérios 
+definidos na NDU 034. 
+8.1. Transformador de Distribuição 
+A ligação da rede primária convencional rural ao transformador deverá ser feita 
+através de cabo protegido com seção transversal de 50 mm²(classe de tensão 15kV 
+ou 24,2 kV e 70 mm² (classe de tensão 36,2 kV). 
+ Em postes de concreto duplo T, os transformadores devem ser instalados no lado de 
+maior resistência do poste e direcionadas para vias vicinais. A rede secundária deverá 
+ser concebida, segundo padrões estabelecidos na NDU 004.3. Para transformadores 
+trifásicos, na instalação em poste de concreto, deverá ser utilizado suporte para 
+transformador com 06 parafusos, sendo 04 constantes na lista de material e 02 partes 
+integrantes ao suporte conforme desenhos NDU 005.15. 
+NOTAS: 
+I. 
+Deverão ser observados os critérios de aterramento estabelecidos na NDU 
+034. 
+II. 
+É vetada a instalação de para-raios Drop Out nas caraças de transformadores 
+de distribuição. 
+ 
+
+=================== PAGE 31 ===================
+c 
+______________________________________________________________________________________ 
+NDU 005 
+Versão 6.0 
+                       JULHO/2026 
+31 
+8.2. Banco de Capacitores (MT) 
+A instalação dos bancos de capacitores fixos ou automáticos, devem obedecer aos 
+estudos específicos e aos padrões construtivos definidos na NDU 023, a fim de que o 
+fator de potência atenda às recomendações contidas na Resolução Nº 1000/2021 da 
+ANEEL ou legislação posterior que a substitua. 
+NOTAS:  
+I. 
+Na aplicação coexistente de bancos de reguladores de tensão e bancos de 
+capacitores deve ser observado o posicionamento de um em relação ao outro 
+de acordo com o que está definido no projeto. Esta observação também é 
+válida quando já existir um desses bancos instalados no alimentador 
+8.3. Para-raios Média Tensão (MT) 
+Todo para-raios de média tensão deverá ser conectado a linha distribuição por meio 
+do conjunto Grampo de Linha Viva (GLV), composto pelo grampo de linha viva, 
+estribo e conector indicado, conforme desenhos NDU 005.11. 
+A ligação da rede primária rural convencional aos para-raios de média tensão deverá 
+ser feita através de cabo protegido com seção transversal de 50 mm² (classe de 
+tensão 15kV ou 24,2 kV e 70 mm² (classe de tensão 36,2 kV). 
+Todos os para-raios deverão ser interligados através de um barramento formado pelo 
+mesmo cabo de aterramento, e interligados ao cabo de aterramento até as hastes de 
+aço cobreado, segundo especificações da NDU 034. Os critérios de aplicabilidade dos 
+para-raios estão definidos na NDU 007 e em complemento a esses temos:  
+- Em estruturas de reguladores de tensão, religadores e seccionadores automáticos. 
+Nestas estruturas aplicam-se 2 (dois) conjuntos de para-raios, sendo um do lado da 
+fonte e outro do lado da carga; 
+- Em estruturas de bancos de capacitores fixos ou automáticos;  
+- Em estruturas de transformação, no tanque do transformador;  
+
+=================== PAGE 32 ===================
+c 
+______________________________________________________________________________________ 
+NDU 005 
+Versão 6.0 
+                       JULHO/2026 
+32 
+- No poste anterior e posterior a cruzamento de linha de transmissão e estruturas de 
+travessias quando ocorrer mudança de seção transversal de cabo condutores.  
+- Em trechos de derivação dos alimentadores para áreas rurais quando derivados das 
+saídas de redes de médias tensões urbanas;  
+• Em todo e quaisquer pontos de entrega de unidades consumidoras atendidas em 
+média tensão quando o ramal de entrada for subterrâneo a partir deste ponto. Neste 
+caso, a instalação do para-raios é de responsabilidade do consumidor;  
+• Nos trechos de mudança de seção transversal de condutores da rede de média 
+tensão, inclusive quando da mudança de rede aérea para rede subterrânea e da rede 
+nua para rede compacta ou isolada;  
+• Em todos os finais de rede de média tensão;  
+• Poderão ser instalados para-raios ao longo das redes aérea de distribuição desde 
+que comprovado por meio de estudo técnico  
+• Em regiões com elevado índice ceraúnicos e como consequência do elevado índice 
+de falha de transformadores em decorrência da queima das bobinas de baixa tensão, 
+devem ser instalados para-raios de baixa tensão próximo ao transformador, no final 
+de rede, na mudança de seção transversal nominal dos cabos e na transição de rede 
+com condutores nus para rede com condutores multiplexados. 
+NOTAS: 
+I. 
+Deverá observar-se o distanciamento de instalação dos para-raios em relação 
+aos demais equipamentos instalados na estrutura conforme tabela 23 do 
+Anexo. 
+A instalação de para-raios em transformadores é obrigatória, sejam esse em 
+média ou baixa tensões devidamente equipadas com os protetores de buchas. 
+ 
+ 
+
+=================== PAGE 33 ===================
+c 
+______________________________________________________________________________________ 
+NDU 005 
+Versão 6.0 
+                       JULHO/2026 
+33 
+8.4. Chave Fusível e Chave Fusível Religadora 
+A chave fusível ou fusível Religadora deve ser instalada em estrutura de ancoragem, 
+enquanto os jumpers deverão ser em condutores protegidos, conforme desenhos NDU 
+005.12 e 005.13 e padrão especificados na NDU 023. 
+Sempre será instalada com a base do cartucho alimentando a carga. As chaves 
+fusíveis, quando forem utilizadas para proteger um transformador, poderão ser 
+instaladas em estruturas anteriores a do equipamento, com distância máxima de 
+visualização do transformador desde que não existam outros equipamentos e/ou 
+ramais de MT. Nas estruturas trifásicas, a chave central deve ser instalada em posição 
+oposta ao do neutro contínuo, quando houver. Poderão ser utilizados isoladores para 
+auxiliar na fixação dos jumpers. Nas estruturas monofásicas a chave deve ser 
+instalada em posição oposta ao do neutro contínuo. Não pode existir estai lateral do 
+lado da chave. 
+As chaves fusíveis devem ser instaladas na proteção de banco de capacitores, em 
+sub-troncos, em transformadores aéreos de distribuição e excepcionalmente, quando 
+não for viável tecnicamente a instalação de outro equipamento que garanta a 
+segurança dos circuitos. 
+NOTAS: 
+I. 
+É vetado a instalação das chaves religadoras em cascata (duas ou mais chaves 
+fusíveis religadoras em série), exceto nas situações em que sejam 
+salvaguardadas 100% de seletividade. 
+II. 
+As chaves fusíveis religadoras deverão ser instaladas tão somente redes 
+aéreas rurais definidos segundo critérios definidos nas NDUs 007 e 023. 
+8.5. Chave Seccionadora Unipolar  
+São seccionadores de operação vertical, constituído por duas colunas isolantes fixas, 
+sendo um, suporte fixo e a outra, suporte da articulação do contato móvel (faca), 
+provida de argola para operação por vara de manobra dispondo, normalmente, de 
+
+=================== PAGE 34 ===================
+c 
+______________________________________________________________________________________ 
+NDU 005 
+Versão 6.0 
+                       JULHO/2026 
+34 
+trava de segurança. Devem ser instaladas chaves seccionadoras, nas seguintes 
+condições: 
+- Nos pontos de derivação de ramais para clientes;  
+- Em pontos previamente analisados, a fim de facilitar a operação dos alimentadores; 
+- Em encontros de alimentadores. 
+A chave seccionadora unipolar deverá ser instalada em estrutura de ancoragem 
+dupla. A instalação configurada com a abertura da lâmina para o lado carga, que 
+ficará desenergizada quando a chave faca estiver aberta, conforme desenhos NDU 
+005.14.  
+A ligação à rede primária, enquanto os jumpers deverão ser em condutores 
+protegidos, dispensando o GLV. A corrente nominal deverá ser igual ou maior que a 
+máxima corrente de carga no ponto de instalação com valor de 400 ou 630 A, 
+incluindo manobras usuais.  
+Nas estruturas monofásicas a chave deve ser instalada em posição oposta ao do 
+neutro contínuo, quando houver, e não pode existir estai laterais do lado da chave.  
+A chave faca, em circuitos monofásicos, pode ser substituída chave fusível composta 
+com lâmina desligadora, conforme ETU 121.1. 
+NOTA: 
+I. 
+Na NDU 007 constam tabelas que correlacionam as ampacidade dos 
+condutores padronizados a capacidade de corrente das chaves seccionadoras 
+unipolares, dessa forma havendo a necessidade de consulta delas quando da 
+fase de elaboração do projeto.  
+II. 
+Em trechos de circuitos duplos em redes aéreas de distribuição em média 
+tensão, deve ser evitadas as instalações de 02 (duas)chaves em mesma 
+estrutura ou ponto situação motivada por requisitos de segurança 
+operacional do sistema, entretanto em condições excepcionais a possível   
+instalação somente ocorrerá sob consulta prévia a unidade local da 
+Distribuidora de energia elétrica.    
+
+=================== PAGE 35 ===================
+c 
+______________________________________________________________________________________ 
+NDU 005 
+Versão 6.0 
+                       JULHO/2026 
+35 
+8.6. Reguladores de Tensão  
+Nas redes de distribuição rural do Grupo Energisa são utilizados reguladores de 
+tensão monofásicos, formando bancos de três reguladores com ligação em Delta 
+fechado ou Estrela com neutro aterrado.  
+O dimensionamento e a localização dos bancos de reguladores de tensão devem 
+atender aos estudos da Assessoria de Planejamento e Orçamento (ASPO). Os padrões 
+construtivos e lista de material dos reguladores de tensão estarão especificados na 
+NDU 023. 
+NOTAS:  
+I. 
+Quando o atendimento por redes aéreas de distribuição com reguladores de 
+tensão atinge sua demanda máxima ou estejam comprometendo de forma 
+significativa a qualidade do fornecimento de energia, devem ser analisadas as 
+alternativas da construção de um novo alimentador, instalação de uma nova 
+subestação ou mudança no nível de tensão. 
+II. 
+As estruturas dos reguladores de tensão não deverão possuir estai. Nesse caso, 
+onde haja a necessidade desse recurso, deve-se instalar nos postes 
+adjacentes, sendo as estruturas dos mesmos do tipo ancoradas. 
+III. 
+Em alimentadores muito extensos ou que atendam áreas de baixa densidade 
+de carga a regulação de tensão dentro das faixas estabelecidas deve ser 
+realizada através da instalação de reguladores de tensão com anuência da 
+Assessoria de planejamento orçamentário (ASPO) da unidade local do Grupo 
+Energisa.  
+IV. 
+A instalação de reguladores de tensão é uma prerrogativa da distribuidora e 
+não do cliente de autoconstrução. 
+8.7. Religadores de Linha  
+Nas redes de distribuição rural do Grupo Energisa são utilizados religadores 
+monofásicos e trifásicos com dimensionamento e localização definido por intermédio 
+de estudos realizados pela Assessória de Planejamento e Orçamento (ASPO). Os 
+
+=================== PAGE 36 ===================
+c 
+______________________________________________________________________________________ 
+NDU 005 
+Versão 6.0 
+                       JULHO/2026 
+36 
+padrões construtivos e lista de material dos reguladores de tensão estarão 
+especificados na NDU 023.  
+São destinados para proteção dos alimentadores, na derivação da subestação ou em 
+pontos intermediários do circuito. Nesta última situação, devem preferencialmente 
+ser instalados no tronco do alimentador ou em derivações importantes. No entanto, 
+padrões monofásicos podem ser instalados em ramais bifásicos e trifásicos. Este 
+equipamento, sempre associado com uma unidade terminal remota, tem com 
+aplicação: 
+- Proteção de condutores e equipamentos contra sobrecorrente e corrente de curto-
+circuito causados por falhas na rede aérea de média tensão;  
+-  Eliminação de faltas temporárias através de realização de ciclos de abertura e 
+fechamento, evitando interrupções totais ou parciais dos circuitos e, em 
+consequência minimizar a frequência e a duração das interrupções sustentadas, 
+com reflexos positivos nos trabalhos de operação e manutenção da rede de 
+distribuição de média tensão;  
+-  Na operação do seccionamento remoto dos circuitos, diminuindo o número de 
+consumidores ou potência envolvida numa interrupção sustentada ocasionada por 
+uma falta permanente. 
+8.8. Protetor de Bucha 
+Acessório de material polimérico utilizado para proteção das partes energizadas de 
+buchas de equipamentos deverão ser obrigatoriamente concebidos na elaboração da 
+orçamentação de projetos, assim como na instalação dos seguintes equipamentos 
+abaixo:  
+• Capa protetora de buchas para transformadores de distribuição (ETU 197.1/197.2).  
+• Capa protetora de buchas para religadores de linha de distribuição (ETU 197.4).  
+• Capa protetora de buchas para reguladores de tensão (ETU 197.4).  
+• Capa protetora de buchas para Para-raios de média (197.3). 

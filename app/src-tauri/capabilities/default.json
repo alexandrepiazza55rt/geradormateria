@@ -1,0 +1,7 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Permissões padrão do app (diálogos nativos e SQLite do usuário).",
+  "windows": ["main"],
+  "permissions": ["core:default", "dialog:default", "sql:default"]
+}

@@ -1,0 +1,765 @@
+
+=================== PAGE 55 ===================
+c 
+______________________________________________________________________________________ 
+NDU 005 
+Versão 6.0 
+                       JULHO/2026 
+55 
+22. TABELAS 
+TABELA 01. Afastamentos Mínimos entre os Condutores e o Solo. 
+TABELA 02. Afastamentos Mínimos entre Condutores de Circuitos Diferentes. 
+TABELA 03. Afastamento Mínimos entre Condutores de um mesmo Circuito. 
+TABELA 04.  Distâncias entre os Condutores e Solo (AT). 
+TABELA 05. Entre partes Energizadas a Fase ou a Terra em Pontos Fixos. 
+TABELA 06. Tração de Montagem e Fecha até 200 metros Condutor CAA 2 AWG - 
+Vmax: 80 km/h. 
+TABELA 07. Tração de Montagem e Fecha de 220 a 400 metros Condutor CAA 2 AWG 
+- Vmax: 80 km/h. 
+TABELA 08. Tração de Montagem e Fecha de 420 a 600 metros Condutor CAA 2 AWG 
+- Vmax: 80 km/h. 
+TABELA 09. Tração de Montagem e Fecha até 200 metros Condutor CAA 1/0 AWG - 
+Vmax: 80 km/h. 
+TABELA 10. Tração de Montagem e Fecha de 220 a 400 metros Condutor CAA 1/0 
+AWG - Vmax: 80 km/h. 
+TABELA 11. Tração de Montagem e Fecha de 420 a 600 metros Condutor CAA 1/0 
+AWG - Vmax: 80 km/h. 
+TABELA 12. Tração de Montagem e Fecha até 200 metros Condutor CAA 4/0 AWG - 
+Vmax: 80 km/h. 
+TABELA 13. Tração de Montagem e Fecha de 220 a 400 metros Condutor CAA 4/0 
+AWG - Vmax: 80 km/h. 
+TABELA 14. Tração de Montagem e Fecha de 420 a 600 metros Condutor CAA 4/0 
+AWG - Vmax: 80 km/h. 
+
+=================== PAGE 56 ===================
+c 
+______________________________________________________________________________________ 
+NDU 005 
+Versão 6.0 
+                       JULHO/2026 
+56 
+TABELA 15. Tração de Montagem e Fecha de até 200 metros Condutor CAA 336,4 MCM 
+- Vmax: 80 km/h. 
+TABELA 16. Tração de Montagem e Fecha de 220 a 400 metros Condutor CAA 336,4 
+MCM - Vmax: 80 km/h. 
+TABELA 17. Tração de Montagem e Fecha de 420 a 600 metros Condutor CAA 336,4 
+MCM - Vmax: 80 km/h. 
+TABELA 18. Tração de Montagem e Fecha até 200 metros Condutor CAA 2 AWG - 
+Vmax: 100 km/h. 
+TABELA 19. Tração de Montagem e Fecha de 220 a 420 metros Condutor CAA 2 AWG 
+- Vmax: 100 km/h. 
+TABELA 20. Tração de Montagem e Fecha de 420 a 600 metros Condutor CAA 2 AWG 
+- Vmax: 100 km/h. 
+TABELA 21. Tração de Montagem e Fecha até 200 metros Condutor CAA 1/0 AWG - 
+Vmax: 100 km/h. 
+TABELA 22. Tração de Montagem e Fecha de 220 até 400 metros Condutor CAA 1/0 
+AWG - Vmax: 100 km/h. 
+TABELA 23. Tração de Montagem e Fecha de 420 até 600 metros Condutor CAA 1/0 
+AWG - Vmax: 100 km/h. 
+TABELA 24. Tração de Montagem e Fecha até 200 metros Condutor CAA 4/0 AWG - 
+Vmax: 100 km/h. 
+TABELA 25. Tração de Montagem e Fecha de 220 a 400 metros Condutor CAA 4/0 
+AWG - Vmax: 100 km/h. 
+TABELA 26. Tração de Montagem e Fecha de 420 a 600 metros Condutor CAA 4/0 
+AWG - Vmax: 100 km/h. 
+TABELA 27. Tração de Montagem e Fecha até 200 metros Condutor CAA 336,4 MCM - 
+Vmax: 100 km/h. 
+
+=================== PAGE 57 ===================
+c 
+______________________________________________________________________________________ 
+NDU 005 
+Versão 6.0 
+                       JULHO/2026 
+57 
+TABELA 28. Tração de Montagem e Fecha de 220 a 400 metros Condutor CAA 336,4 
+MCM - Vmax: 100 km/h. 
+TABELA 29. Tração de Montagem e Fecha de 420 a 600 metros Condutor CAA 336,4 
+MCM - Vmax: 100 km/h. 
+TABELA 30. Tração de Montagem e Fecha até 200 metros Condutor CAA 2 AWG - 
+Vmax: 130 km/h. 
+TABELA 31. Tração de Montagem e Fecha de 220 a 400 metros Condutor CAA 2 AWG 
+- Vmax: 130 km/h. 
+TABELA 32. Tração de Montagem e Fecha de 420 a 600 metros Condutor CAA 2 AWG 
+- Vmax: 130 km/h. 
+TABELA 33. Tração de Montagem e Fecha até 200 metros Condutor CAA 1/0 AWG - 
+Vmax: 130 km/h. 
+TABELA 34. Tração de Montagem e Fecha de 220 a 400 metros Condutor CAA 1/0 
+AWG - Vmax: 130 km/h. 
+TABELA 35. Tração de Montagem e Fecha de 420 a 600 metros Condutor CAA 1/0 
+AWG - Vmax: 130 km/h. 
+TABELA 36. Tração de Montagem e Fecha até 200 metros Condutor CAA 4/0 AWG - 
+Vmax: 130 km/h. 
+TABELA 37. Tração de Montagem e Fecha de 220 a 400 metros Condutor CAA 4/0 
+AWG - Vmax: 130 km/h. 
+TABELA 38. Tração de Montagem e Fecha de 420 a 600 metros Condutor CAA 4/0 
+AWG - Vmax: 130 km/h. 
+TABELA 39. Tração de Montagem e Fecha até 200 metros Condutor CAA 336,4 MCM - 
+Vmax: 130 km/h. 
+TABELA 40. Tração de Montagem e Fecha de 220 a 400 metros Condutor CAA 336,4 
+MCM - Vmax: 130 km/h. 
+TABELA 41. Tração de Montagem e Fecha de 420 a 600 metros Condutor CAA 336,4 
+MCM - Vmax: 130 km/h. 
+TABELA 42.  Tração de Montagem e Fecha até 200 metros Condutor CAA 2 AWG - 
+Vmax: 160 km/h. 
+
+=================== PAGE 58 ===================
+c 
+______________________________________________________________________________________ 
+NDU 005 
+Versão 6.0 
+                       JULHO/2026 
+58 
+TABELA 43. Tração de Montagem e Fecha de 220 a 400 metros Condutor CAA 2 AWG 
+- Vmax: 160 km/h. 
+TABELA 44. Tração de Montagem e Fecha de 420 a 600 metros Condutor CAA 2 AWG 
+- Vmax: 160 km/h. 
+TABELA 45. Tração de Montagem e Fecha até 200 metros Condutor CAA 1/0 AWG - 
+Vmax: 160 km/h. 
+TABELA 46. Tração de Montagem e Fecha de 220 a 400 metros Condutor CAA 1/0 
+AWG - Vmax: 160 km/h. 
+TABELA 47. Tração de Montagem e Fecha de 420 a 600 metros Condutor CAA 1/0 
+AWG - Vmax: 160 km/h. 
+TABELA 48. Tração de Montagem e Fecha até 200 metros Condutor CAA 4/0 AWG - 
+Vmax: 160 km/h. 
+TABELA 49. Tração de Montagem e Fecha de 220 a 400 metros Condutor CAA 4/0 
+AWG - Vmax: 160 km/h. 
+TABELA 50. Tração de Montagem e Fecha de 420 a 600 metros Condutor CAA 4/0 
+AWG - Vmax: 160 km/h. 
+TABELA 51. Tração de Montagem e Fecha até 200 metros Condutor CAA 336,4 MCM - 
+Vmax: 160 km/h. 
+TABELA 52. Tração de Montagem e Fecha de 220 a 400 metros Condutor CAA 336,4 
+MCM - Vmax: 160 km/h. 
+TABELA 53. Tração de Montagem e Fecha de 420 a 600 metros Condutor CAA 336,4 
+MCM - Vmax: 160 km/h. 
+TABELA 54. Postes Padronizados. 
+TABELA 55. Comprimento e Resistência Mínima de Poste para Instalação de 
+Equipamento. 
+TABELA 56. Modelo de Instalação Regulador de Tensão Correlacionado a Massa Total 
+do Equipamento. 
+TABELA 57. Resistência de Engastamento de Postes. 
+ 
+ 
+ 
+ 
+
+=================== PAGE 59 ===================
+c 
+______________________________________________________________________________________ 
+NDU 005 
+Versão 6.0 
+                       JULHO/2026 
+59 
+TABELA 01. Afastamentos Mínimos entre os Condutores e o Solo. 
+NOTAS: 
+I. 
+Em ferrovias eletrificadas ou eletrificáveis, a distância mínima do condutor ao 
+boleto dos trilhos é de 12m para tensões até 36,2 kV, conforme NBR 14165. 
+II. Em rodovias estaduais, recomenda-se que a distância mínima do condutor ao 
+solo atenda à legislação específica do órgão estadual local. 
+III. A altura mínima do condutor, no vão da travessia, medida sobre a superfície de 
+rolamento, na condição de flecha máxima, de qualquer fiada de trilhos deverá 
+ser de:  
+D= a + 0,01(Du − 69), nunca menor que a, 
+Natureza do logradouro 
+Afastamento mínimo (mm) 
+Tensão U (kV) 
+Comunicação e  
+cabos aterrados 
+U ≤ 1 1 < U ≤ 36,2a 
+Vias exclusivas de pedestre em áreas rurais 
+3 000 
+4 500 
+5 500 
+Vias exclusivas de pedestre em áreas urbanas 
+3 000 
+3 500 
+5 500 
+Locais acessíveis ao trânsito de veículos em áreas rurais 
+4 500 
+4 500 
+6 000 
+Locais acessíveis ao trânsito de máquinas e equipamentos agrícolas 
+em áreas rurais 
+6 000 
+6 000 
+6 000 
+Ruas e avenidas 
+5 000 
+5 500 
+6 000 
+Entradas de prédios e demais locais de uso restrito a veículos 
+4 500 
+4 500 
+6 000 
+Rodovias federais 
+7 000 
+7 000 
+7 000 
+Ferrovias não eletrificadas e não eletrificáveis 
+6 000 
+6 000 
+9 000 
+a Para tensões superiores a 36,2 kV, consultar a ABNT NBR 5422. 
+ 
+NOTA 1 Em ferrovias eletrificadas ou eletrificáveis, a distância mínima do condutor ao boleto dos trilhos é de 12 m para 
+tensões até 36,2 kV, conforme ABNT NBR 14165. 
+NOTA 2 Em rodovias estaduais, recomenda-se que a distância mínima do condutor ao solo atenda à legislação específica 
+do órgão estadual. Na falta de regulamentação estadual, obedecer aos valores da Tabela 3. 
+
+=================== PAGE 60 ===================
+c 
+______________________________________________________________________________________ 
+NDU 005 
+Versão 6.0 
+                       JULHO/2026 
+60 
+Onde, D é a altura, em metros; a= 9 m para ferrovia não eletrificada e não 
+eletrificável; a=12 m para ferrovia eletrificada ou eletrificável; Du é a 
+distância numericamente igual à tensão nominal da linha em kV, em metros. 
+Sobre linha de telecomunicações ou de energia da ferrovia, a distância vertical 
+mínima é calculada pela fórmula:  
+D=1,7 + 0,01(Du − 69), 
+Observado o mínimo de 1,70 m e sendo Du correspondente à tensão mais 
+elevada das linhas consideradas. 
+A travessia aérea de média tensão, sobre via férrea eletrificada ou 
+eletrificável, não pode se situar sobre suporte da ferrovia ou, quando isto for 
+impossível, a distância vertical mínima do condutor ao suporte, na condição 
+de flecha máxima, é calculada pela fórmula: D=4,0 + 0,01(Du − 69), observado 
+o mínimo de 4,0 m e sendo Du a distância numericamente igual à tensão 
+nominal da linha em kV, em metros. 
+ 
+TABELA 02. Afastamentos Mínimos entre Condutores de                
+Circuitos Diferentes. 
+Afastamento mínimo(mm) 
+Tensão U (kV) (circuito inferior) 
+Tensão U (kV) (circuito superior) 
+U≤1 
+1 < U ≤ 15 
+15 < U ≤ 36,2 
+Comunicação 
+600 
+1.500 
+1.800 
+U≤1 
+600 
+800 
+1.000 
+1<U≤15 
+- 
+800 
+900 
+15<U≤36,2 
+- 
+- 
+900 
+ 
+ 
+ 
+
+=================== PAGE 61 ===================
+c 
+______________________________________________________________________________________ 
+NDU 005 
+Versão 6.0 
+                       JULHO/2026 
+61 
+TABELA 03. Afastamento Mínimos entre Condutores de um mesmo 
+Circuito. 
+Tensão U (kV) 
+Afastamento mínimo (mm) 
+U ≤ 1 
+200 
+1 < U ≤ 15 
+500 
+15 < U ≤ 36,2 
+600 
+ 
+TABELA 04.  Distâncias entre os Condutores e Solo (AT). 
+Natureza do Obstáculo 
+Distâncias Mínimas (Milímetros) 
+   Tensão U (KV) 
+69 
+138 
+230 
+345 
+500 
+Locais acessíveis apenas a pedestres. 
+6000 
+6500 
+6900 
+7600 
+8600 
+Locais onde circulam máquinas agrícolas com 
+altura inferior a 3,5 metros. 
+6500 
+7000 
+7400 
+8100 
+9100 
+Cultura de café (solo) - máquinas agrícolas com 
+altura inferior a 5,0 metros. 
+8000 
+8500 
+9000 
+9600 
+11000 
+Rodovias, ruas e avenidas. 
+8000 
+8400 
+8900 
+9600 
+11000 
+Ferrovias não eletrificadas ou não eletrificáveis. 
+9000 
+9500 
+10000 
+11000 
+12000 
+Ferrovias eletrificadas ou com previsão de 
+eletrificação. 
+12000 
+12500 
+13000 
+13700 
+14700 
+Linhas de energia elétrica – Para-raios e RDs até 
+34,5 kV. 
+H+1200 
+H+1600 
+H+2100 
+H+2800 
+H+3800 
+Linhas de telecomunicações. 
+H+2000 
+H+2500 
+H+3000 
+H+3700 
+H+4700 
+Suporte de linhas pertencentes à ferrovia. 
+H+4000 
+H+4400 
+H+4900 
+H+5600 
+H+6600 
+Veículos rodoviários, ferroviários e máquinas com 
+altura superior a 5 metros. 
+H+3000 
+H+3400 
+H+3900 
+H+4600 
+H+5600 
+Muros. 
+H+6000 
+H+6400 
+H+6900 
+H+7600 
+H+8600 
+Instalações transportadoras. 
+H+3000 
+H+3400 
+H+3900 
+H+4600 
+H+5600 
+Mata de preservação permanente e pomares 
+(cultura adulta – topo da vegetação). 
+H+4000 
+H+4500 
+H+5000 
+H+5700 
+H+6700 
+Águas navegáveis. 
+H+2000 
+H+2500 
+H+2900 
+H+3600 
+H+4600 
+Águas não navegáveis. 
+6000 
+6400 
+6900 
+7600 
+8600 
+ 
+
+=================== PAGE 62 ===================
+c 
+______________________________________________________________________________________ 
+NDU 005 
+Versão 6.0 
+                       JULHO/2026 
+62 
+NOTAS: 
+I. De acordo com tabela obtida de acordo com a NBR 5422 obedecendo as 
+distâncias verticais mínimas de segurança em relação aos obstáculos. Deve ser 
+consultada a NDU 047 para maiores informações. 
+ 
+ 
+ 
+500 kV 
+230 kV 
+24,2/36,2 kV 
+69 kV 
+15 kV 
+1 kV 
+       1 kV 
+       15 kV 
+24,2/36,2 kV 
+900 
+800 
+600 
+600 
+Rede Compartilhada de Infraestrutura (Telecomunicações). 
+
+=================== PAGE 63 ===================
+c 
+______________________________________________________________________________________ 
+NDU 005 
+Versão 6.0 
+                       JULHO/2026 
+63 
+TABELA 05. Entre partes Energizadas a Fase ou a Terra em Pontos Fixos. 
+Tensão U (kV) 
+Tensão suportável nominal sob 
+impulso atmosférico kV 
+Afastamento mínimo mm 
+Fase-fase (valor X) 
+Fase-terra (valor Y) 
+15 
+95 
+140 
+130 
+110 
+170 
+150 
+24,2 
+125 
+190 
+170 
+150 
+230 
+200 
+36,2 
+150 
+230 
+200 
+170 
+270 
+230 
+200 
+298 
+253 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                   
+
+=================== PAGE 64 ===================
+c 
+______________________________________________________________________________________ 
+NDU 005 
+Versão 6.0 
+                       JULHO/2026 
+64 
+TABELA 06. Tração de Montagem até 200 metros                         
+Condutor CAA 2 AWG  - Vmax: 80 km/h. 
+Temperatura 
+oC 
+Vão (a) em metros 
+20 
+40 
+60 
+80 
+100 
+120 
+140 
+160 
+180 
+200 
+-5 
+372,82 
+370,53 
+366,83 
+361,84 
+355,77 
+348,87 
+341,41 
+333,68 
+325,95 
+318,47 
+0 
+347,35 
+345,34 
+342,09 
+337,77 
+332,56 
+326,73 
+320,51 
+314,18 
+307,95 
+302,00 
+5 
+321,90 
+320,23 
+317,55 
+314,02 
+309,84 
+305,22 
+300,39 
+295,56 
+290,89 
+286,49 
+10 
+296,49 
+295,24 
+293,26 
+290,70 
+287,71 
+284,48 
+281,17 
+277,91 
+274,82 
+271,95 
+15 
+271,11 
+270,41 
+269,31 
+267,91 
+266,31 
+264,62 
+262,93 
+261,31 
+259,79 
+258,39 
+20 
+245,80 
+245,80 
+245,80 
+245,80 
+245,80 
+245,80 
+245,80 
+245,80 
+245,80 
+245,80 
+25 
+220,57 
+221,50 
+222,89 
+224,56 
+226,35 
+228,14 
+229,84 
+231,42 
+232,86 
+234,15 
+30 
+195,48 
+197,66 
+200,80 
+204,41 
+208,14 
+211,74 
+215,11 
+218,18 
+220,94 
+223,40 
+35 
+170,59 
+174,50 
+179,79 
+185,58 
+191,31 
+196,69 
+201,62 
+206,05 
+210,00 
+213,50 
+40 
+146,07 
+152,32 
+160,19 
+168,29 
+175,98 
+183,02 
+189,35 
+194,98 
+199,98 
+204,40 
+45 
+122,17 
+131,59 
+142,34 
+152,71 
+162,20 
+170,70 
+178,25 
+184,92 
+190,82 
+196,03 
+50 
+99,43 
+112,87 
+126,51 
+138,93 
+149,95 
+159,68 
+168,24 
+175,79 
+182,45 
+188,34 
+TABELA 06. Flecha até 200 metros Condutor                                   
+CAA 2 AWG - Vmax: 80 km/h. 
+Temperatura 
+oC 
+Vão (a) em metros 
+20 
+40 
+60 
+80 
+100 
+120 
+140 
+160 
+180 
+200 
+-5 
+0,02 
+0,07 
+0,17 
+0,30 
+0,48 
+0,70 
+0,98 
+1,30 
+1,69 
+2,13 
+0 
+0,02 
+0,08 
+0,18 
+0,32 
+0,51 
+0,75 
+1,04 
+1,38 
+1,79 
+2,25 
+5 
+0,02 
+0,08 
+0,19 
+0,35 
+0,55 
+0,80 
+1,11 
+1,47 
+1,89 
+2,37 
+10 
+0,02 
+0,09 
+0,21 
+0,37 
+0,59 
+0,86 
+1,18 
+1,56 
+2,00 
+2,50 
+15 
+0,03 
+0,10 
+0,23 
+0,41 
+0,64 
+0,92 
+1,27 
+1,66 
+2,12 
+2,63 
+20 
+0,03 
+0,11 
+0,25 
+0,44 
+0,69 
+1,00 
+1,35 
+1,77 
+2,24 
+2,76 
+25 
+0,03 
+0,12 
+0,27 
+0,48 
+0,75 
+1,07 
+1,45 
+1,88 
+2,36 
+2,90 
+30 
+0,03 
+0,14 
+0,30 
+0,53 
+0,82 
+1,16 
+1,55 
+1,99 
+2,49 
+3,04 
+35 
+0,04 
+0,16 
+0,34 
+0,59 
+0,89 
+1,24 
+1,65 
+2,11 
+2,62 
+3,18 
+40 
+0,05 
+0,18 
+0,38 
+0,65 
+0,97 
+1,34 
+1,76 
+2,23 
+2,75 
+3,32 
+45 
+0,06 
+0,21 
+0,43 
+0,71 
+1,05 
+1,43 
+1,87 
+2,35 
+2,88 
+3,47 
+50 
+0,07 
+0,24 
+0,48 
+0,78 
+1,13 
+1,53 
+1,98 
+2,47 
+3,02 
+3,61 
+ 
+ 
