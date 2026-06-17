@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "rev": 1,
+  "status": "ativo",
+  "id": "X-2026-002",
+  "tipo": "RUMC-1",
+  "condutor": null,
+  "tensao_kv": 13.8,
+  "nominal_kv": 7.97,
+  "fases": 1,
+  "categoria": "Rede Ultra Mega Compacta",
+  "poste_ref": "DT-10/150",
+  "base_bom": {
+    "137": 1.0,
+    "150": 1.0
+  },
+  "postes": [
+    { "poste": "DT-10/150", "delta": {} }
+  ]
+}
