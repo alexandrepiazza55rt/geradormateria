@@ -1,0 +1,26 @@
+{
+  "name": "license-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Servidor de licença (Cloudflare Worker + D1) — assina tokens Ed25519",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "migrate:local": "wrangler d1 migrations apply licencas --local",
+    "migrate:remote": "wrangler d1 migrations apply licencas --remote",
+    "test": "vitest run",
+    "genkeys": "node scripts/genkeys.mjs"
+  },
+  "dependencies": {
+    "@noble/ed25519": "^2.1.0",
+    "@noble/hashes": "^1.4.0",
+    "hono": "^4.6.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240909.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0",
+    "wrangler": "^3.78.0"
+  }
+}

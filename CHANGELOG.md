@@ -5,7 +5,19 @@ Registro cronológico das atividades feitas no sistema, em linguagem do dono
 
 ---
 
-## 2026-06-17
+## 2026-06-17 — Sistema de licença (em andamento, branch `feat/licenca-v1`)
+
+- ✅ **Servidor de licença pronto e testado (a "central" das chaves).**
+  Construí o servidorzinho (Cloudflare Worker + banco) que vai controlar as licenças.
+  Em linguagem simples: é ele quem **cria as chaves**, **confere** quando o cliente ativa,
+  **prende a licença a um computador**, e permite **revogar** (desligar) uma licença. Cada
+  chave de licença é única e tem um "dígito verificador" (pega erro de digitação). Quando o
+  cliente ativa, o servidor devolve um **"passaporte" assinado** que o programa guarda — e que
+  só ele consegue criar (a chave secreta de assinatura **nunca** sai do servidor). Já testei
+  os casos importantes: ativar num PC funciona; **a mesma chave em outro PC é recusada**;
+  **revogar faz travar**; chave digitada errada é barrada; e tentativa repetida (replay) é
+  bloqueada. Nada disso apaga dados de ninguém. Falta ligar no programa do cliente e no painel,
+  e subir na sua conta Cloudflare. (Detalhes: `ARQUITETURA_LICENCA.md`, `PLANO_DE_EXECUCAO.md`.)
 
 - ✅ **Redesenho visual completo — agora tem cara de PROGRAMA, não de site.**
   Troca só de "pele": **nenhuma função, cálculo, dado, preço, margem,

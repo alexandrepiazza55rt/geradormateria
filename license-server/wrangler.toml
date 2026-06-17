@@ -1,0 +1,19 @@
+name = "gerador-licenca"
+main = "src/index.ts"
+compatibility_date = "2024-09-23"
+
+# Banco de licenças (D1/SQLite). O database_id é preenchido após `wrangler d1 create licencas`.
+[[d1_databases]]
+binding = "DB"
+database_name = "licencas"
+database_id = "PREENCHER_APOS_d1_create"
+migrations_dir = "migrations"
+
+# Secrets (NÃO ficam aqui — definidos via `wrangler secret put`):
+#   LICENSE_SIGNING_KEY   → chave PRIVADA Ed25519 (hex). NUNCA commitar.
+#   ADMIN_TOKEN           → token para as rotas /v1/admin/*.
+# Variáveis públicas:
+[vars]
+LICENSE_PUBLIC_KEY = "PREENCHER_COM_A_PUBLICA_HEX"   # informativa; a pública também vai embutida no cliente
+PRODUTO = "gerador-materiais"
+DIAS_CARENCIA = "15"
