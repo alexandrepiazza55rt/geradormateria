@@ -15,11 +15,7 @@ import { SecaoBackup } from "./SecaoBackup";
 import { ConfirmacaoCodigo } from "../ConfirmacaoCodigo";
 
 type Aba =
-  | "perda"
-  | "mao_obra"
-  | "frete"
-  | "margem"
-  | "imposto"
+  | "precificacao"
   | "empresa"
   | "validades"
   | "precos_dados"
@@ -93,7 +89,7 @@ export function ConfiguracoesView() {
     } catch {
       /* ignore */
     }
-    return "margem";
+    return "precificacao";
   });
   const [confirmando_restaurar, set_confirmando_restaurar] = useState(false);
   const [confirmando_limpar_log, set_confirmando_limpar_log] = useState(false);
@@ -134,11 +130,7 @@ export function ConfiguracoesView() {
   ).length;
 
   const tabs: { key: Aba; label: string }[] = [
-    { key: "margem", label: "Margem" },
-    { key: "perda", label: "Perda" },
-    { key: "mao_obra", label: "Mão de obra" },
-    { key: "frete", label: "Frete" },
-    { key: "imposto", label: "Imposto" },
+    { key: "precificacao", label: "Precificação" },
     { key: "empresa", label: "Empresa" },
     { key: "validades", label: "Validades" },
     { key: "precos_dados", label: "Preços (dados)" },
@@ -203,40 +195,44 @@ export function ConfiguracoesView() {
         </div>
 
         <div className="px-5 py-4">
-          {aba === "margem" && (
-            <SecaoMargem
-              value={draft.margem}
-              onChange={(margem) => setDraft({ ...draft, margem })}
-            />
-          )}
-          {aba === "perda" && (
-            <SecaoPerda
-              value={draft.perda}
-              onChange={(perda) => setDraft({ ...draft, perda })}
-            />
-          )}
-          {aba === "mao_obra" && (
-            <SecaoMaoObra
-              value={draft.mao_obra}
-              onChange={(mao_obra) => setDraft({ ...draft, mao_obra })}
-              tipos_obra_atual={tipos_para_tabela_mo}
-            />
-          )}
-          {aba === "frete" && (
-            <SecaoFrete
-              value={draft.frete_centavos}
-              onChange={(frete_centavos) =>
-                setDraft({ ...draft, frete_centavos })
-              }
-            />
-          )}
-          {aba === "imposto" && (
-            <SecaoImposto
-              value={draft.imposto_estimado_pct ?? 0}
-              onChange={(imposto_estimado_pct) =>
-                setDraft({ ...draft, imposto_estimado_pct })
-              }
-            />
+          {aba === "precificacao" && (
+            <div className="divide-y divide-slate-200">
+              <div className="pb-6">
+                <SecaoMargem
+                  value={draft.margem}
+                  onChange={(margem) => setDraft({ ...draft, margem })}
+                />
+              </div>
+              <div className="py-6">
+                <SecaoPerda
+                  value={draft.perda}
+                  onChange={(perda) => setDraft({ ...draft, perda })}
+                />
+              </div>
+              <div className="py-6">
+                <SecaoMaoObra
+                  value={draft.mao_obra}
+                  onChange={(mao_obra) => setDraft({ ...draft, mao_obra })}
+                  tipos_obra_atual={tipos_para_tabela_mo}
+                />
+              </div>
+              <div className="py-6">
+                <SecaoFrete
+                  value={draft.frete_centavos}
+                  onChange={(frete_centavos) =>
+                    setDraft({ ...draft, frete_centavos })
+                  }
+                />
+              </div>
+              <div className="pt-6">
+                <SecaoImposto
+                  value={draft.imposto_estimado_pct ?? 0}
+                  onChange={(imposto_estimado_pct) =>
+                    setDraft({ ...draft, imposto_estimado_pct })
+                  }
+                />
+              </div>
+            </div>
           )}
           {aba === "empresa" && (
             <SecaoEmpresa
