@@ -25,7 +25,6 @@ export function MaterialTable({ rows }: { rows: BomRow[] }) {
         <thead className="bg-slate-50 text-xs uppercase tracking-wide">
           <tr>
             <Th k="codigo" className="w-24">Cód. SAP</Th>
-            <Th className="w-24">Líder 7</Th>
             <Th k="descricao">Descrição</Th>
             <Th className="w-16">Unid.</Th>
             <Th className="w-24 text-right">Quant.</Th>
@@ -35,7 +34,6 @@ export function MaterialTable({ rows }: { rows: BomRow[] }) {
           {sorted.map((r) => (
             <tr key={r.material.id} className="odd:bg-white even:bg-slate-50/50">
               <td className="px-3 py-1.5 text-slate-500">{r.material.cod_sap || "—"}</td>
-              <td className="px-3 py-1.5 text-slate-400">{r.material.cod_lider7 || "—"}</td>
               <td className="px-3 py-1.5 text-slate-800">{r.material.descricao}</td>
               <td className="px-3 py-1.5 text-slate-500">{r.material.unidade}</td>
               <td className="px-3 py-1.5 text-right font-medium tabular-nums text-slate-900">
@@ -45,7 +43,7 @@ export function MaterialTable({ rows }: { rows: BomRow[] }) {
           ))}
           {sorted.length === 0 && (
             <tr>
-              <td colSpan={5} className="px-3 py-6 text-center text-slate-400">
+              <td colSpan={4} className="px-3 py-6 text-center text-slate-400">
                 Nenhum material — adicione estruturas à lista de obra.
               </td>
             </tr>

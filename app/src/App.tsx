@@ -12,6 +12,7 @@ import { ClienteDetalheView } from "./components/clientes/ClienteDetalheView";
 import { ConsultaOrcamentosView } from "./components/consulta/ConsultaOrcamentosView";
 import { DetalheOrcamentoView } from "./components/detalhe/DetalheOrcamentoView";
 import { ConfiguracoesView } from "./components/orcamento/ConfiguracoesView";
+import { UpdateToast } from "./components/UpdateToast";
 
 export default function App() {
   const loaded = useStore((s) => s.loaded);
@@ -64,6 +65,7 @@ export default function App() {
 
   return (
     <div className="min-h-full">
+      <UpdateToast />
       <header className="no-print sticky top-0 z-20 border-b border-slate-200 bg-white/90 backdrop-blur">
         <div className="mx-auto flex max-w-7xl items-center gap-3 px-4 py-2.5">
           <button

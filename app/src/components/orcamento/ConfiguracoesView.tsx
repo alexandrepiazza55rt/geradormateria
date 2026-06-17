@@ -80,7 +80,19 @@ export function ConfiguracoesView() {
   }, [estruturas, config_atual.mao_obra.tabela]);
 
   const [draft, setDraft] = useState<ConfigOrcamento>(deep_clone(config_atual));
-  const [aba, setAba] = useState<Aba>("margem");
+  const [aba, setAba] = useState<Aba>(() => {
+    // Atalho: o popup de atualização pede para abrir direto nesta aba.
+    try {
+      const hint = sessionStorage.getItem("config_aba");
+      if (hint) {
+        sessionStorage.removeItem("config_aba");
+        return hint as Aba;
+      }
+    } catch {
+      /* ignore */
+    }
+    return "margem";
+  });
   const [confirmando_restaurar, set_confirmando_restaurar] = useState(false);
   const [confirmando_limpar_log, set_confirmando_limpar_log] = useState(false);
 
