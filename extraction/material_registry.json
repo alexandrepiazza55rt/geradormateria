@@ -1,0 +1,2467 @@
+{
+ "schema": 1,
+ "frozen_from": "app/public/data/materiais.json",
+ "generated_at": "2026-06-17",
+ "next_id": 356,
+ "materials": [
+  {
+   "id": 1,
+   "identity_key": "desc:afastador para isolador pilar|pc",
+   "cod_sap": "1308",
+   "cod_lider7": "",
+   "descricao": "Afastador para isolador pilar",
+   "unidade": "pç"
+  },
+  {
+   "id": 3,
+   "identity_key": "desc:alca pre-formada de estai p/ cabo de aco -7,9 mm|pc",
+   "cod_sap": "996",
+   "cod_lider7": "3495",
+   "descricao": "Alça pré-formada de estai p/ cabo de aço -7,9 mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 4,
+   "identity_key": "sap:90303",
+   "cod_sap": "90303",
+   "cod_lider7": "3488",
+   "descricao": "Alça pré formada de serviço para cabo triplex 10mm²",
+   "unidade": "pç"
+  },
+  {
+   "id": 5,
+   "identity_key": "sap:116",
+   "cod_sap": "116",
+   "cod_lider7": "3489",
+   "descricao": "Alça pré formada de serviço para cabo triplex 16mm²",
+   "unidade": "pç"
+  },
+  {
+   "id": 6,
+   "identity_key": "desc:alca pre formada de servico para cabo triplex 25mm²|pc",
+   "cod_sap": "90283",
+   "cod_lider7": "3490",
+   "descricao": "Alça pré formada de serviço para cabo triplex 25mm²",
+   "unidade": "pç"
+  },
+  {
+   "id": 7,
+   "identity_key": "desc:alca pre formada de distribuicao para cabo ca - caa 2 awg|pc",
+   "cod_sap": "90258",
+   "cod_lider7": "3492",
+   "descricao": "Alça pré formada  de distribuição para cabo CA - CAA 2 AWG",
+   "unidade": "pç"
+  },
+  {
+   "id": 8,
+   "identity_key": "sap:90307",
+   "cod_sap": "90307",
+   "cod_lider7": "3491",
+   "descricao": "Alça pré formada  de distribuição para cabo CA - CAA 1/0 AWG",
+   "unidade": "pç"
+  },
+  {
+   "id": 9,
+   "identity_key": "desc:alca pre formada de distribuicao para cabo ca - caa 4/0 awg|pc",
+   "cod_sap": "90308",
+   "cod_lider7": "3494",
+   "descricao": "Alça pré formada  de distribuição para cabo CA - CAA 4/0 AWG",
+   "unidade": "pç"
+  },
+  {
+   "id": 11,
+   "identity_key": "sap:2817",
+   "cod_sap": "2817",
+   "cod_lider7": "4244",
+   "descricao": "Alça pré formada para Fio Aluministeel N8 awg",
+   "unidade": "pç"
+  },
+  {
+   "id": 12,
+   "identity_key": "sap:3054",
+   "cod_sap": "3054",
+   "cod_lider7": "3498",
+   "descricao": "Arame aço galvanizado 14BWG",
+   "unidade": "kg"
+  },
+  {
+   "id": 13,
+   "identity_key": "desc:armacao secundaria 1x1 estribo|pc",
+   "cod_sap": "90393",
+   "cod_lider7": "3499",
+   "descricao": "Armação secundaria 1x1 estribo",
+   "unidade": "pç"
+  },
+  {
+   "id": 14,
+   "identity_key": "sap:90389",
+   "cod_sap": "90389",
+   "cod_lider7": "3506",
+   "descricao": "Arruela quadrada",
+   "unidade": "pç"
+  },
+  {
+   "id": 16,
+   "identity_key": "sap:90285",
+   "cod_sap": "90285",
+   "cod_lider7": "",
+   "descricao": "Cabo Aluminio quadriplex XLPE 10 mm²",
+   "unidade": "m"
+  },
+  {
+   "id": 18,
+   "identity_key": "sap:90287",
+   "cod_sap": "90287",
+   "cod_lider7": "4401",
+   "descricao": "Cabo Aluminio quadriplex XLPE 25 mm²",
+   "unidade": "m"
+  },
+  {
+   "id": 19,
+   "identity_key": "sap:90288",
+   "cod_sap": "90288",
+   "cod_lider7": "3531",
+   "descricao": "Cabo Aluminio quadriplex XLPE 35 mm²",
+   "unidade": "m"
+  },
+  {
+   "id": 23,
+   "identity_key": "sap:90274",
+   "cod_sap": "90274",
+   "cod_lider7": "3512",
+   "descricao": "Cabo Aluminio triplex Xlpe 10 mm²",
+   "unidade": "m"
+  },
+  {
+   "id": 24,
+   "identity_key": "sap:90282",
+   "cod_sap": "90282",
+   "cod_lider7": "3513",
+   "descricao": "Cabo Aluminio triplex Xlpe 16 mm²",
+   "unidade": "m"
+  },
+  {
+   "id": 25,
+   "identity_key": "desc:cabo aluminio triplex xlpe 25 mm²|m",
+   "cod_sap": "90283",
+   "cod_lider7": "3514",
+   "descricao": "Cabo Aluminio triplex Xlpe 25 mm²",
+   "unidade": "m"
+  },
+  {
+   "id": 27,
+   "identity_key": "desc:cabo aluminio triplex xlpe 50 mm²|m",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Cabo Aluminio triplex Xlpe 50 mm²",
+   "unidade": "m"
+  },
+  {
+   "id": 28,
+   "identity_key": "sap:90255",
+   "cod_sap": "90255",
+   "cod_lider7": "3516",
+   "descricao": "Cabo de aço galvanizado - 6,4mm² (cordoalha)",
+   "unidade": "m"
+  },
+  {
+   "id": 29,
+   "identity_key": "desc:cabo de aco galvanizado - 7,9 mm² (cordoalha)|m",
+   "cod_sap": "996",
+   "cod_lider7": "3517",
+   "descricao": "Cabo de aço galvanizado - 7,9 mm² (cordoalha)",
+   "unidade": "m"
+  },
+  {
+   "id": 30,
+   "identity_key": "desc:cabo de aluminio nu 2 caa - awg|kg",
+   "cod_sap": "90258",
+   "cod_lider7": "4183",
+   "descricao": "Cabo de aluminio  nu 2 CAA - AWG",
+   "unidade": "kg"
+  },
+  {
+   "id": 31,
+   "identity_key": "desc:cabo de aluminio nu 1/0 caa - awg|kg",
+   "cod_sap": "90263",
+   "cod_lider7": "3519",
+   "descricao": "Cabo de aluminio  nu 1/0 CAA - AWG",
+   "unidade": "kg"
+  },
+  {
+   "id": 32,
+   "identity_key": "sap:90264",
+   "cod_sap": "90264",
+   "cod_lider7": "3521",
+   "descricao": "Cabo de aluminio  nu 4/0 CAA - AWG",
+   "unidade": "kg"
+  },
+  {
+   "id": 33,
+   "identity_key": "sap:90560",
+   "cod_sap": "90560",
+   "cod_lider7": "4513",
+   "descricao": "Cabo de aluminio  nu 336,4 CAA - AWG",
+   "unidade": "kg"
+  },
+  {
+   "id": 34,
+   "identity_key": "sap:90294",
+   "cod_sap": "90294",
+   "cod_lider7": "3522",
+   "descricao": "Cabo de cobre coberto com XLPE - 15kv 16mm²",
+   "unidade": "m"
+  },
+  {
+   "id": 36,
+   "identity_key": "sap:623945",
+   "cod_sap": "623945",
+   "cod_lider7": "3523",
+   "descricao": "Cabo de cobre flexivel isolado - 10mm²",
+   "unidade": "m"
+  },
+  {
+   "id": 37,
+   "identity_key": "sap:90266",
+   "cod_sap": "90266",
+   "cod_lider7": "",
+   "descricao": "Cabo de cobre nú 50mm²",
+   "unidade": "m"
+  },
+  {
+   "id": 38,
+   "identity_key": "desc:caixa tubo de concreto para aterramento de padrao|m",
+   "cod_sap": "90585",
+   "cod_lider7": "4357",
+   "descricao": "Caixa tubo de concreto para aterramento de padrão",
+   "unidade": "m"
+  },
+  {
+   "id": 39,
+   "identity_key": "sap:90487",
+   "cod_sap": "90487",
+   "cod_lider7": "3535",
+   "descricao": "Cartucho tipo bala para conector cunha (azul)",
+   "unidade": "pç"
+  },
+  {
+   "id": 40,
+   "identity_key": "sap:90488",
+   "cod_sap": "90488",
+   "cod_lider7": "3536",
+   "descricao": "Cartucho tipo bala para conector cunha (vermelho)",
+   "unidade": "pç"
+  },
+  {
+   "id": 41,
+   "identity_key": "sap:90517",
+   "cod_sap": "90517",
+   "cod_lider7": "4018",
+   "descricao": "Chapa, fixação de estai, aço carbono zincado a quente",
+   "unidade": "pç"
+  },
+  {
+   "id": 42,
+   "identity_key": "sap:90554",
+   "cod_sap": "90554",
+   "cod_lider7": "3539",
+   "descricao": "Chave faca - tipo C-  15kV 630A-NBI 95KV",
+   "unidade": "pç"
+  },
+  {
+   "id": 43,
+   "identity_key": "sap:90553",
+   "cod_sap": "90553",
+   "cod_lider7": "4016",
+   "descricao": "Chave faca - tipo C-  36,2kV 400A-NBI 150KV",
+   "unidade": "pç"
+  },
+  {
+   "id": 44,
+   "identity_key": "sap:90549",
+   "cod_sap": "90549",
+   "cod_lider7": "4553",
+   "descricao": "CHAVE FUSIVEL RELIG DISTRIBUIÇÃO TR 15KV 100A 1F M",
+   "unidade": "pç"
+  },
+  {
+   "id": 45,
+   "identity_key": "desc:chave fusivel relig 24,2/36,2kv 100a 1f man seco sim 4,5ka 3 int|pc",
+   "cod_sap": "90550",
+   "cod_lider7": "4554",
+   "descricao": "CHAVE FUSIVEL RELIG 24,2/36,2KV 100A 1F MAN SECO SIM 4,5KA 3 INT",
+   "unidade": "pç"
+  },
+  {
+   "id": 46,
+   "identity_key": "desc:chave fusivel distribuicaotrib 15,0kv 300a com ferragem|pc",
+   "cod_sap": "4157",
+   "cod_lider7": "4157",
+   "descricao": "CHAVE FUSIVEL DISTRIBUIÇÃOTRIB 15,0KV 300A COM FERRAGEM",
+   "unidade": "pç"
+  },
+  {
+   "id": 47,
+   "identity_key": "desc:chave fusivel distribuicaotrib 15,0kv 300a sem ferragem|pc",
+   "cod_sap": "4157",
+   "cod_lider7": "3537",
+   "descricao": "CHAVE FUSIVEL DISTRIBUIÇÃOTRIB 15,0KV 300A SEM FERRAGEM",
+   "unidade": "pç"
+  },
+  {
+   "id": 48,
+   "identity_key": "desc:chave fusivel distribuicaotrib 36,2kv 300a 3f com ferragem|pc",
+   "cod_sap": "90550",
+   "cod_lider7": "4158",
+   "descricao": "CHAVE FUSIVEL DISTRIBUIÇÃOTRIB 36,2KV 300A 3F COM FERRAGEM",
+   "unidade": "pç"
+  },
+  {
+   "id": 49,
+   "identity_key": "desc:chave fusivel distribuicaotrib 36,2kv 300a 3f sem ferragem|pc",
+   "cod_sap": "90550",
+   "cod_lider7": "3538",
+   "descricao": "CHAVE FUSIVEL DISTRIBUIÇÃOTRIB 36,2KV 300A 3F SEM FERRAGEM",
+   "unidade": "pç"
+  },
+  {
+   "id": 50,
+   "identity_key": "sap:90214",
+   "cod_sap": "90214",
+   "cod_lider7": "",
+   "descricao": "Cinta circular de Ø 140 mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 51,
+   "identity_key": "desc:cinta circular de ø 150 mm|pc",
+   "cod_sap": "90230",
+   "cod_lider7": "3541",
+   "descricao": "Cinta circular de Ø 150 mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 52,
+   "identity_key": "sap:590215",
+   "cod_sap": "590215",
+   "cod_lider7": "3542",
+   "descricao": "Cinta circular de Ø 160 mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 53,
+   "identity_key": "sap:590216",
+   "cod_sap": "590216",
+   "cod_lider7": "3543",
+   "descricao": "Cinta circular de Ø 170 mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 54,
+   "identity_key": "sap:2146",
+   "cod_sap": "2146",
+   "cod_lider7": "3544",
+   "descricao": "Cinta circular de Ø 180 mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 55,
+   "identity_key": "sap:502972",
+   "cod_sap": "502972",
+   "cod_lider7": "3545",
+   "descricao": "Cinta circular de Ø 190 mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 56,
+   "identity_key": "desc:cinta circular de ø 200 mm|pc",
+   "cod_sap": "90219",
+   "cod_lider7": "3546",
+   "descricao": "Cinta circular de Ø 200 mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 57,
+   "identity_key": "sap:90231",
+   "cod_sap": "90231",
+   "cod_lider7": "3547",
+   "descricao": "Cinta circular de Ø 210 mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 58,
+   "identity_key": "sap:90220",
+   "cod_sap": "90220",
+   "cod_lider7": "3548",
+   "descricao": "Cinta circular de Ø 220 mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 59,
+   "identity_key": "sap:90221",
+   "cod_sap": "90221",
+   "cod_lider7": "3549",
+   "descricao": "Cinta circular de Ø 230 mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 60,
+   "identity_key": "sap:90222",
+   "cod_sap": "90222",
+   "cod_lider7": "3550",
+   "descricao": "Cinta circular de Ø 240 mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 61,
+   "identity_key": "sap:90223",
+   "cod_sap": "90223",
+   "cod_lider7": "3551",
+   "descricao": "Cinta circular de Ø 250 mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 62,
+   "identity_key": "sap:90232",
+   "cod_sap": "90232",
+   "cod_lider7": "3552",
+   "descricao": "Cinta circular de Ø 260 mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 63,
+   "identity_key": "sap:90224",
+   "cod_sap": "90224",
+   "cod_lider7": "",
+   "descricao": "Cinta circular de Ø 270 mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 66,
+   "identity_key": "desc:cinta circular de ø 300 mm|pc",
+   "cod_sap": "90226",
+   "cod_lider7": "4131",
+   "descricao": "Cinta circular de Ø 300 mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 67,
+   "identity_key": "sap:90227",
+   "cod_sap": "90227",
+   "cod_lider7": "",
+   "descricao": "Cinta circular de Ø 310 mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 68,
+   "identity_key": "sap:90228",
+   "cod_sap": "90228",
+   "cod_lider7": "4531",
+   "descricao": "Cinta circular de Ø 320 mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 73,
+   "identity_key": "desc:concreto para base em poste ≥ 600dan (cimento, areia, brita e m.o)|und",
+   "cod_sap": "",
+   "cod_lider7": "4085",
+   "descricao": "Concreto para base em poste ≥ 600daN (Cimento, areia, brita e m.o)",
+   "unidade": "und"
+  },
+  {
+   "id": 74,
+   "identity_key": "sap:90345",
+   "cod_sap": "90345",
+   "cod_lider7": "3556",
+   "descricao": "CONECTOR CUNHA ESTRIBO NORMAL AL 4~2AWG EST2AWG",
+   "unidade": "pç"
+  },
+  {
+   "id": 75,
+   "identity_key": "sap:90348",
+   "cod_sap": "90348",
+   "cod_lider7": "",
+   "descricao": "CONECTOR CUNHA ESTRIBO NORMAL AL 1/0~2/0AWG EST2AWG",
+   "unidade": "pç"
+  },
+  {
+   "id": 76,
+   "identity_key": "sap:90347",
+   "cod_sap": "90347",
+   "cod_lider7": "",
+   "descricao": "CONECTOR CUNHA ESTRIBO NORMAL AL 3/0~4/0AWG EST2AWG",
+   "unidade": "pç"
+  },
+  {
+   "id": 78,
+   "identity_key": "sap:502940",
+   "cod_sap": "502940",
+   "cod_lider7": "3557",
+   "descricao": "Conector derivação para linha viva - 6-250 (GLV)",
+   "unidade": "pç"
+  },
+  {
+   "id": 79,
+   "identity_key": "sap:90471",
+   "cod_sap": "90471",
+   "cod_lider7": "3559",
+   "descricao": "CONECTOR CUNHA C-C COBRE 3,17-8,12/ 3,17-7,42mm CZ TP I",
+   "unidade": "pç"
+  },
+  {
+   "id": 80,
+   "identity_key": "sap:90472",
+   "cod_sap": "90472",
+   "cod_lider7": "3560",
+   "descricao": "Conector derivação tipo cunha - AMP - tipo II",
+   "unidade": "pç"
+  },
+  {
+   "id": 81,
+   "identity_key": "sap:90473",
+   "cod_sap": "90473",
+   "cod_lider7": "3561",
+   "descricao": "CONECTOR CUNHA C-C COBRE 2,54-6,55/ 1,27-4,65mm VM TP III",
+   "unidade": "pç"
+  },
+  {
+   "id": 82,
+   "identity_key": "sap:90474",
+   "cod_sap": "90474",
+   "cod_lider7": "3562",
+   "descricao": "CONECTOR CUNHA C-C COBRE 2,54-6,55/ 1,27-4,65mm AZ TP IV",
+   "unidade": "pç"
+  },
+  {
+   "id": 83,
+   "identity_key": "sap:159",
+   "cod_sap": "159",
+   "cod_lider7": "",
+   "descricao": "CON CUNHA DER CN2 AL 15,2-17,3X11-17mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 84,
+   "identity_key": "desc:conector, cunha, liga de aluminio, cn 3, serie azul|pc",
+   "cod_sap": "",
+   "cod_lider7": "4294",
+   "descricao": "Conector, cunha, liga de Alumínio, CN 3, série azul",
+   "unidade": "pç"
+  },
+  {
+   "id": 85,
+   "identity_key": "desc:conector, cunha, liga de aluminio, cn 4, serie azul|pc",
+   "cod_sap": "",
+   "cod_lider7": "4104",
+   "descricao": "Conector, cunha, liga de Alumínio, CN 4, série azul",
+   "unidade": "pç"
+  },
+  {
+   "id": 86,
+   "identity_key": "desc:conector, cunha, liga de aluminio, cn 6, serie azul|pc",
+   "cod_sap": "",
+   "cod_lider7": "4133",
+   "descricao": "Conector, cunha, liga de Alumínio, CN 6, série azul",
+   "unidade": "pç"
+  },
+  {
+   "id": 87,
+   "identity_key": "desc:conector, cunha, liga de aluminio, cn 10, serie azul|pc",
+   "cod_sap": "",
+   "cod_lider7": "3553",
+   "descricao": "Conector, cunha, liga de Alumínio, CN 10, série azul",
+   "unidade": "pç"
+  },
+  {
+   "id": 89,
+   "identity_key": "sap:502914",
+   "cod_sap": "502914",
+   "cod_lider7": "3555",
+   "descricao": "Conector, cunha, liga de Alumínio, CN 13, série vermelho",
+   "unidade": "pç"
+  },
+  {
+   "id": 91,
+   "identity_key": "sap:90798",
+   "cod_sap": "90798",
+   "cod_lider7": "4122",
+   "descricao": "CON CUNHA DER CN15 AL 9,2-14,5X9,2-14mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 92,
+   "identity_key": "sap:161",
+   "cod_sap": "161",
+   "cod_lider7": "",
+   "descricao": "CON CUNHA DER CN16 AL 16,9-18,3X11-14mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 93,
+   "identity_key": "sap:90353",
+   "cod_sap": "90353",
+   "cod_lider7": "3567",
+   "descricao": "Conector perfurante 25-120 mm² X 25-120 mm²",
+   "unidade": "pç"
+  },
+  {
+   "id": 94,
+   "identity_key": "sap:3146",
+   "cod_sap": "3146",
+   "cod_lider7": "3965",
+   "descricao": "Conector terminal tipo espada (bastão) para chave faca 336,4mcm",
+   "unidade": "pç"
+  },
+  {
+   "id": 95,
+   "identity_key": "sap:90638",
+   "cod_sap": "90638",
+   "cod_lider7": "3569",
+   "descricao": "Conector de  Aterramento - 5/8\" (reforçado)",
+   "unidade": "pç"
+  },
+  {
+   "id": 97,
+   "identity_key": "sap:590401",
+   "cod_sap": "590401",
+   "cod_lider7": "3571",
+   "descricao": "CRUZETA POSTE CONCR QUADR 90X90MM 2000MM",
+   "unidade": "pç"
+  },
+  {
+   "id": 99,
+   "identity_key": "sap:35797",
+   "cod_sap": "35797",
+   "cod_lider7": "3580",
+   "descricao": "Eletroduto de PVC rígido 12mm² x 300cm (1/2\" x 3m)",
+   "unidade": "pç"
+  },
+  {
+   "id": 102,
+   "identity_key": "sap:3060",
+   "cod_sap": "3060",
+   "cod_lider7": "3585",
+   "descricao": "Elo Fusível 0,50H",
+   "unidade": "pç"
+  },
+  {
+   "id": 104,
+   "identity_key": "sap:90498",
+   "cod_sap": "90498",
+   "cod_lider7": "3587",
+   "descricao": "Elo Fusível 1H",
+   "unidade": "pç"
+  },
+  {
+   "id": 107,
+   "identity_key": "sap:90499",
+   "cod_sap": "90499",
+   "cod_lider7": "3590",
+   "descricao": "Elo Fusível 2H",
+   "unidade": "pç"
+  },
+  {
+   "id": 109,
+   "identity_key": "sap:90500",
+   "cod_sap": "90500",
+   "cod_lider7": "3591",
+   "descricao": "Elo Fusível 3H",
+   "unidade": "pç"
+  },
+  {
+   "id": 111,
+   "identity_key": "desc:elo fusivel 5h|pc",
+   "cod_sap": "90501",
+   "cod_lider7": "3592",
+   "descricao": "Elo Fusível 5H",
+   "unidade": "pç"
+  },
+  {
+   "id": 112,
+   "identity_key": "sap:90502",
+   "cod_sap": "90502",
+   "cod_lider7": "3593",
+   "descricao": "Elo Fusível 6K",
+   "unidade": "pç"
+  },
+  {
+   "id": 113,
+   "identity_key": "desc:elo fusivel 12k|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Elo Fusível 12K",
+   "unidade": "pç"
+  },
+  {
+   "id": 114,
+   "identity_key": "sap:90504",
+   "cod_sap": "90504",
+   "cod_lider7": "3594",
+   "descricao": "Elo Fusível 10K",
+   "unidade": "pç"
+  },
+  {
+   "id": 115,
+   "identity_key": "sap:1479",
+   "cod_sap": "1479",
+   "cod_lider7": "",
+   "descricao": "Elo Fusível (CALCULAR CAPACIDADE)",
+   "unidade": "pç"
+  },
+  {
+   "id": 118,
+   "identity_key": "desc:emenda total preformada ca - caa 2 awg|pc",
+   "cod_sap": "90258",
+   "cod_lider7": "3577",
+   "descricao": "Emenda Total Preformada CA - CAA 2 AWG",
+   "unidade": "pç"
+  },
+  {
+   "id": 122,
+   "identity_key": "desc:emenda total preformada fio aluministeel n8 awg convencional|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Emenda Total Preformada Fio Aluministeel N8 awg Convencional",
+   "unidade": "pç"
+  },
+  {
+   "id": 124,
+   "identity_key": "sap:541",
+   "cod_sap": "541",
+   "cod_lider7": "",
+   "descricao": "Espaçador de isoladores",
+   "unidade": "pç"
+  },
+  {
+   "id": 125,
+   "identity_key": "desc:fio aluministeel n8 awg|kg",
+   "cod_sap": "",
+   "cod_lider7": "4015",
+   "descricao": "Fio Aluministeel N8 awg",
+   "unidade": "kg"
+  },
+  {
+   "id": 126,
+   "identity_key": "sap:90508",
+   "cod_sap": "90508",
+   "cod_lider7": "3942",
+   "descricao": "Fio de cobre rígido isolado 6mm² para amarração em isolador pilar",
+   "unidade": "m"
+  },
+  {
+   "id": 129,
+   "identity_key": "desc:fita isolante preta 10mts|pc",
+   "cod_sap": "",
+   "cod_lider7": "3601",
+   "descricao": "Fita Isolante Preta 10mts",
+   "unidade": "pç"
+  },
+  {
+   "id": 130,
+   "identity_key": "desc:gancho olhal|pc",
+   "cod_sap": "90448",
+   "cod_lider7": "3603",
+   "descricao": "Gancho Olhal",
+   "unidade": "pç"
+  },
+  {
+   "id": 131,
+   "identity_key": "desc:haste ancora para estai|pc",
+   "cod_sap": "3887",
+   "cod_lider7": "3980",
+   "descricao": "Haste âncora para estai",
+   "unidade": "pç"
+  },
+  {
+   "id": 132,
+   "identity_key": "desc:haste de aterramento circular lisa 2400mm|pc",
+   "cod_sap": "",
+   "cod_lider7": "3981",
+   "descricao": "Haste de aterramento circular lisa 2400mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 133,
+   "identity_key": "desc:haste de aterramento circular prolongavel 2400mm|pc",
+   "cod_sap": "",
+   "cod_lider7": "3605",
+   "descricao": "Haste de aterramento circular prolongavel 2400mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 134,
+   "identity_key": "sap:90462",
+   "cod_sap": "90462",
+   "cod_lider7": "3982",
+   "descricao": "HASTE ATERRAMENTO CIRC S/ROSCA 5/8 POL 2400,0MM C/ RABICHO",
+   "unidade": "pç"
+  },
+  {
+   "id": 135,
+   "identity_key": "desc:isolador ancoragem - bastao polimerico 15kv|pc",
+   "cod_sap": "90277",
+   "cod_lider7": "3606",
+   "descricao": "Isolador ancoragem - bastão polimérico 15kv",
+   "unidade": "pç"
+  },
+  {
+   "id": 136,
+   "identity_key": "desc:isolador ancoragem - bastao polimerico 36kv|pc",
+   "cod_sap": "90279",
+   "cod_lider7": "3607",
+   "descricao": "Isolador ancoragem - bastão polimérico 36kv",
+   "unidade": "pç"
+  },
+  {
+   "id": 137,
+   "identity_key": "desc:isolador pilar 15kv - 110kv|pc",
+   "cod_sap": "",
+   "cod_lider7": "3609",
+   "descricao": "Isolador pilar 15kv - 110kv",
+   "unidade": "pç"
+  },
+  {
+   "id": 138,
+   "identity_key": "sap:502944",
+   "cod_sap": "502944",
+   "cod_lider7": "3610",
+   "descricao": "Isolador pilar 36kv - 170kv",
+   "unidade": "pç"
+  },
+  {
+   "id": 139,
+   "identity_key": "desc:isolador pimentao|pc",
+   "cod_sap": "1308",
+   "cod_lider7": "4182",
+   "descricao": "Isolador pimentão",
+   "unidade": "pç"
+  },
+  {
+   "id": 140,
+   "identity_key": "desc:isolador roldana 76x79mm|pc",
+   "cod_sap": "90295",
+   "cod_lider7": "3613",
+   "descricao": "Isolador roldana 76x79mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 141,
+   "identity_key": "desc:laco pre-formado de topo para cabo 2 awg caa|pc",
+   "cod_sap": "90258",
+   "cod_lider7": "3615",
+   "descricao": "Laço pré-formado de topo para cabo 2 AWG CAA",
+   "unidade": "pç"
+  },
+  {
+   "id": 142,
+   "identity_key": "desc:laco pre-formado de topo para cabo 1/0 awg caa|pc",
+   "cod_sap": "90263",
+   "cod_lider7": "3614",
+   "descricao": "Laço pré-formado de topo para cabo 1/0 AWG CAA",
+   "unidade": "pç"
+  },
+  {
+   "id": 143,
+   "identity_key": "desc:laco pre-formado de topo para cabo 4/0 awg caa|pc",
+   "cod_sap": "90438",
+   "cod_lider7": "3617",
+   "descricao": "Laço pré-formado de topo para cabo 4/0 AWG CAA",
+   "unidade": "pç"
+  },
+  {
+   "id": 145,
+   "identity_key": "desc:laco pre-formado de topo para fio aluministeel n8 awg|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Laço pré-formado de topo para Fio  Aluministeel N8 Awg",
+   "unidade": "pç"
+  },
+  {
+   "id": 146,
+   "identity_key": "desc:laco pre-formado simples lateral para cabo 2 awg caa|pc",
+   "cod_sap": "90258",
+   "cod_lider7": "3619",
+   "descricao": "Laço pré-formado simples lateral para cabo 2 AWG CAA",
+   "unidade": "pç"
+  },
+  {
+   "id": 147,
+   "identity_key": "desc:laco pre-formado simples lateral para cabo 1/0 awg caa|pc",
+   "cod_sap": "90263",
+   "cod_lider7": "3618",
+   "descricao": "Laço pré-formado simples lateral para cabo 1/0 AWG CAA",
+   "unidade": "pç"
+  },
+  {
+   "id": 148,
+   "identity_key": "desc:laco pre-formado simples lateral para cabo 4/0 awg caa|pc",
+   "cod_sap": "90438",
+   "cod_lider7": "3621",
+   "descricao": "Laço pré-formado simples lateral para cabo 4/0 AWG CAA",
+   "unidade": "pç"
+  },
+  {
+   "id": 150,
+   "identity_key": "desc:laco pre-formado simples lateral para fio aluministeel n8 awg|pc",
+   "cod_sap": "",
+   "cod_lider7": "4041",
+   "descricao": "Laço pré-formado simples lateral para Fio  Aluministeel N8 Awg",
+   "unidade": "pç"
+  },
+  {
+   "id": 151,
+   "identity_key": "desc:luva para haste para aterramento|pc",
+   "cod_sap": "3887",
+   "cod_lider7": "3622",
+   "descricao": "Luva para haste para aterramento",
+   "unidade": "pç"
+  },
+  {
+   "id": 153,
+   "identity_key": "sap:90443",
+   "cod_sap": "90443",
+   "cod_lider7": "3625",
+   "descricao": "Mão francesa plana de 619 mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 154,
+   "identity_key": "desc:manilha sapatilha|pc",
+   "cod_sap": "90440",
+   "cod_lider7": "3623",
+   "descricao": "Manilha sapatilha",
+   "unidade": "pç"
+  },
+  {
+   "id": 155,
+   "identity_key": "desc:padrao trifasico 40a. 10mm² - 15kva - 220/127v.|pc",
+   "cod_sap": "",
+   "cod_lider7": "4068",
+   "descricao": "Padrão Trifásico 40A. 10mm²  - 15kva - 220/127V.",
+   "unidade": "pç"
+  },
+  {
+   "id": 156,
+   "identity_key": "desc:padrao trifasico 70a. 16mm² - 30kva - 220/127v.|pc",
+   "cod_sap": "",
+   "cod_lider7": "4069",
+   "descricao": "Padrão Trifásico 70A. 16MM² -  30kva - 220/127V.",
+   "unidade": "pç"
+  },
+  {
+   "id": 157,
+   "identity_key": "desc:padrao trifasico 30a. 6mm² - 15kva - 380/220v.|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Padrão Trifásico 30A. 6mm²  - 15kva - 380/220V.",
+   "unidade": "pç"
+  },
+  {
+   "id": 158,
+   "identity_key": "desc:padrao trifasico 50a. 10mm² - 30kva - 380/220v.|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Padrão Trifásico 50A. 10mm² -  30kva - 380/220V.",
+   "unidade": "pç"
+  },
+  {
+   "id": 159,
+   "identity_key": "desc:padrao trifasico 70a. - 25mm² - trafo 45kva - 380/220v.|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Padrão Trifásico 70A. - 25mm² - trafo 45kva - 380/220v.",
+   "unidade": "pç"
+  },
+  {
+   "id": 160,
+   "identity_key": "desc:padrao trifasico 120a. - 35mm² - trafo 45kva - 220/127v.|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Padrão Trifásico 120A. - 35mm² - Trafo 45kva - 220/127v.",
+   "unidade": "pç"
+  },
+  {
+   "id": 161,
+   "identity_key": "sap:1882",
+   "cod_sap": "1882",
+   "cod_lider7": "3626",
+   "descricao": "Olhal para parafuso",
+   "unidade": "pç"
+  },
+  {
+   "id": 162,
+   "identity_key": "desc:padrao bifasico rural 30 amp. - 10mm², 05 kva - poste de aco galvanizado|pc",
+   "cod_sap": "",
+   "cod_lider7": "3627",
+   "descricao": "Padrão bifásico rural 30 Amp. - 10mm², 05 kva - Poste de Aço galvanizado",
+   "unidade": "pç"
+  },
+  {
+   "id": 163,
+   "identity_key": "desc:padrao bifasico rural 50 amp. - 10mm², 10 kva - poste de aco galvanizado|pc",
+   "cod_sap": "",
+   "cod_lider7": "3628",
+   "descricao": "Padrão bifásico rural 50 Amp. - 10mm², 10 kva - Poste de Aço galvanizado",
+   "unidade": "pç"
+  },
+  {
+   "id": 164,
+   "identity_key": "desc:padrao bifasico rural 70 amp. - 16mm², 15 kva - poste de aco galvanizado|pc",
+   "cod_sap": "",
+   "cod_lider7": "3629",
+   "descricao": "Padrão bifásico rural 70 Amp. - 16mm², 15 kva - Poste de Aço galvanizado",
+   "unidade": "pç"
+  },
+  {
+   "id": 165,
+   "identity_key": "desc:padrao bifasico rural 100 amp. - 25mm², 25 kva - poste de aco galvanizado|pc",
+   "cod_sap": "",
+   "cod_lider7": "3630",
+   "descricao": "Padrão bifásico rural 100 Amp. - 25mm², 25 kva - Poste de Aço galvanizado",
+   "unidade": "pç"
+  },
+  {
+   "id": 166,
+   "identity_key": "desc:padrao bifasico rural 30 amp. - 10mm², 05 kva - poste de concreto|pc",
+   "cod_sap": "",
+   "cod_lider7": "4369",
+   "descricao": "Padrão bifásico rural 30 Amp. - 10mm², 05 kva - Poste de concreto",
+   "unidade": "pç"
+  },
+  {
+   "id": 167,
+   "identity_key": "desc:padrao bifasico rural 50 amp. - 10mm², 10 kva - poste de concreto|pc",
+   "cod_sap": "",
+   "cod_lider7": "4370",
+   "descricao": "Padrão bifásico rural 50 Amp. - 10mm², 10 kva - Poste de concreto",
+   "unidade": "pç"
+  },
+  {
+   "id": 168,
+   "identity_key": "desc:padrao bifasico rural 70 amp. - 16mm², 15 kva - poste de concreto|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Padrão bifásico rural 70 Amp. - 16mm², 15 kva - Poste de concreto",
+   "unidade": "pç"
+  },
+  {
+   "id": 169,
+   "identity_key": "desc:padrao bifasico rural 100 amp. - 25mm², 25 kva - poste de concreto|pc",
+   "cod_sap": "",
+   "cod_lider7": "4368",
+   "descricao": "Padrão bifásico rural 100 Amp. - 25mm², 25 kva - Poste de concreto",
+   "unidade": "pç"
+  },
+  {
+   "id": 170,
+   "identity_key": "desc:padrao bifasico rural 140 amp., 50mm², 37,5 kva, poste de concreto|pc",
+   "cod_sap": "",
+   "cod_lider7": "4494",
+   "descricao": "Padrão bifásico rural 140 Amp., 50mm²,  37,5 kva, Poste de concreto",
+   "unidade": "pç"
+  },
+  {
+   "id": 176,
+   "identity_key": "sap:590360",
+   "cod_sap": "590360",
+   "cod_lider7": "3632",
+   "descricao": "Parafuso de cabeça quadrada - 125mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 177,
+   "identity_key": "desc:parafuso de cabeca quadrada - 150mm|pc",
+   "cod_sap": "90230",
+   "cod_lider7": "3633",
+   "descricao": "Parafuso de cabeça quadrada - 150mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 178,
+   "identity_key": "desc:parafuso de cabeca quadrada - 175mm|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Parafuso de cabeça quadrada - 175mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 179,
+   "identity_key": "desc:parafuso de cabeca quadrada - 200mm|pc",
+   "cod_sap": "90219",
+   "cod_lider7": "3634",
+   "descricao": "Parafuso de cabeça quadrada - 200mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 180,
+   "identity_key": "sap:1600",
+   "cod_sap": "1600",
+   "cod_lider7": "3635",
+   "descricao": "Parafuso de cabeça quadrada - 250mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 181,
+   "identity_key": "desc:parafuso de cabeca quadrada - 300mm|pc",
+   "cod_sap": "90226",
+   "cod_lider7": "3636",
+   "descricao": "Parafuso de cabeça quadrada - 300mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 182,
+   "identity_key": "sap:90236",
+   "cod_sap": "90236",
+   "cod_lider7": "3637",
+   "descricao": "Parafuso de cabeça quadrada - 350mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 183,
+   "identity_key": "sap:902",
+   "cod_sap": "902",
+   "cod_lider7": "",
+   "descricao": "Parafuso de cabeça quadrada - 400mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 184,
+   "identity_key": "desc:parafuso de cabeca abaulada de 50 mm p/ poste circ|pc",
+   "cod_sap": "90372",
+   "cod_lider7": "4089",
+   "descricao": "Parafuso de cabeça abaulada de 50 mm p/ poste circ",
+   "unidade": "pç"
+  },
+  {
+   "id": 185,
+   "identity_key": "sap:90374",
+   "cod_sap": "90374",
+   "cod_lider7": "3643",
+   "descricao": "Parafuso de cabeça abaulada de 150 mm p/ poste circ",
+   "unidade": "pç"
+  },
+  {
+   "id": 186,
+   "identity_key": "desc:parafuso de cabeca abaulada de 200 mm p/ poste circ|pc",
+   "cod_sap": "90219",
+   "cod_lider7": "",
+   "descricao": "Parafuso de cabeça abaulada de 200 mm p/ poste circ",
+   "unidade": "pç"
+  },
+  {
+   "id": 187,
+   "identity_key": "sap:90378",
+   "cod_sap": "90378",
+   "cod_lider7": "3638",
+   "descricao": "Parafuso de rosca dupla de 350 mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 188,
+   "identity_key": "sap:90379",
+   "cod_sap": "90379",
+   "cod_lider7": "3639",
+   "descricao": "Parafuso de rosca dupla de 400 mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 189,
+   "identity_key": "sap:3013",
+   "cod_sap": "3013",
+   "cod_lider7": "3640",
+   "descricao": "Parafuso de rosca dupla de 450 mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 190,
+   "identity_key": "sap:3015",
+   "cod_sap": "3015",
+   "cod_lider7": "3641",
+   "descricao": "Parafuso de rosca dupla de 500 mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 191,
+   "identity_key": "sap:3016",
+   "cod_sap": "3016",
+   "cod_lider7": "3642",
+   "descricao": "Parafuso de rosca dupla de 550 mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 192,
+   "identity_key": "sap:2387",
+   "cod_sap": "2387",
+   "cod_lider7": "",
+   "descricao": "Parafuso de rosca dupla de 600 mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 193,
+   "identity_key": "sap:250",
+   "cod_sap": "250",
+   "cod_lider7": "",
+   "descricao": "Parafuso de rosca dupla de 650 mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 194,
+   "identity_key": "desc:para-raios de distribuicao - 12kv - polimerico - 10ka|pc",
+   "cod_sap": "",
+   "cod_lider7": "3645",
+   "descricao": "Pára-raios de distribuição - 12kV - polimérico - 10kA",
+   "unidade": "pç"
+  },
+  {
+   "id": 195,
+   "identity_key": "sap:90212",
+   "cod_sap": "90212",
+   "cod_lider7": "3646",
+   "descricao": "Pára-raios de distribuição - 30kV - polimérico - 10kA",
+   "unidade": "pç"
+  },
+  {
+   "id": 196,
+   "identity_key": "sap:502963",
+   "cod_sap": "502963",
+   "cod_lider7": "3648",
+   "descricao": "Pino auto-travante AC 56,5mm para isolador pilar",
+   "unidade": "pç"
+  },
+  {
+   "id": 197,
+   "identity_key": "sap:90251",
+   "cod_sap": "90251",
+   "cod_lider7": "3649",
+   "descricao": "Pino auto-travante AC 168,5mm para isolador pilar",
+   "unidade": "pç"
+  },
+  {
+   "id": 198,
+   "identity_key": "sap:90621",
+   "cod_sap": "90621",
+   "cod_lider7": "4194",
+   "descricao": "Pino auto-travante AC 228,5mm para isolador pilar",
+   "unidade": "pç"
+  },
+  {
+   "id": 199,
+   "identity_key": "sap:2962",
+   "cod_sap": "2962",
+   "cod_lider7": "4127",
+   "descricao": "Pino auto-travante AC 278,5mm para isolador pilar",
+   "unidade": "pç"
+  },
+  {
+   "id": 200,
+   "identity_key": "desc:placa de concreto|pc",
+   "cod_sap": "90585",
+   "cod_lider7": "3651",
+   "descricao": "Placa de concreto",
+   "unidade": "pç"
+  },
+  {
+   "id": 201,
+   "identity_key": "sap:90193",
+   "cod_sap": "90193",
+   "cod_lider7": "4174",
+   "descricao": "Poste de concreto armada - 10/150 DT",
+   "unidade": "pç"
+  },
+  {
+   "id": 202,
+   "identity_key": "sap:90194",
+   "cod_sap": "90194",
+   "cod_lider7": "4190",
+   "descricao": "Poste de concreto armada - 10/300 DT",
+   "unidade": "pç"
+  },
+  {
+   "id": 203,
+   "identity_key": "sap:90195",
+   "cod_sap": "90195",
+   "cod_lider7": "3712",
+   "descricao": "Poste de concreto armada - 10/600 DT",
+   "unidade": "pç"
+  },
+  {
+   "id": 204,
+   "identity_key": "sap:238",
+   "cod_sap": "238",
+   "cod_lider7": "3652",
+   "descricao": "Poste de concreto armada - 10/1000 DT",
+   "unidade": "pç"
+  },
+  {
+   "id": 205,
+   "identity_key": "sap:3009",
+   "cod_sap": "3009",
+   "cod_lider7": "3656",
+   "descricao": "Poste de concreto armada - 11/200 DT",
+   "unidade": "pç"
+  },
+  {
+   "id": 206,
+   "identity_key": "desc:poste de concreto armada - 11/300 dt|pc",
+   "cod_sap": "90198",
+   "cod_lider7": "3657",
+   "descricao": "Poste de concreto armada - 11/300 DT",
+   "unidade": "pç"
+  },
+  {
+   "id": 207,
+   "identity_key": "sap:90199",
+   "cod_sap": "90199",
+   "cod_lider7": "3658",
+   "descricao": "Poste de concreto armada - 11/600 DT",
+   "unidade": "pç"
+  },
+  {
+   "id": 208,
+   "identity_key": "desc:poste de concreto armada - 11/1000 dt|pc",
+   "cod_sap": "90196",
+   "cod_lider7": "3655",
+   "descricao": "Poste de concreto armada - 11/1000 DT",
+   "unidade": "pç"
+  },
+  {
+   "id": 209,
+   "identity_key": "desc:poste de concreto armada - 12/300 dt|pc",
+   "cod_sap": "90202",
+   "cod_lider7": "3660",
+   "descricao": "Poste de concreto armada - 12/300 DT",
+   "unidade": "pç"
+  },
+  {
+   "id": 210,
+   "identity_key": "sap:90203",
+   "cod_sap": "90203",
+   "cod_lider7": "3661",
+   "descricao": "Poste de concreto armada - 12/600 DT",
+   "unidade": "pç"
+  },
+  {
+   "id": 211,
+   "identity_key": "sap:90200",
+   "cod_sap": "90200",
+   "cod_lider7": "3659",
+   "descricao": "Poste de concreto armada - 12/1000 DT",
+   "unidade": "pç"
+  },
+  {
+   "id": 212,
+   "identity_key": "desc:poste de concreto armada - 13/300 dt|pc",
+   "cod_sap": "",
+   "cod_lider7": "3958",
+   "descricao": "Poste de concreto armada - 13/300 DT",
+   "unidade": "pç"
+  },
+  {
+   "id": 213,
+   "identity_key": "desc:poste de concreto armada - 13/600 dt|pc",
+   "cod_sap": "",
+   "cod_lider7": "3958",
+   "descricao": "Poste de concreto armada - 13/600 DT",
+   "unidade": "pç"
+  },
+  {
+   "id": 214,
+   "identity_key": "sap:90204",
+   "cod_sap": "90204",
+   "cod_lider7": "4298",
+   "descricao": "Poste de concreto armada - 13/1000 DT",
+   "unidade": "pç"
+  },
+  {
+   "id": 215,
+   "identity_key": "sap:2989",
+   "cod_sap": "2989",
+   "cod_lider7": "4174",
+   "descricao": "Poste de concreto armada circular- 10/150",
+   "unidade": "pç"
+  },
+  {
+   "id": 216,
+   "identity_key": "sap:227",
+   "cod_sap": "227",
+   "cod_lider7": "4043",
+   "descricao": "Poste de concreto armada circular- 10/300",
+   "unidade": "pç"
+  },
+  {
+   "id": 217,
+   "identity_key": "sap:90183",
+   "cod_sap": "90183",
+   "cod_lider7": "3663",
+   "descricao": "Poste de concreto armada circular- 10/600",
+   "unidade": "pç"
+  },
+  {
+   "id": 218,
+   "identity_key": "sap:2995",
+   "cod_sap": "2995",
+   "cod_lider7": "3662",
+   "descricao": "Poste de concreto armada circular- 10/1000",
+   "unidade": "pç"
+  },
+  {
+   "id": 219,
+   "identity_key": "sap:2990",
+   "cod_sap": "2990",
+   "cod_lider7": "3656",
+   "descricao": "Poste de concreto armada circular- 11/200",
+   "unidade": "pç"
+  },
+  {
+   "id": 220,
+   "identity_key": "sap:2991",
+   "cod_sap": "2991",
+   "cod_lider7": "4044",
+   "descricao": "Poste de concreto armada circular- 11/300",
+   "unidade": "pç"
+  },
+  {
+   "id": 221,
+   "identity_key": "sap:90186",
+   "cod_sap": "90186",
+   "cod_lider7": "3665",
+   "descricao": "Poste de concreto armada circular- 11/600",
+   "unidade": "pç"
+  },
+  {
+   "id": 222,
+   "identity_key": "desc:poste de concreto armada circular- 11/1000|pc",
+   "cod_sap": "90196",
+   "cod_lider7": "3664",
+   "descricao": "Poste de concreto armada circular- 11/1000",
+   "unidade": "pç"
+  },
+  {
+   "id": 223,
+   "identity_key": "sap:228",
+   "cod_sap": "228",
+   "cod_lider7": "3660",
+   "descricao": "Poste de concreto armada circular- 12/300",
+   "unidade": "pç"
+  },
+  {
+   "id": 224,
+   "identity_key": "sap:90189",
+   "cod_sap": "90189",
+   "cod_lider7": "3661",
+   "descricao": "Poste de concreto armada circular- 12/600",
+   "unidade": "pç"
+  },
+  {
+   "id": 225,
+   "identity_key": "sap:90187",
+   "cod_sap": "90187",
+   "cod_lider7": "3659",
+   "descricao": "Poste de concreto armada circular- 12/1000",
+   "unidade": "pç"
+  },
+  {
+   "id": 229,
+   "identity_key": "sap:1888",
+   "cod_sap": "1888",
+   "cod_lider7": "3666",
+   "descricao": "Protetor de bucha de AT de transformador",
+   "unidade": "pç"
+  },
+  {
+   "id": 233,
+   "identity_key": "sap:2964",
+   "cod_sap": "2964",
+   "cod_lider7": "4055",
+   "descricao": "Sapatilha",
+   "unidade": "pç"
+  },
+  {
+   "id": 234,
+   "identity_key": "desc:seccionador de cerca 900kg|pc",
+   "cod_sap": "",
+   "cod_lider7": "3668",
+   "descricao": "Seccionador de cerca 900kg",
+   "unidade": "pç"
+  },
+  {
+   "id": 235,
+   "identity_key": "sap:90411",
+   "cod_sap": "90411",
+   "cod_lider7": "3669",
+   "descricao": "Sela para cruzeta",
+   "unidade": "pç"
+  },
+  {
+   "id": 236,
+   "identity_key": "desc:suporte de transformador em poste circular –ø-210 mm|pc",
+   "cod_sap": "",
+   "cod_lider7": "3670",
+   "descricao": "Suporte de transformador em poste circular –Ø-210 mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 237,
+   "identity_key": "desc:suporte de transformador em poste circular –ø-225 mm|pc",
+   "cod_sap": "",
+   "cod_lider7": "3670",
+   "descricao": "Suporte de transformador em poste circular –Ø-225 mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 238,
+   "identity_key": "desc:suporte de transformador em poste circular –ø-250 mm|pc",
+   "cod_sap": "",
+   "cod_lider7": "3670",
+   "descricao": "Suporte de transformador em poste circular –Ø-250 mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 240,
+   "identity_key": "desc:suporte de transformador em poste circular –ø-270 mm|pc",
+   "cod_sap": "",
+   "cod_lider7": "3670",
+   "descricao": "Suporte de transformador em poste circular –Ø-270 mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 241,
+   "identity_key": "sap:1634",
+   "cod_sap": "1634",
+   "cod_lider7": "3671",
+   "descricao": "Suporte de Transformador em poste DT",
+   "unidade": "pç"
+  },
+  {
+   "id": 244,
+   "identity_key": "desc:suporte t para chave fusivel 540mm|pc",
+   "cod_sap": "",
+   "cod_lider7": "3673",
+   "descricao": "Suporte T para chave fusível 540mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 245,
+   "identity_key": "sap:1707",
+   "cod_sap": "1707",
+   "cod_lider7": "3674",
+   "descricao": "Suporte T para chave fusível 800mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 246,
+   "identity_key": "sap:288",
+   "cod_sap": "288",
+   "cod_lider7": "4105",
+   "descricao": "Suporte para isolador pilar em poste circular",
+   "unidade": "pç"
+  },
+  {
+   "id": 247,
+   "identity_key": "desc:suporte ( chapa \"t\" ) para isolador tipo pilar|pc",
+   "cod_sap": "2956",
+   "cod_lider7": "3672",
+   "descricao": "Suporte ( chapa \"T\" ) para isolador tipo pilar",
+   "unidade": "pç"
+  },
+  {
+   "id": 248,
+   "identity_key": "sap:855",
+   "cod_sap": "855",
+   "cod_lider7": "4019",
+   "descricao": "Suporte TL para Chave Faca",
+   "unidade": "pç"
+  },
+  {
+   "id": 249,
+   "identity_key": "desc:transformador monofasico - 13.8kv - 05kva - 254/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "3685",
+   "descricao": "Transformador monofásico - 13.8KV - 05KVA - 254/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 250,
+   "identity_key": "desc:transformador monofasico - 34.5kv - 05kva - 254/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "4180",
+   "descricao": "Transformador monofásico - 34.5KV - 05KVA - 254/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 251,
+   "identity_key": "desc:transformador monofasico - 13.8kv - 10kva - 254/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "3686",
+   "descricao": "Transformador monofásico - 13.8KV - 10KVA - 254/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 252,
+   "identity_key": "desc:transformador monofasico - 34.5kv - 10kva - 254/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "3691",
+   "descricao": "Transformador monofásico - 34.5KV - 10KVA - 254/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 253,
+   "identity_key": "desc:transformador monofasico - 13.8kv - 15kva - 254/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "3687",
+   "descricao": "Transformador monofásico - 13.8KV - 15KVA - 254/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 254,
+   "identity_key": "desc:transformador monofasico - 34.5kv - 15kva - 254/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "4191",
+   "descricao": "Transformador monofásico - 34.5KV - 15KVA - 254/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 255,
+   "identity_key": "desc:transformador monofasico - 13.8kv - 25kva - 254/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "3688",
+   "descricao": "Transformador monofásico - 13.8KV - 25KVA - 254/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 256,
+   "identity_key": "desc:transformador monofasico - 34.5kv - 25kva - 254/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "3693",
+   "descricao": "Transformador monofásico - 34.5KV - 25KVA - 254/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 257,
+   "identity_key": "desc:transformador monofasico - 13.8kv - 37,5kva - 254/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "3689",
+   "descricao": "Transformador monofásico - 13.8KV - 37,5KVA - 254/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 258,
+   "identity_key": "desc:transformador monofasico - 34.5kv - 37,5kva - 254/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "3694",
+   "descricao": "Transformador monofásico - 34.5KV - 37,5KVA - 254/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 259,
+   "identity_key": "desc:transformador trifasico - 13.8kv - 15kva - 220/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "3697",
+   "descricao": "Transformador Trifásico - 13.8KV - 15KVA - 220/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 260,
+   "identity_key": "desc:transformador trifasico - 34.5kv - 15kva - 220/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "3705",
+   "descricao": "Transformador Trifásico - 34.5KV - 15KVA - 220/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 261,
+   "identity_key": "desc:transformador trifasico - 13.8kv - 30kva - 220/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "3700",
+   "descricao": "Transformador Trifásico - 13.8KV - 30KVA  - 220/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 262,
+   "identity_key": "desc:transformador trifasico - 34.5kv - 30kva - 220/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "3708",
+   "descricao": "Transformador Trifásico -  34.5KV - 30KVA  - 220/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 263,
+   "identity_key": "desc:transformador trifasico - 13.8kv - 45kva - 220/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "3701",
+   "descricao": "Transformador Trifásico - 13.8KV - 45KVA  - 220/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 264,
+   "identity_key": "desc:transformador trifasico - 34.5kv - 45kva - 220/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "3709",
+   "descricao": "Transformador Trifásico -  34.5KV - 45KVA  - 220/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 265,
+   "identity_key": "desc:transformador trifasico - 13.8kv - 75kva - 220/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "3702",
+   "descricao": "Transformador Trifásico - 13.8KV - 75KVA  - 220/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 266,
+   "identity_key": "desc:transformador trifasico - 34.5kv - 75kva - 220/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "3710",
+   "descricao": "Transformador Trifásico -  34.5KV - 75KVA  - 220/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 267,
+   "identity_key": "desc:transformador trifasico - 13.8kv - 112,5kva - 220/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "3695",
+   "descricao": "Transformador Trifásico - 13.8KV - 112,5KVA  - 220/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 268,
+   "identity_key": "desc:transformador trifasico - 34.5kv - 112,5kva - 220/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "3703",
+   "descricao": "Transformador Trifásico -  34.5KV - 112,5KVA  - 220/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 269,
+   "identity_key": "desc:transformador trifasico - 13.8kv - 150kva - 220/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "3696",
+   "descricao": "Transformador Trifásico - 13.8KV - 150KVA  - 220/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 270,
+   "identity_key": "desc:transformador trifasico - 34.5kv - 150kva - 220/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "3704",
+   "descricao": "Transformador Trifásico -  34.5KV - 150KVA  - 220/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 271,
+   "identity_key": "desc:transformador trifasico - 13.8kv - 225kva - 220/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "3698",
+   "descricao": "Transformador Trifásico - 13.8KV - 225KVA  - 220/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 272,
+   "identity_key": "desc:transformador trifasico - 34.5kv - 225kva - 220/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "3706",
+   "descricao": "Transformador Trifásico -  34.5KV - 225KVA  - 220/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 273,
+   "identity_key": "desc:transformador trifasico - 13.8kv - 300kva - 220/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "3699",
+   "descricao": "Transformador Trifásico - 13.8KV - 300KVA  - 220/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 274,
+   "identity_key": "desc:transformador trifasico - 34.5kv - 300kva - 220/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "3707",
+   "descricao": "Transformador Trifásico -  34.5KV - 300KVA  - 220/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 275,
+   "identity_key": "desc:transformador trifasico - 13.8kv - 15kva - 380/220v|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Transformador Trifásico - 13.8KV - 15KVA - 380/220V",
+   "unidade": "pç"
+  },
+  {
+   "id": 276,
+   "identity_key": "desc:transformador trifasico - 34.5kv - 15kva - 380/220v|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Transformador Trifásico -  34.5KV - 15KVA - 380/220V",
+   "unidade": "pç"
+  },
+  {
+   "id": 277,
+   "identity_key": "desc:transformador trifasico - 13.8kv - 30kva - 380/220v|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Transformador Trifásico - 13.8KV - 30KVA - 380/220V",
+   "unidade": "pç"
+  },
+  {
+   "id": 278,
+   "identity_key": "desc:transformador trifasico - 34.5kv - 30kva - 380/220v|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Transformador Trifásico -  34.5KV - 30KVA - 380/220V",
+   "unidade": "pç"
+  },
+  {
+   "id": 279,
+   "identity_key": "desc:transformador trifasico - 13.8kv - 45kva - 380/220v|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Transformador Trifásico - 13.8KV - 45KVA - 380/220V",
+   "unidade": "pç"
+  },
+  {
+   "id": 280,
+   "identity_key": "desc:transformador trifasico - 34.5kv - 45kva - 380/220v|pc",
+   "cod_sap": "",
+   "cod_lider7": "4282",
+   "descricao": "Transformador Trifásico -  34.5KV - 45KVA - 380/220V",
+   "unidade": "pç"
+  },
+  {
+   "id": 281,
+   "identity_key": "desc:transformador trifasico - 13.8kv - 75kva - 380/220v|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Transformador Trifásico - 13.8KV - 75KVA - 380/220V",
+   "unidade": "pç"
+  },
+  {
+   "id": 282,
+   "identity_key": "desc:transformador trifasico - 34.5kv - 75kva - 380/220v|pc",
+   "cod_sap": "",
+   "cod_lider7": "4284",
+   "descricao": "Transformador Trifásico -  34.5KV - 75KVA - 380/220V",
+   "unidade": "pç"
+  },
+  {
+   "id": 283,
+   "identity_key": "desc:transformador trifasico - 13.8kv - 112,5kva - 380/220v|pc",
+   "cod_sap": "",
+   "cod_lider7": "4126",
+   "descricao": "Transformador Trifásico - 13.8KV - 112,5KVA - 380/220V",
+   "unidade": "pç"
+  },
+  {
+   "id": 284,
+   "identity_key": "desc:transformador trifasico - 34.5kv - 112,5kva - 380/220v|pc",
+   "cod_sap": "",
+   "cod_lider7": "3711",
+   "descricao": "Transformador Trifásico -  34.5KV - 112,5KVA - 380/220V",
+   "unidade": "pç"
+  },
+  {
+   "id": 285,
+   "identity_key": "desc:transformador trifasico - 13.8kv - 150kva - 380/220v|pc",
+   "cod_sap": "",
+   "cod_lider7": "4160",
+   "descricao": "Transformador Trifásico - 13.8KV - 150KVA - 380/220V",
+   "unidade": "pç"
+  },
+  {
+   "id": 286,
+   "identity_key": "desc:transformador trifasico - 34.5kv - 150kva - 380/220v|pc",
+   "cod_sap": "",
+   "cod_lider7": "4164",
+   "descricao": "Transformador Trifásico -  34.5KV - 150KVA - 380/220V",
+   "unidade": "pç"
+  },
+  {
+   "id": 287,
+   "identity_key": "desc:transformador trifasico - 13.8kv - 225kva - 380/220v|pc",
+   "cod_sap": "",
+   "cod_lider7": "4242",
+   "descricao": "Transformador Trifásico - 13.8KV - 225KVA - 380/220V",
+   "unidade": "pç"
+  },
+  {
+   "id": 288,
+   "identity_key": "desc:transformador trifasico - 34.5kv - 225kva - 380/220v|pc",
+   "cod_sap": "",
+   "cod_lider7": "4159",
+   "descricao": "Transformador Trifásico -  34.5KV - 225KVA - 380/220V",
+   "unidade": "pç"
+  },
+  {
+   "id": 289,
+   "identity_key": "desc:transformador trifasico - 13.8kv - 300kva - 380/220v|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Transformador Trifásico - 13.8KV - 300KVA - 380/220V",
+   "unidade": "pç"
+  },
+  {
+   "id": 290,
+   "identity_key": "desc:transformador trifasico - 34.5kv - 300kva - 380/220v|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Transformador Trifásico -  34.5KV - 300KVA - 380/220V",
+   "unidade": "pç"
+  },
+  {
+   "id": 293,
+   "identity_key": "sap:MATERIAIS PARA MEDIÇÃO COM MURETA EM TRANSFORMADOR TRIFÁSICO DE 45KVA - 220/127V",
+   "cod_sap": "MATERIAIS PARA MEDIÇÃO COM MURETA EM TRANSFORMADOR TRIFÁSICO DE 45KVA - 220/127V",
+   "cod_lider7": "",
+   "descricao": "",
+   "unidade": ""
+  },
+  {
+   "id": 294,
+   "identity_key": "sap:MATERIAIS PARA MEDIÇÃO COM MURETA EM TRANSFORMADOR TRIFÁSICO DE 75KVA - 220/127V",
+   "cod_sap": "MATERIAIS PARA MEDIÇÃO COM MURETA EM TRANSFORMADOR TRIFÁSICO DE 75KVA - 220/127V",
+   "cod_lider7": "",
+   "descricao": "",
+   "unidade": ""
+  },
+  {
+   "id": 295,
+   "identity_key": "sap:MATERIAIS PARA MEDIÇÃO COM MURETA EM TRANSFORMADOR TRIFÁSICO DE 112,5KVA - 220/127V",
+   "cod_sap": "MATERIAIS PARA MEDIÇÃO COM MURETA EM TRANSFORMADOR TRIFÁSICO DE 112,5KVA - 220/127V",
+   "cod_lider7": "MATERIAIS PARA MEDIÇÃO COM MURETA EM TRANSFORMADOR DE 112,5KVA - 220/127V",
+   "descricao": "",
+   "unidade": ""
+  },
+  {
+   "id": 296,
+   "identity_key": "sap:MATERIAIS PARA MEDIÇÃO COM MURETA EM TRANSFORMADOR TRIFÁSICO - 150KVA - 220/127V",
+   "cod_sap": "MATERIAIS PARA MEDIÇÃO COM MURETA EM TRANSFORMADOR TRIFÁSICO - 150KVA - 220/127V",
+   "cod_lider7": "MATERIAIS PARA MEDIÇÃO COM MURETA EM TRANSFORMADOR TRIFÁSICO - 150KVA - 220/127V",
+   "descricao": "",
+   "unidade": ""
+  },
+  {
+   "id": 297,
+   "identity_key": "sap:MATERIAIS PARA MEDIÇÃO COM MURETA EM TRANSFORMADOR TRIFÁSICO - 225KVA - 220/127V",
+   "cod_sap": "MATERIAIS PARA MEDIÇÃO COM MURETA EM TRANSFORMADOR TRIFÁSICO - 225KVA - 220/127V",
+   "cod_lider7": "MATERIAIS PARA MEDIÇÃO COM MURETA EM TRANSFORMADOR TRIFÁSICO - 225KVA - 220/127V",
+   "descricao": "",
+   "unidade": ""
+  },
+  {
+   "id": 298,
+   "identity_key": "sap:MATERIAIS PARA MEDIÇÃO COM MURETA EM TRANSFORMADOR TRIFÁSICO - 300KVA - 220/127V",
+   "cod_sap": "MATERIAIS PARA MEDIÇÃO COM MURETA EM TRANSFORMADOR TRIFÁSICO - 300KVA - 220/127V",
+   "cod_lider7": "",
+   "descricao": "",
+   "unidade": ""
+  },
+  {
+   "id": 299,
+   "identity_key": "sap:MATERIAIS PARA MEDIÇÃO COM MURETA EM TRANSFORMADOR TRIFÁSICO - 45KVA - 380/220V",
+   "cod_sap": "MATERIAIS PARA MEDIÇÃO COM MURETA EM TRANSFORMADOR TRIFÁSICO - 45KVA - 380/220V",
+   "cod_lider7": "",
+   "descricao": "",
+   "unidade": ""
+  },
+  {
+   "id": 300,
+   "identity_key": "sap:MATERIAIS PARA MEDIÇÃO COM MURETA EM TRANSFORMADOR TRIFÁSICO - 75KVA - 380/220V",
+   "cod_sap": "MATERIAIS PARA MEDIÇÃO COM MURETA EM TRANSFORMADOR TRIFÁSICO - 75KVA - 380/220V",
+   "cod_lider7": "",
+   "descricao": "",
+   "unidade": ""
+  },
+  {
+   "id": 301,
+   "identity_key": "sap:MATERIAIS PARA MEDIÇÃO COM MURETA EM TRANSFORMADOR TRIFÁSICO - 112,5KVA - 380/220V",
+   "cod_sap": "MATERIAIS PARA MEDIÇÃO COM MURETA EM TRANSFORMADOR TRIFÁSICO - 112,5KVA - 380/220V",
+   "cod_lider7": "",
+   "descricao": "",
+   "unidade": ""
+  },
+  {
+   "id": 302,
+   "identity_key": "sap:MATERIAIS PARA MEDIÇÃO COM MURETA EM TRANSFORMADOR TRIFÁSICO - 150KVA - 380/220V",
+   "cod_sap": "MATERIAIS PARA MEDIÇÃO COM MURETA EM TRANSFORMADOR TRIFÁSICO - 150KVA - 380/220V",
+   "cod_lider7": "",
+   "descricao": "",
+   "unidade": ""
+  },
+  {
+   "id": 303,
+   "identity_key": "sap:MATERIAIS PARA MEDIÇÃO COM MURETA EM TRANSFORMADOR TRIFÁSICO - 225KVA - 380/220V",
+   "cod_sap": "MATERIAIS PARA MEDIÇÃO COM MURETA EM TRANSFORMADOR TRIFÁSICO - 225KVA - 380/220V",
+   "cod_lider7": "",
+   "descricao": "",
+   "unidade": ""
+  },
+  {
+   "id": 304,
+   "identity_key": "sap:MATERIAIS PARA MEDIÇÃO COM MURETA EM TRANSFORMADOR TRIFÁSICO - 300KVA - 380/220V",
+   "cod_sap": "MATERIAIS PARA MEDIÇÃO COM MURETA EM TRANSFORMADOR TRIFÁSICO - 300KVA - 380/220V",
+   "cod_lider7": "",
+   "descricao": "",
+   "unidade": ""
+  },
+  {
+   "id": 305,
+   "identity_key": "sap:90253",
+   "cod_sap": "90253",
+   "cod_lider7": "",
+   "descricao": "Isolador Tipo Pilar Porcelana Vertical 15 kV",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  },
+  {
+   "id": 306,
+   "identity_key": "sap:90252",
+   "cod_sap": "90252",
+   "cod_lider7": "",
+   "descricao": "Pino Isolador Aço Carbono 16,0 mm Autotravante.",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  },
+  {
+   "id": 307,
+   "identity_key": "desc:laco pre-formado de distribuicao caa 2 awg|pc",
+   "cod_sap": "90258",
+   "cod_lider7": "",
+   "descricao": "Laço pré-formado de Distribuição CAA 2 AWG",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  },
+  {
+   "id": 308,
+   "identity_key": "desc:suporte p/isolador pilar.|pc",
+   "cod_sap": "2956",
+   "cod_lider7": "",
+   "descricao": "Suporte P/Isolador Pilar.",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  },
+  {
+   "id": 309,
+   "identity_key": "desc:poste de concreto distribuicao dt 11 m|pc",
+   "cod_sap": "90198",
+   "cod_lider7": "",
+   "descricao": "Poste de Concreto Distribuição DT 11 m",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  },
+  {
+   "id": 310,
+   "identity_key": "sap:90375",
+   "cod_sap": "90375",
+   "cod_lider7": "",
+   "descricao": "Parafuso Rosca Total M16 x 200 mm",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  },
+  {
+   "id": 311,
+   "identity_key": "sap:90376",
+   "cod_sap": "90376",
+   "cod_lider7": "",
+   "descricao": "Parafuso Rosca Total M16 x 250 mm",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  },
+  {
+   "id": 312,
+   "identity_key": "desc:poste de concreto distribuicao dt 12 m|pc",
+   "cod_sap": "90202",
+   "cod_lider7": "",
+   "descricao": "Poste de Concreto Distribuição DT 12 m",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  },
+  {
+   "id": 313,
+   "identity_key": "sap:90206",
+   "cod_sap": "90206",
+   "cod_lider7": "",
+   "descricao": "Poste de Concreto Distribuição DT 13 m",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  },
+  {
+   "id": 314,
+   "identity_key": "desc:laco pre-formado de distribuicao caa 1/0 awg|pc",
+   "cod_sap": "90263",
+   "cod_lider7": "",
+   "descricao": "Laço pré-formado de Distribuição CAA 1/0 AWG",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  },
+  {
+   "id": 315,
+   "identity_key": "sap:3039",
+   "cod_sap": "3039",
+   "cod_lider7": "",
+   "descricao": "Laço pré-formado de Distribuição CAA 4/0 AWG",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  },
+  {
+   "id": 316,
+   "identity_key": "sap:90309",
+   "cod_sap": "90309",
+   "cod_lider7": "",
+   "descricao": "Laço pré-formado de Distribuição CAA 336,4 MCM",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  },
+  {
+   "id": 317,
+   "identity_key": "sap:90254",
+   "cod_sap": "90254",
+   "cod_lider7": "",
+   "descricao": "Isolador Tipo Pilar Porcelana Vertical 24,2 kV",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  },
+  {
+   "id": 318,
+   "identity_key": "sap:90580",
+   "cod_sap": "90580",
+   "cod_lider7": "",
+   "descricao": "Isolador Tipo Pilar Porcelana Vertical 36,2 kV",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  },
+  {
+   "id": 319,
+   "identity_key": "sap:2815",
+   "cod_sap": "2815",
+   "cod_lider7": "",
+   "descricao": "Alça pré-formada distribuição CAA 2 AWG",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  },
+  {
+   "id": 320,
+   "identity_key": "desc:gancho olhal 5.000 dan.|pc",
+   "cod_sap": "90448",
+   "cod_lider7": "",
+   "descricao": "Gancho Olhal 5.000 daN.",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  },
+  {
+   "id": 321,
+   "identity_key": "desc:isolador suspensao tipo bastao 15 kv|pc",
+   "cod_sap": "90277",
+   "cod_lider7": "",
+   "descricao": "Isolador Suspensão tipo Bastão 15 kV",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  },
+  {
+   "id": 322,
+   "identity_key": "desc:manilha sapatilha 16,0mm 5.000 dan.|pc",
+   "cod_sap": "90440",
+   "cod_lider7": "",
+   "descricao": "Manilha Sapatilha 16,0mm 5.000 daN.",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  },
+  {
+   "id": 323,
+   "identity_key": "sap:90387",
+   "cod_sap": "90387",
+   "cod_lider7": "",
+   "descricao": "Porca Olhal M16 78,0 mm.",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  },
+  {
+   "id": 324,
+   "identity_key": "desc:alca pre-formada distribuicao caa 1/0 awg|pc",
+   "cod_sap": "90263",
+   "cod_lider7": "",
+   "descricao": "Alça pré-formada distribuição CAA 1/0 AWG",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  },
+  {
+   "id": 325,
+   "identity_key": "desc:alca pre-formada distribuicao caa 4/0 awg|pc",
+   "cod_sap": "90308",
+   "cod_lider7": "",
+   "descricao": "Alça pré-formada distribuição CAA 4/0 AWG",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  },
+  {
+   "id": 326,
+   "identity_key": "sap:90278",
+   "cod_sap": "90278",
+   "cod_lider7": "",
+   "descricao": "Isolador Suspensão tipo Bastão 24,2 kV",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  },
+  {
+   "id": 327,
+   "identity_key": "desc:isolador suspensao tipo bastao 36,2 kv|pc",
+   "cod_sap": "90279",
+   "cod_lider7": "",
+   "descricao": "Isolador Suspensão tipo Bastão 36,2 kV",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  },
+  {
+   "id": 328,
+   "identity_key": "sap:90388",
+   "cod_sap": "90388",
+   "cod_lider7": "",
+   "descricao": "Porca Quadra Pesada Aço Carbono M16.",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  },
+  {
+   "id": 329,
+   "identity_key": "sap:90400",
+   "cod_sap": "90400",
+   "cod_lider7": "",
+   "descricao": "Cruzeta de Distribuição de Concreto T 1.900 mm (CA II)",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  },
+  {
+   "id": 330,
+   "identity_key": "sap:90249",
+   "cod_sap": "90249",
+   "cod_lider7": "",
+   "descricao": "Pino para Isolador Tipo Cruzeta 15 kV",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  },
+  {
+   "id": 331,
+   "identity_key": "sap:90512",
+   "cod_sap": "90512",
+   "cod_lider7": "",
+   "descricao": "Pino para Isolador Tipo Cruzeta 24,2/36,2 kV",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  },
+  {
+   "id": 332,
+   "identity_key": "sap:90662",
+   "cod_sap": "90662",
+   "cod_lider7": "",
+   "descricao": "Cruzeta de Distribuição de Concreto Retangular 2.400 mm (CA II)",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  },
+  {
+   "id": 333,
+   "identity_key": "sap:90401",
+   "cod_sap": "90401",
+   "cod_lider7": "",
+   "descricao": "Cruzeta de Distribuição de Concreto Quadrada 2.000 mm (CA II)",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  },
+  {
+   "id": 334,
+   "identity_key": "sap:90442",
+   "cod_sap": "90442",
+   "cod_lider7": "",
+   "descricao": "Mão Francesa Perfilada Aço Carbono.",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  },
+  {
+   "id": 335,
+   "identity_key": "sap:91384",
+   "cod_sap": "91384",
+   "cod_lider7": "",
+   "descricao": "Cruzeta de Distribuição de Concreto T 2.400 mm (CA II)",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  },
+  {
+   "id": 336,
+   "identity_key": "sap:90535",
+   "cod_sap": "90535",
+   "cod_lider7": "",
+   "descricao": "Arruela Quadrada 14,0 mm x32,0 mm x 3 mm.",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  },
+  {
+   "id": 337,
+   "identity_key": "sap:90302",
+   "cod_sap": "90302",
+   "cod_lider7": "",
+   "descricao": "Alca Pré-formada Cabo Aço Contra Poste 9,50mm.",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  },
+  {
+   "id": 338,
+   "identity_key": "sap:90256",
+   "cod_sap": "90256",
+   "cod_lider7": "",
+   "descricao": "Cordoalha Aço SM 9,5mm.",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  },
+  {
+   "id": 339,
+   "identity_key": "sap:1437",
+   "cod_sap": "1437",
+   "cod_lider7": "",
+   "descricao": "Sapatilha 3/8.",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  },
+  {
+   "id": 340,
+   "identity_key": "sap:2166",
+   "cod_sap": "2166",
+   "cod_lider7": "",
+   "descricao": "Cordoalha de Aço Carbono 9,5 mm",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  },
+  {
+   "id": 341,
+   "identity_key": "desc:parafuso de distribuicao cabeca abaulada m16 x 45 mm|pc",
+   "cod_sap": "90372",
+   "cod_lider7": "",
+   "descricao": "Parafuso de Distribuição Cabeça Abaulada M16 x 45 mm",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  },
+  {
+   "id": 342,
+   "identity_key": "sap:90373",
+   "cod_sap": "90373",
+   "cod_lider7": "",
+   "descricao": "Parafuso de Distribuição Cabeça Abaulada M16 x 70 mm.",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  },
+  {
+   "id": 343,
+   "identity_key": "sap:1945",
+   "cod_sap": "1945",
+   "cod_lider7": "",
+   "descricao": "Pino Isolador Topo 419 mm.",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  },
+  {
+   "id": 344,
+   "identity_key": "desc:cruzeta de eucalipto 5 metros.|pc",
+   "cod_sap": "90501",
+   "cod_lider7": "",
+   "descricao": "Cruzeta de Eucalipto 5 metros.",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  },
+  {
+   "id": 345,
+   "identity_key": "sap:54",
+   "cod_sap": "54",
+   "cod_lider7": "",
+   "descricao": "Poste de Eucalipto 12 metros.",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  },
+  {
+   "id": 346,
+   "identity_key": "desc:armacao secundaria.|pc",
+   "cod_sap": "90393",
+   "cod_lider7": "",
+   "descricao": "Armação Secundária.",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  },
+  {
+   "id": 347,
+   "identity_key": "desc:isolador roldana porcelana marrom.|pc",
+   "cod_sap": "90295",
+   "cod_lider7": "",
+   "descricao": "Isolador Roldana Porcelana Marrom.",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  },
+  {
+   "id": 348,
+   "identity_key": "sap:90654",
+   "cod_sap": "90654",
+   "cod_lider7": "",
+   "descricao": "Suporte Tipo T.",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  },
+  {
+   "id": 349,
+   "identity_key": "sap:90460",
+   "cod_sap": "90460",
+   "cod_lider7": "",
+   "descricao": "Conector Grampo de Linha-Viva com Estribo",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  },
+  {
+   "id": 350,
+   "identity_key": "sap:1881",
+   "cod_sap": "1881",
+   "cod_lider7": "",
+   "descricao": "Suporte Tipo L.",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  },
+  {
+   "id": 351,
+   "identity_key": "desc:suporte “tl”.|pc",
+   "cod_sap": "2956",
+   "cod_lider7": "",
+   "descricao": "Suporte “TL”.",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  },
+  {
+   "id": 352,
+   "identity_key": "sap:92024",
+   "cod_sap": "92024",
+   "cod_lider7": "",
+   "descricao": "Condutor de Aço Cobreado 25 mm².",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  },
+  {
+   "id": 353,
+   "identity_key": "sap:90586",
+   "cod_sap": "90586",
+   "cod_lider7": "",
+   "descricao": "Capa Protetora para Bucha Primária de Transformador",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  },
+  {
+   "id": 354,
+   "identity_key": "desc:capa protetora de para-raios|pc",
+   "cod_sap": "733",
+   "cod_lider7": "",
+   "descricao": "Capa Protetora de Para-Raios",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  },
+  {
+   "id": 355,
+   "identity_key": "desc:capa protetora para chaves fusiveis|pc",
+   "cod_sap": "733",
+   "cod_lider7": "",
+   "descricao": "Capa Protetora para Chaves Fusíveis",
+   "unidade": "pç",
+   "origem_norma": "NDU 005"
+  }
+ ]
+}

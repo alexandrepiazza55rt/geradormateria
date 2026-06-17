@@ -1,0 +1,62 @@
+{
+ "schema_version": 1,
+ "rev": 1,
+ "status": "ativo",
+ "id": "R375",
+ "norma_origem": "NDU 005",
+ "tipo": "S0T",
+ "tipo_base": "S0T",
+ "cruzeta": null,
+ "condutor": "4/0 AWG",
+ "tensao_kv": 0,
+ "classe_tensao_kv": 15.0,
+ "nominal_kv": 13.8,
+ "fases": 0,
+ "tipo_fase": "trifasico",
+ "categoria": "Neutro Contínuo (NDU 005)",
+ "poste_ref": "DT-11/300",
+ "base_bom": {
+  "14": 2.0,
+  "323": 1.0,
+  "328": 1.0,
+  "310": 2.0
+ },
+ "postes": [
+  {
+   "poste": "DT-11/300",
+   "delta": {}
+  },
+  {
+   "poste": "DT-11/600",
+   "delta": {}
+  },
+  {
+   "poste": "DT-11/1000",
+   "delta": {
+    "310": -2.0,
+    "311": 2.0
+   }
+  },
+  {
+   "poste": "DT-12/600",
+   "delta": {}
+  },
+  {
+   "poste": "DT-12/1000",
+   "delta": {
+    "310": -2.0,
+    "311": 2.0
+   }
+  },
+  {
+   "poste": "DT-13/1000",
+   "delta": {
+    "310": -2.0,
+    "311": 2.0
+   }
+  }
+ ],
+ "condicionais": [],
+ "pagina_origem": "NDU 005 p.272",
+ "neutro": true
+}

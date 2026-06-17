@@ -1,4 +1,5 @@
 import { isTauri } from "./env";
+import type { Estrutura } from "../types";
 
 /**
  * Camada de SERVIÇO DE DADOS (base read-only de engenharia).
@@ -61,4 +62,52 @@ export async function loadBaseJson<T>(file: string): Promise<T> {
     setBaseInfo(info);
     return await readBaseFileTauri<T>(file);
   }
+}
+
+interface CatalogItem {
+  id: string;
+}
+
+/**
+ * Carrega as estruturas da base QUEBRADA POR ARQUIVO.
+ *
+ * - Web/dev: faz `fetch` do bundle `estruturas.json` (mantido em sincronia pelo
+ *   build_catalog.py) — uma requisição só, preserva o comportamento atual.
+ * - Desktop: lê todos os `structures/*.json` numa única chamada Rust
+ *   (`read_base_dir`), evitando centenas de IPCs. A ordem canônica vem do
+ *   `catalog.json`; estruturas sem entrada no catálogo vão ao final.
+ *
+ * Devolve TODAS as estruturas (inclusive `descontinuado`) — a filtragem para a
+ * UI de criação fica a cargo do store; históricos precisam continuar resolvíveis.
+ */
+export async function loadStructures(): Promise<Estrutura[]> {
+  if (!isTauri()) {
+    const res = await fetch(`${BASE}data/estruturas.json`);
+    if (!res.ok) throw new Error(`Falha ao carregar estruturas: ${res.status}`);
+    return res.json() as Promise<Estrutura[]>;
+  }
+
+  const { invoke } = await import("@tauri-apps/api/core");
+  let map: Record<string, string>;
+  try {
+    map = await invoke<Record<string, string>>("read_base_dir", { subdir: "structures" });
+  } catch (e) {
+    console.error("[dataSource] erro lendo structures/; recuperando seed embutida:", e);
+    const info = await invoke<BaseInfo>("reextract_seed");
+    setBaseInfo(info);
+    map = await invoke<Record<string, string>>("read_base_dir", { subdir: "structures" });
+  }
+
+  const ests = Object.values(map).map((t) => JSON.parse(t) as Estrutura);
+
+  // Ordem canônica via catalog.json (arquivo de topo → read_base_file).
+  try {
+    const cat = await loadBaseJson<{ structures: CatalogItem[] }>("catalog.json");
+    const order = new Map(cat.structures.map((s, i) => [s.id, i]));
+    ests.sort((a, b) => (order.get(a.id) ?? 1e9) - (order.get(b.id) ?? 1e9));
+  } catch (e) {
+    console.warn("[dataSource] catalog.json ausente; ordem do FS:", e);
+  }
+
+  return ests;
 }

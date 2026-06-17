@@ -1,0 +1,64 @@
+{
+ "schema_version": 1,
+ "rev": 1,
+ "status": "ativo",
+ "id": "R386",
+ "norma_origem": "NDU 005",
+ "tipo": "S1",
+ "tipo_base": "S1",
+ "cruzeta": null,
+ "condutor": "1/0 AWG",
+ "tensao_kv": 0,
+ "classe_tensao_kv": 15.0,
+ "nominal_kv": 13.8,
+ "fases": 0,
+ "tipo_fase": "trifasico",
+ "categoria": "Neutro Contínuo (NDU 005)",
+ "poste_ref": "DT-11/300",
+ "base_bom": {
+  "314": 1.0,
+  "14": 2.0,
+  "346": 1.0,
+  "347": 1.0,
+  "328": 2.0,
+  "310": 1.0
+ },
+ "postes": [
+  {
+   "poste": "DT-11/300",
+   "delta": {}
+  },
+  {
+   "poste": "DT-11/600",
+   "delta": {}
+  },
+  {
+   "poste": "DT-11/1000",
+   "delta": {
+    "310": -1.0,
+    "311": 1.0
+   }
+  },
+  {
+   "poste": "DT-12/600",
+   "delta": {}
+  },
+  {
+   "poste": "DT-12/1000",
+   "delta": {
+    "310": -1.0,
+    "311": 1.0
+   }
+  },
+  {
+   "poste": "DT-13/1000",
+   "delta": {
+    "310": -1.0,
+    "311": 1.0
+   }
+  }
+ ],
+ "condicionais": [],
+ "pagina_origem": "NDU 005 p.274",
+ "neutro": true
+}

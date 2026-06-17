@@ -1,0 +1,64 @@
+{
+ "schema_version": 1,
+ "rev": 1,
+ "status": "ativo",
+ "id": "R354",
+ "norma_origem": "NDU 005",
+ "tipo": "HTTE",
+ "tipo_base": "HTTE",
+ "cruzeta": null,
+ "condutor": "1/0 AWG",
+ "tensao_kv": 24.2,
+ "classe_tensao_kv": 24.2,
+ "nominal_kv": 24.2,
+ "fases": 3,
+ "tipo_fase": "trifasico",
+ "categoria": "Trifásico 24,2 kV — Rural (NDU 005)",
+ "poste_ref": "DT-11/300",
+ "base_bom": {
+  "337": 16.0,
+  "14": 31.0,
+  "340": 5.0,
+  "320": 28.0,
+  "326": 28.0,
+  "317": 13.0,
+  "322": 28.0,
+  "341": 2.0,
+  "342": 6.0,
+  "343": 3.0,
+  "323": 3.0,
+  "339": 18.0,
+  "344": 2.0,
+  "306": 13.0,
+  "308": 1.0,
+  "345": 5.0
+ },
+ "postes": [
+  {
+   "poste": "DT-11/300",
+   "delta": {}
+  },
+  {
+   "poste": "DT-11/600",
+   "delta": {}
+  },
+  {
+   "poste": "DT-11/1000",
+   "delta": {}
+  },
+  {
+   "poste": "DT-12/600",
+   "delta": {}
+  },
+  {
+   "poste": "DT-12/1000",
+   "delta": {}
+  },
+  {
+   "poste": "DT-13/1000",
+   "delta": {}
+  }
+ ],
+ "condicionais": [],
+ "pagina_origem": "NDU 005 p.265"
+}

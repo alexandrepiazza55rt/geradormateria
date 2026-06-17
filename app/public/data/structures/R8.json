@@ -1,0 +1,71 @@
+{
+ "schema_version": 1,
+ "rev": 1,
+ "status": "ativo",
+ "id": "R8",
+ "norma_origem": "NDU 005",
+ "tipo": "U1",
+ "tipo_base": "U1",
+ "cruzeta": null,
+ "condutor": "336,4 MCM",
+ "tensao_kv": 24.2,
+ "classe_tensao_kv": 24.2,
+ "nominal_kv": 24.2,
+ "fases": 1,
+ "tipo_fase": "monofasico",
+ "categoria": "Monofásico 24,2 kV — Rural (NDU 005)",
+ "poste_ref": "DT-11/300",
+ "base_bom": {
+  "14": 2.0,
+  "317": 1.0,
+  "306": 1.0,
+  "316": 1.0,
+  "308": 1.0,
+  "309": 1,
+  "310": 2.0
+ },
+ "postes": [
+  {
+   "poste": "DT-11/300",
+   "delta": {}
+  },
+  {
+   "poste": "DT-11/600",
+   "delta": {}
+  },
+  {
+   "poste": "DT-11/1000",
+   "delta": {
+    "310": -2.0,
+    "311": 2.0
+   }
+  },
+  {
+   "poste": "DT-12/600",
+   "delta": {
+    "312": 1,
+    "309": -1
+   }
+  },
+  {
+   "poste": "DT-12/1000",
+   "delta": {
+    "312": 1,
+    "309": -1,
+    "310": -2.0,
+    "311": 2.0
+   }
+  },
+  {
+   "poste": "DT-13/1000",
+   "delta": {
+    "311": 2.0,
+    "309": -1,
+    "310": -2.0,
+    "313": 1
+   }
+  }
+ ],
+ "condicionais": [],
+ "pagina_origem": "NDU 005 p.160"
+}

@@ -1,0 +1,113 @@
+{
+ "schema_version": 1,
+ "rev": 1,
+ "status": "ativo",
+ "id": "R534",
+ "norma_origem": "NDU 005",
+ "tipo": "N3",
+ "tipo_base": "N3",
+ "cruzeta": null,
+ "condutor": "1/0 AWG",
+ "tensao_kv": 24.2,
+ "classe_tensao_kv": 24.2,
+ "nominal_kv": 24.2,
+ "fases": 3,
+ "tipo_fase": "trifasico",
+ "categoria": "Trifásico 24,2 kV — Rural (NDU 005)",
+ "poste_ref": "DT-11/300",
+ "base_bom": {
+  "14": 18.0,
+  "349": 3.0,
+  "352": 2.0,
+  "323": 3.0,
+  "320": 3.0,
+  "326": 3.0,
+  "322": 3.0,
+  "353": 3.0,
+  "354": 3.0,
+  "355": 3.0,
+  "309": 1,
+  "310": 12.0
+ },
+ "postes": [
+  {
+   "poste": "DT-11/300",
+   "delta": {}
+  },
+  {
+   "poste": "DT-11/600",
+   "delta": {}
+  },
+  {
+   "poste": "DT-11/1000",
+   "delta": {
+    "310": -12.0,
+    "311": 12.0
+   }
+  },
+  {
+   "poste": "DT-12/600",
+   "delta": {
+    "312": 1,
+    "309": -1
+   }
+  },
+  {
+   "poste": "DT-12/1000",
+   "delta": {
+    "312": 1,
+    "309": -1,
+    "310": -12.0,
+    "311": 12.0
+   }
+  },
+  {
+   "poste": "DT-13/1000",
+   "delta": {
+    "311": 12.0,
+    "309": -1,
+    "310": -12.0,
+    "313": 1
+   }
+  }
+ ],
+ "condicionais": [
+  {
+   "id": null,
+   "descricao": "Transformador Aéreo de Distribuição (Trifásico).",
+   "qtd": 1.0,
+   "condicao": "Resolver Tabela O conforme projeto (NDU 005 p.322)"
+  },
+  {
+   "id": null,
+   "descricao": "Para-Raios de Distribuição.",
+   "qtd": 3.0,
+   "condicao": "Resolver Tabela P conforme projeto (NDU 005 p.322)"
+  },
+  {
+   "id": null,
+   "descricao": "Cruzeta de Distribuição de Concreto.",
+   "qtd": 3.0,
+   "condicao": "Resolver Tabela G conforme projeto (NDU 005 p.322)"
+  },
+  {
+   "id": null,
+   "descricao": "Chave Fusível de Distribuição.",
+   "qtd": 3.0,
+   "condicao": "Resolver Tabela M conforme projeto (NDU 005 p.322)"
+  },
+  {
+   "id": null,
+   "descricao": "Elo Fusível de Distribuição.",
+   "qtd": 3.0,
+   "condicao": "Resolver Tabela N conforme projeto (NDU 005 p.322)"
+  },
+  {
+   "id": null,
+   "descricao": "Suporte para Transformador Circular ou Duplo T.",
+   "qtd": 2.0,
+   "condicao": "Resolver Tabela Q conforme projeto (NDU 005 p.322)"
+  }
+ ],
+ "pagina_origem": "NDU 005 p.322"
+}

@@ -1,0 +1,85 @@
+{
+ "schema_version": 1,
+ "rev": 1,
+ "status": "ativo",
+ "id": "R480",
+ "norma_origem": "NDU 005",
+ "tipo": "U4",
+ "tipo_base": "U4",
+ "cruzeta": null,
+ "condutor": "336,4 MCM",
+ "tensao_kv": 34.5,
+ "classe_tensao_kv": 36.2,
+ "nominal_kv": 34.5,
+ "fases": 1,
+ "tipo_fase": "monofasico",
+ "categoria": "Monofásico 34,5 kV — Rural (NDU 005)",
+ "poste_ref": "DT-11/300",
+ "base_bom": {
+  "319": 2.0,
+  "14": 2.0,
+  "320": 2.0,
+  "327": 2.0,
+  "322": 2.0,
+  "323": 1.0,
+  "309": 1,
+  "310": 3.0
+ },
+ "postes": [
+  {
+   "poste": "DT-11/300",
+   "delta": {}
+  },
+  {
+   "poste": "DT-11/600",
+   "delta": {}
+  },
+  {
+   "poste": "DT-11/1000",
+   "delta": {
+    "310": -3.0,
+    "311": 3.0
+   }
+  },
+  {
+   "poste": "DT-12/600",
+   "delta": {
+    "312": 1,
+    "309": -1
+   }
+  },
+  {
+   "poste": "DT-12/1000",
+   "delta": {
+    "312": 1,
+    "309": -1,
+    "310": -3.0,
+    "311": 3.0
+   }
+  },
+  {
+   "poste": "DT-13/1000",
+   "delta": {
+    "311": 3.0,
+    "309": -1,
+    "310": -3.0,
+    "313": 1
+   }
+  }
+ ],
+ "condicionais": [
+  {
+   "id": null,
+   "descricao": "Chave Seccionadora Tipo Faca Unipolar.",
+   "qtd": 1.0,
+   "condicao": "Resolver Tabela L conforme projeto (NDU 005 p.305)"
+  },
+  {
+   "id": null,
+   "descricao": "Cruzetas de Distribuição de Concreto",
+   "qtd": 2.0,
+   "condicao": "Resolver Tabela G conforme projeto (NDU 005 p.305)"
+  }
+ ],
+ "pagina_origem": "NDU 005 p.305"
+}

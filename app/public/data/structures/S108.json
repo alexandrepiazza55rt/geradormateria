@@ -1,0 +1,108 @@
+{
+ "schema_version": 1,
+ "rev": 1,
+ "status": "ativo",
+ "id": "S108",
+ "sheet": "Mono 34,5kv",
+ "col": "CD",
+ "tipo": "U4-CR",
+ "condutor": null,
+ "tensao_kv": 34.5,
+ "nominal_kv": 19.92,
+ "fases": 1,
+ "poste_ref": "DT-10/150",
+ "base_bom": {
+  "126": 0.3
+ },
+ "postes": [
+  {
+   "poste": "DT-10/150",
+   "delta": {}
+  },
+  {
+   "poste": "DT-10/300",
+   "delta": {}
+  },
+  {
+   "poste": "DT-10/600",
+   "delta": {}
+  },
+  {
+   "poste": "DT-10/1000",
+   "delta": {}
+  },
+  {
+   "poste": "DT-11/200",
+   "delta": {}
+  },
+  {
+   "poste": "DT-11/300",
+   "delta": {}
+  },
+  {
+   "poste": "DT-11/600",
+   "delta": {}
+  },
+  {
+   "poste": "DT-11/1000",
+   "delta": {}
+  },
+  {
+   "poste": "DT-12/300",
+   "delta": {}
+  },
+  {
+   "poste": "DT-12/600",
+   "delta": {}
+  },
+  {
+   "poste": "DT-12/1000",
+   "delta": {}
+  },
+  {
+   "poste": "10/150-C",
+   "delta": {}
+  },
+  {
+   "poste": "10/300-C",
+   "delta": {}
+  },
+  {
+   "poste": "10/600-C",
+   "delta": {}
+  },
+  {
+   "poste": "10/1000-C",
+   "delta": {}
+  },
+  {
+   "poste": "11/200-C",
+   "delta": {}
+  },
+  {
+   "poste": "11/300-C",
+   "delta": {}
+  },
+  {
+   "poste": "11/600-C",
+   "delta": {}
+  },
+  {
+   "poste": "11/1000-C",
+   "delta": {}
+  },
+  {
+   "poste": "12/300-C",
+   "delta": {}
+  },
+  {
+   "poste": "12/600-C",
+   "delta": {}
+  },
+  {
+   "poste": "12/1000-C",
+   "delta": {}
+  }
+ ],
+ "categoria": "Monofásico 34,5 kV"
+}

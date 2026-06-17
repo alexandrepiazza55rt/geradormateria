@@ -1,0 +1,136 @@
+{
+ "schema_version": 1,
+ "rev": 1,
+ "status": "ativo",
+ "id": "S66",
+ "sheet": "Mono 34,5kv",
+ "col": "G",
+ "tipo": "CFU - AVULSO",
+ "condutor": null,
+ "tensao_kv": 34.5,
+ "nominal_kv": 19.92,
+ "fases": 1,
+ "poste_ref": "DT-10/150",
+ "base_bom": {
+  "115": 1.0
+ },
+ "postes": [
+  {
+   "poste": "DT-10/150",
+   "delta": {}
+  },
+  {
+   "poste": "DT-10/300",
+   "delta": {}
+  },
+  {
+   "poste": "DT-10/600",
+   "delta": {}
+  },
+  {
+   "poste": "DT-10/1000",
+   "delta": {
+    "181": 2.0
+   }
+  },
+  {
+   "poste": "DT-11/200",
+   "delta": {}
+  },
+  {
+   "poste": "DT-11/300",
+   "delta": {}
+  },
+  {
+   "poste": "DT-11/600",
+   "delta": {}
+  },
+  {
+   "poste": "DT-11/1000",
+   "delta": {
+    "181": 2.0
+   }
+  },
+  {
+   "poste": "DT-12/300",
+   "delta": {}
+  },
+  {
+   "poste": "DT-12/600",
+   "delta": {}
+  },
+  {
+   "poste": "DT-12/1000",
+   "delta": {
+    "181": 2.0
+   }
+  },
+  {
+   "poste": "10/150-C",
+   "delta": {
+    "52": 2.0
+   }
+  },
+  {
+   "poste": "10/300-C",
+   "delta": {
+    "55": 2.0
+   }
+  },
+  {
+   "poste": "10/600-C",
+   "delta": {
+    "57": 2.0
+   }
+  },
+  {
+   "poste": "10/1000-C",
+   "delta": {
+    "61": 2.0
+   }
+  },
+  {
+   "poste": "11/200-C",
+   "delta": {
+    "52": 2.0
+   }
+  },
+  {
+   "poste": "11/300-C",
+   "delta": {
+    "55": 2.0
+   }
+  },
+  {
+   "poste": "11/600-C",
+   "delta": {
+    "57": 2.0
+   }
+  },
+  {
+   "poste": "11/1000-C",
+   "delta": {
+    "61": 2.0
+   }
+  },
+  {
+   "poste": "12/300-C",
+   "delta": {
+    "55": 2.0
+   }
+  },
+  {
+   "poste": "12/600-C",
+   "delta": {
+    "57": 2.0
+   }
+  },
+  {
+   "poste": "12/1000-C",
+   "delta": {
+    "61": 2.0
+   }
+  }
+ ],
+ "categoria": "Monofásico 34,5 kV"
+}

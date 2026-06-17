@@ -1,0 +1,90 @@
+{
+ "schema_version": 1,
+ "rev": 1,
+ "status": "ativo",
+ "id": "R514",
+ "norma_origem": "NDU 005",
+ "tipo": "Instalação de Tran",
+ "tipo_base": "Instalação de Tran",
+ "cruzeta": null,
+ "condutor": "1/0 AWG",
+ "tensao_kv": 34.5,
+ "classe_tensao_kv": 36.2,
+ "nominal_kv": 34.5,
+ "fases": 1,
+ "tipo_fase": "monofasico",
+ "categoria": "Monofásico 34,5 kV — Rural (NDU 005)",
+ "poste_ref": "DT-11/300",
+ "base_bom": {
+  "14": 5.0,
+  "349": 3.0,
+  "352": 1.0,
+  "323": 1.0,
+  "350": 1.0,
+  "314": 1.0,
+  "322": 1.0,
+  "308": 1.0,
+  "306": 1.0,
+  "353": 1.0,
+  "354": 1.0,
+  "309": 1,
+  "310": 2.0
+ },
+ "postes": [
+  {
+   "poste": "DT-11/300",
+   "delta": {}
+  },
+  {
+   "poste": "DT-11/600",
+   "delta": {}
+  },
+  {
+   "poste": "DT-11/1000",
+   "delta": {
+    "310": -2.0,
+    "311": 2.0
+   }
+  },
+  {
+   "poste": "DT-12/600",
+   "delta": {
+    "312": 1,
+    "309": -1
+   }
+  },
+  {
+   "poste": "DT-12/1000",
+   "delta": {
+    "312": 1,
+    "309": -1,
+    "310": -2.0,
+    "311": 2.0
+   }
+  },
+  {
+   "poste": "DT-13/1000",
+   "delta": {
+    "311": 2.0,
+    "309": -1,
+    "310": -2.0,
+    "313": 1
+   }
+  }
+ ],
+ "condicionais": [
+  {
+   "id": null,
+   "descricao": "Transformador Aéreo de Distribuição (Monofásico).",
+   "qtd": 1.0,
+   "condicao": "Resolver Tabela O conforme projeto (NDU 005 p.315)"
+  },
+  {
+   "id": null,
+   "descricao": "Para-Raios de Distribuição.",
+   "qtd": 1.0,
+   "condicao": "Resolver Tabela P conforme projeto (NDU 005 p.315)"
+  }
+ ],
+ "pagina_origem": "NDU 005 p.315"
+}

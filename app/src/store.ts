@@ -45,7 +45,7 @@ import {
 } from "./lib/orcamento/historicoFormatador";
 import { reprocessar_orcamento_com_precos_atualizados } from "./lib/orcamento/reprocessamento";
 import { merge_precos } from "./lib/orcamento/helpers";
-import { loadBaseJson } from "./lib/dataSource";
+import { loadBaseJson, loadStructures } from "./lib/dataSource";
 
 export interface ObraMeta {
   obra: string;
@@ -285,16 +285,20 @@ export const useStore = create<State>((set, get) => ({
     try {
       const [mats, ests, inss, precos] = await Promise.all([
         fetchJson<Material[]>("materiais.json"),
-        fetchJson<Estrutura[]>("estruturas.json"),
+        loadStructures(),
         fetchJson<Insumo[]>("insumos.json").catch(() => [] as Insumo[]),
         fetchJson<PrecoMaterial[]>("precos.json").catch(() => [] as PrecoMaterial[]),
       ]);
       const materials = new Map(mats.map((m) => [m.id, m]));
+      // Map com TODAS as estruturas (inclusive descontinuadas) — orçamentos
+      // salvos precisam continuar resolvendo a estrutura que usaram.
       const estruturas = new Map(ests.map((e) => [e.id, e]));
       const insumos = new Map(inss.map((i) => [i.id, i]));
 
+      // UI de criação: oculta estruturas descontinuadas (mas seguem no Map acima).
       const estruturasByCategoria = new Map<string, Estrutura[]>();
       for (const e of ests) {
+        if (e.status === "descontinuado") continue;
         const arr = estruturasByCategoria.get(e.categoria) ?? [];
         arr.push(e);
         estruturasByCategoria.set(e.categoria, arr);

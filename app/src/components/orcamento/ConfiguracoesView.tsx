@@ -10,6 +10,7 @@ import { SecaoValidades } from "./SecaoValidades";
 import { SecaoImposto } from "./SecaoImposto";
 import { SecaoEmpresa } from "./SecaoEmpresa";
 import { SecaoImportExport } from "./SecaoImportExport";
+import { SecaoAtualizacao } from "./SecaoAtualizacao";
 import { ConfirmacaoCodigo } from "../ConfirmacaoCodigo";
 
 type Aba =
@@ -21,6 +22,7 @@ type Aba =
   | "empresa"
   | "validades"
   | "precos_dados"
+  | "atualizacao"
   | "historico";
 
 const DEFAULTS: ConfigOrcamento = {
@@ -126,6 +128,7 @@ export function ConfiguracoesView() {
     { key: "empresa", label: "Empresa" },
     { key: "validades", label: "Validades" },
     { key: "precos_dados", label: "Preços (dados)" },
+    { key: "atualizacao", label: "Atualização" },
     { key: "historico", label: `Histórico (${configHistorico.length})` },
   ];
 
@@ -240,6 +243,7 @@ export function ConfiguracoesView() {
             />
           )}
           {aba === "precos_dados" && <SecaoImportExport />}
+          {aba === "atualizacao" && <SecaoAtualizacao />}
           {aba === "historico" && (
             <HistoricoConfig
               entradas={configHistorico}
@@ -248,7 +252,7 @@ export function ConfiguracoesView() {
           )}
         </div>
 
-        {aba !== "precos_dados" && aba !== "historico" && (
+        {aba !== "precos_dados" && aba !== "historico" && aba !== "atualizacao" && (
         <div className="flex items-center justify-between gap-2 border-t border-slate-200 bg-slate-50 px-5 py-3">
           <button
             onClick={() => set_confirmando_restaurar(true)}

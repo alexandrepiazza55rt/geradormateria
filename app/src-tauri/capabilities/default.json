@@ -1,7 +1,21 @@
 {
   "$schema": "../gen/schemas/desktop-schema.json",
   "identifier": "default",
-  "description": "Permissões padrão do app (diálogos nativos e SQLite do usuário).",
+  "description": "Permissões padrão do app (diálogos nativos, SQLite do usuário e atualização de base por HTTPS).",
   "windows": ["main"],
-  "permissions": ["core:default", "dialog:default", "sql:default"]
+  "permissions": [
+    "core:default",
+    "dialog:default",
+    "sql:default",
+    {
+      "identifier": "http:default",
+      "allow": [
+        { "url": "https://github.com/*" },
+        { "url": "https://*.githubusercontent.com/*" },
+        { "url": "https://objects.githubusercontent.com/*" },
+        { "url": "http://localhost:*/*" },
+        { "url": "http://127.0.0.1:*/*" }
+      ]
+    }
+  ]
 }

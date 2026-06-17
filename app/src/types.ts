@@ -26,6 +26,10 @@ export interface Condicional {
 
 export interface Estrutura {
   id: string;
+  // Metadados de publicação (base quebrada por arquivo). Ausentes em bases antigas.
+  schema_version?: number;
+  rev?: number;                       // sobe a cada correção publicada da estrutura
+  status?: "ativo" | "descontinuado"; // descontinuado: some da criação, segue resolvível
   sheet?: string;
   col?: string;
   tipo: string;             // e.g. "U1", "N3-CFu", "ESTAI ÂNCORA"

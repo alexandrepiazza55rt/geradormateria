@@ -1,0 +1,75 @@
+{
+ "schema_version": 1,
+ "rev": 1,
+ "status": "ativo",
+ "id": "R157",
+ "norma_origem": "NDU 005",
+ "tipo": "N3 — Cruzeta T 2,40 m",
+ "tipo_base": "N3",
+ "cruzeta": "T 2,40 m",
+ "condutor": "2 AWG",
+ "tensao_kv": 13.8,
+ "classe_tensao_kv": 15.0,
+ "nominal_kv": 13.8,
+ "fases": 3,
+ "tipo_fase": "trifasico",
+ "categoria": "Trifásico 13,8 kV — Rural (NDU 005)",
+ "poste_ref": "DT-11/300",
+ "base_bom": {
+  "319": 3.0,
+  "14": 16.0,
+  "328": 16.0,
+  "332": 2.0,
+  "320": 3.0,
+  "321": 3.0,
+  "322": 3.0,
+  "334": 2.0,
+  "323": 3.0,
+  "309": 1,
+  "310": 6.0
+ },
+ "postes": [
+  {
+   "poste": "DT-11/300",
+   "delta": {}
+  },
+  {
+   "poste": "DT-11/600",
+   "delta": {}
+  },
+  {
+   "poste": "DT-11/1000",
+   "delta": {
+    "310": -6.0,
+    "311": 6.0
+   }
+  },
+  {
+   "poste": "DT-12/600",
+   "delta": {
+    "312": 1,
+    "309": -1
+   }
+  },
+  {
+   "poste": "DT-12/1000",
+   "delta": {
+    "312": 1,
+    "309": -1,
+    "310": -6.0,
+    "311": 6.0
+   }
+  },
+  {
+   "poste": "DT-13/1000",
+   "delta": {
+    "311": 6.0,
+    "309": -1,
+    "310": -6.0,
+    "313": 1
+   }
+  }
+ ],
+ "condicionais": [],
+ "pagina_origem": "NDU 005 p.203"
+}

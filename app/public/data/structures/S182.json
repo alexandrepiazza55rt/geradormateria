@@ -1,0 +1,133 @@
+{
+ "schema_version": 1,
+ "rev": 1,
+ "status": "ativo",
+ "id": "S182",
+ "sheet": "Trifásico 13,8kv ",
+ "col": "CK",
+ "tipo": "N3 PARA N4",
+ "condutor": "2CAA",
+ "tensao_kv": 13.8,
+ "nominal_kv": 13.8,
+ "fases": 3,
+ "poste_ref": "DT-10/150",
+ "base_bom": {
+  "7": 3.0,
+  "40": 3.0,
+  "89": 3.0,
+  "130": 3.0,
+  "135": 3.0,
+  "137": 3.0,
+  "141": 3.0,
+  "154": 3.0,
+  "161": 3.0,
+  "197": 3.0
+ },
+ "postes": [
+  {
+   "poste": "DT-10/150",
+   "delta": {}
+  },
+  {
+   "poste": "DT-10/300",
+   "delta": {}
+  },
+  {
+   "poste": "DT-10/600",
+   "delta": {}
+  },
+  {
+   "poste": "DT-10/1000",
+   "delta": {}
+  },
+  {
+   "poste": "DT-11/200",
+   "delta": {}
+  },
+  {
+   "poste": "DT-11/300",
+   "delta": {}
+  },
+  {
+   "poste": "DT-11/600",
+   "delta": {}
+  },
+  {
+   "poste": "DT-11/1000",
+   "delta": {}
+  },
+  {
+   "poste": "DT-12/300",
+   "delta": {}
+  },
+  {
+   "poste": "DT-12/600",
+   "delta": {}
+  },
+  {
+   "poste": "DT-12/1000",
+   "delta": {}
+  },
+  {
+   "poste": "10/150-C",
+   "delta": {
+    "189": 2.0
+   }
+  },
+  {
+   "poste": "10/300-C",
+   "delta": {
+    "189": 2.0
+   }
+  },
+  {
+   "poste": "10/600-C",
+   "delta": {
+    "189": 2.0
+   }
+  },
+  {
+   "poste": "10/1000-C",
+   "delta": {}
+  },
+  {
+   "poste": "11/200-C",
+   "delta": {
+    "189": 2.0
+   }
+  },
+  {
+   "poste": "11/300-C",
+   "delta": {
+    "189": 2.0
+   }
+  },
+  {
+   "poste": "11/600-C",
+   "delta": {
+    "189": 2.0
+   }
+  },
+  {
+   "poste": "11/1000-C",
+   "delta": {}
+  },
+  {
+   "poste": "12/300-C",
+   "delta": {
+    "189": 2.0
+   }
+  },
+  {
+   "poste": "12/600-C",
+   "delta": {
+    "189": 2.0
+   }
+  },
+  {
+   "poste": "12/1000-C",
+   "delta": {}
+  }
+ ],
+ "categoria": "Trifásico 13,8 kV"
+}

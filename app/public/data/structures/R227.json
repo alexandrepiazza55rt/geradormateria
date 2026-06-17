@@ -1,0 +1,83 @@
+{
+ "schema_version": 1,
+ "rev": 1,
+ "status": "ativo",
+ "id": "R227",
+ "norma_origem": "NDU 005",
+ "tipo": "N3",
+ "tipo_base": "N3",
+ "cruzeta": null,
+ "condutor": "4/0 AWG",
+ "tensao_kv": 34.5,
+ "classe_tensao_kv": 36.2,
+ "nominal_kv": 34.5,
+ "fases": 3,
+ "tipo_fase": "trifasico",
+ "categoria": "Trifásico 34,5 kV — Rural (NDU 005)",
+ "poste_ref": "DT-11/300",
+ "base_bom": {
+  "325": 6.0,
+  "14": 32.0,
+  "320": 6.0,
+  "318": 2.0,
+  "327": 6.0,
+  "322": 6.0,
+  "334": 4.0,
+  "331": 2.0,
+  "323": 6.0,
+  "328": 32.0,
+  "309": 1,
+  "310": 12.0
+ },
+ "postes": [
+  {
+   "poste": "DT-11/300",
+   "delta": {}
+  },
+  {
+   "poste": "DT-11/600",
+   "delta": {}
+  },
+  {
+   "poste": "DT-11/1000",
+   "delta": {
+    "310": -12.0,
+    "311": 12.0
+   }
+  },
+  {
+   "poste": "DT-12/600",
+   "delta": {
+    "312": 1,
+    "309": -1
+   }
+  },
+  {
+   "poste": "DT-12/1000",
+   "delta": {
+    "312": 1,
+    "309": -1,
+    "310": -12.0,
+    "311": 12.0
+   }
+  },
+  {
+   "poste": "DT-13/1000",
+   "delta": {
+    "311": 12.0,
+    "309": -1,
+    "310": -12.0,
+    "313": 1
+   }
+  }
+ ],
+ "condicionais": [
+  {
+   "id": null,
+   "descricao": "Cruzeta de Distribuição de Concreto.",
+   "qtd": 4.0,
+   "condicao": "Resolver Tabela G conforme projeto (NDU 005 p.215)"
+  }
+ ],
+ "pagina_origem": "NDU 005 p.215"
+}

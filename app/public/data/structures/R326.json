@@ -1,0 +1,90 @@
+{
+ "schema_version": 1,
+ "rev": 1,
+ "status": "ativo",
+ "id": "R326",
+ "norma_origem": "NDU 005",
+ "tipo": "TE — Cruzeta 2,40 m",
+ "tipo_base": "TE",
+ "cruzeta": "2,40 m",
+ "condutor": "1/0 AWG",
+ "tensao_kv": 13.8,
+ "classe_tensao_kv": 15.0,
+ "nominal_kv": 13.8,
+ "fases": 3,
+ "tipo_fase": "trifasico",
+ "categoria": "Trifásico 13,8 kV — Rural (NDU 005)",
+ "poste_ref": "DT-11/300",
+ "base_bom": {
+  "324": 6.0,
+  "336": 14.0,
+  "332": 2.0,
+  "320": 6.0,
+  "321": 6.0,
+  "314": 1.0,
+  "305": 1.0,
+  "322": 6.0,
+  "328": 4.0,
+  "308": 1.0,
+  "323": 3.0,
+  "309": 1,
+  "310": 6.0
+ },
+ "postes": [
+  {
+   "poste": "DT-11/300",
+   "delta": {}
+  },
+  {
+   "poste": "DT-11/600",
+   "delta": {}
+  },
+  {
+   "poste": "DT-11/1000",
+   "delta": {
+    "310": -6.0,
+    "311": 6.0
+   }
+  },
+  {
+   "poste": "DT-12/600",
+   "delta": {
+    "312": 1,
+    "309": -1
+   }
+  },
+  {
+   "poste": "DT-12/1000",
+   "delta": {
+    "312": 1,
+    "309": -1,
+    "310": -6.0,
+    "311": 6.0
+   }
+  },
+  {
+   "poste": "DT-13/1000",
+   "delta": {
+    "311": 6.0,
+    "309": -1,
+    "310": -6.0,
+    "313": 1
+   }
+  }
+ ],
+ "condicionais": [
+  {
+   "id": null,
+   "descricao": "Conector Tipo Cunha.",
+   "qtd": 3.0,
+   "condicao": "Resolver Tabela F conforme projeto (NDU 005 p.259)"
+  },
+  {
+   "id": null,
+   "descricao": "Pino Pilar Autotravante M16.",
+   "qtd": 1.0,
+   "condicao": "Resolver Tabela J conforme projeto (NDU 005 p.259)"
+  }
+ ],
+ "pagina_origem": "NDU 005 p.259"
+}

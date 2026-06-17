@@ -22,6 +22,23 @@ fn read_base_file(app: tauri::AppHandle, name: String) -> Result<String, String>
 }
 
 #[tauri::command]
+fn read_base_dir(
+    app: tauri::AppHandle,
+    subdir: String,
+) -> Result<std::collections::HashMap<String, String>, String> {
+    seed::read_base_dir(&app, &subdir)
+}
+
+#[tauri::command]
+fn apply_base_update(
+    app: tauri::AppHandle,
+    files: Vec<seed::UpdateFile>,
+    data_version: String,
+) -> Result<seed::BaseInfo, String> {
+    seed::apply_base_update(&app, files, &data_version)
+}
+
+#[tauri::command]
 fn base_dir(app: tauri::AppHandle) -> Result<String, String> {
     seed::base_dir_string(&app)
 }
@@ -79,6 +96,7 @@ pub fn run() {
                 .build(),
         )
         .plugin(tauri_plugin_dialog::init())
+        .plugin(tauri_plugin_http::init())
         .plugin(
             tauri_plugin_sql::Builder::default()
                 .add_migrations("sqlite:user.db", migrations())
@@ -88,6 +106,8 @@ pub fn run() {
             ensure_base_extracted,
             reextract_seed,
             read_base_file,
+            read_base_dir,
+            apply_base_update,
             base_dir,
             write_file_text,
             write_file_bytes,

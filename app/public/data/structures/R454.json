@@ -1,0 +1,81 @@
+{
+ "schema_version": 1,
+ "rev": 1,
+ "status": "ativo",
+ "id": "R454",
+ "norma_origem": "NDU 005",
+ "tipo": "Instalação de Chav",
+ "tipo_base": "Instalação de Chav",
+ "cruzeta": null,
+ "condutor": "1/0 AWG",
+ "tensao_kv": 34.5,
+ "classe_tensao_kv": 36.2,
+ "nominal_kv": 34.5,
+ "fases": 3,
+ "tipo_fase": "trifasico",
+ "categoria": "Trifásico 34,5 kV — Rural (NDU 005)",
+ "poste_ref": "DT-11/300",
+ "base_bom": {
+  "14": 4.0,
+  "349": 3.0,
+  "331": 3.0,
+  "318": 3.0,
+  "310": 1.0
+ },
+ "postes": [
+  {
+   "poste": "DT-11/300",
+   "delta": {}
+  },
+  {
+   "poste": "DT-11/600",
+   "delta": {}
+  },
+  {
+   "poste": "DT-11/1000",
+   "delta": {
+    "310": -1.0,
+    "311": 1.0
+   }
+  },
+  {
+   "poste": "DT-12/600",
+   "delta": {}
+  },
+  {
+   "poste": "DT-12/1000",
+   "delta": {
+    "310": -1.0,
+    "311": 1.0
+   }
+  },
+  {
+   "poste": "DT-13/1000",
+   "delta": {
+    "310": -1.0,
+    "311": 1.0
+   }
+  }
+ ],
+ "condicionais": [
+  {
+   "id": null,
+   "descricao": "Chave Fusível de Distribuição.",
+   "qtd": 3.0,
+   "condicao": "Resolver Tabela M conforme projeto (NDU 005 p.285)"
+  },
+  {
+   "id": null,
+   "descricao": "Cruzetas de Distribuição de Concreto.",
+   "qtd": 1.0,
+   "condicao": "Resolver Tabela G conforme projeto (NDU 005 p.285)"
+  },
+  {
+   "id": null,
+   "descricao": "Elo Fusível de Distribuição.",
+   "qtd": 3.0,
+   "condicao": "Resolver Tabela N conforme projeto (NDU 005 p.285)"
+  }
+ ],
+ "pagina_origem": "NDU 005 p.285"
+}
