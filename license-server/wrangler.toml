@@ -14,6 +14,6 @@ migrations_dir = "migrations"
 #   ADMIN_TOKEN           → token para as rotas /v1/admin/*.
 # Variáveis públicas:
 [vars]
-LICENSE_PUBLIC_KEY = "PREENCHER_COM_A_PUBLICA_HEX"   # informativa; a pública também vai embutida no cliente
+LICENSE_PUBLIC_KEY = "90fd275241b9fded8f8963b9dfe649c1c2bbae4b6b27eb3fa6eb884eef4ed21a"   # informativa; o servidor assina com a privada (secret)
 PRODUTO = "gerador-materiais"
 DIAS_CARENCIA = "15"
