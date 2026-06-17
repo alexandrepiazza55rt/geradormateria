@@ -13,23 +13,18 @@ export function Home() {
   function Card({ cat }: { cat: string }) {
     const n = byCat.get(cat)?.length ?? 0;
     const neutro = cat.includes("Neutro");
-    const is345 = cat.includes("34,5");
     const kv = neutro ? "Neutro" : cat.includes("34,5") ? "34,5 kV" : cat.includes("24,2") ? "24,2 kV" : "13,8 kV";
-    const accent = neutro ? "from-emerald-500 to-teal-600" : is345 ? "from-amber-500 to-orange-600" : "from-sky-500 to-blue-600";
     return (
       <button
         onClick={() => setView({ name: "categoria", categoria: cat })}
-        className="group relative overflow-hidden rounded-xl border border-slate-200 bg-white p-5 text-left shadow-sm transition hover:shadow-md"
+        className="flex items-start justify-between gap-2 border border-slate-300 bg-white p-4 text-left hover:border-sky-500 hover:bg-slate-50"
       >
-        <div className={`absolute inset-x-0 top-0 h-1 bg-gradient-to-r ${accent}`} />
-        <div className="flex items-start justify-between gap-2">
-          <div>
-            <div className="font-semibold text-slate-900">{cardTitle(cat)}</div>
-            <div className="mt-1 text-sm text-slate-500">{n} estruturas</div>
-          </div>
-          <span className={`shrink-0 rounded-md bg-gradient-to-r ${accent} px-2 py-1 text-xs font-semibold text-white`}>{kv}</span>
+        <div>
+          <div className="font-semibold text-slate-900">{cardTitle(cat)}</div>
+          <div className="mt-1 text-sm text-slate-500">{n} estruturas</div>
+          <div className="mt-3 text-sm font-medium text-sky-700">Ver estruturas →</div>
         </div>
-        <div className="mt-4 text-sm font-medium text-sky-700 group-hover:underline">Ver estruturas →</div>
+        <span className="shrink-0 border border-slate-300 bg-slate-100 px-2 py-0.5 text-xs font-semibold text-slate-600">{kv}</span>
       </button>
     );
   }

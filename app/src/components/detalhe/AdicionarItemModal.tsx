@@ -266,7 +266,7 @@ export function AdicionarItemModal({ onAdicionar, onAdicionarVarios, onFechar }:
                                   set_est_categoria(cat);
                                   set_busca_est("");
                                 }}
-                                className="rounded-lg border border-slate-200 bg-white px-3 py-2.5 text-left shadow-sm transition hover:border-sky-300 hover:shadow-md"
+                                className="border border-slate-300 bg-white px-3 py-2.5 text-left hover:border-sky-500 hover:bg-slate-50"
                               >
                                 <div className="text-sm font-semibold text-slate-900">
                                   {titulo_categoria(cat)}

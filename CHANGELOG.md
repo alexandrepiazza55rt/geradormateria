@@ -5,6 +5,52 @@ Registro cronológico das atividades feitas no sistema, em linguagem do dono
 
 ---
 
+## 2026-06-17
+
+- ✅ **Redesenho visual completo — agora tem cara de PROGRAMA, não de site.**
+  Troca só de "pele": **nenhuma função, cálculo, dado, preço, margem,
+  snapshot ou regra mudou**. Os mesmos botões, telas, filtros, relatórios,
+  versionamento e Configurações continuam exatamente no lugar, com os
+  mesmos textos em português — só a aparência ficou sóbria, reta e densa,
+  no estilo de software técnico do setor elétrico/industrial. O que mudou
+  na aparência:
+
+  - **Cores mais sérias e dessaturadas.** O azul vibrante virou um **azul
+    corporativo acinzentado** (usado só em ação principal e foco). Verde
+    (aprovado/sucesso), vermelho (reprovado/erro/PDF) e âmbar (pendente/
+    aviso) ficaram **discretos** — cor só aparece quando carrega informação
+    (status, alerta, ação), nunca como enfeite. O cinza neutro de base foi
+    mantido. Fundo geral virou um cinza plano (sem aquele tom azulado de
+    site).
+  - **Cantos retos.** Acabaram os cantos bem arredondados e as "pílulas":
+    tudo agora tem cantos retos (2px). Etiquetas de status viraram
+    retângulos sóbrios.
+  - **Sem sombras flutuantes.** Os "cartões" não flutuam mais com sombra —
+    a separação entre painéis, tabelas e seções é feita por **linha fina de
+    1px** (o "grid" visível faz parte da estética de programa).
+  - **Sem animações.** Removidos os efeitos de transição, fade e os
+    "hovers" que mexiam/cresciam. Toda mudança de estado agora é
+    **instantânea** (só o contorno de foco de teclado permanece, por
+    acessibilidade).
+  - **Números alinhados.** O sistema inteiro passou a usar **algarismos
+    tabulares**, então os valores em R$ batem coluna a coluna nas tabelas
+    de orçamento. As colunas de dinheiro continuam alinhadas à direita.
+  - **Tela inicial.** Os cartões de categoria perderam as **faixas e
+    selos coloridos com degradê** (proibidos na nova direção) e viraram
+    cartões brancos planos com borda e um selo de tensão discreto.
+
+  **Como foi feito (técnico):** a troca é **centralizada num único lugar**
+  — o arquivo de estilo central (`app/src/index.css`) redefine a paleta,
+  os cantos, as sombras e desliga as animações de uma vez. Como as telas já
+  usavam classes utilitárias (Tailwind), **todas herdaram o novo visual
+  automaticamente**, sem reescrever tela a tela — o que garante coerência
+  (nenhuma tela destoa) e risco mínimo. Só dois componentes tiveram ajuste
+  pontual (a tela inicial, para remover os degradês, e um cartão de seleção
+  de estrutura). **167 testes verdes, build verde, sem erros de tipo.**
+
+  Feito no branch **`redesign-visual`** (para reverter: voltar ao branch
+  anterior). Nenhum arquivo de lógica/dados/gerador foi tocado.
+
 ## 2026-06-13
 
 - ✅ **Auto-reprocessar rascunhos + ranking de Relatórios mais limpo.** Dois
