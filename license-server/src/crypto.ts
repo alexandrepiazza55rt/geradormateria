@@ -32,7 +32,11 @@ export function b64urlDecode(s: string): Uint8Array {
 
 /** Assina uma mensagem com a chave privada (hex). Retorna assinatura (bytes). */
 export function signEd25519(message: Uint8Array, privHex: string): Uint8Array {
-  return ed.sign(message, hexToBytes(privHex));
+  const clean = (privHex ?? "").trim();
+  if (!/^[0-9a-fA-F]{64}$/.test(clean)) {
+    throw new Error("LICENSE_SIGNING_KEY inválida: esperado 64 caracteres hex (a privada Ed25519).");
+  }
+  return ed.sign(message, hexToBytes(clean));
 }
 
 /** Verifica assinatura com a chave pública (hex). */

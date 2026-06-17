@@ -96,7 +96,7 @@ describe("ativação e bind", () => {
     const { id, chave } = await criarLicenca();
     const res = await ativar(chave, "fp-maquina-1");
     expect(res.status).toBe(200);
-    const { token } = await res.json();
+    const { token } = (await res.json()) as { token: string };
     const v = verificarToken(token, pubHex);
     expect(v.valido).toBe(true);
     expect(v.payload?.id_licenca).toBe(id);
@@ -140,17 +140,17 @@ describe("revalidação", () => {
     const { id, chave } = await criarLicenca();
     await ativar(chave, "fp-1");
     const ok = await app.request("/v1/revalidate", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ id_licenca: id, fingerprint_hash: "fp-1" }) }, env());
-    expect((await ok.json()).estado).toBe("ATIVA");
+    expect(((await ok.json()) as { estado: string }).estado).toBe("ATIVA");
 
     await app.request(`/v1/admin/licencas/${id}/revogar`, { method: "POST", headers: adminHdr }, env());
     const dep = await app.request("/v1/revalidate", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ id_licenca: id, fingerprint_hash: "fp-1" }) }, env());
-    expect((await dep.json()).estado).toBe("REVOGADA");
+    expect(((await dep.json()) as { estado: string }).estado).toBe("REVOGADA");
   });
 
   it("trava (OUTRA_MAQUINA) se o fingerprint não bate", async () => {
     const { id, chave } = await criarLicenca();
     await ativar(chave, "fp-1");
     const r = await app.request("/v1/revalidate", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ id_licenca: id, fingerprint_hash: "fp-OUTRA" }) }, env());
-    expect((await r.json()).estado).toBe("OUTRA_MAQUINA");
+    expect(((await r.json()) as { estado: string }).estado).toBe("OUTRA_MAQUINA");
   });
 });

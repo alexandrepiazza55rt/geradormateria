@@ -75,8 +75,15 @@ app.post("/v1/activate", async (c) => {
     expira_em: lic.expira_em ?? "2999-01-01T00:00:00Z",
     dias_carencia: Number(c.env.DIAS_CARENCIA) || 15, estado: "ATIVA",
   };
+  let token: string;
+  try {
+    token = assinarToken(payload, c.env.LICENSE_SIGNING_KEY);
+  } catch (e) {
+    // Chave de assinatura ausente/corrompida no secret → mensagem clara (não 500 genérico).
+    return c.json({ erro: `Configuração do servidor: ${(e as Error).message}` }, 500);
+  }
   await marcarRevalidacao(c.env.DB, lic.id);
-  return c.json({ token: assinarToken(payload, c.env.LICENSE_SIGNING_KEY), expira_em: payload.expira_em });
+  return c.json({ token, expira_em: payload.expira_em });
 });
 
 // ─────────────────────────── REVALIDAÇÃO ───────────────────────────
