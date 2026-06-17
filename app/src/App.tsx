@@ -197,6 +197,10 @@ export default function App() {
           </div>
         )}
       </main>
+
+      <footer className="no-print py-4 text-center text-[11px] text-slate-400">
+        desenvolvido pela SIGMA - SOFTWARE HOUSE
+      </footer>
     </div>
   );
 }
