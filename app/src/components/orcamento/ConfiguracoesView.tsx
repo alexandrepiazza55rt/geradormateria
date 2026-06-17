@@ -197,41 +197,46 @@ export function ConfiguracoesView() {
         <div className="px-5 py-4">
           {aba === "precificacao" && (
             <div className="divide-y divide-slate-200">
-              <div className="pb-6">
+              <section className="pb-6">
+                <h2 className="mb-3 text-base font-bold text-slate-900">Margem</h2>
                 <SecaoMargem
                   value={draft.margem}
                   onChange={(margem) => setDraft({ ...draft, margem })}
                 />
-              </div>
-              <div className="py-6">
+              </section>
+              <section className="py-6">
+                <h2 className="mb-3 text-base font-bold text-slate-900">Perda</h2>
                 <SecaoPerda
                   value={draft.perda}
                   onChange={(perda) => setDraft({ ...draft, perda })}
                 />
-              </div>
-              <div className="py-6">
+              </section>
+              <section className="py-6">
+                <h2 className="mb-3 text-base font-bold text-slate-900">Mão de obra</h2>
                 <SecaoMaoObra
                   value={draft.mao_obra}
                   onChange={(mao_obra) => setDraft({ ...draft, mao_obra })}
                   tipos_obra_atual={tipos_para_tabela_mo}
                 />
-              </div>
-              <div className="py-6">
+              </section>
+              <section className="py-6">
+                <h2 className="mb-3 text-base font-bold text-slate-900">Frete</h2>
                 <SecaoFrete
                   value={draft.frete_centavos}
                   onChange={(frete_centavos) =>
                     setDraft({ ...draft, frete_centavos })
                   }
                 />
-              </div>
-              <div className="pt-6">
+              </section>
+              <section className="pt-6">
+                <h2 className="mb-3 text-base font-bold text-slate-900">Imposto</h2>
                 <SecaoImposto
                   value={draft.imposto_estimado_pct ?? 0}
                   onChange={(imposto_estimado_pct) =>
                     setDraft({ ...draft, imposto_estimado_pct })
                   }
                 />
-              </div>
+              </section>
             </div>
           )}
           {aba === "empresa" && (
