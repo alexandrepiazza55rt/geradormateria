@@ -107,6 +107,12 @@ export interface ItemOrcamentoSnapshot {
   origem_preco: OrigemPreco;
   validade_status: StatusValidade;
   aviso?: string;
+  /**
+   * Item adicionado SEM preço cadastrado (placeholder a R$ 0,00). Fica marcado
+   * na lista para o usuário preencher o preço na própria linha. Some quando um
+   * preço > 0 é informado (ver `editar_preco_item`).
+   */
+  sem_preco?: boolean;
 }
 
 export interface DecomposicaoOrcamento {

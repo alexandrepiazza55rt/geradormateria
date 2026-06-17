@@ -57,6 +57,34 @@ export function editar_preco_item(
     ...item,
     preco_unit_centavos: novo_preco_centavos,
     subtotal_centavos,
+    // Informou um preço > 0 → deixa de ser "sem preço".
+    sem_preco: novo_preco_centavos > 0 ? false : item.sem_preco,
+  };
+}
+
+/**
+ * Cria um item a partir do catálogo SEM preço cadastrado: placeholder a R$ 0,00,
+ * marcado `sem_preco`, para o usuário preencher o preço na própria linha depois.
+ * (Opção escolhida em vez de descartar o material.) Sem conversão de unidade.
+ */
+export function criar_item_sem_preco(args: {
+  material: Material;
+  qty: number;
+}): ItemOrcamentoSnapshot {
+  const m = args.material;
+  return {
+    material_id: m.id,
+    descricao_snapshot: m.descricao,
+    unidade_snapshot: m.unidade,
+    unidade_preco: m.unidade,
+    qty: args.qty,
+    qty_convertida: args.qty,
+    fator_conversao_aplicado: null,
+    preco_unit_centavos: 0,
+    subtotal_centavos: 0,
+    origem_preco: "meu",
+    validade_status: "sem_validade",
+    sem_preco: true,
   };
 }
 

@@ -9,6 +9,7 @@ import {
 import {
   criar_item_do_catalogo,
   criar_item_manual,
+  criar_item_sem_preco,
 } from "../../lib/orcamento/edicao";
 import { resolver_preco } from "../../lib/orcamento/precos";
 import { unitBom } from "../../lib/bom";
@@ -74,8 +75,8 @@ export function AdicionarItemModal({ onAdicionar, onAdicionarVarios, onFechar }:
     const est = estruturas.get(estruturaId);
     if (!est || !Number.isFinite(qtd) || qtd <= 0) return;
     const bom = unitBom(est, posteIdx);
-    const itens_ok: ItemOrcamentoSnapshot[] = [];
-    const sem_preco: string[] = [];
+    const itens: ItemOrcamentoSnapshot[] = [];
+    let n_sem_preco = 0;
     for (const [mid, q_por_unidade] of Object.entries(bom)) {
       const qty = q_por_unidade * qtd;
       if (Math.abs(qty) < 1e-9) continue;
@@ -94,21 +95,24 @@ export function AdicionarItemModal({ onAdicionar, onAdicionarVarios, onFechar }:
             }
           : undefined,
       });
-      if (r.tipo === "ok") itens_ok.push(r.item);
-      else sem_preco.push(m.descricao);
+      if (r.tipo === "ok") {
+        itens.push(r.item);
+      } else {
+        // Sem preço cadastrado: entra como item R$ 0,00 marcado "sem preço"
+        // (em vez de ser descartado). O usuário preenche o preço na própria linha.
+        itens.push(criar_item_sem_preco({ material: m, qty }));
+        n_sem_preco++;
+      }
     }
 
-    if (itens_ok.length > 0) {
-      onAdicionarVarios?.(itens_ok);
+    if (itens.length > 0) {
+      onAdicionarVarios?.(itens);
     }
-    if (sem_preco.length > 0) {
-      const lista = sem_preco.slice(0, 12).join("\n");
-      const resto =
-        sem_preco.length > 12 ? `\n… e mais ${sem_preco.length - 12}.` : "";
+    if (n_sem_preco > 0) {
       window.alert(
-        `${itens_ok.length} material(is) adicionado(s).\n\n` +
-          `${sem_preco.length} sem preço cadastrado foram ignorados ` +
-          `(cadastre em Preços):\n${lista}${resto}`,
+        `${itens.length} material(is) adicionado(s).\n\n` +
+          `${n_sem_preco} sem preço entraram a R$ 0,00 — preencha o preço ` +
+          `na lista (marcados como "sem preço").`,
       );
     }
   }
@@ -154,14 +158,12 @@ export function AdicionarItemModal({ onAdicionar, onAdicionarVarios, onFechar }:
           }
         : undefined,
     });
-    if (r.tipo === "ok") onAdicionar(r.item);
-    else {
-      // Item pendente. Por enquanto, adiciono mesmo assim com preço 0 e marcamos manual?
-      // Decisão: avisar o usuário e bloquear (orçamento parcial é OK no motor, mas aqui o usuário
-      // está adicionando explicitamente — vamos pedir um preço manual).
-      window.alert(
-        `Sem preço cadastrado para "${material_sel.descricao}". Cadastre o preço em Preços ou use a aba "Item manual".`,
-      );
+    if (r.tipo === "ok") {
+      onAdicionar(r.item);
+    } else {
+      // Sem preço cadastrado: entra como item R$ 0,00 marcado "sem preço"
+      // (em vez de bloquear). O usuário preenche o preço na própria linha.
+      onAdicionar(criar_item_sem_preco({ material: material_sel, qty }));
     }
   }
 

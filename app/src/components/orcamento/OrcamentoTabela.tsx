@@ -26,7 +26,7 @@ export function OrcamentoTabela({ itens }: { itens: ItemOrcamentoSnapshot[] }) {
         </thead>
         <tbody>
           {itens.map((it) => {
-            const origem_badge =
+            const origem_badge = it.sem_preco ? null :
               it.origem_preco === "meu" ? (
                 <span className="rounded bg-amber-100 px-1.5 py-0.5 text-[10px] font-semibold text-amber-800" title="Preço sobrescrito por você">
                   🅼
@@ -49,11 +49,18 @@ export function OrcamentoTabela({ itens }: { itens: ItemOrcamentoSnapshot[] }) {
                 </span>
               ) : null;
 
+            const sem_preco_badge = it.sem_preco ? (
+              <span className="ml-1 rounded bg-amber-100 px-1 py-0.5 text-[10px] font-semibold text-amber-700" title="Adicionado sem preço — preencha o valor">
+                sem preço
+              </span>
+            ) : null;
+
             return (
               <tr key={it.material_id} className="odd:bg-white even:bg-slate-50/50">
                 <td className="px-3 py-1.5 text-slate-800">
                   {it.descricao_snapshot}
                   {conv_badge}
+                  {sem_preco_badge}
                 </td>
                 <td className="px-3 py-1.5 text-slate-500">{it.unidade_snapshot}</td>
                 <td className="px-3 py-1.5 text-right tabular-nums text-slate-700">

@@ -86,6 +86,9 @@ export function EditarItemLinha({
         </div>
         <div className="text-[10px] text-slate-400">
           {manual && <span className="mr-1 rounded bg-purple-100 px-1 text-purple-700">manual</span>}
+          {item.sem_preco && (
+            <span className="mr-1 rounded bg-amber-100 px-1 font-semibold text-amber-700">sem preço</span>
+          )}
           {item.fator_conversao_aplicado != null && (
             <span>{item.unidade_snapshot}→{item.unidade_preco} × {item.fator_conversao_aplicado}</span>
           )}
@@ -117,7 +120,11 @@ export function EditarItemLinha({
           onKeyDown={(e) => {
             if (e.key === "Enter") (e.target as HTMLInputElement).blur();
           }}
-          className="w-full rounded border border-slate-300 px-2 py-1 text-right text-sm tabular-nums focus:border-sky-500 focus:outline-none focus:ring-1 focus:ring-sky-200"
+          className={`w-full rounded border px-2 py-1 text-right text-sm tabular-nums focus:outline-none focus:ring-1 ${
+            item.sem_preco
+              ? "border-amber-400 bg-amber-50 focus:border-amber-500 focus:ring-amber-200"
+              : "border-slate-300 focus:border-sky-500 focus:ring-sky-200"
+          }`}
         />
       </div>
 
