@@ -120,6 +120,10 @@ pub fn run() {
             if let Err(e) = seed::ensure_extracted(&handle) {
                 log::error!("Falha ao extrair seed no setup: {e}");
             }
+            // Backup rotativo do user.db ANTES do banco abrir/migrar (segurança em upgrades).
+            if let Err(e) = seed::backup_user_db(&handle) {
+                log::warn!("Backup do user.db falhou (segue mesmo assim): {e}");
+            }
             Ok(())
         })
         .run(tauri::generate_context!())

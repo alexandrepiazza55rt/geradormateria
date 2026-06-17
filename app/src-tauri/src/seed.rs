@@ -1,6 +1,7 @@
 use std::collections::HashMap;
 use std::fs;
 use std::path::{Path, PathBuf};
+use std::time::{SystemTime, UNIX_EPOCH};
 
 use include_dir::{include_dir, Dir, File};
 use serde::{Deserialize, Serialize};
@@ -164,6 +165,54 @@ pub fn force_reextract(app: &AppHandle) -> Result<BaseInfo, String> {
         data_version: seed_data_version(),
         files: infos,
     })
+}
+
+/// Backup rotativo do banco do usuário (`user.db`), feito no boot ANTES do banco ser
+/// aberto/migrado. Protege contra perda em migrações de upgrade e corrupção. Mantém os
+/// 5 backups mais recentes em `%APPDATA%/<id>/backups/`. Best-effort: nunca bloqueia o boot.
+pub fn backup_user_db(app: &AppHandle) -> Result<(), String> {
+    let dir = app.path().app_data_dir().map_err(|e| e.to_string())?;
+    let db = dir.join("user.db");
+    if !db.exists() {
+        return Ok(()); // 1ª execução: ainda não há banco a salvar
+    }
+    let backups = dir.join("backups");
+    fs::create_dir_all(&backups).map_err(|e| e.to_string())?;
+    let ts = SystemTime::now()
+        .duration_since(UNIX_EPOCH)
+        .map(|d| d.as_secs())
+        .unwrap_or(0);
+    fs::copy(&db, backups.join(format!("user-{ts}.db"))).map_err(|e| e.to_string())?;
+    // Inclui o WAL (mudanças recentes ainda não consolidadas), se existir.
+    let wal = dir.join("user.db-wal");
+    if wal.exists() {
+        let _ = fs::copy(&wal, backups.join(format!("user-{ts}.db-wal")));
+    }
+    rotacionar_backups(&backups, 5);
+    Ok(())
+}
+
+/// Mantém só os N backups `.db` mais recentes (apaga os antigos e seus -wal).
+fn rotacionar_backups(backups: &Path, manter: usize) {
+    let mut dbs: Vec<PathBuf> = match fs::read_dir(backups) {
+        Ok(rd) => rd
+            .filter_map(|e| e.ok().map(|e| e.path()))
+            .filter(|p| {
+                p.extension().and_then(|s| s.to_str()) == Some("db")
+                    && p.file_name()
+                        .and_then(|n| n.to_str())
+                        .map_or(false, |n| n.starts_with("user-"))
+            })
+            .collect(),
+        Err(_) => return,
+    };
+    dbs.sort(); // nome contém timestamp → ordem cronológica
+    if dbs.len() > manter {
+        for antigo in &dbs[..dbs.len() - manter] {
+            let _ = fs::remove_file(antigo);
+            let _ = fs::remove_file(antigo.with_extension("db-wal"));
+        }
+    }
 }
 
 /// Lê um arquivo da base em %APPDATA%/base, restrito a esse diretório (sem traversal).

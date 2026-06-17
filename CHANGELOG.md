@@ -5,6 +5,19 @@ Registro cronológico das atividades feitas no sistema, em linguagem do dono
 
 ---
 
+## 2026-06-17 — Empacotamento em .exe (branch `feat/empacotamento-exe-v1`)
+
+- ✅ **Preparado o programa para virar um instalador .exe de verdade.** O projeto já era um app
+  desktop, então faltava só "fechar a caixa". O que ficou definido/ajustado: instalação **por
+  usuário** (sem precisar de senha de administrador), em **português**, com **atalho e
+  desinstalador**; o programa usa o WebView2 do Windows (e o instalador já o instala se faltar).
+  **Onde ficam as coisas:** o programa fica na pasta de instalação (só leitura) e os **seus dados**
+  (clientes, orçamentos, preços, licença) ficam separados numa pasta do usuário — por isso
+  **trocar de versão nunca apaga seus dados**. Adicionei um **backup automático do banco** a cada
+  abertura (guarda as 5 cópias mais recentes), pra proteger em futuras atualizações. A
+  desinstalação remove o programa, mas **não apaga seus dados** (você decide se quer apagar).
+  Detalhes em `ARQUITETURA_EMPACOTAMENTO.md`.
+
 ## 2026-06-17 — Sistema de licença (em andamento, branch `feat/licenca-v1`)
 
 - ✅ **Servidor de licença pronto e testado (a "central" das chaves).**
