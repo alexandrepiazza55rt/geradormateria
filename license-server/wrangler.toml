@@ -6,7 +6,7 @@ compatibility_date = "2024-09-23"
 [[d1_databases]]
 binding = "DB"
 database_name = "licencas"
-database_id = "PREENCHER_APOS_d1_create"
+database_id = "6d3fadcf-7575-43d0-a7df-937220308889"
 migrations_dir = "migrations"
 
 # Secrets (NÃO ficam aqui — definidos via `wrangler secret put`):
