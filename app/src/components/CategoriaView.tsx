@@ -3,17 +3,11 @@ import { useStore } from "../store";
 import type { Estrutura } from "../types";
 import { cleanLabel } from "../lib/format";
 import { EstruturaCard } from "./EstruturaCard";
-import { InsumoCard } from "./InsumoCard";
 
 export function CategoriaView({ categoria }: { categoria: string }) {
   const byCat = useStore((s) => s.estruturasByCategoria);
-  const insumosByCat = useStore((s) => s.insumosByCategoria);
   const setView = useStore((s) => s.setView);
   const [q, setQ] = useState("");
-
-  const insumos = (insumosByCat.get(categoria) ?? []).filter(
-    (i) => Object.keys(i.bom).length > 0,
-  );
 
   const grupos = useMemo(() => {
     const ests = byCat.get(categoria) ?? [];
@@ -62,14 +56,6 @@ export function CategoriaView({ categoria }: { categoria: string }) {
         <p className="text-slate-500">Nenhuma estrutura encontrada para “{q}”.</p>
       )}
 
-      {insumos.length > 0 && (
-        <div className="mt-6">
-          <h2 className="mb-2 text-sm font-semibold text-slate-700">Quantitativos da rede</h2>
-          <div className="grid grid-cols-1 gap-3 md:grid-cols-2">
-            {insumos.map((i) => <InsumoCard key={i.id} insumo={i} />)}
-          </div>
-        </div>
-      )}
     </div>
   );
 }
