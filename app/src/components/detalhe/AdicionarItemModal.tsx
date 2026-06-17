@@ -14,7 +14,7 @@ import {
 import { resolver_preco } from "../../lib/orcamento/precos";
 import { unitBom } from "../../lib/bom";
 import { cleanLabel } from "../../lib/format";
-import { SECTIONS } from "../../lib/secoes";
+import { categoriasPorSecao } from "../../lib/secoes";
 import { EstruturaCard } from "../EstruturaCard";
 
 type Aba = "estrutura" | "catalogo" | "manual";
@@ -249,9 +249,8 @@ export function AdicionarItemModal({ onAdicionar, onAdicionarVarios, onFechar }:
                     decomposta nos materiais (com preço cadastrado) e adicionada
                     ao orçamento.
                   </p>
-                  {SECTIONS.map((sec) => {
-                    const cats = categorias.filter(sec.test);
-                    if (cats.length === 0) return null;
+                  {categoriasPorSecao(categorias).map((sec) => {
+                    const cats = sec.cats;
                     return (
                       <section key={sec.titulo}>
                         <div className="mb-2 flex items-baseline gap-2 border-b border-slate-200 pb-1">

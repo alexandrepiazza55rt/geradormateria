@@ -1,5 +1,5 @@
 import { useStore } from "../store";
-import { SECTIONS } from "../lib/secoes";
+import { categoriasPorSecao } from "../lib/secoes";
 
 export function Home() {
   const categorias = useStore((s) => s.categorias);
@@ -40,21 +40,17 @@ export function Home() {
       </div>
 
       <div className="space-y-8">
-        {SECTIONS.map((sec) => {
-          const cats = categorias.filter(sec.test);
-          if (cats.length === 0) return null;
-          return (
-            <section key={sec.titulo}>
-              <div className="mb-3 flex items-baseline gap-2 border-b border-slate-200 pb-1.5">
-                <h2 className="text-lg font-bold text-slate-800">{sec.titulo}</h2>
-                <span className="text-xs text-slate-400">{sec.subtitulo}</span>
-              </div>
-              <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-                {cats.map((cat) => <Card key={cat} cat={cat} />)}
-              </div>
-            </section>
-          );
-        })}
+        {categoriasPorSecao(categorias).map((sec) => (
+          <section key={sec.titulo}>
+            <div className="mb-3 flex items-baseline gap-2 border-b border-slate-200 pb-1.5">
+              <h2 className="text-lg font-bold text-slate-800">{sec.titulo}</h2>
+              <span className="text-xs text-slate-400">{sec.subtitulo}</span>
+            </div>
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+              {sec.cats.map((cat) => <Card key={cat} cat={cat} />)}
+            </div>
+          </section>
+        ))}
       </div>
 
       {categorias.length === 0 && <p className="text-slate-500">Nenhuma categoria encontrada.</p>}

@@ -25,7 +25,7 @@ publicar.
 | `tensao_kv` | número | sim | Tensão em kV: `13.8`, `24.2` ou `34.5`. |
 | `nominal_kv` | número | sim | Tensão nominal (fase-neutro). Ex.: `7.97` para 13,8 kV. |
 | `fases` | número | sim | `1` (monofásico), `2` (bifásico) ou `3` (trifásico). |
-| `categoria` | texto | sim | Rótulo da categoria, exatamente como aparece no programa (ex.: `"Monofásico 13,8 kV"`, `"Trifásico 34,5 kV — Rural (NDU 005)"`). |
+| `categoria` | texto | sim | A "caixa" (grupo) onde a estrutura aparece no programa. Para usar um grupo EXISTENTE, copie o nome exato (ex.: `"Monofásico 13,8 kV"`). Para criar um grupo NOVO, basta inventar um nome (ex.: `"Rede Ultra Mega Compacta"`) — ele aparece automaticamente na seção **"Outras redes"** da tela Início. |
 | `poste_ref` | texto | sim | Poste de referência ao qual o `base_bom` corresponde (ex.: `"DT-10/150"`). Deve ser o `poste` do **primeiro** item de `postes[]`. |
 | `base_bom` | objeto | sim | **Lista de materiais no poste de referência.** Mapa `"<código do material>": <quantidade>`. Ver abaixo. |
 | `postes` | lista | sim | Variações por poste. Cada item tem `poste` (rótulo) e `delta` (diferença vs. `base_bom`). Ver abaixo. |

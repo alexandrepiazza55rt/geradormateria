@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "rev": 1,
+  "status": "ativo",
+  "id": "X-2026-001",
+  "tipo": "TESTE-PUBLICACAO",
+  "condutor": null,
+  "tensao_kv": 13.8,
+  "nominal_kv": 7.97,
+  "fases": 1,
+  "categoria": "Monofásico 13,8 kV",
+  "poste_ref": "DT-10/150",
+  "base_bom": {
+    "137": 1.0,
+    "150": 2.0
+  },
+  "postes": [
+    { "poste": "DT-10/150", "delta": {} },
+    { "poste": "DT-10/300", "delta": { "150": 1.0 } }
+  ]
+}

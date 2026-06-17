@@ -13,3 +13,27 @@ export const SECTIONS: Secao[] = [
   { titulo: "Rural (NDU 005)", subtitulo: "Estruturas rurais da norma NDU 005", test: (c) => c.includes("Rural") },
   { titulo: "Neutro Contínuo", subtitulo: "Independente de tensão (NDU 005)", test: (c) => c.includes("Neutro") },
 ];
+
+export interface SecaoComCategorias {
+  titulo: string;
+  subtitulo: string;
+  cats: string[];
+}
+
+/**
+ * Distribui as categorias nas seções acima. QUALQUER categoria que não se encaixe
+ * em nenhuma seção conhecida cai numa seção "Outras redes" — assim dá para criar
+ * grupos novos só pelo campo `categoria` do JSON, sem mexer no código.
+ */
+export function categoriasPorSecao(categorias: string[]): SecaoComCategorias[] {
+  const out: SecaoComCategorias[] = SECTIONS.map((s) => ({
+    titulo: s.titulo,
+    subtitulo: s.subtitulo,
+    cats: categorias.filter(s.test),
+  }));
+  const restantes = categorias.filter((c) => !SECTIONS.some((s) => s.test(c)));
+  if (restantes.length > 0) {
+    out.push({ titulo: "Outras redes", subtitulo: "Categorias personalizadas", cats: restantes });
+  }
+  return out.filter((s) => s.cats.length > 0);
+}
