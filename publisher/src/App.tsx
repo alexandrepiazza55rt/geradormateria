@@ -11,8 +11,9 @@ import { ModeloView } from "./components/ModeloView";
 import { PublicarView } from "./components/PublicarView";
 import { EstruturasView } from "./components/EstruturasView";
 import { HistoricoView } from "./components/HistoricoView";
+import { LicencasView } from "./components/LicencasView";
 
-type Aba = "config" | "modelo" | "publicar" | "estruturas" | "historico";
+type Aba = "config" | "modelo" | "publicar" | "estruturas" | "historico" | "licencas";
 
 export default function App() {
   const [config, setConfig] = useState<ConfigSemToken>(carregarConfig);
@@ -47,6 +48,9 @@ export default function App() {
         <button className={aba === "historico" ? "active" : ""} onClick={() => setAba("historico")}>
           Histórico
         </button>
+        <button className={aba === "licencas" ? "active" : ""} onClick={() => setAba("licencas")}>
+          Licenças
+        </button>
       </div>
 
       {aba === "config" && (
@@ -63,6 +67,7 @@ export default function App() {
       {aba === "publicar" && <PublicarView repo={repo} />}
       {aba === "estruturas" && <EstruturasView repo={repo} />}
       {aba === "historico" && <HistoricoView repo={repo} />}
+      {aba === "licencas" && <LicencasView />}
     </div>
   );
 }

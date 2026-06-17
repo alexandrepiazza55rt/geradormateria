@@ -1,4 +1,4 @@
-import { useEffect, useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useStore } from "./store";
 import { consolidate } from "./lib/bom";
 import { Home } from "./components/Home";
@@ -13,6 +13,8 @@ import { ConsultaOrcamentosView } from "./components/consulta/ConsultaOrcamentos
 import { DetalheOrcamentoView } from "./components/detalhe/DetalheOrcamentoView";
 import { ConfiguracoesView } from "./components/orcamento/ConfiguracoesView";
 import { UpdateToast } from "./components/UpdateToast";
+import { TelaLicenca } from "./components/TelaLicenca";
+import { ensureActivated, type StatusLicenca } from "./lib/license/activation";
 
 export default function App() {
   const loaded = useStore((s) => s.loaded);
@@ -22,6 +24,14 @@ export default function App() {
   const goBack = useStore((s) => s.goBack);
   const podeVoltar = useStore((s) => s.viewHistory.length > 0);
   const load = useStore((s) => s.load);
+
+  // Gate de licença: roda no boot (após o SQLite). null = verificando.
+  const [licenca, setLicenca] = useState<StatusLicenca | null>(null);
+  const verificarLicenca = () => {
+    setLicenca(null);
+    ensureActivated().then(setLicenca).catch(() => setLicenca({ ok: true }));
+  };
+  useEffect(() => { verificarLicenca(); }, []);
 
   const itens = useStore((s) => s.itens);
   const obraInsumos = useStore((s) => s.obraInsumos);
@@ -40,6 +50,18 @@ export default function App() {
 
   const inicioAtivo =
     view.name === "home" || view.name === "categoria";
+
+  // Gate de licença vem ANTES de tudo (não apaga dados; só decide o acesso).
+  if (licenca === null) {
+    return (
+      <div className="flex h-full items-center justify-center">
+        <div className="animate-pulse text-slate-500">Verificando licença…</div>
+      </div>
+    );
+  }
+  if (!licenca.ok) {
+    return <TelaLicenca status={licenca} onResolvido={verificarLicenca} />;
+  }
 
   if (loadError) {
     return (

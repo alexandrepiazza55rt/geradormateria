@@ -3,7 +3,6 @@ import { getCurrentWindow } from "@tauri-apps/api/window";
 import { setStorageBackend } from "../storageBackend";
 import { setBaseInfo, type BaseInfo } from "../dataSource";
 import { initSqliteBackend, flushPendingWrites } from "./sqliteBackend";
-import { ensureActivated } from "../license/activation";
 
 /**
  * Sequência de FIRST-RUN / boot do desktop. Roda ANTES do React montar (main.tsx),
@@ -19,11 +18,9 @@ export async function initTauriRuntime(): Promise<void> {
   const info = await invoke<BaseInfo>("ensure_base_extracted");
   setBaseInfo(info);
 
-  // 2) Costura de licenciamento (no-op hoje; é o gate futuro do first-run).
-  await ensureActivated();
-
-  // 3) SQLite do usuário (migrations já aplicadas pelo plugin). Hidrata o cache
+  // 2) SQLite do usuário (migrations já aplicadas pelo plugin). Hidrata o cache
   //    e passa a ser o destino de TODA a persistência de dados do usuário.
+  //    (O gate de licença roda no React, DEPOIS daqui, pois usa este armazenamento.)
   const backend = await initSqliteBackend();
   setStorageBackend(backend);
 
