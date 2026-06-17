@@ -1,8 +1,19 @@
 import { useEffect, useMemo, useState } from "react";
-import { lerArquivoTexto, type RepoConfig } from "../lib/github";
+import { lerArquivoTexto, publicar, type RepoConfig } from "../lib/github";
+import { carregarEstadoBase } from "../lib/repoBase";
+import { montarExclusao } from "../lib/manifesto";
 import type { Catalog, CatalogItem, Estrutura } from "../lib/types";
 import { EstruturaForm } from "./EstruturaForm";
 import { nomeMaterial, type MateriaisMap } from "./materialInputs";
+
+function versaoExclusao(atual: string | undefined): string {
+  const dia = new Date().toISOString().slice(0, 10).replace(/-/g, ".");
+  if (atual && atual.startsWith(dia)) {
+    const m = atual.match(/-r(\d+)$/);
+    return `${dia}-r${m ? Number(m[1]) + 1 : 2}`;
+  }
+  return `${dia}-r1`;
+}
 
 async function mapLimit<T, R>(items: T[], limit: number, fn: (t: T) => Promise<R>): Promise<R[]> {
   const out: R[] = new Array(items.length);
@@ -156,10 +167,12 @@ export function EstruturasView({ repo }: { repo: RepoConfig | null }) {
 
       {sel && (
         <DetalheEstrutura
+          repo={repo}
           estrutura={sel}
           materiais={materiais}
           onEditar={() => setForm({ inicial: sel, rev: catalog?.structures.find((s) => s.id === sel.id)?.rev ?? 1 })}
           onFechar={() => setSel(null)}
+          onExcluido={() => { setSel(null); carregar(repo); }}
         />
       )}
     </>
@@ -178,13 +191,34 @@ function agruparPorTipo(ests: Estrutura[]): [string, Estrutura[]][] {
 }
 
 function DetalheEstrutura({
-  estrutura, materiais, onEditar, onFechar,
+  repo, estrutura, materiais, onEditar, onFechar, onExcluido,
 }: {
+  repo: RepoConfig;
   estrutura: Estrutura;
   materiais: MateriaisMap;
   onEditar: () => void;
   onFechar: () => void;
+  onExcluido: () => void;
 }) {
+  const [excluindo, setExcluindo] = useState(false);
+  const [erro, setErro] = useState<string | null>(null);
+
+  async function excluir() {
+    if (!confirm(`Apagar a estrutura ${estrutura.id} de vez? Ela some do sistema. (Os clientes deixam de vê-la na próxima atualização.)`)) return;
+    setExcluindo(true);
+    setErro(null);
+    try {
+      const estado = await carregarEstadoBase(repo);
+      const versao = versaoExclusao(estado.catalog?.data_version);
+      const ex = await montarExclusao(estrutura.id, estado.manifest, estado.catalog, versao);
+      await publicar(repo, ex.arquivos, `Remove ${estrutura.id} (${versao})`, versao, `remove ${estrutura.id}`, ex.exclusoes);
+      onExcluido();
+    } catch (e) {
+      setErro((e as Error).message);
+      setExcluindo(false);
+    }
+  }
+
   return (
     <div className="card" style={{ borderColor: "var(--accent)" }}>
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
@@ -204,7 +238,17 @@ function DetalheEstrutura({
         </tbody>
       </table>
       <p className="muted" style={{ marginTop: 6 }}>{(estrutura.postes ?? []).length} variações de poste.</p>
-      <div className="actions"><button className="btn" onClick={onEditar}>Editar no formulário</button></div>
+      {erro && <div className="msg err">{erro}</div>}
+      <div className="actions" style={{ justifyContent: "space-between" }}>
+        <button className="btn" onClick={onEditar} disabled={excluindo}>Editar no formulário</button>
+        <button
+          onClick={excluir}
+          disabled={excluindo}
+          style={{ background: "#fff", color: "#b91c1c", border: "1px solid #fecaca", borderRadius: 4, padding: "9px 16px", fontSize: 14, fontWeight: 600, cursor: "pointer" }}
+        >
+          {excluindo ? "Apagando…" : "Apagar estrutura"}
+        </button>
+      </div>
     </div>
   );
 }

@@ -104,6 +104,7 @@ export async function publicar(
   mensagem: string,
   tag: string,
   notas: string,
+  exclusoes: string[] = [],
 ): Promise<{ commitUrl: string; releaseUrl: string }> {
   const base = `/repos/${cfg.owner}/${cfg.name}`;
 
@@ -114,13 +115,17 @@ export async function publicar(
   const baseTreeSha = baseCommit.tree.sha;
 
   // 2) blobs de cada arquivo
-  const treeEntries = [];
+  const treeEntries: { path: string; mode: string; type: string; sha: string | null }[] = [];
   for (const a of arquivos) {
     const blob = await gh<{ sha: string }>(cfg, `${base}/git/blobs`, {
       method: "POST",
       body: JSON.stringify({ content: toBase64(a.content), encoding: "base64" }),
     });
     treeEntries.push({ path: a.path, mode: "100644", type: "blob", sha: blob.sha });
+  }
+  // exclusões: entrada com sha null remove o arquivo do tree (apaga do repo).
+  for (const path of exclusoes) {
+    treeEntries.push({ path, mode: "100644", type: "blob", sha: null });
   }
 
   // 3) tree (sobre a base) → 4) commit → 5) atualiza a ref

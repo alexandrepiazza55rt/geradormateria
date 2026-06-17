@@ -23,6 +23,50 @@ export interface ResultadoPublicacao {
   alteradas: string[];
 }
 
+export interface ResultadoExclusao {
+  arquivos: ArquivoParaCommit[]; // catalog.json + manifest.json novos
+  exclusoes: string[]; // structures/<id>.json a remover do repo
+}
+
+/** Monta o commit que REMOVE uma estrutura: tira do catalog + manifest e apaga o arquivo. */
+export async function montarExclusao(
+  id: string,
+  manifestAtual: BaseManifest | null,
+  catalogAtual: Catalog | null,
+  dataVersion: string,
+): Promise<ResultadoExclusao> {
+  const file = `structures/${id}.json`;
+  const catItems = (catalogAtual?.structures ?? []).filter((c) => c.id !== id);
+  const files = (manifestAtual?.files ?? []).filter((f) => f.name !== file);
+
+  const catalog: Catalog = {
+    schema_version: 1,
+    data_version: dataVersion,
+    generated_at: new Date().toISOString().slice(0, 10),
+    structures: catItems,
+  };
+  const catalogStr = serializar(catalog);
+  const catalogBytes = new TextEncoder().encode(catalogStr);
+  const catalogSha = await sha256hex(catalogBytes);
+  const semCatalog = files.filter((f) => f.name !== "catalog.json");
+  semCatalog.push({ name: "catalog.json", sha256: catalogSha, bytes: catalogBytes.length });
+
+  const manifest: BaseManifest = {
+    data_version: dataVersion,
+    files: semCatalog,
+    notes: `remove ${id}`,
+    generated_at: new Date().toISOString().slice(0, 10),
+  };
+
+  return {
+    arquivos: [
+      { path: "catalog.json", content: catalogStr },
+      { path: "manifest.json", content: serializar(manifest) },
+    ],
+    exclusoes: [file],
+  };
+}
+
 /**
  * @param estruturas estruturas novas/editadas (já validadas)
  * @param manifestAtual manifest publicado (ou null na 1ª vez)

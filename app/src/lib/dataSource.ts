@@ -98,13 +98,19 @@ export async function loadStructures(): Promise<Estrutura[]> {
     map = await invoke<Record<string, string>>("read_base_dir", { subdir: "structures" });
   }
 
-  const ests = Object.values(map).map((t) => JSON.parse(t) as Estrutura);
+  let ests = Object.values(map).map((t) => JSON.parse(t) as Estrutura);
 
-  // Ordem canônica via catalog.json (arquivo de topo → read_base_file).
+  // O catalog.json é a lista OFICIAL: ordena por ele e FILTRA para só mostrar o que
+  // está no catálogo. Assim, ao apagar uma estrutura (sai do catálogo), ela some do
+  // programa mesmo que o arquivo local persista. Sem catálogo → mostra tudo (fallback).
   try {
     const cat = await loadBaseJson<{ structures: CatalogItem[] }>("catalog.json");
-    const order = new Map(cat.structures.map((s, i) => [s.id, i]));
-    ests.sort((a, b) => (order.get(a.id) ?? 1e9) - (order.get(b.id) ?? 1e9));
+    if (cat.structures && cat.structures.length > 0) {
+      const order = new Map(cat.structures.map((s, i) => [s.id, i]));
+      ests = ests
+        .filter((e) => order.has(e.id))
+        .sort((a, b) => order.get(a.id)! - order.get(b.id)!);
+    }
   } catch (e) {
     console.warn("[dataSource] catalog.json ausente; ordem do FS:", e);
   }
