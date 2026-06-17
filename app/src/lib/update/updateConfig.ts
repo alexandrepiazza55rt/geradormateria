@@ -1,27 +1,26 @@
 /**
  * Configuração do canal de atualização de BASE (Fase 3).
  *
- * Host escolhido: GitHub Releases. Os arquivos do pacote (gerado por
- * `extraction/publish.py`) são subidos como ASSETS de um release. O namespace de
- * assets do GitHub é PLANO (sem `/`), então `structures/S1.json` vira o asset
- * `structures__S1.json` — o `manifest.json` carrega esse mapeamento em `asset`.
+ * A base é publicada pelo PAINEL WEB (publisher/) num repositório GitHub PÚBLICO de
+ * dados (ex.: `gerador-base`), via commit. O app baixa direto do repositório por
+ * `raw.githubusercontent.com` — como o download é feito pelo plugin-http (lado Rust),
+ * não há problema de CORS, e o `raw` sempre reflete o estado mais recente do branch.
  *
- * URLs de um release do GitHub:
- *   manifest:  https://github.com/<owner>/<repo>/releases/download/<tag>/manifest.json
- *   arquivos:  https://github.com/<owner>/<repo>/releases/download/<tag>/<asset>
- *
- * ⚠️ PREENCHER quando o repositório/release existir. Enquanto estiver vazio, o
- * botão "Verificar atualizações" avisa que o canal não está configurado (não quebra).
- * Use uma tag "móvel" (ex.: `base-latest`) que você re-publica, OU aponte para a
- * tag específica da versão atual.
+ * ⚠️ PREENCHER `GH_OWNER` com o seu usuário/organização do GitHub. Enquanto estiver
+ * vazio, o botão "Verificar atualizações" avisa que o canal não está configurado.
  */
 
-// Ex.: "https://github.com/SEU-USUARIO/SEU-REPO/releases/download/base-latest"
-export const UPDATE_BASE_URL = "";
+// Preencha estes três (definidos no onboarding do GitHub):
+const GH_OWNER = ""; // ex.: "seu-usuario"
+const GH_REPO = "gerador-base";
+const GH_BRANCH = "main";
+
+export const UPDATE_BASE_URL = GH_OWNER
+  ? `https://raw.githubusercontent.com/${GH_OWNER}/${GH_REPO}/${GH_BRANCH}`
+  : "";
 
 /** URL do manifest. Por padrão, UPDATE_BASE_URL + "/manifest.json". */
-export const UPDATE_MANIFEST_URL =
-  UPDATE_BASE_URL ? `${UPDATE_BASE_URL}/manifest.json` : "";
+export const UPDATE_MANIFEST_URL = UPDATE_BASE_URL ? `${UPDATE_BASE_URL}/manifest.json` : "";
 
 export function isUpdateConfigured(): boolean {
   return UPDATE_BASE_URL.length > 0;
