@@ -9,39 +9,10 @@ export function SecaoValidades({
   validade_orcamento_dias,
   onChange,
 }: Props) {
-  const erro_preco = validade_preco_dias < 0;
   const erro_orc = validade_orcamento_dias < 0;
 
   return (
     <div className="space-y-3">
-      <div className="rounded border border-slate-200 bg-white p-3">
-        <label className="flex items-center justify-between text-sm">
-          <div>
-            <div className="text-slate-700">Preço cadastrado</div>
-            <div className="text-[11px] text-slate-500">
-              após isso, fica marcado "vencido" na aba Preços e no orçamento
-            </div>
-          </div>
-          <div className="flex items-center gap-1">
-            <input
-              type="number"
-              min={0}
-              step={1}
-              value={validade_preco_dias}
-              onChange={(e) =>
-                onChange(Number(e.target.value), validade_orcamento_dias)
-              }
-              className={`w-20 rounded border px-2 py-1 text-right text-sm tabular-nums focus:outline-none focus:ring-1 ${
-                erro_preco
-                  ? "border-red-400 focus:ring-red-200"
-                  : "border-slate-300 focus:ring-sky-200"
-              }`}
-            />
-            <span className="text-xs text-slate-500">dias</span>
-          </div>
-        </label>
-      </div>
-
       <div className="rounded border border-slate-200 bg-white p-3">
         <label className="flex items-center justify-between text-sm">
           <div>

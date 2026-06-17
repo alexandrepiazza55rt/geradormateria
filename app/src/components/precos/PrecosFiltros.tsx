@@ -49,17 +49,6 @@ export function PrecosFiltros({
           <option value="sem_preco">— Sem preço</option>
         </select>
 
-        <select
-          value={filtros.validade}
-          onChange={(e) => set({ validade: e.target.value as FiltrosPrecos["validade"] })}
-          className="rounded-md border border-slate-300 bg-white px-2 py-2 text-sm"
-        >
-          <option value="todos">Toda validade</option>
-          <option value="ok">✓ Válido</option>
-          <option value="vencido">⚠ Vencido</option>
-          <option value="sem_validade">○ Sem validade</option>
-        </select>
-
         <label className="flex items-center gap-2 rounded-md border border-slate-200 bg-white px-3 py-2 text-xs text-slate-700">
           <input
             type="checkbox"

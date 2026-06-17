@@ -42,7 +42,7 @@ export function PrecoLinha({
   onChangeRascunhoPerda,
   perda_override_salvo,
 }: Props) {
-  const { material, preco_resolvido, status } = item;
+  const { material, preco_resolvido } = item;
   const preco_salvo = preco_resolvido.preco;
 
   // Preço "efetivo" do que a linha exibe: rascunho ganha quando existe (incl. null).
@@ -64,7 +64,6 @@ export function PrecoLinha({
       ? String(preco_visivel.fator_conversao).replace(".", ",")
       : "",
   );
-  const [validade, set_validade] = useState<string>(preco_visivel?.validade ?? "");
   const [perda_str, set_perda_str] = useState<string>(
     perda_visivel != null ? String(perda_visivel).replace(".", ",") : "",
   );
@@ -85,7 +84,6 @@ export function PrecoLinha({
         ? String(preco_visivel.fator_conversao).replace(".", ",")
         : "",
     );
-    set_validade(preco_visivel?.validade ?? "");
     set_perda_str(perda_visivel != null ? String(perda_visivel).replace(".", ",") : "");
   }
 
@@ -104,7 +102,7 @@ export function PrecoLinha({
       valor_centavos: reais_para_centavos(valor_reais),
       unidade_preco,
       fator_conversao: precisa_fator && Number.isFinite(fator_num) ? fator_num : null,
-      validade: validade || null,
+      validade: preco_salvo?.validade ?? null,
       fornecedor: preco_salvo?.fornecedor ?? null,
       origem: "meu",
       atualizado_em: new Date().toISOString(),
@@ -161,23 +159,15 @@ export function PrecoLinha({
       </span>
     );
 
-  const venc_badge =
-    status === "com_preco_vencido" ? (
-      <span className="inline-flex items-center gap-1 rounded bg-yellow-100 px-1.5 py-0.5 text-[10px] font-semibold text-yellow-800" title="Validade no passado">
-        ⚠ vencido
-      </span>
-    ) : null;
-
   const rascunho_badge = tem_rascunho ? (
     <span className="inline-flex items-center gap-1 rounded bg-amber-200 px-1.5 py-0.5 text-[10px] font-semibold text-amber-900" title="Alteração ainda não salva — clique em 'Salvar todos' no topo">
       ✱ pendente
     </span>
   ) : null;
 
-  // Anel amarelo se tem rascunho. Mantém o fundo de "vencido" se for o caso.
+  // Anel amarelo se tem rascunho.
   const linha_cls = [
-    "grid grid-cols-1 gap-2 border-b border-slate-100 p-3 md:grid-cols-[1fr_70px_60px_120px_90px_60px_120px_75px_auto] md:items-center md:gap-3",
-    status === "com_preco_vencido" ? "bg-yellow-50/40" : "",
+    "grid grid-cols-1 gap-2 border-b border-slate-100 p-3 md:grid-cols-[1fr_70px_60px_120px_90px_60px_75px_auto] md:items-center md:gap-3",
     tem_rascunho ? "ring-1 ring-inset ring-amber-300 bg-amber-50/30" : "",
   ].join(" ");
 
@@ -191,15 +181,6 @@ export function PrecoLinha({
         material.id,
         montar_preco_atual(v),
       );
-    }, 0);
-  }
-
-  function on_validade_change(e: React.ChangeEvent<HTMLInputElement>) {
-    set_validade(e.target.value);
-    setTimeout(() => {
-      const v = parse_reais(valor_str);
-      if (v == null) return;
-      onChangeRascunhoPreco(material.id, montar_preco_atual(v));
     }, 0);
   }
 
@@ -283,13 +264,6 @@ export function PrecoLinha({
         )}
       </div>
 
-      <input
-        type="date"
-        value={validade}
-        onChange={on_validade_change}
-        className="rounded border border-slate-300 px-1.5 py-1 text-xs"
-      />
-
       <div className="flex items-center gap-1">
         <span className="text-xs text-slate-400 md:hidden">Perda:</span>
         <input
@@ -314,7 +288,6 @@ export function PrecoLinha({
 
       <div className="flex flex-wrap items-center justify-end gap-1.5">
         {origem_badge}
-        {venc_badge}
         {rascunho_badge}
         {fator_invalido && (
           <span className="rounded bg-red-100 px-1.5 py-0.5 text-[10px] font-semibold text-red-800" title="Fator de conversão obrigatório">
