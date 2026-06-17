@@ -11,6 +11,7 @@ import { SecaoImposto } from "./SecaoImposto";
 import { SecaoEmpresa } from "./SecaoEmpresa";
 import { SecaoImportExport } from "./SecaoImportExport";
 import { SecaoAtualizacao } from "./SecaoAtualizacao";
+import { SecaoBackup } from "./SecaoBackup";
 import { ConfirmacaoCodigo } from "../ConfirmacaoCodigo";
 
 type Aba =
@@ -23,6 +24,7 @@ type Aba =
   | "validades"
   | "precos_dados"
   | "atualizacao"
+  | "backup"
   | "historico";
 
 const DEFAULTS: ConfigOrcamento = {
@@ -141,6 +143,7 @@ export function ConfiguracoesView() {
     { key: "validades", label: "Validades" },
     { key: "precos_dados", label: "Preços (dados)" },
     { key: "atualizacao", label: "Atualização" },
+    { key: "backup", label: "Backup" },
     { key: "historico", label: `Histórico (${configHistorico.length})` },
   ];
 
@@ -256,6 +259,7 @@ export function ConfiguracoesView() {
           )}
           {aba === "precos_dados" && <SecaoImportExport />}
           {aba === "atualizacao" && <SecaoAtualizacao />}
+          {aba === "backup" && <SecaoBackup />}
           {aba === "historico" && (
             <HistoricoConfig
               entradas={configHistorico}
@@ -264,7 +268,7 @@ export function ConfiguracoesView() {
           )}
         </div>
 
-        {aba !== "precos_dados" && aba !== "historico" && aba !== "atualizacao" && (
+        {aba !== "precos_dados" && aba !== "historico" && aba !== "atualizacao" && aba !== "backup" && (
         <div className="flex items-center justify-between gap-2 border-t border-slate-200 bg-slate-50 px-5 py-3">
           <button
             onClick={() => set_confirmando_restaurar(true)}

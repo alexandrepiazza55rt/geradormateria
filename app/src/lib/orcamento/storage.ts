@@ -9,6 +9,8 @@ export interface StorageBackend {
   getItem(key: string): string | null;
   setItem(key: string, value: string): void;
   removeItem(key: string): void;
+  /** Lista todas as entradas (para backup). Opcional: nem todo backend implementa. */
+  entries?(): [string, string][];
 }
 
 function default_storage(): StorageBackend | null {

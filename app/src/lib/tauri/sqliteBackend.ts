@@ -41,6 +41,9 @@ const backend: StorageBackend = {
     cache.delete(key);
     enqueue(() => db!.execute("DELETE FROM kv WHERE key = $1", [key]));
   },
+  entries(): [string, string][] {
+    return [...cache.entries()];
+  },
 };
 
 /** Carrega o DB (migrations já rodaram via plugin Rust) e hidrata o cache. */
