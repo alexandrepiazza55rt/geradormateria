@@ -24,11 +24,22 @@ export async function initTauriRuntime(): Promise<void> {
   const backend = await initSqliteBackend();
   setStorageBackend(backend);
 
-  // 4) Durabilidade extra: esvazia a fila de escrita ao fechar a janela.
+  // 4) Durabilidade extra: ao fechar, esvazia a fila de escrita e ENTÃO fecha de fato.
+  //    Importante: registrar onCloseRequested impede o fechamento automático — por isso
+  //    precisamos chamar destroy() nós mesmos. Com timeout para NUNCA travar o fechamento.
   try {
     const win = getCurrentWindow();
-    await win.onCloseRequested(async () => {
-      await flushPendingWrites();
+    await win.onCloseRequested(async (event) => {
+      event.preventDefault();
+      try {
+        await Promise.race([
+          flushPendingWrites(),
+          new Promise((resolve) => setTimeout(resolve, 1500)),
+        ]);
+      } catch {
+        /* fechar é prioridade — ignora erro de flush */
+      }
+      await win.destroy();
     });
   } catch {
     /* sem janela (ex.: teste) — ignora */
