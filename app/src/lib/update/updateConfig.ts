@@ -10,8 +10,8 @@
  * vazio, o botão "Verificar atualizações" avisa que o canal não está configurado.
  */
 
-// Preencha estes três (definidos no onboarding do GitHub):
-const GH_OWNER = ""; // ex.: "seu-usuario"
+// Repositório público de dados (onde o painel publica a base):
+const GH_OWNER = "alexandrepiazza55rt";
 const GH_REPO = "gerador-base";
 const GH_BRANCH = "main";
 
