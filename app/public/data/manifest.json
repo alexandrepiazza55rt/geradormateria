@@ -3,13 +3,13 @@
  "files": [
   {
    "name": "materiais.json",
-   "sha256": "d6c74bc767368b4dd8fe7b7cdc0d98e6f1893e6558341e56d0978bede9068908",
-   "bytes": 74722
+   "sha256": "1a21658d489266dec170bdf240373f752a0a010f4513f266b5cf0fb7a339cfe2",
+   "bytes": 74568
   },
   {
    "name": "insumos.json",
-   "sha256": "f8843c643e25044a65e149bb83f746b35f97099be7275de501f252c169840f5c",
-   "bytes": 43984
+   "sha256": "ed9d8b0115f9cea6968b11298df34ee62071f811059002256d94b79aa9e51fcc",
+   "bytes": 43785
   },
   {
    "name": "precos.json",
