@@ -120,11 +120,11 @@ def main():
         "generated_at": str(date.today()),
         "structures": catalog_items,
     }
-    with open(CATALOG, "w", encoding="utf-8") as f:
+    with open(CATALOG, "w", encoding="utf-8", newline="\n") as f:
         json.dump(catalog, f, ensure_ascii=False, indent=1)
 
     # Bundle estruturas.json (fallback web/dev): compacto, como antes.
-    with open(MONO, "w", encoding="utf-8") as f:
+    with open(MONO, "w", encoding="utf-8", newline="\n") as f:
         json.dump(bundle, f, ensure_ascii=False)
 
     print(f"catalog.json: {len(catalog_items)} estruturas (data_version={DATA_VERSION})")

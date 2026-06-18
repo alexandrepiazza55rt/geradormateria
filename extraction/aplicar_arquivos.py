@@ -232,16 +232,16 @@ if DRY:
 
 # ---------------------------------------------------------------- GRAVA
 mats_final = mats + novos_materiais
-with open(os.path.join(DATA, "materiais.json"), "w", encoding="utf-8") as f:
+with open(os.path.join(DATA, "materiais.json"), "w", encoding="utf-8", newline="\n") as f:
     f.write(json.dumps(mats_final, ensure_ascii=False, indent=2))
 
 insumos_final = insumos + novos_insumos
-with open(os.path.join(DATA, "insumos.json"), "w", encoding="utf-8") as f:
+with open(os.path.join(DATA, "insumos.json"), "w", encoding="utf-8", newline="\n") as f:
     f.write(json.dumps(insumos_final, ensure_ascii=False))
 
 os.makedirs(STRUCT_DIR, exist_ok=True)
 for e in ests:
-    with open(os.path.join(STRUCT_DIR, f"{e['id']}.json"), "w", encoding="utf-8") as f:
+    with open(os.path.join(STRUCT_DIR, f"{e['id']}.json"), "w", encoding="utf-8", newline="\n") as f:
         f.write(json.dumps(e, ensure_ascii=False, indent=1))
 
 print("\nGRAVADO:")

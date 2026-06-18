@@ -1,10 +1,10 @@
 {
- "data_version": "2026.06.18-r3",
+ "data_version": "2026.06.18-r4",
  "files": [
   {
    "name": "materiais.json",
-   "sha256": "1a21658d489266dec170bdf240373f752a0a010f4513f266b5cf0fb7a339cfe2",
-   "bytes": 74568
+   "sha256": "f9c54efc15b1255909e2fcb7154e643085881df5cd0a140e13d63595e053fee8",
+   "bytes": 71277
   },
   {
    "name": "insumos.json",
@@ -18,8 +18,8 @@
   },
   {
    "name": "catalog.json",
-   "sha256": "180aba40c9c3b2ffc05be5355396bdcf1445667227c9d9c34887a5c02363d472",
-   "bytes": 225427
+   "sha256": "06e97245322541132529cda7810efdabf84f1947701b56cd5dd2f27f82617dc5",
+   "bytes": 217429
   },
   {
    "name": "structures/R1.json",

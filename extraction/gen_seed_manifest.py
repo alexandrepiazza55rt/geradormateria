@@ -57,7 +57,7 @@ def main():
         "generated_at": str(date.today()),
     }
     out = os.path.join(DATA, "manifest.json")
-    with open(out, "w", encoding="utf-8") as f:
+    with open(out, "w", encoding="utf-8", newline="\n") as f:
         json.dump(manifest, f, ensure_ascii=False, indent=1)
     print(f"manifest.json: {len(files)} arquivos (data_version={data_version}) -> {out}")
 
