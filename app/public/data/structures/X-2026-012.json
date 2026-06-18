@@ -1,0 +1,70 @@
+{
+ "schema_version": 1,
+ "rev": 1,
+ "status": "ativo",
+ "id": "X-2026-012",
+ "tipo": "Transformador de Distribuição",
+ "condutor": null,
+ "tensao_kv": 0.38,
+ "nominal_kv": 0.22,
+ "fases": 3,
+ "categoria": "Baixa Tensão Multiplexada (NDU 004.3)",
+ "poste_ref": "Seção Circular (SC)",
+ "base_bom": {
+  "341": 4.0,
+  "342": 4.0
+ },
+ "postes": [
+  {
+   "poste": "Seção Circular (SC)",
+   "delta": {}
+  },
+  {
+   "poste": "Duplo T (DT)",
+   "delta": {
+    "342": -4.0
+   }
+  },
+  {
+   "poste": "Fibra de vidro (PRFV)",
+   "delta": {
+    "342": -4.0
+   }
+  }
+ ],
+ "condicionais": [
+  {
+   "id": null,
+   "descricao": "Suporte p/ transformador em poste de concreto circular",
+   "qtd": 2.0,
+   "condicao": "Resolver conforme Tabela B citada na norma — NDU 004.3 §17 (Anexos, p.195+); qtd SC/DT/PRFV: 02/–/–; ETU 130.1."
+  },
+  {
+   "id": null,
+   "descricao": "Suporte p/ transformador em poste de concreto duplo T",
+   "qtd": 2.0,
+   "condicao": "Resolver conforme Tabela C citada na norma — NDU 004.3 §17 (Anexos, p.195+); qtd SC/DT/PRFV: –/02/02; ETU 130.1."
+  },
+  {
+   "id": null,
+   "descricao": "Transformador de distribuição trifásico/monofásico",
+   "qtd": 1.0,
+   "condicao": "Resolver conforme Tabela F citada na norma — NDU 004.3 §17 (Anexos, p.195+); qtd SC/DT/PRFV: 01/01/01; ETU 109.1."
+  },
+  {
+   "id": null,
+   "descricao": "Terminal de compressão",
+   "qtd": 8.0,
+   "condicao": "Resolver conforme Tabela D citada na norma — NDU 004.3 §17 (Anexos, p.195+); qtd SC/DT/PRFV: 08/08/08; ETU 159.1."
+  },
+  {
+   "id": null,
+   "descricao": "Terminal de estrangulamento",
+   "qtd": 6.0,
+   "condicao": "Resolver conforme Tabela E citada na norma — NDU 004.3 §17 (Anexos, p.195+); qtd SC/DT/PRFV: 06/06/06; ETU 159.3."
+  }
+ ],
+ "observacoes": "Lista idêntica nas p.141 e p.144 da norma (trafo trifásico e monofásico). Quase toda paramétrica: somente parafusos (90372/90373) têm código fixo; demais itens são condicionais (suporte, trafo e terminais resolvidos por tabela/kVA/condutor).",
+ "norma_origem": "NDU 004.3",
+ "pagina_origem": "NDU 004.3 p.141"
+}

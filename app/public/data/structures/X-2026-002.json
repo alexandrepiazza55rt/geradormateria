@@ -1,0 +1,89 @@
+{
+ "schema_version": 1,
+ "rev": 1,
+ "status": "ativo",
+ "id": "X-2026-002",
+ "tipo": "SI1A",
+ "condutor": null,
+ "tensao_kv": 0.38,
+ "nominal_kv": 0.22,
+ "fases": 3,
+ "categoria": "Baixa Tensão Multiplexada (NDU 004.3)",
+ "poste_ref": "Seção Circular (SC)",
+ "base_bom": {
+  "356": 2.0,
+  "346": 3.0,
+  "341": 3.0,
+  "342": 4.0,
+  "347": 3.0
+ },
+ "postes": [
+  {
+   "poste": "Seção Circular (SC)",
+   "delta": {}
+  },
+  {
+   "poste": "Duplo T (DT)",
+   "delta": {
+    "14": 1.0,
+    "341": -3.0,
+    "342": -4.0
+   }
+  },
+  {
+   "poste": "Fibra de vidro (PRFV)",
+   "delta": {
+    "14": 1.0,
+    "341": -3.0,
+    "342": -4.0
+   }
+  }
+ ],
+ "condicionais": [
+  {
+   "id": null,
+   "descricao": "Cinta para poste circular",
+   "qtd": 2.0,
+   "condicao": "Resolver conforme Tabela C citada na norma — NDU 004.3 §17 (Anexos, p.195+); qtd SC/DT/PRFV: 02/–/–; ETU 130.1."
+  },
+  {
+   "id": null,
+   "descricao": "Parafuso de rosca total",
+   "qtd": 2.0,
+   "condicao": "Resolver conforme Tabela A citada na norma — NDU 004.3 §17 (Anexos, p.195+); qtd SC/DT/PRFV: –/02/02; ETU 130.1."
+  },
+  {
+   "id": null,
+   "descricao": "Laço pré-formado de roldana",
+   "qtd": 2.0,
+   "condicao": "Resolver conforme Tabela N citada na norma — NDU 004.3 §17 (Anexos, p.195+); qtd SC/DT/PRFV: 02/02/02; ETU 116.2."
+  },
+  {
+   "id": null,
+   "descricao": "Poste de concreto circular",
+   "qtd": 1.0,
+   "condicao": "Resolver conforme Tabela I citada na norma — NDU 004.3 §17 (Anexos, p.195+); qtd SC/DT/PRFV: 01/–/–; ETU 114.1."
+  },
+  {
+   "id": null,
+   "descricao": "Poste de concreto duplo T",
+   "qtd": 1.0,
+   "condicao": "Resolver conforme Tabela G citada na norma — NDU 004.3 §17 (Anexos, p.195+); qtd SC/DT/PRFV: –/01/–; ETU 114.1."
+  },
+  {
+   "id": null,
+   "descricao": "Poste de fibra de vidro",
+   "qtd": 1.0,
+   "condicao": "Resolver conforme Tabela L citada na norma — NDU 004.3 §17 (Anexos, p.195+); qtd SC/DT/PRFV: –/–/01; ETU 114.3."
+  },
+  {
+   "id": null,
+   "descricao": "Conectores de derivação perfurantes",
+   "qtd": 0.0,
+   "condicao": "Resolver conforme Tabela O citada na norma — NDU 004.3 §17 (Anexos, p.195+); qtd SC/DT/PRFV: Variável/Variável/Variável; ETU 153.1."
+  }
+ ],
+ "observacoes": "Estrutura SI1 (alternativa). A norma imprime 23 isoladores tipo roldana na coluna PRFV (p.101); valor improvável (SC/DT=03) — adotado 03; CONFIRMAR (REVISAR).",
+ "norma_origem": "NDU 004.3",
+ "pagina_origem": "NDU 004.3 p.101"
+}

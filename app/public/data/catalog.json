@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "data_version": "2026.06.17-r1",
- "generated_at": "2026-06-17",
+ "data_version": "2026.06.18-r1",
+ "generated_at": "2026-06-18",
  "structures": [
   {
    "id": "S1",
@@ -7886,6 +7886,114 @@
    "file": "structures/R588.json",
    "bytes": 2119,
    "sha256": "61c277f97ebaf1de33e2eba0cbbb2b4b1917edf800d75e140f399a24d0b56dc0"
+  },
+  {
+   "id": "X-2026-001",
+   "rev": 1,
+   "categoria": "Baixa Tensão Multiplexada (NDU 004.3)",
+   "status": "ativo",
+   "file": "structures/X-2026-001.json",
+   "bytes": 2323,
+   "sha256": "b1846a726c903433a09c4d580174cef973e39eb584d945cd8403404bdb585274"
+  },
+  {
+   "id": "X-2026-002",
+   "rev": 1,
+   "categoria": "Baixa Tensão Multiplexada (NDU 004.3)",
+   "status": "ativo",
+   "file": "structures/X-2026-002.json",
+   "bytes": 2482,
+   "sha256": "408b435fd27639331c78fd2bf9743bfe56f7dbf74fd0970941e8a44be63b8e66"
+  },
+  {
+   "id": "X-2026-003",
+   "rev": 1,
+   "categoria": "Baixa Tensão Multiplexada (NDU 004.3)",
+   "status": "ativo",
+   "file": "structures/X-2026-003.json",
+   "bytes": 2299,
+   "sha256": "549b2cb0991d8ebac3f7d13b4b9a043723a8ca8c59940d9b7aef8fe91351c1e8"
+  },
+  {
+   "id": "X-2026-004",
+   "rev": 1,
+   "categoria": "Baixa Tensão Multiplexada (NDU 004.3)",
+   "status": "ativo",
+   "file": "structures/X-2026-004.json",
+   "bytes": 2299,
+   "sha256": "5bf84465e7af6b7da974201076285ebaadbe81f67f9b9f39aebec4cf97322cef"
+  },
+  {
+   "id": "X-2026-005",
+   "rev": 1,
+   "categoria": "Baixa Tensão Multiplexada (NDU 004.3)",
+   "status": "ativo",
+   "file": "structures/X-2026-005.json",
+   "bytes": 2499,
+   "sha256": "496d6211cec518b6fef45325268305d0a77a31ec6e5f548d7cddbae485cf92c5"
+  },
+  {
+   "id": "X-2026-006",
+   "rev": 1,
+   "categoria": "Baixa Tensão Multiplexada (NDU 004.3)",
+   "status": "ativo",
+   "file": "structures/X-2026-006.json",
+   "bytes": 3062,
+   "sha256": "22fd05a2c69df4ede441679a1dc15b3dcf620b7a9e8e4b685b17129ecd95e16c"
+  },
+  {
+   "id": "X-2026-007",
+   "rev": 1,
+   "categoria": "Baixa Tensão Multiplexada (NDU 004.3)",
+   "status": "ativo",
+   "file": "structures/X-2026-007.json",
+   "bytes": 3003,
+   "sha256": "d2b032d91ee8670888053b09eeeded7c1268a1fb8c7e6a756327b0e3798e00f4"
+  },
+  {
+   "id": "X-2026-008",
+   "rev": 1,
+   "categoria": "Baixa Tensão Multiplexada (NDU 004.3)",
+   "status": "ativo",
+   "file": "structures/X-2026-008.json",
+   "bytes": 2564,
+   "sha256": "ea1c80b2cf8c83536cb24e494674bd2e2fe1b80ccd70454324b3a2684e02d8cf"
+  },
+  {
+   "id": "X-2026-009",
+   "rev": 1,
+   "categoria": "Baixa Tensão Multiplexada (NDU 004.3)",
+   "status": "ativo",
+   "file": "structures/X-2026-009.json",
+   "bytes": 2567,
+   "sha256": "937da4484c2270ee8a7c0802a595783fdc48a324311ea7b5937c24f2af642ff6"
+  },
+  {
+   "id": "X-2026-010",
+   "rev": 1,
+   "categoria": "Baixa Tensão Multiplexada (NDU 004.3)",
+   "status": "ativo",
+   "file": "structures/X-2026-010.json",
+   "bytes": 2419,
+   "sha256": "0e92aab3b8d66c8ee5ebfbaaa088f1b6ee935a0223e4f9a534f470d8e2790f9d"
+  },
+  {
+   "id": "X-2026-011",
+   "rev": 1,
+   "categoria": "Baixa Tensão Multiplexada (NDU 004.3)",
+   "status": "ativo",
+   "file": "structures/X-2026-011.json",
+   "bytes": 2428,
+   "sha256": "908d8039f75209694853be0ef9c5c75172a3ee5a4079805e4ddbedefb8cb8530"
+  },
+  {
+   "id": "X-2026-012",
+   "rev": 1,
+   "categoria": "Baixa Tensão Multiplexada (NDU 004.3)",
+   "status": "ativo",
+   "file": "structures/X-2026-012.json",
+   "bytes": 2100,
+   "sha256": "4e988110f018ea63bd1d491b35344ea5f7279b744f893664fa7feadb34349db2"
   }
  ]
 }
