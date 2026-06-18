@@ -1,5 +1,5 @@
 {
- "data_version": "2026.06.18-r1",
+ "data_version": "2026.06.18-r2",
  "files": [
   {
    "name": "materiais.json",
@@ -18,7 +18,7 @@
   },
   {
    "name": "catalog.json",
-   "sha256": "10fceec5c12d0a26ece02fc433eb2f5b5ae81b08d80633915d2643dde8127e7a",
+   "sha256": "bcff955f4b7c2abd614cf976c1b522181451e51a6d73288d2d547b381ed5faad",
    "bytes": 225427
   },
   {
