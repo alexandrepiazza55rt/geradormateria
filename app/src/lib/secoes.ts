@@ -12,6 +12,7 @@ export const SECTIONS: Secao[] = [
   { titulo: "Trifásico", subtitulo: "Rede urbana (planilha)", test: (c) => c.startsWith("Tri") && !c.includes("Rural") && !c.includes("Neutro") },
   { titulo: "Rural (NDU 005)", subtitulo: "Estruturas rurais da norma NDU 005", test: (c) => c.includes("Rural") },
   { titulo: "Neutro Contínuo", subtitulo: "Independente de tensão (NDU 005)", test: (c) => c.includes("Neutro") },
+  { titulo: "Baixa Tensão", subtitulo: "Rede multiplexada de BT (NDU 004.3)", test: (c) => c.includes("Baixa Tens") },
 ];
 
 export interface SecaoComCategorias {
