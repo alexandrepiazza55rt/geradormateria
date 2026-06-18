@@ -82,15 +82,52 @@ export function testarConexao(cfg: RepoConfig): Promise<RepoInfo> {
 }
 
 export interface ReleaseInfo {
+  id: number;
   tag_name: string;
   name: string;
   body: string;
   published_at: string;
   html_url: string;
+  draft: boolean;
 }
 
 export function listarReleases(cfg: RepoConfig): Promise<ReleaseInfo[]> {
   return gh<ReleaseInfo[]>(cfg, `/repos/${cfg.owner}/${cfg.name}/releases?per_page=30`);
+}
+
+/**
+ * Ativa/desativa uma release (rascunho). Reversível: `draft=true` some da lista pública,
+ * `draft=false` reativa. NÃO altera o conteúdo da base que os clientes baixam.
+ */
+export function definirRascunhoRelease(
+  cfg: RepoConfig,
+  releaseId: number,
+  draft: boolean,
+): Promise<ReleaseInfo> {
+  return gh<ReleaseInfo>(cfg, `/repos/${cfg.owner}/${cfg.name}/releases/${releaseId}`, {
+    method: "PATCH",
+    body: JSON.stringify({ draft }),
+  });
+}
+
+/**
+ * Exclui uma release de vez e também apaga a tag git correspondente (best-effort),
+ * para a versão sumir do histórico. NÃO altera o conteúdo da base já publicado.
+ */
+export async function excluirRelease(
+  cfg: RepoConfig,
+  releaseId: number,
+  tag?: string,
+): Promise<void> {
+  const base = `/repos/${cfg.owner}/${cfg.name}`;
+  await gh<void>(cfg, `${base}/releases/${releaseId}`, { method: "DELETE" });
+  if (tag) {
+    try {
+      await gh<void>(cfg, `${base}/git/refs/tags/${encodeURIComponent(tag)}`, { method: "DELETE" });
+    } catch {
+      /* tag pode não existir (release era rascunho) — ignora */
+    }
+  }
 }
 
 /**
