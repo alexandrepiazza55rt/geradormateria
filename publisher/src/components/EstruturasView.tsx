@@ -1,12 +1,12 @@
 import { useEffect, useMemo, useState } from "react";
 import { lerArquivoTexto, publicar, type RepoConfig } from "../lib/github";
 import { carregarEstadoBase } from "../lib/repoBase";
-import { montarExclusao } from "../lib/manifesto";
+import { montarExclusao, montarPublicacao } from "../lib/manifesto";
 import type { Catalog, CatalogItem, Estrutura } from "../lib/types";
 import { EstruturaForm } from "./EstruturaForm";
 import { nomeMaterial, type MateriaisMap } from "./materialInputs";
 
-function versaoExclusao(atual: string | undefined): string {
+function proximaVersao(atual: string | undefined): string {
   const dia = new Date().toISOString().slice(0, 10).replace(/-/g, ".");
   if (atual && atual.startsWith(dia)) {
     const m = atual.match(/-r(\d+)$/);
@@ -136,6 +136,8 @@ export function EstruturasView({ repo }: { repo: RepoConfig | null }) {
         )}
       </div>
 
+      {catalog && <RenomearSecao repo={repo} catalog={catalog} onConcluido={() => carregar(repo)} />}
+
       {categorias.map(([cat, items]) => (
         <div className="card" key={cat} style={{ padding: 0 }}>
           <button onClick={() => alternarCategoria(cat, items)}
@@ -179,6 +181,151 @@ export function EstruturasView({ repo }: { repo: RepoConfig | null }) {
   );
 }
 
+function RenomearSecao({
+  repo, catalog, onConcluido,
+}: {
+  repo: RepoConfig;
+  catalog: Catalog;
+  onConcluido: () => void;
+}) {
+  const [aberto, setAberto] = useState(false);
+  const [campo, setCampo] = useState<"categoria" | "tipo">("categoria");
+  const [categoria, setCategoria] = useState("");
+  const [tipo, setTipo] = useState("");
+  const [novoNome, setNovoNome] = useState("");
+  const [ests, setEsts] = useState<Estrutura[] | null>(null);
+  const [carregando, setCarregando] = useState(false);
+  const [aplicando, setAplicando] = useState(false);
+  const [msg, setMsg] = useState<{ tom: "ok" | "err"; texto: string } | null>(null);
+
+  const categorias = useMemo(
+    () => [...new Set(catalog.structures.map((s) => s.categoria))].sort((a, b) => a.localeCompare(b, "pt-BR")),
+    [catalog],
+  );
+
+  // Carrega as estruturas da categoria escolhida — necessário tanto p/ editar quanto p/
+  // listar os tipos existentes (o campo `tipo` só existe dentro de cada arquivo).
+  async function carregarCategoria(cat: string) {
+    setEsts(null);
+    setTipo("");
+    setMsg(null);
+    if (!cat) return;
+    const items = catalog.structures.filter((s) => s.categoria === cat);
+    setCarregando(true);
+    try {
+      const arr = await mapLimit(items, 8, async (it) =>
+        JSON.parse((await lerArquivoTexto(repo, it.file)) ?? "{}") as Estrutura);
+      setEsts(arr);
+    } catch (e) {
+      setMsg({ tom: "err", texto: (e as Error).message });
+    } finally {
+      setCarregando(false);
+    }
+  }
+
+  const tipos = useMemo(
+    () => [...new Set((ests ?? []).map((e) => e.tipo).filter(Boolean))].sort((a, b) => a.localeCompare(b, "pt-BR")),
+    [ests],
+  );
+
+  const afetadas = useMemo(() => {
+    if (!ests) return [];
+    return campo === "categoria" ? ests : ests.filter((e) => e.tipo === tipo);
+  }, [ests, campo, tipo]);
+
+  async function aplicar() {
+    const alvo = campo === "categoria" ? categoria : tipo;
+    const novo = novoNome.trim();
+    if (!alvo) { setMsg({ tom: "err", texto: `Escolha ${campo === "categoria" ? "a categoria" : "o tipo"} a renomear.` }); return; }
+    if (!novo) { setMsg({ tom: "err", texto: "Digite o novo nome." }); return; }
+    if (novo === alvo) { setMsg({ tom: "err", texto: "O novo nome é igual ao atual." }); return; }
+    if (afetadas.length === 0) { setMsg({ tom: "err", texto: "Nenhuma estrutura afetada." }); return; }
+    if (!confirm(`Renomear ${campo} "${alvo}" → "${novo}" em ${afetadas.length} estrutura(s)?\n\nUma nova versão será publicada; os clientes recebem na próxima atualização.`)) return;
+
+    setAplicando(true);
+    setMsg(null);
+    try {
+      const clones = afetadas.map((e) => ({ ...e, [campo]: novo }));
+      const estado = await carregarEstadoBase(repo);
+      const versao = proximaVersao(estado.catalog?.data_version);
+      const notas = `renomeia ${campo} "${alvo}" → "${novo}" (${clones.length})`;
+      const pub = await montarPublicacao(clones, estado.manifest, estado.catalog, versao, notas);
+      await publicar(repo, pub.arquivos, `Renomeia ${campo} (${versao})`, versao, notas);
+      setMsg({ tom: "ok", texto: `Renomeado em ${clones.length} estrutura(s) (${versao}). Os clientes recebem na próxima atualização.` });
+      setNovoNome("");
+      setTimeout(onConcluido, 1500);
+    } catch (e) {
+      setMsg({ tom: "err", texto: (e as Error).message });
+    } finally {
+      setAplicando(false);
+    }
+  }
+
+  if (!aberto) {
+    return (
+      <div className="card" style={{ padding: 0 }}>
+        <button onClick={() => setAberto(true)}
+          style={{ width: "100%", textAlign: "left", background: "none", border: "none", padding: "12px 16px", cursor: "pointer", fontWeight: 600, fontSize: 14 }}>
+          ✏️ Renomear seção (categoria ou tipo) ▾
+        </button>
+      </div>
+    );
+  }
+
+  return (
+    <div className="card" style={{ borderColor: "var(--accent)" }}>
+      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+        <h2 style={{ margin: 0 }}>Renomear seção</h2>
+        <button className="btn secondary" style={{ padding: "3px 10px" }} onClick={() => setAberto(false)}>fechar</button>
+      </div>
+      <p className="muted" style={{ marginTop: 4 }}>
+        Renomeia o rótulo em <strong>todas</strong> as estruturas da seção, de uma vez. Escolha a categoria
+        (e, para tipo, qual tipo dentro dela).
+      </p>
+
+      <label>O que renomear</label>
+      <select value={campo} onChange={(e) => { setCampo(e.target.value as "categoria" | "tipo"); setMsg(null); }}>
+        <option value="categoria">Categoria (grupo)</option>
+        <option value="tipo">Tipo (subgrupo)</option>
+      </select>
+
+      <label>{campo === "categoria" ? "Categoria a renomear" : "Categoria (para localizar o tipo)"}</label>
+      <select value={categoria} onChange={(e) => { setCategoria(e.target.value); carregarCategoria(e.target.value); }}>
+        <option value="">— selecione —</option>
+        {categorias.map((c) => <option key={c} value={c}>{c}</option>)}
+      </select>
+
+      {carregando && <p className="muted">Carregando estruturas da categoria…</p>}
+
+      {campo === "tipo" && ests && (
+        <>
+          <label>Tipo a renomear</label>
+          <select value={tipo} onChange={(e) => setTipo(e.target.value)}>
+            <option value="">— selecione —</option>
+            {tipos.map((t) => <option key={t} value={t}>{t}</option>)}
+          </select>
+        </>
+      )}
+
+      <label>Novo nome</label>
+      <input type="text" value={novoNome} onChange={(e) => setNovoNome(e.target.value)}
+        placeholder={campo === "categoria" ? "ex.: Monofásico 13,8 kV" : "ex.: CFU - AVULSO"} />
+
+      {ests && (afetadas.length > 0
+        ? <p className="muted" style={{ marginTop: 8 }}><strong>{afetadas.length}</strong> estrutura(s) serão atualizadas.</p>
+        : (campo === "tipo" && tipo) && <p className="muted" style={{ marginTop: 8 }}>Nenhuma estrutura com esse tipo.</p>
+      )}
+
+      <div className="actions">
+        <button className="btn" onClick={aplicar} disabled={aplicando || carregando || !ests}>
+          {aplicando ? "Publicando…" : "Renomear e publicar"}
+        </button>
+      </div>
+      {msg && <div className={`msg ${msg.tom}`}>{msg.texto}</div>}
+    </div>
+  );
+}
+
 function agruparPorTipo(ests: Estrutura[]): [string, Estrutura[]][] {
   const m = new Map<string, Estrutura[]>();
   for (const e of ests) {
@@ -209,7 +356,7 @@ function DetalheEstrutura({
     setErro(null);
     try {
       const estado = await carregarEstadoBase(repo);
-      const versao = versaoExclusao(estado.catalog?.data_version);
+      const versao = proximaVersao(estado.catalog?.data_version);
       const ex = await montarExclusao(estrutura.id, estado.manifest, estado.catalog, versao);
       await publicar(repo, ex.arquivos, `Remove ${estrutura.id} (${versao})`, versao, `remove ${estrutura.id}`, ex.exclusoes);
       onExcluido();

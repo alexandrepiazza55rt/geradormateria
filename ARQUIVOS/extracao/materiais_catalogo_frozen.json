@@ -1,0 +1,1720 @@
+{
+ "schema": 1,
+ "frozen_from": "V3/data/materiais.json",
+ "generated_at": "2026-06-17",
+ "next_id": 1234,
+ "materials": [
+  {
+   "id": 15,
+   "identity_key": "sap:90272",
+   "cod_sap": "90272",
+   "cod_lider7": "",
+   "descricao": "Cabo Aluminio biplex XLPE 10 mm²",
+   "unidade": "pç"
+  },
+  {
+   "id": 16,
+   "identity_key": "sap:90285",
+   "cod_sap": "90285",
+   "cod_lider7": "",
+   "descricao": "Cabo Aluminio quadriplex XLPE 10 mm²",
+   "unidade": "m"
+  },
+  {
+   "id": 17,
+   "identity_key": "sap:90286",
+   "cod_sap": "90286",
+   "cod_lider7": "",
+   "descricao": "Cabo Aluminio quadriplex XLPE 16 mm²",
+   "unidade": "m"
+  },
+  {
+   "id": 18,
+   "identity_key": "sap:90287",
+   "cod_sap": "90287",
+   "cod_lider7": "4401",
+   "descricao": "Cabo Aluminio quadriplex XLPE 25 mm²",
+   "unidade": "m"
+  },
+  {
+   "id": 19,
+   "identity_key": "sap:90288",
+   "cod_sap": "90288",
+   "cod_lider7": "3531",
+   "descricao": "Cabo Aluminio quadriplex XLPE 35 mm²",
+   "unidade": "m"
+  },
+  {
+   "id": 20,
+   "identity_key": "desc:cabo aluminio quadriplex xlpe 50 mm²|m",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Cabo Aluminio quadriplex XLPE 50 mm²",
+   "unidade": "m"
+  },
+  {
+   "id": 21,
+   "identity_key": "sap:90289",
+   "cod_sap": "90289",
+   "cod_lider7": "3532",
+   "descricao": "Cabo Aluminio quadriplex XLPE 70 mm²",
+   "unidade": "m"
+  },
+  {
+   "id": 22,
+   "identity_key": "desc:cabo aluminio triplex xlpe 06 mm²|m",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Cabo Aluminio triplex Xlpe 06 mm²",
+   "unidade": "m"
+  },
+  {
+   "id": 23,
+   "identity_key": "sap:90274",
+   "cod_sap": "90274",
+   "cod_lider7": "3512",
+   "descricao": "Cabo Aluminio triplex Xlpe 10 mm²",
+   "unidade": "m"
+  },
+  {
+   "id": 24,
+   "identity_key": "sap:90282",
+   "cod_sap": "90282",
+   "cod_lider7": "3513",
+   "descricao": "Cabo Aluminio triplex Xlpe 16 mm²",
+   "unidade": "m"
+  },
+  {
+   "id": 25,
+   "identity_key": "sap:590283",
+   "cod_sap": "590283",
+   "cod_lider7": "3514",
+   "descricao": "Cabo Aluminio triplex Xlpe 25 mm²",
+   "unidade": "m"
+  },
+  {
+   "id": 26,
+   "identity_key": "sap:90284",
+   "cod_sap": "90284",
+   "cod_lider7": "",
+   "descricao": "Cabo Aluminio triplex Xlpe 35 mm²",
+   "unidade": "m"
+  },
+  {
+   "id": 27,
+   "identity_key": "desc:cabo aluminio triplex xlpe 50 mm²|m",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Cabo Aluminio triplex Xlpe 50 mm²",
+   "unidade": "m"
+  },
+  {
+   "id": 28,
+   "identity_key": "sap:2987",
+   "cod_sap": "2987",
+   "cod_lider7": "3516",
+   "descricao": "Cabo de aço galvanizado - 6,4mm² (cordoalha)",
+   "unidade": "m"
+  },
+  {
+   "id": 29,
+   "identity_key": "sap:3357",
+   "cod_sap": "3357",
+   "cod_lider7": "3517",
+   "descricao": "Cabo de aço galvanizado - 7,9 mm² (cordoalha)",
+   "unidade": "m"
+  },
+  {
+   "id": 30,
+   "identity_key": "sap:90258",
+   "cod_sap": "90258",
+   "cod_lider7": "4183",
+   "descricao": "Cabo de aluminio  nu 2 CAA - AWG",
+   "unidade": "kg"
+  },
+  {
+   "id": 31,
+   "identity_key": "sap:90263",
+   "cod_sap": "90263",
+   "cod_lider7": "3519",
+   "descricao": "Cabo de aluminio  nu 1/0 CAA - AWG",
+   "unidade": "kg"
+  },
+  {
+   "id": 32,
+   "identity_key": "sap:90264",
+   "cod_sap": "90264",
+   "cod_lider7": "3521",
+   "descricao": "Cabo de aluminio  nu 4/0 CAA - AWG",
+   "unidade": "kg"
+  },
+  {
+   "id": 33,
+   "identity_key": "sap:621841",
+   "cod_sap": "621841",
+   "cod_lider7": "4513",
+   "descricao": "Cabo de aluminio  nu 336,4 CAA - AWG",
+   "unidade": "kg"
+  },
+  {
+   "id": 34,
+   "identity_key": "desc:cabo de cobre coberto com xlpe - 15kv 16mm²|m",
+   "cod_sap": "590294",
+   "cod_lider7": "3522",
+   "descricao": "Cabo de cobre coberto com XLPE - 15kv 16mm²",
+   "unidade": "m"
+  },
+  {
+   "id": 35,
+   "identity_key": "desc:cabo de cobre coberto com xlpe - 15kv 95mm²|m",
+   "cod_sap": "126",
+   "cod_lider7": "",
+   "descricao": "Cabo de cobre coberto com XLPE - 15kv 95mm²",
+   "unidade": "m"
+  },
+  {
+   "id": 36,
+   "identity_key": "sap:623945",
+   "cod_sap": "623945",
+   "cod_lider7": "3523",
+   "descricao": "Cabo de cobre flexivel isolado - 10mm²",
+   "unidade": "m"
+  },
+  {
+   "id": 37,
+   "identity_key": "sap:626275",
+   "cod_sap": "626275",
+   "cod_lider7": "",
+   "descricao": "Cabo de cobre nú 50mm²",
+   "unidade": "m"
+  },
+  {
+   "id": 249,
+   "identity_key": "desc:transformador monofasico - 13.8kv - 05kva - 254/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "3685",
+   "descricao": "Transformador monofásico - 13.8KV - 05KVA - 254/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 250,
+   "identity_key": "desc:transformador monofasico - 34.5kv - 05kva - 254/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "4180",
+   "descricao": "Transformador monofásico - 34.5KV - 05KVA - 254/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 251,
+   "identity_key": "desc:transformador monofasico - 13.8kv - 10kva - 254/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "3686",
+   "descricao": "Transformador monofásico - 13.8KV - 10KVA - 254/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 252,
+   "identity_key": "desc:transformador monofasico - 34.5kv - 10kva - 254/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "3691",
+   "descricao": "Transformador monofásico - 34.5KV - 10KVA - 254/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 253,
+   "identity_key": "desc:transformador monofasico - 13.8kv - 15kva - 254/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "3687",
+   "descricao": "Transformador monofásico - 13.8KV - 15KVA - 254/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 254,
+   "identity_key": "desc:transformador monofasico - 34.5kv - 15kva - 254/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "4191",
+   "descricao": "Transformador monofásico - 34.5KV - 15KVA - 254/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 255,
+   "identity_key": "desc:transformador monofasico - 13.8kv - 25kva - 254/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "3688",
+   "descricao": "Transformador monofásico - 13.8KV - 25KVA - 254/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 256,
+   "identity_key": "desc:transformador monofasico - 34.5kv - 25kva - 254/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "3693",
+   "descricao": "Transformador monofásico - 34.5KV - 25KVA - 254/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 259,
+   "identity_key": "desc:transformador trifasico - 13.8kv - 15kva - 220/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "3697",
+   "descricao": "Transformador Trifásico - 13.8KV - 15KVA - 220/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 260,
+   "identity_key": "desc:transformador trifasico - 34.5kv - 15kva - 220/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "3705",
+   "descricao": "Transformador Trifásico - 34.5KV - 15KVA - 220/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 261,
+   "identity_key": "desc:transformador trifasico - 13.8kv - 30kva - 220/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "3700",
+   "descricao": "Transformador Trifásico - 13.8KV - 30KVA  - 220/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 262,
+   "identity_key": "desc:transformador trifasico - 34.5kv - 30kva - 220/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "3708",
+   "descricao": "Transformador Trifásico -  34.5KV - 30KVA  - 220/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 263,
+   "identity_key": "desc:transformador trifasico - 13.8kv - 45kva - 220/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "3701",
+   "descricao": "Transformador Trifásico - 13.8KV - 45KVA  - 220/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 264,
+   "identity_key": "desc:transformador trifasico - 34.5kv - 45kva - 220/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "3709",
+   "descricao": "Transformador Trifásico -  34.5KV - 45KVA  - 220/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 265,
+   "identity_key": "desc:transformador trifasico - 13.8kv - 75kva - 220/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "3702",
+   "descricao": "Transformador Trifásico - 13.8KV - 75KVA  - 220/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 266,
+   "identity_key": "desc:transformador trifasico - 34.5kv - 75kva - 220/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "3710",
+   "descricao": "Transformador Trifásico -  34.5KV - 75KVA  - 220/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 267,
+   "identity_key": "desc:transformador trifasico - 13.8kv - 112,5kva - 220/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "3695",
+   "descricao": "Transformador Trifásico - 13.8KV - 112,5KVA  - 220/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 268,
+   "identity_key": "desc:transformador trifasico - 34.5kv - 112,5kva - 220/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "3703",
+   "descricao": "Transformador Trifásico -  34.5KV - 112,5KVA  - 220/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 269,
+   "identity_key": "desc:transformador trifasico - 13.8kv - 150kva - 220/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "3696",
+   "descricao": "Transformador Trifásico - 13.8KV - 150KVA  - 220/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 270,
+   "identity_key": "desc:transformador trifasico - 34.5kv - 150kva - 220/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "3704",
+   "descricao": "Transformador Trifásico -  34.5KV - 150KVA  - 220/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 271,
+   "identity_key": "desc:transformador trifasico - 13.8kv - 225kva - 220/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "3698",
+   "descricao": "Transformador Trifásico - 13.8KV - 225KVA  - 220/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 272,
+   "identity_key": "desc:transformador trifasico - 34.5kv - 225kva - 220/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "3706",
+   "descricao": "Transformador Trifásico -  34.5KV - 225KVA  - 220/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 273,
+   "identity_key": "desc:transformador trifasico - 13.8kv - 300kva - 220/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "3699",
+   "descricao": "Transformador Trifásico - 13.8KV - 300KVA  - 220/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 274,
+   "identity_key": "desc:transformador trifasico - 34.5kv - 300kva - 220/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "3707",
+   "descricao": "Transformador Trifásico -  34.5KV - 300KVA  - 220/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 275,
+   "identity_key": "desc:transformador trifasico - 13.8kv - 15kva - 380/220v|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Transformador Trifásico - 13.8KV - 15KVA - 380/220V",
+   "unidade": "pç"
+  },
+  {
+   "id": 276,
+   "identity_key": "desc:transformador trifasico - 34.5kv - 15kva - 380/220v|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Transformador Trifásico -  34.5KV - 15KVA - 380/220V",
+   "unidade": "pç"
+  },
+  {
+   "id": 277,
+   "identity_key": "desc:transformador trifasico - 13.8kv - 30kva - 380/220v|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Transformador Trifásico - 13.8KV - 30KVA - 380/220V",
+   "unidade": "pç"
+  },
+  {
+   "id": 278,
+   "identity_key": "desc:transformador trifasico - 34.5kv - 30kva - 380/220v|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Transformador Trifásico -  34.5KV - 30KVA - 380/220V",
+   "unidade": "pç"
+  },
+  {
+   "id": 279,
+   "identity_key": "desc:transformador trifasico - 13.8kv - 45kva - 380/220v|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Transformador Trifásico - 13.8KV - 45KVA - 380/220V",
+   "unidade": "pç"
+  },
+  {
+   "id": 280,
+   "identity_key": "desc:transformador trifasico - 34.5kv - 45kva - 380/220v|pc",
+   "cod_sap": "",
+   "cod_lider7": "4282",
+   "descricao": "Transformador Trifásico -  34.5KV - 45KVA - 380/220V",
+   "unidade": "pç"
+  },
+  {
+   "id": 281,
+   "identity_key": "desc:transformador trifasico - 13.8kv - 75kva - 380/220v|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Transformador Trifásico - 13.8KV - 75KVA - 380/220V",
+   "unidade": "pç"
+  },
+  {
+   "id": 282,
+   "identity_key": "desc:transformador trifasico - 34.5kv - 75kva - 380/220v|pc",
+   "cod_sap": "",
+   "cod_lider7": "4284",
+   "descricao": "Transformador Trifásico -  34.5KV - 75KVA - 380/220V",
+   "unidade": "pç"
+  },
+  {
+   "id": 283,
+   "identity_key": "desc:transformador trifasico - 13.8kv - 112,5kva - 380/220v|pc",
+   "cod_sap": "",
+   "cod_lider7": "4126",
+   "descricao": "Transformador Trifásico - 13.8KV - 112,5KVA - 380/220V",
+   "unidade": "pç"
+  },
+  {
+   "id": 284,
+   "identity_key": "desc:transformador trifasico - 34.5kv - 112,5kva - 380/220v|pc",
+   "cod_sap": "",
+   "cod_lider7": "3711",
+   "descricao": "Transformador Trifásico -  34.5KV - 112,5KVA - 380/220V",
+   "unidade": "pç"
+  },
+  {
+   "id": 285,
+   "identity_key": "desc:transformador trifasico - 13.8kv - 150kva - 380/220v|pc",
+   "cod_sap": "",
+   "cod_lider7": "4160",
+   "descricao": "Transformador Trifásico - 13.8KV - 150KVA - 380/220V",
+   "unidade": "pç"
+  },
+  {
+   "id": 286,
+   "identity_key": "desc:transformador trifasico - 34.5kv - 150kva - 380/220v|pc",
+   "cod_sap": "",
+   "cod_lider7": "4164",
+   "descricao": "Transformador Trifásico -  34.5KV - 150KVA - 380/220V",
+   "unidade": "pç"
+  },
+  {
+   "id": 287,
+   "identity_key": "desc:transformador trifasico - 13.8kv - 225kva - 380/220v|pc",
+   "cod_sap": "",
+   "cod_lider7": "4242",
+   "descricao": "Transformador Trifásico - 13.8KV - 225KVA - 380/220V",
+   "unidade": "pç"
+  },
+  {
+   "id": 288,
+   "identity_key": "desc:transformador trifasico - 34.5kv - 225kva - 380/220v|pc",
+   "cod_sap": "",
+   "cod_lider7": "4159",
+   "descricao": "Transformador Trifásico -  34.5KV - 225KVA - 380/220V",
+   "unidade": "pç"
+  },
+  {
+   "id": 289,
+   "identity_key": "desc:transformador trifasico - 13.8kv - 300kva - 380/220v|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Transformador Trifásico - 13.8KV - 300KVA - 380/220V",
+   "unidade": "pç"
+  },
+  {
+   "id": 290,
+   "identity_key": "desc:transformador trifasico - 34.5kv - 300kva - 380/220v|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Transformador Trifásico -  34.5KV - 300KVA - 380/220V",
+   "unidade": "pç"
+  },
+  {
+   "id": 305,
+   "identity_key": "desc:arame galvanizado nº 12|kg",
+   "cod_sap": "",
+   "cod_lider7": "3498",
+   "descricao": "ARAME GALVANIZADO Nº 12",
+   "unidade": "Kg"
+  },
+  {
+   "id": 306,
+   "identity_key": "desc:arruela p/ eletroduto de aco 50 mm²|pc",
+   "cod_sap": "",
+   "cod_lider7": "4031",
+   "descricao": "ARRUELA P/ ELETRODUTO DE AÇO 50 mm²",
+   "unidade": "pç"
+  },
+  {
+   "id": 307,
+   "identity_key": "desc:arruela p/ eletroduto de aco 65 mm²|pc",
+   "cod_sap": "",
+   "cod_lider7": "3503",
+   "descricao": "ARRUELA P/ ELETRODUTO DE AÇO 65 mm²",
+   "unidade": "pç"
+  },
+  {
+   "id": 308,
+   "identity_key": "desc:arruela p/ eletroduto de aco 80 mm²|pc",
+   "cod_sap": "",
+   "cod_lider7": "4032",
+   "descricao": "ARRUELA P/ ELETRODUTO DE AÇO 80 mm²",
+   "unidade": "pç"
+  },
+  {
+   "id": 309,
+   "identity_key": "desc:arruela p/ eletroduto de aco 100 mm²|pc",
+   "cod_sap": "",
+   "cod_lider7": "3504",
+   "descricao": "ARRUELA P/ ELETRODUTO DE AÇO 100 mm²",
+   "unidade": "pç"
+  },
+  {
+   "id": 310,
+   "identity_key": "desc:bucha p/ eletroduto de aco 50 mm²|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "BUCHA P/ ELETRODUTO DE AÇO 50 mm²",
+   "unidade": "pç"
+  },
+  {
+   "id": 311,
+   "identity_key": "desc:bucha p/ eletroduto de aco 65 mm²|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "BUCHA P/ ELETRODUTO DE AÇO 65 mm²",
+   "unidade": "pç"
+  },
+  {
+   "id": 312,
+   "identity_key": "desc:bucha p/ eletroduto de aco 80 mm²|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "BUCHA P/ ELETRODUTO DE AÇO 80 mm²",
+   "unidade": "pç"
+  },
+  {
+   "id": 313,
+   "identity_key": "desc:bucha p/ eletroduto de aco 100 mm²|pc",
+   "cod_sap": "",
+   "cod_lider7": "4026",
+   "descricao": "BUCHA P/ ELETRODUTO DE AÇO 100 mm²",
+   "unidade": "pç"
+  },
+  {
+   "id": 314,
+   "identity_key": "desc:cabecote para eletroduto de aco 50 mm²|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "CABEÇOTE PARA ELETRODUTO DE AÇO 50 mm²",
+   "unidade": "pç"
+  },
+  {
+   "id": 315,
+   "identity_key": "desc:cabecote para eletroduto de aco 65 mm²|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "CABEÇOTE PARA ELETRODUTO DE AÇO 65 mm²",
+   "unidade": "pç"
+  },
+  {
+   "id": 316,
+   "identity_key": "desc:cabecote para eletroduto de aco 80 mm²|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "CABEÇOTE PARA ELETRODUTO DE AÇO 80 mm²",
+   "unidade": "pç"
+  },
+  {
+   "id": 317,
+   "identity_key": "desc:cabecote para eletroduto de aco 100 mm²|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "CABEÇOTE PARA ELETRODUTO DE AÇO 100 mm²",
+   "unidade": "pç"
+  },
+  {
+   "id": 318,
+   "identity_key": "desc:cabo de cobre isolado 1kv, 16 mm²|pc",
+   "cod_sap": "",
+   "cod_lider7": "4209",
+   "descricao": "CABO DE COBRE ISOLADO 1KV, 16 mm²",
+   "unidade": "pç"
+  },
+  {
+   "id": 319,
+   "identity_key": "desc:cabo de cobre isolado 1kv, 25 mm²|m",
+   "cod_sap": "",
+   "cod_lider7": "3526",
+   "descricao": "CABO DE COBRE ISOLADO 1KV, 25 mm²",
+   "unidade": "m"
+  },
+  {
+   "id": 320,
+   "identity_key": "desc:cabo de cobre isolado 1kv, 35 mm²|m",
+   "cod_sap": "",
+   "cod_lider7": "4210",
+   "descricao": "CABO DE COBRE ISOLADO 1KV, 35 mm²",
+   "unidade": "m"
+  },
+  {
+   "id": 321,
+   "identity_key": "desc:cabo de cobre isolado 1kv, 50 mm²|m",
+   "cod_sap": "",
+   "cod_lider7": "3527",
+   "descricao": "CABO DE COBRE ISOLADO 1KV, 50 mm²",
+   "unidade": "m"
+  },
+  {
+   "id": 322,
+   "identity_key": "desc:cabo de cobre isolado 1kv, 70 mm²|m",
+   "cod_sap": "",
+   "cod_lider7": "3528",
+   "descricao": "CABO DE COBRE ISOLADO 1KV, 70 mm²",
+   "unidade": "m"
+  },
+  {
+   "id": 323,
+   "identity_key": "desc:cabo de cobre isolado 1kv, 95 mm²|m",
+   "cod_sap": "",
+   "cod_lider7": "3529",
+   "descricao": "CABO DE COBRE ISOLADO 1KV, 95 mm²",
+   "unidade": "m"
+  },
+  {
+   "id": 324,
+   "identity_key": "desc:cabo de cobre isolado 1kv, 120 mm²|m",
+   "cod_sap": "",
+   "cod_lider7": "3524",
+   "descricao": "CABO DE COBRE ISOLADO 1KV, 120 mm²",
+   "unidade": "m"
+  },
+  {
+   "id": 325,
+   "identity_key": "desc:cabo de cobre isolado 1kv, 150 mm²|",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "CABO DE COBRE ISOLADO 1KV, 150 mm²",
+   "unidade": ""
+  },
+  {
+   "id": 326,
+   "identity_key": "desc:cabo de cobre isolado 1kv, 185 mm²|m",
+   "cod_sap": "",
+   "cod_lider7": "4262",
+   "descricao": "CABO DE COBRE ISOLADO 1KV, 185 mm²",
+   "unidade": "m"
+  },
+  {
+   "id": 327,
+   "identity_key": "desc:cabo de cobre isolado 1kv, 240 mm²|m",
+   "cod_sap": "",
+   "cod_lider7": "3525",
+   "descricao": "CABO DE COBRE ISOLADO 1KV, 240 mm²",
+   "unidade": "m"
+  },
+  {
+   "id": 328,
+   "identity_key": "desc:cabo de cobre nu 16mm²|m",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "CABO DE COBRE NÚ 16mm²",
+   "unidade": "m"
+  },
+  {
+   "id": 329,
+   "identity_key": "desc:cabo de cobre nu 25mm²|m",
+   "cod_sap": "",
+   "cod_lider7": "4114",
+   "descricao": "CABO DE COBRE NÚ 25mm²",
+   "unidade": "m"
+  },
+  {
+   "id": 330,
+   "identity_key": "desc:caixa de concreto 50 x 50|pc",
+   "cod_sap": "",
+   "cod_lider7": "4115",
+   "descricao": "CAIXA DE CONCRETO 50 X 50",
+   "unidade": "pç"
+  },
+  {
+   "id": 331,
+   "identity_key": "desc:caixas de medicao 3 em 1 ( 62x49, 62x56 e 62 x 40 ) sem barramento|pc",
+   "cod_sap": "",
+   "cod_lider7": "3533",
+   "descricao": "CAIXAS DE MEDIÇÃO 3 em 1 ( 62X49, 62X56 e 62 X 40 ) SEM BARRAMENTO",
+   "unidade": "pç"
+  },
+  {
+   "id": 332,
+   "identity_key": "desc:caixas de medicao 3 em 1 ( 62x49, 62x56 e 82 x 40 ) com barramento|pc",
+   "cod_sap": "",
+   "cod_lider7": "4342",
+   "descricao": "CAIXAS DE MEDIÇÃO 3 em 1 ( 62X49, 62X56 e 82 X 40 ) COM BARRAMENTO",
+   "unidade": "pç"
+  },
+  {
+   "id": 333,
+   "identity_key": "desc:caixa medicao 100 x 60 x 2,25cm (medicao direta)|pc",
+   "cod_sap": "",
+   "cod_lider7": "4364",
+   "descricao": "CAIXA MEDIÇÃO 100 X 60 X 2,25cm (MEDIÇÃO DIRETA)",
+   "unidade": "pç"
+  },
+  {
+   "id": 334,
+   "identity_key": "desc:conector latao 25 mm|pc",
+   "cod_sap": "",
+   "cod_lider7": "4012",
+   "descricao": "CONECTOR LATÃO 25 MM",
+   "unidade": "pç"
+  },
+  {
+   "id": 335,
+   "identity_key": "desc:conector cunha cn 4|pc",
+   "cod_sap": "",
+   "cod_lider7": "4104",
+   "descricao": "CONECTOR CUNHA CN 4",
+   "unidade": "pç"
+  },
+  {
+   "id": 336,
+   "identity_key": "desc:conector cunha cn 6|pc",
+   "cod_sap": "",
+   "cod_lider7": "4133",
+   "descricao": "CONECTOR CUNHA CN 6",
+   "unidade": "pç"
+  },
+  {
+   "id": 337,
+   "identity_key": "desc:conector cunha cn 10|pc",
+   "cod_sap": "",
+   "cod_lider7": "3553",
+   "descricao": "CONECTOR CUNHA CN 10",
+   "unidade": "pç"
+  },
+  {
+   "id": 338,
+   "identity_key": "desc:conector cunha cn 11|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "CONECTOR CUNHA CN 11",
+   "unidade": "pç"
+  },
+  {
+   "id": 339,
+   "identity_key": "desc:conector cunha cn 12|pc",
+   "cod_sap": "",
+   "cod_lider7": "3554",
+   "descricao": "CONECTOR CUNHA CN 12",
+   "unidade": "pç"
+  },
+  {
+   "id": 340,
+   "identity_key": "desc:conector cunha cn 13|pc",
+   "cod_sap": "",
+   "cod_lider7": "3555",
+   "descricao": "CONECTOR CUNHA CN 13",
+   "unidade": "pç"
+  },
+  {
+   "id": 341,
+   "identity_key": "desc:conector cunha cn 14|pc",
+   "cod_sap": "",
+   "cod_lider7": "4121",
+   "descricao": "CONECTOR CUNHA CN 14",
+   "unidade": "pç"
+  },
+  {
+   "id": 342,
+   "identity_key": "desc:conector cunha cn 15|pc",
+   "cod_sap": "",
+   "cod_lider7": "4122",
+   "descricao": "CONECTOR CUNHA CN 15",
+   "unidade": "pç"
+  },
+  {
+   "id": 343,
+   "identity_key": "desc:conector p/ haste aterramento th 5/8\"|pc",
+   "cod_sap": "",
+   "cod_lider7": "3569",
+   "descricao": "CONECTOR P/ HASTE ATERRAMENTO TH 5/8\"",
+   "unidade": "pç"
+  },
+  {
+   "id": 344,
+   "identity_key": "desc:curva de 90° para eletroduto de aco 50 mm²|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "CURVA DE 90° PARA ELETRODUTO DE AÇO 50 mm²",
+   "unidade": "pç"
+  },
+  {
+   "id": 345,
+   "identity_key": "desc:curva de 90° para eletroduto de aco 65 mm²|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "CURVA DE 90° PARA ELETRODUTO DE AÇO 65 mm²",
+   "unidade": "pç"
+  },
+  {
+   "id": 346,
+   "identity_key": "desc:curva de 90° para eletroduto de aco 80 mm²|pc",
+   "cod_sap": "",
+   "cod_lider7": "4350",
+   "descricao": "CURVA DE 90° PARA ELETRODUTO DE AÇO 80 mm²",
+   "unidade": "pç"
+  },
+  {
+   "id": 347,
+   "identity_key": "desc:curva de 90° para eletroduto de aco 100 mm²|pc",
+   "cod_sap": "",
+   "cod_lider7": "4349",
+   "descricao": "CURVA DE 90° PARA ELETRODUTO DE AÇO 100 mm²",
+   "unidade": "pç"
+  },
+  {
+   "id": 348,
+   "identity_key": "desc:disjuntor tripolar 70 amp.|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "DISJUNTOR TRIPOLAR 70 AMP.",
+   "unidade": "pç"
+  },
+  {
+   "id": 349,
+   "identity_key": "desc:disjuntor tripolar 100 amp.|pc",
+   "cod_sap": "",
+   "cod_lider7": "4511",
+   "descricao": "DISJUNTOR TRIPOLAR 100 AMP.",
+   "unidade": "pç"
+  },
+  {
+   "id": 350,
+   "identity_key": "desc:disjuntor tripolar 120 amp.|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "DISJUNTOR TRIPOLAR 120 AMP.",
+   "unidade": "pç"
+  },
+  {
+   "id": 351,
+   "identity_key": "desc:disjuntor tripolar 125 amp.|pc",
+   "cod_sap": "",
+   "cod_lider7": "4231",
+   "descricao": "DISJUNTOR TRIPOLAR 125 AMP.",
+   "unidade": "pç"
+  },
+  {
+   "id": 352,
+   "identity_key": "desc:disjuntor tripolar 175 amp.|pc",
+   "cod_sap": "",
+   "cod_lider7": "4079",
+   "descricao": "DISJUNTOR TRIPOLAR 175 AMP.",
+   "unidade": "pç"
+  },
+  {
+   "id": 353,
+   "identity_key": "desc:disjuntor tripolar 200 amp.|pc",
+   "cod_sap": "",
+   "cod_lider7": "4058",
+   "descricao": "DISJUNTOR TRIPOLAR 200 AMP.",
+   "unidade": "pç"
+  },
+  {
+   "id": 354,
+   "identity_key": "desc:disjuntor tripolar 225 amp.|pc",
+   "cod_sap": "",
+   "cod_lider7": "4233",
+   "descricao": "DISJUNTOR TRIPOLAR 225 AMP.",
+   "unidade": "pç"
+  },
+  {
+   "id": 355,
+   "identity_key": "desc:disjuntor tripolar 300 amp.|pc",
+   "cod_sap": "",
+   "cod_lider7": "4116",
+   "descricao": "DISJUNTOR TRIPOLAR 300 AMP.",
+   "unidade": "pç"
+  },
+  {
+   "id": 356,
+   "identity_key": "desc:disjuntor tripolar 350 amp.|pc",
+   "cod_sap": "",
+   "cod_lider7": "4256",
+   "descricao": "DISJUNTOR TRIPOLAR 350 AMP.",
+   "unidade": "pç"
+  },
+  {
+   "id": 357,
+   "identity_key": "desc:disjuntor tripolar 400 amp.|pc",
+   "cod_sap": "",
+   "cod_lider7": "4117",
+   "descricao": "DISJUNTOR TRIPOLAR 400 AMP.",
+   "unidade": "pç"
+  },
+  {
+   "id": 358,
+   "identity_key": "desc:disjuntor tripolar 450 amp.|pc",
+   "cod_sap": "",
+   "cod_lider7": "4255",
+   "descricao": "DISJUNTOR TRIPOLAR 450 AMP.",
+   "unidade": "pç"
+  },
+  {
+   "id": 359,
+   "identity_key": "desc:disjuntor tripolar 500 amp.|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "DISJUNTOR TRIPOLAR 500 AMP.",
+   "unidade": "pç"
+  },
+  {
+   "id": 360,
+   "identity_key": "desc:disjuntor termomagnetico tripolar 600 a|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "DISJUNTOR TERMOMAGNÉTICO TRIPOLAR 600 A",
+   "unidade": "pç"
+  },
+  {
+   "id": 361,
+   "identity_key": "desc:disjuntor tripolar 800 amp.|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "DISJUNTOR TRIPOLAR 800 AMP.",
+   "unidade": "pç"
+  },
+  {
+   "id": 362,
+   "identity_key": "desc:eletroduto de aco 6000mm x 50mm|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "ELETRODUTO DE AÇO 6000mm X 50mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 363,
+   "identity_key": "desc:eletroduto de aco 6000mm x 65mm|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "ELETRODUTO DE AÇO 6000mm X 65mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 364,
+   "identity_key": "desc:eletroduto de aco 6000mm x 80mm|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "ELETRODUTO DE AÇO 6000mm X 80mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 365,
+   "identity_key": "desc:eletroduto de aco 6000mm x 100mm|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "ELETRODUTO DE AÇO 6000mm X 100mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 366,
+   "identity_key": "desc:haste aterr.simples 5/8x2,40m|pc",
+   "cod_sap": "",
+   "cod_lider7": "3981",
+   "descricao": "HASTE ATERR.SIMPLES 5/8X2,40M",
+   "unidade": "pç"
+  },
+  {
+   "id": 367,
+   "identity_key": "desc:luva para eletroduto de aco 50mm|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "LUVA PARA ELETRODUTO DE AÇO 50mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 368,
+   "identity_key": "desc:luva para eletroduto de aco 65mm|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "LUVA PARA ELETRODUTO DE AÇO 65mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 369,
+   "identity_key": "desc:luva para eletroduto de aco 80mm|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "LUVA PARA ELETRODUTO DE AÇO 80mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 370,
+   "identity_key": "desc:luva para eletroduto de aco 100mm|pc",
+   "cod_sap": "",
+   "cod_lider7": "4492",
+   "descricao": "LUVA PARA ELETRODUTO DE AÇO 100mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 371,
+   "identity_key": "desc:massa p/ calafetar|pc",
+   "cod_sap": "",
+   "cod_lider7": "3969",
+   "descricao": "MASSA P/ CALAFETAR",
+   "unidade": "pç"
+  },
+  {
+   "id": 372,
+   "identity_key": "desc:mureta de alvenaria ( alt. 2 m, larg. 1 m, prof. 0,40 m )|un.",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "MURETA DE ALVENARIA ( ALT. 2 M,  LARG. 1 M,  PROF. 0,40 M )",
+   "unidade": "UN."
+  },
+  {
+   "id": 373,
+   "identity_key": "desc:mureta de alvenaria ( alt. 2,20 m, larg. 2,20 m, prof. 0,40 m )|un.",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "MURETA DE ALVENARIA ( ALT. 2,20 M,  LARG. 2,20 M,  PROF. 0,40 M )",
+   "unidade": "UN."
+  },
+  {
+   "id": 374,
+   "identity_key": "desc:* areia fina media|m³",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "* AREIA FINA MÉDIA",
+   "unidade": "M³"
+  },
+  {
+   "id": 375,
+   "identity_key": "desc:* cimento 50kg|sc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "* CIMENTO 50Kg",
+   "unidade": "SC"
+  },
+  {
+   "id": 376,
+   "identity_key": "desc:* ferro 6mm² - barra 12 metros|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "* FERRO 6mm²  -  BARRA 12 METROS",
+   "unidade": "PÇ"
+  },
+  {
+   "id": 377,
+   "identity_key": "desc:* pedra brita nº 1 - lata com 18 litros|un.",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "* PEDRA BRITA Nº 1 - LATA COM 18 LITROS",
+   "unidade": "UN."
+  },
+  {
+   "id": 378,
+   "identity_key": "desc:* tijolo 6 furos|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "* TIJOLO 6 FUROS",
+   "unidade": "pç"
+  },
+  {
+   "id": 379,
+   "identity_key": "desc:* tinta branca tipo vedante 3600ml|un.",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "* TINTA BRANCA TIPO VEDANTE 3600ml",
+   "unidade": "UN."
+  },
+  {
+   "id": 380,
+   "identity_key": "desc:* vedante 1000ml|un.",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "* VEDANTE 1000ml",
+   "unidade": "UN."
+  },
+  {
+   "id": 381,
+   "identity_key": "desc:terminal de compressao 16mm²|pc",
+   "cod_sap": "",
+   "cod_lider7": "4331",
+   "descricao": "TERMINAL DE COMPRESSÃO 16mm²",
+   "unidade": "pç"
+  },
+  {
+   "id": 382,
+   "identity_key": "desc:terminal latao 16 mm²|pc",
+   "cod_sap": "",
+   "cod_lider7": "4014",
+   "descricao": "TERMINAL LATÃO 16 mm²",
+   "unidade": "pç"
+  },
+  {
+   "id": 383,
+   "identity_key": "desc:terminal latao 25 mm²|pc",
+   "cod_sap": "",
+   "cod_lider7": "3962",
+   "descricao": "TERMINAL LATÃO 25 mm²",
+   "unidade": "pç"
+  },
+  {
+   "id": 384,
+   "identity_key": "desc:terminal latao 35 mm²|pc",
+   "cod_sap": "",
+   "cod_lider7": "4177",
+   "descricao": "TERMINAL LATÃO 35 mm²",
+   "unidade": "pç"
+  },
+  {
+   "id": 385,
+   "identity_key": "desc:terminal latao 50 mm²|pc",
+   "cod_sap": "",
+   "cod_lider7": "4013",
+   "descricao": "TERMINAL LATÃO 50 mm²",
+   "unidade": "pç"
+  },
+  {
+   "id": 386,
+   "identity_key": "desc:terminal latao 70 mm²|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "TERMINAL LATÃO 70 mm²",
+   "unidade": "pç"
+  },
+  {
+   "id": 387,
+   "identity_key": "desc:terminal latao 95 mm²|pc",
+   "cod_sap": "",
+   "cod_lider7": "4119",
+   "descricao": "TERMINAL LATÃO 95 mm²",
+   "unidade": "pç"
+  },
+  {
+   "id": 388,
+   "identity_key": "desc:terminal latao 120 mm²|pc",
+   "cod_sap": "",
+   "cod_lider7": "4120",
+   "descricao": "TERMINAL LATÃO 120 mm²",
+   "unidade": "pç"
+  },
+  {
+   "id": 389,
+   "identity_key": "desc:terminal latao 185 mm²|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "TERMINAL LATÃO 185 mm²",
+   "unidade": "pç"
+  },
+  {
+   "id": 390,
+   "identity_key": "desc:terminal latao 240 mm²|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "TERMINAL LATÃO 240 mm²",
+   "unidade": "pç"
+  },
+  {
+   "id": 400,
+   "identity_key": "sap:623921",
+   "cod_sap": "623921",
+   "cod_lider7": "",
+   "descricao": "CABO, ISOLADO, COBRE, SINGELO, BITOLA 10 MM2, PRETO, 0,6/1 KV",
+   "unidade": "m"
+  },
+  {
+   "id": 419,
+   "identity_key": "desc:cabo, eletrico protegido, alum., 95 mm2, polietileno reticulado (xlpe), 4.0 kv|m",
+   "cod_sap": "126",
+   "cod_lider7": "",
+   "descricao": "CABO, ELETRICO PROTEGIDO, ALUM., 95 MM2, POLIETILENO RETICULADO (XLPE),  4.0 KV",
+   "unidade": "m"
+  },
+  {
+   "id": 420,
+   "identity_key": "desc:cabo, cobre, coberto, xlpe, 16 mm2, 15 kv, isolacao na cor cinza|m",
+   "cod_sap": "590294",
+   "cod_lider7": "3522",
+   "descricao": "CABO, COBRE, COBERTO, XLPE, 16 MM2, 15 KV, ISOLACAO NA COR CINZA",
+   "unidade": "m"
+  },
+  {
+   "id": 463,
+   "identity_key": "desc:cabo de conexao do tp com a caixa de controle|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "CABO DE CONEXÃO DO TP COM A CAIXA DE CONTROLE",
+   "unidade": "PÇ"
+  },
+  {
+   "id": 464,
+   "identity_key": "desc:transformador, distribuicao, monofasico, 5 kva, 15 kv, -7967 v - 254/127 v|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "TRANSFORMADOR, DISTRIBUICAO, MONOFASICO, 5 KVA, 15 KV,  -7967 V - 254/127 V",
+   "unidade": "PÇ"
+  },
+  {
+   "id": 465,
+   "identity_key": "sap:90067",
+   "cod_sap": "90067",
+   "cod_lider7": "",
+   "descricao": "TRANSFORMADOR, DISTRIBUICAO, MONOFASICO, 5 KVA, 36,2 KV, -19.919 V- 254/127 V",
+   "unidade": "PÇ"
+  },
+  {
+   "id": 528,
+   "identity_key": "desc:cabo, protegido, aluminio, 35 mm2, polietil. reticulado (xlpe), 4.0 kv|m",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Cabo, protegido, alumínio, 35 mm2, polietil. reticulado (XLPE), 4.0 KV",
+   "unidade": "m"
+  },
+  {
+   "id": 529,
+   "identity_key": "desc:cabo, protegido, aluminio, 50 mm2, polietil. reticulado (xlpe), 4.0 kv|m",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Cabo, protegido, alumínio, 50 mm2, polietil. reticulado (XLPE), 4.0 KV",
+   "unidade": "m"
+  },
+  {
+   "id": 530,
+   "identity_key": "desc:cabo, protegido, aluminio, 95 mm2, polietil. reticulado (xlpe), 4.0 kv|m",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Cabo, protegido, alumínio, 95 mm2, polietil. reticulado (XLPE), 4.0 KV",
+   "unidade": "m"
+  },
+  {
+   "id": 531,
+   "identity_key": "desc:cabo, protegido, aluminio, 150 mm2, polietil. reticulado (xlpe), 4.0 kv|m",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Cabo, protegido, alumínio, 150 mm2, polietil. reticulado (XLPE), 4.0 KV",
+   "unidade": "m"
+  },
+  {
+   "id": 539,
+   "identity_key": "desc:cabo, cobre isolado singelo, 16 mm2, 750 v, preto|m",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Cabo, cobre isolado singelo, 16 mm2, 750 V, preto",
+   "unidade": "M"
+  },
+  {
+   "id": 599,
+   "identity_key": "desc:cabo aluminio multiplexado quad. xlpe 3x1x35+35mm²|m",
+   "cod_sap": "",
+   "cod_lider7": "3531",
+   "descricao": "Cabo aluminio multiplexado quad. Xlpe 3x1x35+35mm²",
+   "unidade": "M"
+  },
+  {
+   "id": 600,
+   "identity_key": "desc:cabo aluminio multiplexado quad. xlpe 3x1x70+70mm²|m",
+   "cod_sap": "",
+   "cod_lider7": "3532",
+   "descricao": "Cabo aluminio multiplexado quad. Xlpe 3x1x70+70mm²",
+   "unidade": "M"
+  },
+  {
+   "id": 601,
+   "identity_key": "desc:cabo aluminio multiplexado quad. xlpe 3x1x120+70mm²|m",
+   "cod_sap": "",
+   "cod_lider7": "3530",
+   "descricao": "Cabo aluminio multiplexado quad. Xlpe 3x1x120+70mm²",
+   "unidade": "M"
+  },
+  {
+   "id": 602,
+   "identity_key": "desc:cabo aluminio quadriplex xlpe 10mm²|m",
+   "cod_sap": "",
+   "cod_lider7": "4501",
+   "descricao": "Cabo Aluminio quadriplex XLPE 10mm²",
+   "unidade": "m"
+  },
+  {
+   "id": 603,
+   "identity_key": "desc:cabo aluminio quadriplex xlpe 16mm²|m",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Cabo Aluminio quadriplex XLPE 16mm²",
+   "unidade": "m"
+  },
+  {
+   "id": 604,
+   "identity_key": "desc:cabo aluminio quadriplex xlpe 25mm²|m",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Cabo Aluminio quadriplex XLPE 25mm²",
+   "unidade": "m"
+  },
+  {
+   "id": 605,
+   "identity_key": "desc:cabo aluminio quadriplex xlpe 50mm²|m",
+   "cod_sap": "",
+   "cod_lider7": "3531",
+   "descricao": "Cabo Aluminio quadriplex XLPE 50mm²",
+   "unidade": "m"
+  },
+  {
+   "id": 606,
+   "identity_key": "desc:cabo aluminio quadriplex xlpe 35mm²|m",
+   "cod_sap": "",
+   "cod_lider7": "3532",
+   "descricao": "Cabo Aluminio quadriplex XLPE 35mm²",
+   "unidade": "m"
+  },
+  {
+   "id": 607,
+   "identity_key": "desc:cabo aluminio quadriplex xlpe 70mm²|m",
+   "cod_sap": "",
+   "cod_lider7": "3530",
+   "descricao": "Cabo Aluminio quadriplex XLPE 70mm²",
+   "unidade": "m"
+  },
+  {
+   "id": 608,
+   "identity_key": "desc:cabo aluminio triplex xlpe 10 mm|pc",
+   "cod_sap": "",
+   "cod_lider7": "3512",
+   "descricao": "Cabo Aluminio triplex Xlpe 10 mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 609,
+   "identity_key": "desc:cabo aluminio triplex xlpe 16 mm|pc",
+   "cod_sap": "",
+   "cod_lider7": "3513",
+   "descricao": "Cabo Aluminio triplex Xlpe 16 mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 610,
+   "identity_key": "desc:cabo aluminio triplex xlpe 25 mm|pc",
+   "cod_sap": "",
+   "cod_lider7": "3514",
+   "descricao": "Cabo Aluminio triplex Xlpe 25 mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 611,
+   "identity_key": "desc:cabo aluminio-ca, coberto com polientileno reticulado 35mm²|kg",
+   "cod_sap": "",
+   "cod_lider7": "4234",
+   "descricao": "Cabo alumínio-CA, coberto com polientileno reticulado 35mm²",
+   "unidade": "kg"
+  },
+  {
+   "id": 612,
+   "identity_key": "desc:cabo aluminio-ca, coberto com polientileno reticulado 50mm²|kg",
+   "cod_sap": "",
+   "cod_lider7": "4235",
+   "descricao": "Cabo alumínio-CA, coberto com polientileno reticulado 50mm²",
+   "unidade": "kg"
+  },
+  {
+   "id": 613,
+   "identity_key": "desc:cabo aluminio-ca, coberto com polientileno reticulado 95mm²|kg",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Cabo alumínio-CA, coberto com polientileno reticulado 95mm²",
+   "unidade": "kg"
+  },
+  {
+   "id": 614,
+   "identity_key": "desc:cabo cu flex epr 25mm 0,6/1kv (rede compacta)|m",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Cabo cu flex EPR 25mm 0,6/1kv (rede compacta)",
+   "unidade": "M"
+  },
+  {
+   "id": 615,
+   "identity_key": "desc:cabo de aco galvanizado - 6,4mm (cordoalha)|kg",
+   "cod_sap": "",
+   "cod_lider7": "3516",
+   "descricao": "Cabo de aço galvanizado - 6,4mm (cordoalha)",
+   "unidade": "kg"
+  },
+  {
+   "id": 617,
+   "identity_key": "desc:cabo de aco zincada 9,5mm form 7 fios (cordoalha)|kg",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Cabo de aço zincada 9,5mm form 7 fios (cordoalha)",
+   "unidade": "kg"
+  },
+  {
+   "id": 619,
+   "identity_key": "desc:cabo de aluminio nu 1/0 caa awg|pc",
+   "cod_sap": "",
+   "cod_lider7": "3519",
+   "descricao": "Cabo de aluminio nu 1/0 CAA AWG",
+   "unidade": "pç"
+  },
+  {
+   "id": 620,
+   "identity_key": "desc:cabo de aluminio nu 4 caa - awg|pc",
+   "cod_sap": "",
+   "cod_lider7": "3520",
+   "descricao": "Cabo de aluminio nu 4 CAA - AWG",
+   "unidade": "pç"
+  },
+  {
+   "id": 621,
+   "identity_key": "desc:cabo de aluminio nu 4/0 caa awg|pc",
+   "cod_sap": "",
+   "cod_lider7": "3521",
+   "descricao": "Cabo de aluminio nu 4/0 CAA AWG",
+   "unidade": "pç"
+  },
+  {
+   "id": 622,
+   "identity_key": "desc:cabo de cobre coberto com xlpe - 15kv 16mm|pc",
+   "cod_sap": "",
+   "cod_lider7": "3522",
+   "descricao": "Cabo de cobre coberto com XLPE - 15kv 16mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 623,
+   "identity_key": "desc:cabo de cobre isolado 1kv, 120mm²|m",
+   "cod_sap": "",
+   "cod_lider7": "3524",
+   "descricao": "Cabo de cobre isolado 1kv, 120mm²",
+   "unidade": "m"
+  },
+  {
+   "id": 624,
+   "identity_key": "desc:cabo de cobre isolado 1kv, 150mm²|m",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Cabo de cobre isolado 1kv, 150mm²",
+   "unidade": "m"
+  },
+  {
+   "id": 638,
+   "identity_key": "desc:cabo de cobre flex. isol. 750v - 16mm - azul|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Cabo de cobre flex. isol. 750V - 16mm - azul",
+   "unidade": "pç"
+  },
+  {
+   "id": 639,
+   "identity_key": "desc:cabo de cobre flex. isol. 750v - 2,5mm - amarelo|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Cabo de cobre flex. isol. 750V - 2,5mm - amarelo",
+   "unidade": "pç"
+  },
+  {
+   "id": 640,
+   "identity_key": "desc:cabo de cobre flex. isol. 750v - 2,5mm - vermelho|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Cabo de cobre flex. isol. 750V - 2,5mm - vermelho",
+   "unidade": "pç"
+  },
+  {
+   "id": 641,
+   "identity_key": "desc:cabo de cobre flex. isol. 750v - 25mm - azul|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Cabo de cobre flex. Isol. 750V - 25mm - AZUL",
+   "unidade": "pç"
+  },
+  {
+   "id": 643,
+   "identity_key": "desc:cabo de cobre flexivel isolado 1kv - 35mm|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Cabo de cobre flexivel isolado 1KV -  35mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 644,
+   "identity_key": "desc:cabo de cobre flexivel isolado 1kv 120mm|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Cabo de cobre flexivel isolado 1kv 120mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 645,
+   "identity_key": "desc:cabo de cobre flexivel isolado 1kv 240mm|pc",
+   "cod_sap": "",
+   "cod_lider7": "3525",
+   "descricao": "Cabo de cobre flexivel isolado 1kv 240mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 646,
+   "identity_key": "desc:cabo de cobre flexivel isolado 1kv 25mm|pc",
+   "cod_sap": "",
+   "cod_lider7": "3524",
+   "descricao": "Cabo de cobre flexivel isolado 1kv 25mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 647,
+   "identity_key": "desc:cabo de cobre flexivel isolado 1kv 50mm|pc",
+   "cod_sap": "",
+   "cod_lider7": "3527",
+   "descricao": "Cabo de cobre flexivel isolado 1kv 50mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 648,
+   "identity_key": "desc:cabo de cobre flexivel isolado 1kv 70mm|pc",
+   "cod_sap": "",
+   "cod_lider7": "3528",
+   "descricao": "Cabo de cobre flexivel isolado 1kv 70mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 649,
+   "identity_key": "desc:cabo de cobre flexivel isolado 1kv 95mm|pc",
+   "cod_sap": "",
+   "cod_lider7": "3529",
+   "descricao": "Cabo de cobre flexivel isolado 1kv 95mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 650,
+   "identity_key": "desc:cabo de cobre flexivel isolado 750v - 25mm|pc",
+   "cod_sap": "",
+   "cod_lider7": "3954",
+   "descricao": "Cabo de cobre flexivel isolado 750V -  25mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 651,
+   "identity_key": "desc:cabo de cobre nu- 25mm|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Cabo de cobre nu-  25mm",
+   "unidade": "pç"
+  },
+  {
+   "id": 652,
+   "identity_key": "desc:cabo isolado cobre singelo 35mm², preto, 750v, pvc|m",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Cabo isolado cobre singelo 35mm², preto, 750V, PVC",
+   "unidade": "m"
+  },
+  {
+   "id": 653,
+   "identity_key": "desc:cabo isolado cobre singelo 70mm², preto, 750v, pvc|m",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Cabo isolado cobre singelo 70mm², preto, 750V, PVC",
+   "unidade": "m"
+  },
+  {
+   "id": 654,
+   "identity_key": "desc:cabo isolado cobre singelo 120mm², preto, 750v, pvc|m",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Cabo isolado cobre singelo 120mm², preto, 750V, PVC",
+   "unidade": "m"
+  },
+  {
+   "id": 655,
+   "identity_key": "desc:cabo isolado cobre singelo 150mm², preto, 750v, pvc|m",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Cabo isolado cobre singelo 150mm², preto, 750V, PVC",
+   "unidade": "m"
+  },
+  {
+   "id": 1004,
+   "identity_key": "desc:transformador trifasico - 13.8kv -112,5kva -220/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "3695",
+   "descricao": "Transformador Trifásico - 13.8KV -112,5KVA -220/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 1005,
+   "identity_key": "desc:transformador trifasico - 34.5kv-112,5kva -220/127v|pc",
+   "cod_sap": "",
+   "cod_lider7": "3703",
+   "descricao": "Transformador Trifásico - 34.5KV-112,5KVA -220/127V",
+   "unidade": "pç"
+  },
+  {
+   "id": 1160,
+   "identity_key": "desc:cabo d aluminio nu 2caa|kg",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Cabo d aluminio nu 2CAA",
+   "unidade": "kg"
+  },
+  {
+   "id": 1161,
+   "identity_key": "desc:cabo d aluminio nu 1/0caa|kg",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Cabo d aluminio nu 1/0CAA",
+   "unidade": "kg"
+  },
+  {
+   "id": 1162,
+   "identity_key": "desc:cabo d aluminio nu 4/0caa|kg",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Cabo d aluminio nu 4/0CAA",
+   "unidade": "kg"
+  },
+  {
+   "id": 1163,
+   "identity_key": "desc:cabo d aluminio nu 336caa|kg",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Cabo d aluminio nu 336CAA",
+   "unidade": "kg"
+  },
+  {
+   "id": 1164,
+   "identity_key": "desc:cabo de cobre coberto com xlpe - 16mm²|m",
+   "cod_sap": "",
+   "cod_lider7": "3522",
+   "descricao": "Cabo de cobre coberto com XLPE - 16mm²",
+   "unidade": "M"
+  },
+  {
+   "id": 1165,
+   "identity_key": "desc:cabo de alumnio protegido com xlpe - 16mm²|m",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Cabo de alumnio protegido com XLPE -  16mm²",
+   "unidade": "M"
+  },
+  {
+   "id": 1166,
+   "identity_key": "desc:cabo de cobre flexivel 10m² para saida de para-raios|m",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Cabo de cobre flexível 10m² para saída de para-raios",
+   "unidade": "m"
+  },
+  {
+   "id": 1167,
+   "identity_key": "desc:cabo de cobre nu 50mm² para malha de terra|m",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Cabo de cobre nú 50mm² para malha de terra",
+   "unidade": "m"
+  },
+  {
+   "id": 1168,
+   "identity_key": "desc:cabo de cobre pp isolado 2 x 6mm²|m",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Cabo de cobre PP isolado 2 x 6mm²",
+   "unidade": "m"
+  },
+  {
+   "id": 1169,
+   "identity_key": "desc:cabo de aco galvanizado - 6,4mm² (cordoalha p/ aterramento)|m",
+   "cod_sap": "",
+   "cod_lider7": "3516",
+   "descricao": "Cabo de aço galvanizado - 6,4mm²  (cordoalha p/ aterramento)",
+   "unidade": "m"
+  },
+  {
+   "id": 1231,
+   "identity_key": "desc:transformador monofasico 5kva - 19,92kv|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Transformador monofásico 5kVA - 19,92KV",
+   "unidade": "pç"
+  }
+ ]
+}

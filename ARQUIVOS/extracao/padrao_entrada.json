@@ -1,0 +1,776 @@
+[
+  {
+    "id": 305,
+    "cod_sap": "",
+    "cod_lider7": "3498",
+    "descricao": "ARAME GALVANIZADO Nº 12",
+    "unidade": "Kg",
+    "row": 323,
+    "qtd_padrao": 2
+  },
+  {
+    "id": 306,
+    "cod_sap": "",
+    "cod_lider7": "4031",
+    "descricao": "ARRUELA P/ ELETRODUTO DE AÇO 50 mm²",
+    "unidade": "pç",
+    "row": 324,
+    "qtd_padrao": 2
+  },
+  {
+    "id": 307,
+    "cod_sap": "",
+    "cod_lider7": "3503",
+    "descricao": "ARRUELA P/ ELETRODUTO DE AÇO 65 mm²",
+    "unidade": "pç",
+    "row": 325,
+    "qtd_padrao": 2
+  },
+  {
+    "id": 308,
+    "cod_sap": "",
+    "cod_lider7": "4032",
+    "descricao": "ARRUELA P/ ELETRODUTO DE AÇO 80 mm²",
+    "unidade": "pç",
+    "row": 326,
+    "qtd_padrao": 2
+  },
+  {
+    "id": 309,
+    "cod_sap": "",
+    "cod_lider7": "3504",
+    "descricao": "ARRUELA P/ ELETRODUTO DE AÇO 100 mm²",
+    "unidade": "pç",
+    "row": 327,
+    "qtd_padrao": 2
+  },
+  {
+    "id": 310,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "BUCHA P/ ELETRODUTO DE AÇO 50 mm²",
+    "unidade": "pç",
+    "row": 328,
+    "qtd_padrao": 2
+  },
+  {
+    "id": 311,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "BUCHA P/ ELETRODUTO DE AÇO 65 mm²",
+    "unidade": "pç",
+    "row": 329,
+    "qtd_padrao": 2
+  },
+  {
+    "id": 312,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "BUCHA P/ ELETRODUTO DE AÇO 80 mm²",
+    "unidade": "pç",
+    "row": 330,
+    "qtd_padrao": 2
+  },
+  {
+    "id": 313,
+    "cod_sap": "",
+    "cod_lider7": "4026",
+    "descricao": "BUCHA P/ ELETRODUTO DE AÇO 100 mm²",
+    "unidade": "pç",
+    "row": 331,
+    "qtd_padrao": 2
+  },
+  {
+    "id": 314,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "CABEÇOTE PARA ELETRODUTO DE AÇO 50 mm²",
+    "unidade": "pç",
+    "row": 332,
+    "qtd_padrao": 1
+  },
+  {
+    "id": 315,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "CABEÇOTE PARA ELETRODUTO DE AÇO 65 mm²",
+    "unidade": "pç",
+    "row": 333,
+    "qtd_padrao": 4
+  },
+  {
+    "id": 316,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "CABEÇOTE PARA ELETRODUTO DE AÇO 80 mm²",
+    "unidade": "pç",
+    "row": 334,
+    "qtd_padrao": 1
+  },
+  {
+    "id": 317,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "CABEÇOTE PARA ELETRODUTO DE AÇO 100 mm²",
+    "unidade": "pç",
+    "row": 335,
+    "qtd_padrao": 1
+  },
+  {
+    "id": 318,
+    "cod_sap": "",
+    "cod_lider7": "4209",
+    "descricao": "CABO DE COBRE ISOLADO 1KV, 16 mm²",
+    "unidade": "pç",
+    "row": 336,
+    "qtd_padrao": 10
+  },
+  {
+    "id": 319,
+    "cod_sap": "",
+    "cod_lider7": "3526",
+    "descricao": "CABO DE COBRE ISOLADO 1KV, 25 mm²",
+    "unidade": "m",
+    "row": 337,
+    "qtd_padrao": 10
+  },
+  {
+    "id": 320,
+    "cod_sap": "",
+    "cod_lider7": "4210",
+    "descricao": "CABO DE COBRE ISOLADO 1KV, 35 mm²",
+    "unidade": "m",
+    "row": 338,
+    "qtd_padrao": 10
+  },
+  {
+    "id": 321,
+    "cod_sap": "",
+    "cod_lider7": "3527",
+    "descricao": "CABO DE COBRE ISOLADO 1KV, 50 mm²",
+    "unidade": "m",
+    "row": 339,
+    "qtd_padrao": 80
+  },
+  {
+    "id": 322,
+    "cod_sap": "",
+    "cod_lider7": "3528",
+    "descricao": "CABO DE COBRE ISOLADO 1KV, 70 mm²",
+    "unidade": "m",
+    "row": 340,
+    "qtd_padrao": 30
+  },
+  {
+    "id": 323,
+    "cod_sap": "",
+    "cod_lider7": "3529",
+    "descricao": "CABO DE COBRE ISOLADO 1KV, 95 mm²",
+    "unidade": "m",
+    "row": 341,
+    "qtd_padrao": 80
+  },
+  {
+    "id": 324,
+    "cod_sap": "",
+    "cod_lider7": "3524",
+    "descricao": "CABO DE COBRE ISOLADO 1KV, 120 mm²",
+    "unidade": "m",
+    "row": 342,
+    "qtd_padrao": 80
+  },
+  {
+    "id": 325,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "CABO DE COBRE ISOLADO 1KV, 150 mm²",
+    "unidade": "",
+    "row": 343,
+    "qtd_padrao": null
+  },
+  {
+    "id": 326,
+    "cod_sap": "",
+    "cod_lider7": "4262",
+    "descricao": "CABO DE COBRE ISOLADO 1KV, 185 mm²",
+    "unidade": "m",
+    "row": 344,
+    "qtd_padrao": 120
+  },
+  {
+    "id": 327,
+    "cod_sap": "",
+    "cod_lider7": "3525",
+    "descricao": "CABO DE COBRE ISOLADO 1KV, 240 mm²",
+    "unidade": "m",
+    "row": 345,
+    "qtd_padrao": 30
+  },
+  {
+    "id": 328,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "CABO DE COBRE NÚ 16mm²",
+    "unidade": "m",
+    "row": 346,
+    "qtd_padrao": 0.3
+  },
+  {
+    "id": 329,
+    "cod_sap": "",
+    "cod_lider7": "4114",
+    "descricao": "CABO DE COBRE NÚ 25mm²",
+    "unidade": "m",
+    "row": 347,
+    "qtd_padrao": 7
+  },
+  {
+    "id": 330,
+    "cod_sap": "",
+    "cod_lider7": "4115",
+    "descricao": "CAIXA DE CONCRETO 50 X 50",
+    "unidade": "pç",
+    "row": 348,
+    "qtd_padrao": 1
+  },
+  {
+    "id": 331,
+    "cod_sap": "",
+    "cod_lider7": "3533",
+    "descricao": "CAIXAS DE MEDIÇÃO 3 em 1 ( 62X49, 62X56 e 62 X 40 ) SEM BARRAMENTO",
+    "unidade": "pç",
+    "row": 349,
+    "qtd_padrao": 1
+  },
+  {
+    "id": 332,
+    "cod_sap": "",
+    "cod_lider7": "4342",
+    "descricao": "CAIXAS DE MEDIÇÃO 3 em 1 ( 62X49, 62X56 e 82 X 40 ) COM BARRAMENTO",
+    "unidade": "pç",
+    "row": 350,
+    "qtd_padrao": 1
+  },
+  {
+    "id": 333,
+    "cod_sap": "",
+    "cod_lider7": "4364",
+    "descricao": "CAIXA MEDIÇÃO 100 X 60 X 2,25cm (MEDIÇÃO DIRETA)",
+    "unidade": "pç",
+    "row": 351,
+    "qtd_padrao": 1
+  },
+  {
+    "id": 334,
+    "cod_sap": "",
+    "cod_lider7": "4012",
+    "descricao": "CONECTOR LATÃO 25 MM",
+    "unidade": "pç",
+    "row": 352,
+    "qtd_padrao": null
+  },
+  {
+    "id": 335,
+    "cod_sap": "",
+    "cod_lider7": "4104",
+    "descricao": "CONECTOR CUNHA CN 4",
+    "unidade": "pç",
+    "row": 353,
+    "qtd_padrao": 1
+  },
+  {
+    "id": 336,
+    "cod_sap": "",
+    "cod_lider7": "4133",
+    "descricao": "CONECTOR CUNHA CN 6",
+    "unidade": "pç",
+    "row": 354,
+    "qtd_padrao": 1
+  },
+  {
+    "id": 337,
+    "cod_sap": "",
+    "cod_lider7": "3553",
+    "descricao": "CONECTOR CUNHA CN 10",
+    "unidade": "pç",
+    "row": 355,
+    "qtd_padrao": 1
+  },
+  {
+    "id": 338,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "CONECTOR CUNHA CN 11",
+    "unidade": "pç",
+    "row": 356,
+    "qtd_padrao": 1
+  },
+  {
+    "id": 339,
+    "cod_sap": "",
+    "cod_lider7": "3554",
+    "descricao": "CONECTOR CUNHA CN 12",
+    "unidade": "pç",
+    "row": 357,
+    "qtd_padrao": 1
+  },
+  {
+    "id": 340,
+    "cod_sap": "",
+    "cod_lider7": "3555",
+    "descricao": "CONECTOR CUNHA CN 13",
+    "unidade": "pç",
+    "row": 358,
+    "qtd_padrao": 1
+  },
+  {
+    "id": 341,
+    "cod_sap": "",
+    "cod_lider7": "4121",
+    "descricao": "CONECTOR CUNHA CN 14",
+    "unidade": "pç",
+    "row": 359,
+    "qtd_padrao": 1
+  },
+  {
+    "id": 342,
+    "cod_sap": "",
+    "cod_lider7": "4122",
+    "descricao": "CONECTOR CUNHA CN 15",
+    "unidade": "pç",
+    "row": 360,
+    "qtd_padrao": 1
+  },
+  {
+    "id": 343,
+    "cod_sap": "",
+    "cod_lider7": "3569",
+    "descricao": "CONECTOR P/ HASTE ATERRAMENTO TH 5/8\"",
+    "unidade": "pç",
+    "row": 361,
+    "qtd_padrao": 1
+  },
+  {
+    "id": 344,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "CURVA DE 90° PARA ELETRODUTO DE AÇO 50 mm²",
+    "unidade": "pç",
+    "row": 362,
+    "qtd_padrao": 2
+  },
+  {
+    "id": 345,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "CURVA DE 90° PARA ELETRODUTO DE AÇO 65 mm²",
+    "unidade": "pç",
+    "row": 363,
+    "qtd_padrao": 2
+  },
+  {
+    "id": 346,
+    "cod_sap": "",
+    "cod_lider7": "4350",
+    "descricao": "CURVA DE 90° PARA ELETRODUTO DE AÇO 80 mm²",
+    "unidade": "pç",
+    "row": 364,
+    "qtd_padrao": 2
+  },
+  {
+    "id": 347,
+    "cod_sap": "",
+    "cod_lider7": "4349",
+    "descricao": "CURVA DE 90° PARA ELETRODUTO DE AÇO 100 mm²",
+    "unidade": "pç",
+    "row": 365,
+    "qtd_padrao": 2
+  },
+  {
+    "id": 348,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "DISJUNTOR TRIPOLAR 70 AMP.",
+    "unidade": "pç",
+    "row": 366,
+    "qtd_padrao": 1
+  },
+  {
+    "id": 349,
+    "cod_sap": "",
+    "cod_lider7": "4511",
+    "descricao": "DISJUNTOR TRIPOLAR 100 AMP.",
+    "unidade": "pç",
+    "row": 367,
+    "qtd_padrao": 1
+  },
+  {
+    "id": 350,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "DISJUNTOR TRIPOLAR 120 AMP.",
+    "unidade": "pç",
+    "row": 368,
+    "qtd_padrao": 1
+  },
+  {
+    "id": 351,
+    "cod_sap": "",
+    "cod_lider7": "4231",
+    "descricao": "DISJUNTOR TRIPOLAR 125 AMP.",
+    "unidade": "pç",
+    "row": 369,
+    "qtd_padrao": 1
+  },
+  {
+    "id": 352,
+    "cod_sap": "",
+    "cod_lider7": "4079",
+    "descricao": "DISJUNTOR TRIPOLAR 175 AMP.",
+    "unidade": "pç",
+    "row": 370,
+    "qtd_padrao": 1
+  },
+  {
+    "id": 353,
+    "cod_sap": "",
+    "cod_lider7": "4058",
+    "descricao": "DISJUNTOR TRIPOLAR 200 AMP.",
+    "unidade": "pç",
+    "row": 371,
+    "qtd_padrao": 1
+  },
+  {
+    "id": 354,
+    "cod_sap": "",
+    "cod_lider7": "4233",
+    "descricao": "DISJUNTOR TRIPOLAR 225 AMP.",
+    "unidade": "pç",
+    "row": 372,
+    "qtd_padrao": 1
+  },
+  {
+    "id": 355,
+    "cod_sap": "",
+    "cod_lider7": "4116",
+    "descricao": "DISJUNTOR TRIPOLAR 300 AMP.",
+    "unidade": "pç",
+    "row": 373,
+    "qtd_padrao": 1
+  },
+  {
+    "id": 356,
+    "cod_sap": "",
+    "cod_lider7": "4256",
+    "descricao": "DISJUNTOR TRIPOLAR 350 AMP.",
+    "unidade": "pç",
+    "row": 374,
+    "qtd_padrao": 1
+  },
+  {
+    "id": 357,
+    "cod_sap": "",
+    "cod_lider7": "4117",
+    "descricao": "DISJUNTOR TRIPOLAR 400 AMP.",
+    "unidade": "pç",
+    "row": 375,
+    "qtd_padrao": 1
+  },
+  {
+    "id": 358,
+    "cod_sap": "",
+    "cod_lider7": "4255",
+    "descricao": "DISJUNTOR TRIPOLAR 450 AMP.",
+    "unidade": "pç",
+    "row": 376,
+    "qtd_padrao": 1
+  },
+  {
+    "id": 359,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "DISJUNTOR TRIPOLAR 500 AMP.",
+    "unidade": "pç",
+    "row": 377,
+    "qtd_padrao": 1
+  },
+  {
+    "id": 360,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "DISJUNTOR TERMOMAGNÉTICO TRIPOLAR 600 A",
+    "unidade": "pç",
+    "row": 378,
+    "qtd_padrao": 1
+  },
+  {
+    "id": 361,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "DISJUNTOR TRIPOLAR 800 AMP.",
+    "unidade": "pç",
+    "row": 379,
+    "qtd_padrao": 1
+  },
+  {
+    "id": 362,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "ELETRODUTO DE AÇO 6000mm X 50mm",
+    "unidade": "pç",
+    "row": 380,
+    "qtd_padrao": 1
+  },
+  {
+    "id": 363,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "ELETRODUTO DE AÇO 6000mm X 65mm",
+    "unidade": "pç",
+    "row": 381,
+    "qtd_padrao": 1
+  },
+  {
+    "id": 364,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "ELETRODUTO DE AÇO 6000mm X 80mm",
+    "unidade": "pç",
+    "row": 382,
+    "qtd_padrao": 1
+  },
+  {
+    "id": 365,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "ELETRODUTO DE AÇO 6000mm X 100mm",
+    "unidade": "pç",
+    "row": 383,
+    "qtd_padrao": 1
+  },
+  {
+    "id": 366,
+    "cod_sap": "",
+    "cod_lider7": "3981",
+    "descricao": "HASTE ATERR.SIMPLES 5/8X2,40M",
+    "unidade": "pç",
+    "row": 384,
+    "qtd_padrao": 1
+  },
+  {
+    "id": 367,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "LUVA PARA ELETRODUTO DE AÇO 50mm",
+    "unidade": "pç",
+    "row": 385,
+    "qtd_padrao": 2
+  },
+  {
+    "id": 368,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "LUVA PARA ELETRODUTO DE AÇO 65mm",
+    "unidade": "pç",
+    "row": 386,
+    "qtd_padrao": 2
+  },
+  {
+    "id": 369,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "LUVA PARA ELETRODUTO DE AÇO 80mm",
+    "unidade": "pç",
+    "row": 387,
+    "qtd_padrao": 3
+  },
+  {
+    "id": 370,
+    "cod_sap": "",
+    "cod_lider7": "4492",
+    "descricao": "LUVA PARA ELETRODUTO DE AÇO 100mm",
+    "unidade": "pç",
+    "row": 388,
+    "qtd_padrao": 3
+  },
+  {
+    "id": 371,
+    "cod_sap": "",
+    "cod_lider7": "3969",
+    "descricao": "MASSA P/ CALAFETAR",
+    "unidade": "pç",
+    "row": 389,
+    "qtd_padrao": 1
+  },
+  {
+    "id": 372,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "MURETA DE ALVENARIA ( ALT. 2 M,  LARG. 1 M,  PROF. 0,40 M )",
+    "unidade": "UN.",
+    "row": 390,
+    "qtd_padrao": 1
+  },
+  {
+    "id": 373,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "MURETA DE ALVENARIA ( ALT. 2,20 M,  LARG. 2,20 M,  PROF. 0,40 M )",
+    "unidade": "UN.",
+    "row": 391,
+    "qtd_padrao": 1
+  },
+  {
+    "id": 374,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "* AREIA FINA MÉDIA",
+    "unidade": "M³",
+    "row": 392,
+    "qtd_padrao": 1
+  },
+  {
+    "id": 375,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "* CIMENTO 50Kg",
+    "unidade": "SC",
+    "row": 393,
+    "qtd_padrao": 8
+  },
+  {
+    "id": 376,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "* FERRO 6mm²  -  BARRA 12 METROS",
+    "unidade": "PÇ",
+    "row": 394,
+    "qtd_padrao": 2
+  },
+  {
+    "id": 377,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "* PEDRA BRITA Nº 1 - LATA COM 18 LITROS",
+    "unidade": "UN.",
+    "row": 395,
+    "qtd_padrao": 10
+  },
+  {
+    "id": 378,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "* TIJOLO 6 FUROS",
+    "unidade": "pç",
+    "row": 396,
+    "qtd_padrao": 300
+  },
+  {
+    "id": 379,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "* TINTA BRANCA TIPO VEDANTE 3600ml",
+    "unidade": "UN.",
+    "row": 397,
+    "qtd_padrao": 2
+  },
+  {
+    "id": 380,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "* VEDANTE 1000ml",
+    "unidade": "UN.",
+    "row": 398,
+    "qtd_padrao": 1
+  },
+  {
+    "id": 381,
+    "cod_sap": "",
+    "cod_lider7": "4331",
+    "descricao": "TERMINAL DE COMPRESSÃO 16mm²",
+    "unidade": "pç",
+    "row": 399,
+    "qtd_padrao": 1
+  },
+  {
+    "id": 382,
+    "cod_sap": "",
+    "cod_lider7": "4014",
+    "descricao": "TERMINAL LATÃO 16 mm²",
+    "unidade": "pç",
+    "row": 400,
+    "qtd_padrao": 2
+  },
+  {
+    "id": 383,
+    "cod_sap": "",
+    "cod_lider7": "3962",
+    "descricao": "TERMINAL LATÃO 25 mm²",
+    "unidade": "pç",
+    "row": 401,
+    "qtd_padrao": 2
+  },
+  {
+    "id": 384,
+    "cod_sap": "",
+    "cod_lider7": "4177",
+    "descricao": "TERMINAL LATÃO 35 mm²",
+    "unidade": "pç",
+    "row": 402,
+    "qtd_padrao": 2
+  },
+  {
+    "id": 385,
+    "cod_sap": "",
+    "cod_lider7": "4013",
+    "descricao": "TERMINAL LATÃO 50 mm²",
+    "unidade": "pç",
+    "row": 403,
+    "qtd_padrao": 24
+  },
+  {
+    "id": 386,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "TERMINAL LATÃO 70 mm²",
+    "unidade": "pç",
+    "row": 404,
+    "qtd_padrao": 6
+  },
+  {
+    "id": 387,
+    "cod_sap": "",
+    "cod_lider7": "4119",
+    "descricao": "TERMINAL LATÃO 95 mm²",
+    "unidade": "pç",
+    "row": 405,
+    "qtd_padrao": 12
+  },
+  {
+    "id": 388,
+    "cod_sap": "",
+    "cod_lider7": "4120",
+    "descricao": "TERMINAL LATÃO 120 mm²",
+    "unidade": "pç",
+    "row": 406,
+    "qtd_padrao": 3
+  },
+  {
+    "id": 389,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "TERMINAL LATÃO 185 mm²",
+    "unidade": "pç",
+    "row": 407,
+    "qtd_padrao": 24
+  },
+  {
+    "id": 390,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "TERMINAL LATÃO 240 mm²",
+    "unidade": "pç",
+    "row": 408,
+    "qtd_padrao": 6
+  }
+]

@@ -1,0 +1,366 @@
+{
+  "_meta": {
+    "gerado_em": "2026-06-17",
+    "fonte_planilha": "GERAÇÃO DE MATERIAL.xlsm -> extracao/transformadores.json (ids da base V3/data/materiais.json)",
+    "fontes_norma": [
+      {
+        "doc": "NDU 005",
+        "versao": "6.0 - Julho/2026",
+        "usado": "Tabela 55 (PDF p115) faixas tri; estruturas p315-330",
+        "ressalva": "Tabela O (lista de trafos c/ SISUP, ~p330) AUSENTE no PDF local — anexo incompleto (faltam tabelas I, J, O, P)"
+      },
+      {
+        "doc": "NDU 004.1",
+        "versao": "6.0 - Dezembro/2024",
+        "usado": "Tabela 08 (PDF p57): Mono '5 a 25 kVA'; Tri <=112,5/150/225/300 kVA"
+      }
+    ],
+    "limitacao": "Comparacao no nivel de FAIXA/CLASSE (potencia, classe de tensao, secundario). Cruzamento por codigo SISUP por trafo depende da Tabela O, que falta no PDF local."
+  },
+  "resumo": {
+    "itens_transformador_planilha": 81,
+    "distribuicao_mono_tri": 77,
+    "tp_tc": 4,
+    "combos_unicos": 49
+  },
+  "planilha": {
+    "monofasico": {
+      "potencias_kva": [
+        5.0,
+        10.0,
+        15.0,
+        25.0,
+        37.5
+      ],
+      "secundario_v": [
+        "254/127"
+      ]
+    },
+    "trifasico": {
+      "potencias_kva": [
+        15.0,
+        30.0,
+        45.0,
+        75.0,
+        112.5,
+        150.0,
+        225.0,
+        300.0
+      ],
+      "secundario_v": [
+        "220/127",
+        "254/127",
+        "380/220"
+      ]
+    },
+    "classes_kv": [
+      13.8,
+      19.92,
+      34.5,
+      36.2
+    ],
+    "obs_classes": "19.92 e 36.2 kV sao tensao de fase / classe de isolamento do sistema 34.5 kV (nao sao trafos extra)."
+  },
+  "norma": {
+    "monofasico": {
+      "potencias_kva": [
+        5,
+        10,
+        15,
+        25
+      ],
+      "secundario_v": [
+        "254/127"
+      ],
+      "obs": "NDU 004.1 Tab08: '5 a 25 kVA'. 37,5 kVA nao confirmado (Tabela O ausente)."
+    },
+    "trifasico": {
+      "potencias_kva": [
+        15,
+        30,
+        45,
+        75,
+        112.5,
+        150,
+        225,
+        300
+      ],
+      "secundario_v": [
+        "220/127",
+        "380/220"
+      ]
+    },
+    "classes_kv": [
+      13.8,
+      24.2,
+      34.5
+    ]
+  },
+  "comparacao": [
+    {
+      "atributo": "Trifasico - potencias (kVA)",
+      "planilha": [
+        15.0,
+        30.0,
+        45.0,
+        75.0,
+        112.5,
+        150.0,
+        225.0,
+        300.0
+      ],
+      "norma": [
+        15,
+        30,
+        45,
+        75,
+        112.5,
+        150,
+        225,
+        300
+      ],
+      "so_na_planilha": [],
+      "so_na_norma": [],
+      "status": "OK",
+      "nota": "Espinha dorsal bate 100%."
+    },
+    {
+      "atributo": "Monofasico - potencias (kVA)",
+      "planilha": [
+        5.0,
+        10.0,
+        15.0,
+        25.0,
+        37.5
+      ],
+      "norma": [
+        5,
+        10,
+        15,
+        25
+      ],
+      "so_na_planilha": [
+        37.5
+      ],
+      "so_na_norma": [],
+      "status": "DIVERGENCIA",
+      "nota": "37,5 kVA so na planilha; rural pode permitir, mas nao confirmado nos PDFs lidos."
+    },
+    {
+      "atributo": "Classe de tensao (kV)",
+      "planilha": [
+        13.8,
+        34.5
+      ],
+      "norma": [
+        13.8,
+        24.2,
+        34.5
+      ],
+      "so_na_planilha": [],
+      "so_na_norma": [
+        24.2
+      ],
+      "status": "DIVERGENCIA",
+      "nota": "Norma preve classe 24,2 kV; planilha nao tem trafo 24,2 kV."
+    },
+    {
+      "atributo": "Secundario trifasico (V)",
+      "planilha": [
+        "220/127",
+        "380/220"
+      ],
+      "norma": [
+        "220/127",
+        "380/220"
+      ],
+      "so_na_planilha": [],
+      "so_na_norma": [],
+      "status": "OK",
+      "nota": "OK (ignorando rotulo invalido 254/127 — ver anomalias)."
+    },
+    {
+      "atributo": "Secundario monofasico (V)",
+      "planilha": [
+        "254/127"
+      ],
+      "norma": [
+        "254/127"
+      ],
+      "so_na_planilha": [],
+      "so_na_norma": [],
+      "status": "OK",
+      "nota": "OK."
+    }
+  ],
+  "anomalias_planilha": [
+    {
+      "tipo": "secundario_invalido",
+      "gravidade": "media",
+      "descricao": "Trafos TRIFASICOS rotulados '254/127V' (secundario de trifasico deve ser 220/127 ou 380/220).",
+      "ids_afetados": [
+        996,
+        997,
+        998,
+        999
+      ],
+      "qtd": 4
+    },
+    {
+      "tipo": "potencia_nao_confirmada",
+      "gravidade": "baixa",
+      "descricao": "Monofasico 37,5 kVA presente na planilha, nao confirmado nos PDFs lidos (depende da Tabela O).",
+      "ids_afetados": [
+        257,
+        258
+      ],
+      "qtd": 2
+    },
+    {
+      "tipo": "classe_ausente_na_planilha",
+      "gravidade": "baixa",
+      "descricao": "Norma preve classe 24,2 kV (13,97 kV nominal), mas nao ha transformador 24,2 kV na planilha.",
+      "classes": [
+        24.2
+      ]
+    },
+    {
+      "tipo": "duplicata",
+      "gravidade": "baixa",
+      "descricao": "Transformadores duplicados na base (dois blocos de id com mesma descricao).",
+      "itens": [
+        {
+          "id": 1000,
+          "dup_de_id": 263,
+          "descricao": "Transformador Trifásico - 13.8KV - 45KVA  - 220/127V"
+        },
+        {
+          "id": 1001,
+          "dup_de_id": 264,
+          "descricao": "Transformador Trifásico - 34.5KV - 45KVA  - 220/127V"
+        },
+        {
+          "id": 1002,
+          "dup_de_id": 265,
+          "descricao": "Transformador Trifásico - 13.8KV - 75KVA  - 220/127V"
+        },
+        {
+          "id": 1003,
+          "dup_de_id": 266,
+          "descricao": "Transformador Trifásico - 34.5KV - 75KVA  - 220/127V"
+        },
+        {
+          "id": 1006,
+          "dup_de_id": 269,
+          "descricao": "Transformador Trifásico - 13.8KV - 150KVA  - 220/127V"
+        },
+        {
+          "id": 1007,
+          "dup_de_id": 270,
+          "descricao": "Transformador Trifásico - 34.5KV - 150KVA  - 220/127V"
+        },
+        {
+          "id": 1008,
+          "dup_de_id": 271,
+          "descricao": "Transformador Trifásico - 13.8KV - 225KVA  - 220/127V"
+        },
+        {
+          "id": 1009,
+          "dup_de_id": 272,
+          "descricao": "Transformador Trifásico - 34.5KV - 225KVA  - 220/127V"
+        },
+        {
+          "id": 1010,
+          "dup_de_id": 273,
+          "descricao": "Transformador Trifásico - 13.8KV - 300KVA  - 220/127V"
+        },
+        {
+          "id": 1011,
+          "dup_de_id": 274,
+          "descricao": "Transformador Trifásico - 34.5KV - 300KVA  - 220/127V"
+        },
+        {
+          "id": 1012,
+          "dup_de_id": 275,
+          "descricao": "Transformador Trifásico - 13.8KV - 15KVA - 380/220V"
+        },
+        {
+          "id": 1013,
+          "dup_de_id": 276,
+          "descricao": "Transformador Trifásico - 34.5KV - 15KVA - 380/220V"
+        },
+        {
+          "id": 1014,
+          "dup_de_id": 277,
+          "descricao": "Transformador Trifásico - 13.8KV - 30KVA - 380/220V"
+        },
+        {
+          "id": 1015,
+          "dup_de_id": 278,
+          "descricao": "Transformador Trifásico - 34.5KV - 30KVA - 380/220V"
+        },
+        {
+          "id": 1016,
+          "dup_de_id": 279,
+          "descricao": "Transformador Trifásico - 13.8KV - 45KVA - 380/220V"
+        },
+        {
+          "id": 1017,
+          "dup_de_id": 280,
+          "descricao": "Transformador Trifásico - 34.5KV - 45KVA - 380/220V"
+        },
+        {
+          "id": 1018,
+          "dup_de_id": 281,
+          "descricao": "Transformador Trifásico - 13.8KV - 75KVA - 380/220V"
+        },
+        {
+          "id": 1019,
+          "dup_de_id": 282,
+          "descricao": "Transformador Trifásico - 34.5KV - 75KVA - 380/220V"
+        },
+        {
+          "id": 1020,
+          "dup_de_id": 283,
+          "descricao": "Transformador Trifásico - 13.8KV - 112,5KVA - 380/220V"
+        },
+        {
+          "id": 1021,
+          "dup_de_id": 284,
+          "descricao": "Transformador Trifásico - 34.5KV - 112,5KVA - 380/220V"
+        },
+        {
+          "id": 1022,
+          "dup_de_id": 285,
+          "descricao": "Transformador Trifásico - 13.8KV - 150KVA - 380/220V"
+        },
+        {
+          "id": 1023,
+          "dup_de_id": 286,
+          "descricao": "Transformador Trifásico - 34.5KV - 150KVA - 380/220V"
+        },
+        {
+          "id": 1024,
+          "dup_de_id": 287,
+          "descricao": "Transformador Trifásico - 13.8KV - 225KVA - 380/220V"
+        },
+        {
+          "id": 1025,
+          "dup_de_id": 288,
+          "descricao": "Transformador Trifásico - 34.5KV - 225KVA - 380/220V"
+        },
+        {
+          "id": 1026,
+          "dup_de_id": 289,
+          "descricao": "Transformador Trifásico - 13.8KV - 300KVA - 380/220V"
+        },
+        {
+          "id": 1027,
+          "dup_de_id": 290,
+          "descricao": "Transformador Trifásico - 34.5KV - 300KVA - 380/220V"
+        }
+      ],
+      "qtd": 26
+    }
+  ]
+}

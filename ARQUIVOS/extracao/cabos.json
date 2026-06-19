@@ -1,0 +1,1697 @@
+[
+  {
+    "id": 15,
+    "cod_sap": "90272",
+    "cod_lider7": "",
+    "descricao": "Cabo Aluminio biplex XLPE 10 mm²",
+    "unidade": "pç",
+    "row": 33,
+    "material": "aluminio",
+    "forma": [
+      "biplex"
+    ],
+    "bitola_mm2": "10mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 16,
+    "cod_sap": "90285",
+    "cod_lider7": "",
+    "descricao": "Cabo Aluminio quadriplex XLPE 10 mm²",
+    "unidade": "m",
+    "row": 34,
+    "material": "aluminio",
+    "forma": [
+      "quadriplex"
+    ],
+    "bitola_mm2": "10mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 17,
+    "cod_sap": "90286",
+    "cod_lider7": "",
+    "descricao": "Cabo Aluminio quadriplex XLPE 16 mm²",
+    "unidade": "m",
+    "row": 35,
+    "material": "aluminio",
+    "forma": [
+      "quadriplex"
+    ],
+    "bitola_mm2": "16mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 18,
+    "cod_sap": "90287",
+    "cod_lider7": "4401",
+    "descricao": "Cabo Aluminio quadriplex XLPE 25 mm²",
+    "unidade": "m",
+    "row": 36,
+    "material": "aluminio",
+    "forma": [
+      "quadriplex"
+    ],
+    "bitola_mm2": "25mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 19,
+    "cod_sap": "90288",
+    "cod_lider7": "3531",
+    "descricao": "Cabo Aluminio quadriplex XLPE 35 mm²",
+    "unidade": "m",
+    "row": 37,
+    "material": "aluminio",
+    "forma": [
+      "quadriplex"
+    ],
+    "bitola_mm2": "35mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 20,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cabo Aluminio quadriplex XLPE 50 mm²",
+    "unidade": "m",
+    "row": 38,
+    "material": "aluminio",
+    "forma": [
+      "quadriplex"
+    ],
+    "bitola_mm2": "50mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 21,
+    "cod_sap": "90289",
+    "cod_lider7": "3532",
+    "descricao": "Cabo Aluminio quadriplex XLPE 70 mm²",
+    "unidade": "m",
+    "row": 39,
+    "material": "aluminio",
+    "forma": [
+      "quadriplex"
+    ],
+    "bitola_mm2": "70mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 22,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cabo Aluminio triplex Xlpe 06 mm²",
+    "unidade": "m",
+    "row": 40,
+    "material": "aluminio",
+    "forma": [
+      "triplex"
+    ],
+    "bitola_mm2": "06mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 23,
+    "cod_sap": "90274",
+    "cod_lider7": "3512",
+    "descricao": "Cabo Aluminio triplex Xlpe 10 mm²",
+    "unidade": "m",
+    "row": 41,
+    "material": "aluminio",
+    "forma": [
+      "triplex"
+    ],
+    "bitola_mm2": "10mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 24,
+    "cod_sap": "90282",
+    "cod_lider7": "3513",
+    "descricao": "Cabo Aluminio triplex Xlpe 16 mm²",
+    "unidade": "m",
+    "row": 42,
+    "material": "aluminio",
+    "forma": [
+      "triplex"
+    ],
+    "bitola_mm2": "16mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 25,
+    "cod_sap": "590283",
+    "cod_lider7": "3514",
+    "descricao": "Cabo Aluminio triplex Xlpe 25 mm²",
+    "unidade": "m",
+    "row": 43,
+    "material": "aluminio",
+    "forma": [
+      "triplex"
+    ],
+    "bitola_mm2": "25mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 26,
+    "cod_sap": "90284",
+    "cod_lider7": "",
+    "descricao": "Cabo Aluminio triplex Xlpe 35 mm²",
+    "unidade": "m",
+    "row": 44,
+    "material": "aluminio",
+    "forma": [
+      "triplex"
+    ],
+    "bitola_mm2": "35mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 27,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cabo Aluminio triplex Xlpe 50 mm²",
+    "unidade": "m",
+    "row": 45,
+    "material": "aluminio",
+    "forma": [
+      "triplex"
+    ],
+    "bitola_mm2": "50mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 28,
+    "cod_sap": "2987",
+    "cod_lider7": "3516",
+    "descricao": "Cabo de aço galvanizado - 6,4mm² (cordoalha)",
+    "unidade": "m",
+    "row": 46,
+    "material": "aco",
+    "forma": [
+      "cordoalha"
+    ],
+    "bitola_mm2": "6.4mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 29,
+    "cod_sap": "3357",
+    "cod_lider7": "3517",
+    "descricao": "Cabo de aço galvanizado - 7,9 mm² (cordoalha)",
+    "unidade": "m",
+    "row": 47,
+    "material": "aco",
+    "forma": [
+      "cordoalha"
+    ],
+    "bitola_mm2": "7.9mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 30,
+    "cod_sap": "90258",
+    "cod_lider7": "4183",
+    "descricao": "Cabo de aluminio  nu 2 CAA - AWG",
+    "unidade": "kg",
+    "row": 48,
+    "material": "aluminio",
+    "forma": [
+      "nu"
+    ],
+    "bitola_mm2": null,
+    "bitola_awg": "2 CAA",
+    "dup": false
+  },
+  {
+    "id": 31,
+    "cod_sap": "90263",
+    "cod_lider7": "3519",
+    "descricao": "Cabo de aluminio  nu 1/0 CAA - AWG",
+    "unidade": "kg",
+    "row": 49,
+    "material": "aluminio",
+    "forma": [
+      "nu"
+    ],
+    "bitola_mm2": null,
+    "bitola_awg": "1/0 CAA",
+    "dup": false
+  },
+  {
+    "id": 32,
+    "cod_sap": "90264",
+    "cod_lider7": "3521",
+    "descricao": "Cabo de aluminio  nu 4/0 CAA - AWG",
+    "unidade": "kg",
+    "row": 50,
+    "material": "aluminio",
+    "forma": [
+      "nu"
+    ],
+    "bitola_mm2": null,
+    "bitola_awg": "4/0 CAA",
+    "dup": false
+  },
+  {
+    "id": 33,
+    "cod_sap": "621841",
+    "cod_lider7": "4513",
+    "descricao": "Cabo de aluminio  nu 336,4 CAA - AWG",
+    "unidade": "kg",
+    "row": 51,
+    "material": "aluminio",
+    "forma": [
+      "nu"
+    ],
+    "bitola_mm2": null,
+    "bitola_awg": "4 CAA",
+    "dup": false
+  },
+  {
+    "id": 34,
+    "cod_sap": "590294",
+    "cod_lider7": "3522",
+    "descricao": "Cabo de cobre coberto com XLPE - 15kv 16mm²",
+    "unidade": "m",
+    "row": 52,
+    "material": "cobre",
+    "forma": [
+      "coberto"
+    ],
+    "bitola_mm2": "16mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 35,
+    "cod_sap": "126",
+    "cod_lider7": "",
+    "descricao": "Cabo de cobre coberto com XLPE - 15kv 95mm²",
+    "unidade": "m",
+    "row": 53,
+    "material": "cobre",
+    "forma": [
+      "coberto"
+    ],
+    "bitola_mm2": "95mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 36,
+    "cod_sap": "623945",
+    "cod_lider7": "3523",
+    "descricao": "Cabo de cobre flexivel isolado - 10mm²",
+    "unidade": "m",
+    "row": 54,
+    "material": "cobre",
+    "forma": [
+      "isolado",
+      "flexivel"
+    ],
+    "bitola_mm2": "10mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 37,
+    "cod_sap": "626275",
+    "cod_lider7": "",
+    "descricao": "Cabo de cobre nú 50mm²",
+    "unidade": "m",
+    "row": 55,
+    "material": "cobre",
+    "forma": [
+      "nu"
+    ],
+    "bitola_mm2": "50mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 318,
+    "cod_sap": "",
+    "cod_lider7": "4209",
+    "descricao": "CABO DE COBRE ISOLADO 1KV, 16 mm²",
+    "unidade": "pç",
+    "row": 336,
+    "material": "cobre",
+    "forma": [
+      "isolado"
+    ],
+    "bitola_mm2": "16mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 319,
+    "cod_sap": "",
+    "cod_lider7": "3526",
+    "descricao": "CABO DE COBRE ISOLADO 1KV, 25 mm²",
+    "unidade": "m",
+    "row": 337,
+    "material": "cobre",
+    "forma": [
+      "isolado"
+    ],
+    "bitola_mm2": "25mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 320,
+    "cod_sap": "",
+    "cod_lider7": "4210",
+    "descricao": "CABO DE COBRE ISOLADO 1KV, 35 mm²",
+    "unidade": "m",
+    "row": 338,
+    "material": "cobre",
+    "forma": [
+      "isolado"
+    ],
+    "bitola_mm2": "35mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 321,
+    "cod_sap": "",
+    "cod_lider7": "3527",
+    "descricao": "CABO DE COBRE ISOLADO 1KV, 50 mm²",
+    "unidade": "m",
+    "row": 339,
+    "material": "cobre",
+    "forma": [
+      "isolado"
+    ],
+    "bitola_mm2": "50mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 322,
+    "cod_sap": "",
+    "cod_lider7": "3528",
+    "descricao": "CABO DE COBRE ISOLADO 1KV, 70 mm²",
+    "unidade": "m",
+    "row": 340,
+    "material": "cobre",
+    "forma": [
+      "isolado"
+    ],
+    "bitola_mm2": "70mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 323,
+    "cod_sap": "",
+    "cod_lider7": "3529",
+    "descricao": "CABO DE COBRE ISOLADO 1KV, 95 mm²",
+    "unidade": "m",
+    "row": 341,
+    "material": "cobre",
+    "forma": [
+      "isolado"
+    ],
+    "bitola_mm2": "95mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 324,
+    "cod_sap": "",
+    "cod_lider7": "3524",
+    "descricao": "CABO DE COBRE ISOLADO 1KV, 120 mm²",
+    "unidade": "m",
+    "row": 342,
+    "material": "cobre",
+    "forma": [
+      "isolado"
+    ],
+    "bitola_mm2": "120mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 325,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "CABO DE COBRE ISOLADO 1KV, 150 mm²",
+    "unidade": "",
+    "row": 343,
+    "material": "cobre",
+    "forma": [
+      "isolado"
+    ],
+    "bitola_mm2": "150mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 326,
+    "cod_sap": "",
+    "cod_lider7": "4262",
+    "descricao": "CABO DE COBRE ISOLADO 1KV, 185 mm²",
+    "unidade": "m",
+    "row": 344,
+    "material": "cobre",
+    "forma": [
+      "isolado"
+    ],
+    "bitola_mm2": "185mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 327,
+    "cod_sap": "",
+    "cod_lider7": "3525",
+    "descricao": "CABO DE COBRE ISOLADO 1KV, 240 mm²",
+    "unidade": "m",
+    "row": 345,
+    "material": "cobre",
+    "forma": [
+      "isolado"
+    ],
+    "bitola_mm2": "240mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 328,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "CABO DE COBRE NÚ 16mm²",
+    "unidade": "m",
+    "row": 346,
+    "material": "cobre",
+    "forma": [
+      "nu"
+    ],
+    "bitola_mm2": "16mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 329,
+    "cod_sap": "",
+    "cod_lider7": "4114",
+    "descricao": "CABO DE COBRE NÚ 25mm²",
+    "unidade": "m",
+    "row": 347,
+    "material": "cobre",
+    "forma": [
+      "nu"
+    ],
+    "bitola_mm2": "25mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 400,
+    "cod_sap": "623921",
+    "cod_lider7": "",
+    "descricao": "CABO, ISOLADO, COBRE, SINGELO, BITOLA 10 MM2, PRETO, 0,6/1 KV",
+    "unidade": "m",
+    "row": 418,
+    "material": "cobre",
+    "forma": [
+      "isolado"
+    ],
+    "bitola_mm2": "10mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 419,
+    "cod_sap": "126",
+    "cod_lider7": "",
+    "descricao": "CABO, ELETRICO PROTEGIDO, ALUM., 95 MM2, POLIETILENO RETICULADO (XLPE),  4.0 KV",
+    "unidade": "m",
+    "row": 437,
+    "material": null,
+    "forma": [
+      "protegido"
+    ],
+    "bitola_mm2": "95mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 420,
+    "cod_sap": "590294",
+    "cod_lider7": "3522",
+    "descricao": "CABO, COBRE, COBERTO, XLPE, 16 MM2, 15 KV, ISOLACAO NA COR CINZA",
+    "unidade": "m",
+    "row": 438,
+    "material": "cobre",
+    "forma": [
+      "coberto",
+      "isolado"
+    ],
+    "bitola_mm2": "16mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 463,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "CABO DE CONEXÃO DO TP COM A CAIXA DE CONTROLE",
+    "unidade": "PÇ",
+    "row": 481,
+    "material": null,
+    "forma": null,
+    "bitola_mm2": null,
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 528,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cabo, protegido, alumínio, 35 mm2, polietil. reticulado (XLPE), 4.0 KV",
+    "unidade": "m",
+    "row": 546,
+    "material": "aluminio",
+    "forma": [
+      "protegido"
+    ],
+    "bitola_mm2": "35mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 529,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cabo, protegido, alumínio, 50 mm2, polietil. reticulado (XLPE), 4.0 KV",
+    "unidade": "m",
+    "row": 547,
+    "material": "aluminio",
+    "forma": [
+      "protegido"
+    ],
+    "bitola_mm2": "50mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 530,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cabo, protegido, alumínio, 95 mm2, polietil. reticulado (XLPE), 4.0 KV",
+    "unidade": "m",
+    "row": 548,
+    "material": "aluminio",
+    "forma": [
+      "protegido"
+    ],
+    "bitola_mm2": "95mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 531,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cabo, protegido, alumínio, 150 mm2, polietil. reticulado (XLPE), 4.0 KV",
+    "unidade": "m",
+    "row": 549,
+    "material": "aluminio",
+    "forma": [
+      "protegido"
+    ],
+    "bitola_mm2": "150mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 532,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cabo, cobre, coberto, XLPE, 16 mm2, 15 KV, isolação na cor cinza",
+    "unidade": "m",
+    "row": 550,
+    "material": "cobre",
+    "forma": [
+      "coberto",
+      "isolado"
+    ],
+    "bitola_mm2": "16mm2",
+    "bitola_awg": null,
+    "dup": true,
+    "dup_de_id": 420
+  },
+  {
+    "id": 539,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cabo, cobre isolado singelo, 16 mm2, 750 V, preto",
+    "unidade": "M",
+    "row": 557,
+    "material": "cobre",
+    "forma": [
+      "isolado"
+    ],
+    "bitola_mm2": "16mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 599,
+    "cod_sap": "",
+    "cod_lider7": "3531",
+    "descricao": "Cabo aluminio multiplexado quad. Xlpe 3x1x35+35mm²",
+    "unidade": "M",
+    "row": 618,
+    "material": "aluminio",
+    "forma": [
+      "multiplexado"
+    ],
+    "bitola_mm2": "35mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 600,
+    "cod_sap": "",
+    "cod_lider7": "3532",
+    "descricao": "Cabo aluminio multiplexado quad. Xlpe 3x1x70+70mm²",
+    "unidade": "M",
+    "row": 619,
+    "material": "aluminio",
+    "forma": [
+      "multiplexado"
+    ],
+    "bitola_mm2": "70mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 601,
+    "cod_sap": "",
+    "cod_lider7": "3530",
+    "descricao": "Cabo aluminio multiplexado quad. Xlpe 3x1x120+70mm²",
+    "unidade": "M",
+    "row": 620,
+    "material": "aluminio",
+    "forma": [
+      "multiplexado"
+    ],
+    "bitola_mm2": "70mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 602,
+    "cod_sap": "",
+    "cod_lider7": "4501",
+    "descricao": "Cabo Aluminio quadriplex XLPE 10mm²",
+    "unidade": "m",
+    "row": 621,
+    "material": "aluminio",
+    "forma": [
+      "quadriplex"
+    ],
+    "bitola_mm2": "10mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 603,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cabo Aluminio quadriplex XLPE 16mm²",
+    "unidade": "m",
+    "row": 622,
+    "material": "aluminio",
+    "forma": [
+      "quadriplex"
+    ],
+    "bitola_mm2": "16mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 604,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cabo Aluminio quadriplex XLPE 25mm²",
+    "unidade": "m",
+    "row": 623,
+    "material": "aluminio",
+    "forma": [
+      "quadriplex"
+    ],
+    "bitola_mm2": "25mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 605,
+    "cod_sap": "",
+    "cod_lider7": "3531",
+    "descricao": "Cabo Aluminio quadriplex XLPE 50mm²",
+    "unidade": "m",
+    "row": 624,
+    "material": "aluminio",
+    "forma": [
+      "quadriplex"
+    ],
+    "bitola_mm2": "50mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 606,
+    "cod_sap": "",
+    "cod_lider7": "3532",
+    "descricao": "Cabo Aluminio quadriplex XLPE 35mm²",
+    "unidade": "m",
+    "row": 625,
+    "material": "aluminio",
+    "forma": [
+      "quadriplex"
+    ],
+    "bitola_mm2": "35mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 607,
+    "cod_sap": "",
+    "cod_lider7": "3530",
+    "descricao": "Cabo Aluminio quadriplex XLPE 70mm²",
+    "unidade": "m",
+    "row": 626,
+    "material": "aluminio",
+    "forma": [
+      "quadriplex"
+    ],
+    "bitola_mm2": "70mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 608,
+    "cod_sap": "",
+    "cod_lider7": "3512",
+    "descricao": "Cabo Aluminio triplex Xlpe 10 mm",
+    "unidade": "pç",
+    "row": 627,
+    "material": "aluminio",
+    "forma": [
+      "triplex"
+    ],
+    "bitola_mm2": "10mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 609,
+    "cod_sap": "",
+    "cod_lider7": "3513",
+    "descricao": "Cabo Aluminio triplex Xlpe 16 mm",
+    "unidade": "pç",
+    "row": 628,
+    "material": "aluminio",
+    "forma": [
+      "triplex"
+    ],
+    "bitola_mm2": "16mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 610,
+    "cod_sap": "",
+    "cod_lider7": "3514",
+    "descricao": "Cabo Aluminio triplex Xlpe 25 mm",
+    "unidade": "pç",
+    "row": 629,
+    "material": "aluminio",
+    "forma": [
+      "triplex"
+    ],
+    "bitola_mm2": "25mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 611,
+    "cod_sap": "",
+    "cod_lider7": "4234",
+    "descricao": "Cabo alumínio-CA, coberto com polientileno reticulado 35mm²",
+    "unidade": "kg",
+    "row": 630,
+    "material": "aluminio",
+    "forma": [
+      "coberto"
+    ],
+    "bitola_mm2": "35mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 612,
+    "cod_sap": "",
+    "cod_lider7": "4235",
+    "descricao": "Cabo alumínio-CA, coberto com polientileno reticulado 50mm²",
+    "unidade": "kg",
+    "row": 631,
+    "material": "aluminio",
+    "forma": [
+      "coberto"
+    ],
+    "bitola_mm2": "50mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 613,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cabo alumínio-CA, coberto com polientileno reticulado 95mm²",
+    "unidade": "kg",
+    "row": 632,
+    "material": "aluminio",
+    "forma": [
+      "coberto"
+    ],
+    "bitola_mm2": "95mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 614,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cabo cu flex EPR 25mm 0,6/1kv (rede compacta)",
+    "unidade": "M",
+    "row": 633,
+    "material": "cobre",
+    "forma": [
+      "flexivel"
+    ],
+    "bitola_mm2": "25mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 615,
+    "cod_sap": "",
+    "cod_lider7": "3516",
+    "descricao": "Cabo de aço galvanizado - 6,4mm (cordoalha)",
+    "unidade": "kg",
+    "row": 634,
+    "material": "aco",
+    "forma": [
+      "cordoalha"
+    ],
+    "bitola_mm2": "6.4mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 616,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cabo de cobre nu 50mm²",
+    "unidade": "m",
+    "row": 635,
+    "material": "cobre",
+    "forma": [
+      "nu"
+    ],
+    "bitola_mm2": "50mm2",
+    "bitola_awg": null,
+    "dup": true,
+    "dup_de_id": 37
+  },
+  {
+    "id": 617,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cabo de aço zincada 9,5mm form 7 fios (cordoalha)",
+    "unidade": "kg",
+    "row": 636,
+    "material": "aco",
+    "forma": [
+      "cordoalha"
+    ],
+    "bitola_mm2": "9.5mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 618,
+    "cod_sap": "",
+    "cod_lider7": "4183",
+    "descricao": "Cabo de aluminio  nu 2 CAA - AWG",
+    "unidade": "pç",
+    "row": 637,
+    "material": "aluminio",
+    "forma": [
+      "nu"
+    ],
+    "bitola_mm2": null,
+    "bitola_awg": "2 CAA",
+    "dup": true,
+    "dup_de_id": 30
+  },
+  {
+    "id": 619,
+    "cod_sap": "",
+    "cod_lider7": "3519",
+    "descricao": "Cabo de aluminio nu 1/0 CAA AWG",
+    "unidade": "pç",
+    "row": 638,
+    "material": "aluminio",
+    "forma": [
+      "nu"
+    ],
+    "bitola_mm2": null,
+    "bitola_awg": "1/0 CAA",
+    "dup": false
+  },
+  {
+    "id": 620,
+    "cod_sap": "",
+    "cod_lider7": "3520",
+    "descricao": "Cabo de aluminio nu 4 CAA - AWG",
+    "unidade": "pç",
+    "row": 639,
+    "material": "aluminio",
+    "forma": [
+      "nu"
+    ],
+    "bitola_mm2": null,
+    "bitola_awg": "4 CAA",
+    "dup": false
+  },
+  {
+    "id": 621,
+    "cod_sap": "",
+    "cod_lider7": "3521",
+    "descricao": "Cabo de aluminio nu 4/0 CAA AWG",
+    "unidade": "pç",
+    "row": 640,
+    "material": "aluminio",
+    "forma": [
+      "nu"
+    ],
+    "bitola_mm2": null,
+    "bitola_awg": "4/0 CAA",
+    "dup": false
+  },
+  {
+    "id": 622,
+    "cod_sap": "",
+    "cod_lider7": "3522",
+    "descricao": "Cabo de cobre coberto com XLPE - 15kv 16mm",
+    "unidade": "pç",
+    "row": 641,
+    "material": "cobre",
+    "forma": [
+      "coberto"
+    ],
+    "bitola_mm2": "16mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 623,
+    "cod_sap": "",
+    "cod_lider7": "3524",
+    "descricao": "Cabo de cobre isolado 1kv, 120mm²",
+    "unidade": "m",
+    "row": 642,
+    "material": "cobre",
+    "forma": [
+      "isolado"
+    ],
+    "bitola_mm2": "120mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 624,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cabo de cobre isolado 1kv, 150mm²",
+    "unidade": "m",
+    "row": 643,
+    "material": "cobre",
+    "forma": [
+      "isolado"
+    ],
+    "bitola_mm2": "150mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 638,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cabo de cobre flex. isol. 750V - 16mm - azul",
+    "unidade": "pç",
+    "row": 657,
+    "material": "cobre",
+    "forma": [
+      "isolado",
+      "flexivel"
+    ],
+    "bitola_mm2": "16mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 639,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cabo de cobre flex. isol. 750V - 2,5mm - amarelo",
+    "unidade": "pç",
+    "row": 658,
+    "material": "cobre",
+    "forma": [
+      "isolado",
+      "flexivel"
+    ],
+    "bitola_mm2": "2.5mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 640,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cabo de cobre flex. isol. 750V - 2,5mm - vermelho",
+    "unidade": "pç",
+    "row": 659,
+    "material": "cobre",
+    "forma": [
+      "isolado",
+      "flexivel"
+    ],
+    "bitola_mm2": "2.5mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 641,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cabo de cobre flex. Isol. 750V - 25mm - AZUL",
+    "unidade": "pç",
+    "row": 660,
+    "material": "cobre",
+    "forma": [
+      "isolado",
+      "flexivel"
+    ],
+    "bitola_mm2": "25mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 642,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cabo de cobre flexivel isolado - 10mm²",
+    "unidade": "pç",
+    "row": 661,
+    "material": "cobre",
+    "forma": [
+      "isolado",
+      "flexivel"
+    ],
+    "bitola_mm2": "10mm2",
+    "bitola_awg": null,
+    "dup": true,
+    "dup_de_id": 36
+  },
+  {
+    "id": 643,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cabo de cobre flexivel isolado 1KV -  35mm",
+    "unidade": "pç",
+    "row": 662,
+    "material": "cobre",
+    "forma": [
+      "isolado",
+      "flexivel"
+    ],
+    "bitola_mm2": "35mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 644,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cabo de cobre flexivel isolado 1kv 120mm",
+    "unidade": "pç",
+    "row": 663,
+    "material": "cobre",
+    "forma": [
+      "isolado",
+      "flexivel"
+    ],
+    "bitola_mm2": "120mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 645,
+    "cod_sap": "",
+    "cod_lider7": "3525",
+    "descricao": "Cabo de cobre flexivel isolado 1kv 240mm",
+    "unidade": "pç",
+    "row": 664,
+    "material": "cobre",
+    "forma": [
+      "isolado",
+      "flexivel"
+    ],
+    "bitola_mm2": "240mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 646,
+    "cod_sap": "",
+    "cod_lider7": "3524",
+    "descricao": "Cabo de cobre flexivel isolado 1kv 25mm",
+    "unidade": "pç",
+    "row": 665,
+    "material": "cobre",
+    "forma": [
+      "isolado",
+      "flexivel"
+    ],
+    "bitola_mm2": "25mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 647,
+    "cod_sap": "",
+    "cod_lider7": "3527",
+    "descricao": "Cabo de cobre flexivel isolado 1kv 50mm",
+    "unidade": "pç",
+    "row": 666,
+    "material": "cobre",
+    "forma": [
+      "isolado",
+      "flexivel"
+    ],
+    "bitola_mm2": "50mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 648,
+    "cod_sap": "",
+    "cod_lider7": "3528",
+    "descricao": "Cabo de cobre flexivel isolado 1kv 70mm",
+    "unidade": "pç",
+    "row": 667,
+    "material": "cobre",
+    "forma": [
+      "isolado",
+      "flexivel"
+    ],
+    "bitola_mm2": "70mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 649,
+    "cod_sap": "",
+    "cod_lider7": "3529",
+    "descricao": "Cabo de cobre flexivel isolado 1kv 95mm",
+    "unidade": "pç",
+    "row": 668,
+    "material": "cobre",
+    "forma": [
+      "isolado",
+      "flexivel"
+    ],
+    "bitola_mm2": "95mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 650,
+    "cod_sap": "",
+    "cod_lider7": "3954",
+    "descricao": "Cabo de cobre flexivel isolado 750V -  25mm",
+    "unidade": "pç",
+    "row": 669,
+    "material": "cobre",
+    "forma": [
+      "isolado",
+      "flexivel"
+    ],
+    "bitola_mm2": "25mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 651,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cabo de cobre nu-  25mm",
+    "unidade": "pç",
+    "row": 670,
+    "material": "cobre",
+    "forma": [
+      "nu"
+    ],
+    "bitola_mm2": "25mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 652,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cabo isolado cobre singelo 35mm², preto, 750V, PVC",
+    "unidade": "m",
+    "row": 671,
+    "material": "cobre",
+    "forma": [
+      "isolado"
+    ],
+    "bitola_mm2": "35mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 653,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cabo isolado cobre singelo 70mm², preto, 750V, PVC",
+    "unidade": "m",
+    "row": 672,
+    "material": "cobre",
+    "forma": [
+      "isolado"
+    ],
+    "bitola_mm2": "70mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 654,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cabo isolado cobre singelo 120mm², preto, 750V, PVC",
+    "unidade": "m",
+    "row": 673,
+    "material": "cobre",
+    "forma": [
+      "isolado"
+    ],
+    "bitola_mm2": "120mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 655,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cabo isolado cobre singelo 150mm², preto, 750V, PVC",
+    "unidade": "m",
+    "row": 674,
+    "material": "cobre",
+    "forma": [
+      "isolado"
+    ],
+    "bitola_mm2": "150mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 1073,
+    "cod_sap": "",
+    "cod_lider7": "4209",
+    "descricao": "CABO DE COBRE ISOLADO 1KV, 16 mm²",
+    "unidade": "pç",
+    "row": 1094,
+    "material": "cobre",
+    "forma": [
+      "isolado"
+    ],
+    "bitola_mm2": "16mm2",
+    "bitola_awg": null,
+    "dup": true,
+    "dup_de_id": 318
+  },
+  {
+    "id": 1074,
+    "cod_sap": "",
+    "cod_lider7": "3526",
+    "descricao": "CABO DE COBRE ISOLADO 1KV, 25 mm²",
+    "unidade": "m",
+    "row": 1095,
+    "material": "cobre",
+    "forma": [
+      "isolado"
+    ],
+    "bitola_mm2": "25mm2",
+    "bitola_awg": null,
+    "dup": true,
+    "dup_de_id": 319
+  },
+  {
+    "id": 1075,
+    "cod_sap": "",
+    "cod_lider7": "4210",
+    "descricao": "CABO DE COBRE ISOLADO 1KV, 35 mm²",
+    "unidade": "m",
+    "row": 1096,
+    "material": "cobre",
+    "forma": [
+      "isolado"
+    ],
+    "bitola_mm2": "35mm2",
+    "bitola_awg": null,
+    "dup": true,
+    "dup_de_id": 320
+  },
+  {
+    "id": 1076,
+    "cod_sap": "",
+    "cod_lider7": "3527",
+    "descricao": "CABO DE COBRE ISOLADO 1KV, 50 mm²",
+    "unidade": "m",
+    "row": 1097,
+    "material": "cobre",
+    "forma": [
+      "isolado"
+    ],
+    "bitola_mm2": "50mm2",
+    "bitola_awg": null,
+    "dup": true,
+    "dup_de_id": 321
+  },
+  {
+    "id": 1077,
+    "cod_sap": "",
+    "cod_lider7": "3528",
+    "descricao": "CABO DE COBRE ISOLADO 1KV, 70 mm²",
+    "unidade": "m",
+    "row": 1098,
+    "material": "cobre",
+    "forma": [
+      "isolado"
+    ],
+    "bitola_mm2": "70mm2",
+    "bitola_awg": null,
+    "dup": true,
+    "dup_de_id": 322
+  },
+  {
+    "id": 1078,
+    "cod_sap": "",
+    "cod_lider7": "3529",
+    "descricao": "CABO DE COBRE ISOLADO 1KV, 95 mm²",
+    "unidade": "m",
+    "row": 1099,
+    "material": "cobre",
+    "forma": [
+      "isolado"
+    ],
+    "bitola_mm2": "95mm2",
+    "bitola_awg": null,
+    "dup": true,
+    "dup_de_id": 323
+  },
+  {
+    "id": 1079,
+    "cod_sap": "",
+    "cod_lider7": "3524",
+    "descricao": "CABO DE COBRE ISOLADO 1KV, 120 mm²",
+    "unidade": "m",
+    "row": 1100,
+    "material": "cobre",
+    "forma": [
+      "isolado"
+    ],
+    "bitola_mm2": "120mm2",
+    "bitola_awg": null,
+    "dup": true,
+    "dup_de_id": 324
+  },
+  {
+    "id": 1080,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "CABO DE COBRE ISOLADO 1KV, 150 mm²",
+    "unidade": "m",
+    "row": 1101,
+    "material": "cobre",
+    "forma": [
+      "isolado"
+    ],
+    "bitola_mm2": "150mm2",
+    "bitola_awg": null,
+    "dup": true,
+    "dup_de_id": 325
+  },
+  {
+    "id": 1081,
+    "cod_sap": "",
+    "cod_lider7": "4262",
+    "descricao": "CABO DE COBRE ISOLADO 1KV, 185 mm²",
+    "unidade": "m",
+    "row": 1102,
+    "material": "cobre",
+    "forma": [
+      "isolado"
+    ],
+    "bitola_mm2": "185mm2",
+    "bitola_awg": null,
+    "dup": true,
+    "dup_de_id": 326
+  },
+  {
+    "id": 1082,
+    "cod_sap": "",
+    "cod_lider7": "3525",
+    "descricao": "CABO DE COBRE ISOLADO 1KV, 240 mm²",
+    "unidade": "m",
+    "row": 1103,
+    "material": "cobre",
+    "forma": [
+      "isolado"
+    ],
+    "bitola_mm2": "240mm2",
+    "bitola_awg": null,
+    "dup": true,
+    "dup_de_id": 327
+  },
+  {
+    "id": 1083,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "CABO DE COBRE NÚ 16mm²",
+    "unidade": "m",
+    "row": 1104,
+    "material": "cobre",
+    "forma": [
+      "nu"
+    ],
+    "bitola_mm2": "16mm2",
+    "bitola_awg": null,
+    "dup": true,
+    "dup_de_id": 328
+  },
+  {
+    "id": 1084,
+    "cod_sap": "",
+    "cod_lider7": "4114",
+    "descricao": "CABO DE COBRE NÚ 25mm²",
+    "unidade": "m",
+    "row": 1105,
+    "material": "cobre",
+    "forma": [
+      "nu"
+    ],
+    "bitola_mm2": "25mm2",
+    "bitola_awg": null,
+    "dup": true,
+    "dup_de_id": 329
+  },
+  {
+    "id": 1160,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cabo d aluminio nu 2CAA",
+    "unidade": "kg",
+    "row": 1182,
+    "material": "aluminio",
+    "forma": [
+      "nu"
+    ],
+    "bitola_mm2": null,
+    "bitola_awg": "2CAA",
+    "dup": false
+  },
+  {
+    "id": 1161,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cabo d aluminio nu 1/0CAA",
+    "unidade": "kg",
+    "row": 1183,
+    "material": "aluminio",
+    "forma": [
+      "nu"
+    ],
+    "bitola_mm2": null,
+    "bitola_awg": "1/0CAA",
+    "dup": false
+  },
+  {
+    "id": 1162,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cabo d aluminio nu 4/0CAA",
+    "unidade": "kg",
+    "row": 1184,
+    "material": "aluminio",
+    "forma": [
+      "nu"
+    ],
+    "bitola_mm2": null,
+    "bitola_awg": "4/0CAA",
+    "dup": false
+  },
+  {
+    "id": 1163,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cabo d aluminio nu 336CAA",
+    "unidade": "kg",
+    "row": 1185,
+    "material": "aluminio",
+    "forma": [
+      "nu"
+    ],
+    "bitola_mm2": null,
+    "bitola_awg": "336CAA",
+    "dup": false
+  },
+  {
+    "id": 1164,
+    "cod_sap": "",
+    "cod_lider7": "3522",
+    "descricao": "Cabo de cobre coberto com XLPE - 16mm²",
+    "unidade": "M",
+    "row": 1186,
+    "material": "cobre",
+    "forma": [
+      "coberto"
+    ],
+    "bitola_mm2": "16mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 1165,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cabo de alumnio protegido com XLPE -  16mm²",
+    "unidade": "M",
+    "row": 1187,
+    "material": null,
+    "forma": [
+      "protegido"
+    ],
+    "bitola_mm2": "16mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 1166,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cabo de cobre flexível 10m² para saída de para-raios",
+    "unidade": "m",
+    "row": 1188,
+    "material": "cobre",
+    "forma": [
+      "flexivel"
+    ],
+    "bitola_mm2": null,
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 1167,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cabo de cobre nú 50mm² para malha de terra",
+    "unidade": "m",
+    "row": 1189,
+    "material": "cobre",
+    "forma": [
+      "nu"
+    ],
+    "bitola_mm2": "50mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 1168,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cabo de cobre PP isolado 2 x 6mm²",
+    "unidade": "m",
+    "row": 1190,
+    "material": "cobre",
+    "forma": [
+      "isolado"
+    ],
+    "bitola_mm2": "6mm2",
+    "bitola_awg": null,
+    "dup": false
+  },
+  {
+    "id": 1169,
+    "cod_sap": "",
+    "cod_lider7": "3516",
+    "descricao": "Cabo de aço galvanizado - 6,4mm²  (cordoalha p/ aterramento)",
+    "unidade": "m",
+    "row": 1191,
+    "material": "aco",
+    "forma": [
+      "cordoalha"
+    ],
+    "bitola_mm2": "6.4mm2",
+    "bitola_awg": null,
+    "dup": false
+  }
+]

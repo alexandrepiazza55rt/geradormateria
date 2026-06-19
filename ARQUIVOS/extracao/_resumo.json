@@ -1,0 +1,18 @@
+{
+  "fonte_excel": "GERAÇÃO DE MATERIAL.xlsm",
+  "base_reconciliada": "V3/data/materiais.json (1233 itens)",
+  "transformadores": {
+    "total": 81,
+    "unicos": 55,
+    "criterio": "descricao começa com \"Transformador\" (exclui suportes/protetores)"
+  },
+  "cabos": {
+    "total": 111,
+    "unicos": 95,
+    "criterio": "descricao começa com \"Cabo\" (exclui alças/laços/grampos/conectores)"
+  },
+  "padrao_entrada": {
+    "total": 86,
+    "criterio": "bloco de medição ids 305–390 (aba Materiais de Medições), qtd da coluna D"
+  }
+}

@@ -1,0 +1,604 @@
+[
+  {
+    "schema_version": 1,
+    "rev": 2,
+    "status": "ativo",
+    "id": "K39",
+    "tipo": "CEJ2A",
+    "condutor": null,
+    "tensao_kv": 13.8,
+    "nominal_kv": 7.97,
+    "fases": 3,
+    "categoria": "Trifásico 13,8 kV — Compacta (NDU 004.1)",
+    "poste_ref": "Seção Circular",
+    "base_bom": {
+      "14": 1.0,
+      "374": 1.0,
+      "356": 1.0,
+      "342": 6.0,
+      "363": 3.0,
+      "362": 3.0
+    },
+    "postes": [
+      {
+        "poste": "Seção Circular",
+        "delta": {}
+      },
+      {
+        "poste": "Duplo T",
+        "delta": {
+          "14": 3.0,
+          "342": -6.0
+        }
+      },
+      {
+        "poste": "PRFV",
+        "delta": {
+          "14": 3.0,
+          "342": -6.0
+        }
+      }
+    ],
+    "norma_origem": "NDU 004.1",
+    "tipo_rede": "compacta",
+    "tipo_base": "CEJ2A",
+    "tipo_fase": "trifasico",
+    "classe_tensao_kv": 15.0,
+    "cruzeta": null,
+    "condicionais": [
+      {
+        "id": null,
+        "descricao": "Cinta para poste circular.",
+        "qtd": 3.0,
+        "condicao": "Resolver Tabela B conforme projeto/poste — NDU 004.1 §15 (qtd p/ Circular/DuploT/PRFV: 3/0/0)"
+      },
+      {
+        "id": null,
+        "descricao": "Poste de concreto circular.",
+        "qtd": 1.0,
+        "condicao": "Resolver Tabela D conforme projeto/poste — NDU 004.1 §15 (qtd p/ Circular/DuploT/PRFV: 1/0/0)"
+      },
+      {
+        "id": null,
+        "descricao": "Poste de concreto DT.",
+        "qtd": 0.0,
+        "condicao": "Resolver Tabela E conforme projeto/poste — NDU 004.1 §15 (qtd p/ Circular/DuploT/PRFV: 0/1/0)"
+      },
+      {
+        "id": null,
+        "descricao": "Poste em Fibra de vidro.",
+        "qtd": 0.0,
+        "condicao": "Resolver Tabela F conforme projeto/poste — NDU 004.1 §15 (qtd p/ Circular/DuploT/PRFV: 0/0/1)"
+      },
+      {
+        "id": null,
+        "descricao": "Parafuso de Rosca Dupla M16 x Tamanho Adequado.",
+        "qtd": 0.0,
+        "condicao": "Resolver Tabela I (medida) conforme projeto — NDU 004.1 §15 (qtd p/ Circular/DuploT/PRFV: 0/2/2). [AUDITORIA] Linha F-32 perdida: código vinha como 'Tabela' sem a letra (p.170)."
+      }
+    ],
+    "observacoes": "[AUDITORIA] Recuperada a linha F-32 (parafuso rosca dupla, Tabela I) perdida na extração original (p.170).",
+    "pagina_origem": "NDU 004.1 p.170"
+  },
+  {
+    "schema_version": 1,
+    "rev": 2,
+    "status": "ativo",
+    "id": "K40",
+    "tipo": "CEJ2A",
+    "condutor": null,
+    "tensao_kv": 34.5,
+    "nominal_kv": 19.92,
+    "fases": 3,
+    "categoria": "Trifásico 34,5 kV — Compacta (NDU 004.1)",
+    "poste_ref": "Seção Circular",
+    "base_bom": {
+      "14": 1.0,
+      "374": 1.0,
+      "357": 1.0,
+      "342": 6.0,
+      "366": 3.0,
+      "365": 3.0
+    },
+    "postes": [
+      {
+        "poste": "Seção Circular",
+        "delta": {}
+      },
+      {
+        "poste": "Duplo T",
+        "delta": {
+          "14": 3.0,
+          "342": -6.0
+        }
+      },
+      {
+        "poste": "PRFV",
+        "delta": {
+          "14": 3.0,
+          "342": -6.0
+        }
+      }
+    ],
+    "norma_origem": "NDU 004.1",
+    "tipo_rede": "compacta",
+    "tipo_base": "CEJ2A",
+    "tipo_fase": "trifasico",
+    "classe_tensao_kv": 36.2,
+    "cruzeta": null,
+    "condicionais": [
+      {
+        "id": null,
+        "descricao": "Cinta para poste circular.",
+        "qtd": 3.0,
+        "condicao": "Resolver Tabela B conforme projeto/poste — NDU 004.1 §15 (qtd p/ Circular/DuploT/PRFV: 3/0/0)"
+      },
+      {
+        "id": null,
+        "descricao": "Poste de concreto circular.",
+        "qtd": 1.0,
+        "condicao": "Resolver Tabela D conforme projeto/poste — NDU 004.1 §15 (qtd p/ Circular/DuploT/PRFV: 1/0/0)"
+      },
+      {
+        "id": null,
+        "descricao": "Poste de concreto DT.",
+        "qtd": 0.0,
+        "condicao": "Resolver Tabela E conforme projeto/poste — NDU 004.1 §15 (qtd p/ Circular/DuploT/PRFV: 0/1/0)"
+      },
+      {
+        "id": null,
+        "descricao": "Poste em Fibra de vidro.",
+        "qtd": 0.0,
+        "condicao": "Resolver Tabela F conforme projeto/poste — NDU 004.1 §15 (qtd p/ Circular/DuploT/PRFV: 0/0/1)"
+      },
+      {
+        "id": null,
+        "descricao": "Parafuso de Rosca Dupla M16 x Tamanho Adequado.",
+        "qtd": 0.0,
+        "condicao": "Resolver Tabela I (medida) conforme projeto — NDU 004.1 §15 (qtd p/ Circular/DuploT/PRFV: 0/2/2). [AUDITORIA] Linha F-32 perdida: código vinha como 'Tabela' sem a letra (p.170)."
+      }
+    ],
+    "observacoes": "[AUDITORIA] Recuperada a linha F-32 (parafuso rosca dupla, Tabela I) perdida na extração original (p.170).",
+    "pagina_origem": "NDU 004.1 p.170"
+  },
+  {
+    "schema_version": 1,
+    "rev": 2,
+    "status": "ativo",
+    "id": "K49",
+    "tipo": "CEM3",
+    "condutor": null,
+    "tensao_kv": 13.8,
+    "nominal_kv": 7.97,
+    "fases": 1,
+    "categoria": "Monofásico 13,8 kV — Compacta (NDU 004.1)",
+    "poste_ref": "Seção Circular",
+    "base_bom": {
+      "337": 2.0,
+      "14": 2.0,
+      "321": 1.0,
+      "322": 1.0,
+      "342": 6.0,
+      "341": 4.0,
+      "339": 1.0,
+      "78": 1.0
+    },
+    "postes": [
+      {
+        "poste": "Seção Circular",
+        "delta": {}
+      },
+      {
+        "poste": "Duplo T",
+        "delta": {
+          "342": -6.0,
+          "341": -4.0
+        }
+      },
+      {
+        "poste": "PRFV",
+        "delta": {
+          "342": -6.0,
+          "341": -4.0
+        }
+      }
+    ],
+    "norma_origem": "NDU 004.1",
+    "tipo_rede": "compacta",
+    "tipo_base": "CEM3",
+    "tipo_fase": "monofasico",
+    "classe_tensao_kv": 15.0,
+    "cruzeta": null,
+    "condicionais": [
+      {
+        "id": null,
+        "descricao": "Cinta para poste circular.",
+        "qtd": 3.0,
+        "condicao": "Resolver Tabela B conforme projeto/poste — NDU 004.1 §15 (qtd p/ Circular/DuploT/PRFV: 3/0/0)"
+      },
+      {
+        "id": null,
+        "descricao": "Para-Raios de Distribuição.",
+        "qtd": 1.0,
+        "condicao": "Resolver Tabela R conforme projeto/poste — NDU 004.1 §15"
+      },
+      {
+        "id": null,
+        "descricao": "Terminal Compressão.",
+        "qtd": 1.0,
+        "condicao": "Resolver Tabela S conforme projeto/poste — NDU 004.1 §15"
+      },
+      {
+        "id": null,
+        "descricao": "Poste de concreto circular.",
+        "qtd": 1.0,
+        "condicao": "Resolver Tabela D conforme projeto/poste — NDU 004.1 §15 (qtd p/ Circular/DuploT/PRFV: 1/0/0)"
+      },
+      {
+        "id": null,
+        "descricao": "Poste de concreto DT.",
+        "qtd": 0.0,
+        "condicao": "Resolver Tabela E conforme projeto/poste — NDU 004.1 §15 (qtd p/ Circular/DuploT/PRFV: 0/1/0)"
+      },
+      {
+        "id": null,
+        "descricao": "Poste em Fibra de vidro.",
+        "qtd": 0.0,
+        "condicao": "Resolver Tabela F conforme projeto/poste — NDU 004.1 §15 (qtd p/ Circular/DuploT/PRFV: 0/0/1)"
+      },
+      {
+        "id": null,
+        "descricao": "Parafuso de Rosca Dupla M16 x Tamanho Adequado.",
+        "qtd": 0.0,
+        "condicao": "Resolver Tabela I (medida) conforme projeto — NDU 004.1 §15 (qtd p/ Circular/DuploT/PRFV: 0/3/3). [AUDITORIA] Linha F-32 perdida por colisão de texto (p.180)."
+      }
+    ],
+    "observacoes": "[AUDITORIA] Grampo de Linha Viva (O-7, p.180) sem código SISUP na norma → adotado id 78 (cod_sap 502940, 'Conector derivação p/ linha viva - GLV') e somado no base_bom (1/1/1). Recuperada também a linha F-32 (rosca dupla) como condicional.",
+    "pagina_origem": "NDU 004.1 p.180"
+  },
+  {
+    "schema_version": 1,
+    "rev": 2,
+    "status": "ativo",
+    "id": "K50",
+    "tipo": "CEM3",
+    "condutor": null,
+    "tensao_kv": 34.5,
+    "nominal_kv": 19.92,
+    "fases": 1,
+    "categoria": "Monofásico 34,5 kV — Compacta (NDU 004.1)",
+    "poste_ref": "Seção Circular",
+    "base_bom": {
+      "337": 2.0,
+      "14": 2.0,
+      "327": 1.0,
+      "322": 1.0,
+      "342": 6.0,
+      "341": 4.0,
+      "339": 1.0,
+      "78": 1.0
+    },
+    "postes": [
+      {
+        "poste": "Seção Circular",
+        "delta": {}
+      },
+      {
+        "poste": "Duplo T",
+        "delta": {
+          "342": -6.0,
+          "341": -4.0
+        }
+      },
+      {
+        "poste": "PRFV",
+        "delta": {
+          "342": -6.0,
+          "341": -4.0
+        }
+      }
+    ],
+    "norma_origem": "NDU 004.1",
+    "tipo_rede": "compacta",
+    "tipo_base": "CEM3",
+    "tipo_fase": "monofasico",
+    "classe_tensao_kv": 36.2,
+    "cruzeta": null,
+    "condicionais": [
+      {
+        "id": null,
+        "descricao": "Cinta para poste circular.",
+        "qtd": 3.0,
+        "condicao": "Resolver Tabela B conforme projeto/poste — NDU 004.1 §15 (qtd p/ Circular/DuploT/PRFV: 3/0/0)"
+      },
+      {
+        "id": null,
+        "descricao": "Para-Raios de Distribuição.",
+        "qtd": 1.0,
+        "condicao": "Resolver Tabela R conforme projeto/poste — NDU 004.1 §15"
+      },
+      {
+        "id": null,
+        "descricao": "Terminal Compressão.",
+        "qtd": 1.0,
+        "condicao": "Resolver Tabela S conforme projeto/poste — NDU 004.1 §15"
+      },
+      {
+        "id": null,
+        "descricao": "Poste de concreto circular.",
+        "qtd": 1.0,
+        "condicao": "Resolver Tabela D conforme projeto/poste — NDU 004.1 §15 (qtd p/ Circular/DuploT/PRFV: 1/0/0)"
+      },
+      {
+        "id": null,
+        "descricao": "Poste de concreto DT.",
+        "qtd": 0.0,
+        "condicao": "Resolver Tabela E conforme projeto/poste — NDU 004.1 §15 (qtd p/ Circular/DuploT/PRFV: 0/1/0)"
+      },
+      {
+        "id": null,
+        "descricao": "Poste em Fibra de vidro.",
+        "qtd": 0.0,
+        "condicao": "Resolver Tabela F conforme projeto/poste — NDU 004.1 §15 (qtd p/ Circular/DuploT/PRFV: 0/0/1)"
+      },
+      {
+        "id": null,
+        "descricao": "Parafuso de Rosca Dupla M16 x Tamanho Adequado.",
+        "qtd": 0.0,
+        "condicao": "Resolver Tabela I (medida) conforme projeto — NDU 004.1 §15 (qtd p/ Circular/DuploT/PRFV: 0/3/3). [AUDITORIA] Linha F-32 perdida por colisão de texto (p.180)."
+      }
+    ],
+    "observacoes": "[AUDITORIA] Grampo de Linha Viva (O-7, p.180) sem código SISUP na norma → adotado id 78 (cod_sap 502940, 'Conector derivação p/ linha viva - GLV') e somado no base_bom (1/1/1). Recuperada também a linha F-32 (rosca dupla) como condicional.",
+    "pagina_origem": "NDU 004.1 p.180"
+  },
+  {
+    "schema_version": 1,
+    "rev": 2,
+    "status": "descontinuado",
+    "id": "K77",
+    "tipo": "CE3-TR",
+    "condutor": null,
+    "tensao_kv": 13.8,
+    "nominal_kv": 7.97,
+    "fases": 3,
+    "categoria": "Trifásico 13,8 kV — Compacta (NDU 004.1)",
+    "poste_ref": "Seção Circular",
+    "base_bom": {
+      "339": 1.0,
+      "374": 1.0,
+      "320": 3.0,
+      "369": 1.0,
+      "322": 3.0,
+      "370": 1.0,
+      "323": 4.0,
+      "371": 6.0,
+      "321": 3.0,
+      "337": 1.0
+    },
+    "postes": [
+      {
+        "poste": "Seção Circular",
+        "delta": {}
+      },
+      {
+        "poste": "Duplo T",
+        "delta": {
+          "14": 5.0
+        }
+      },
+      {
+        "poste": "PRFV",
+        "delta": {
+          "14": 5.0
+        }
+      }
+    ],
+    "norma_origem": "NDU 004.1",
+    "tipo_rede": "compacta",
+    "tipo_base": "CE3-TR",
+    "tipo_fase": "trifasico",
+    "classe_tensao_kv": 15.0,
+    "cruzeta": null,
+    "condicionais": [
+      {
+        "id": null,
+        "descricao": "Suporte para transformador em poste de concreto circular.",
+        "qtd": 2.0,
+        "condicao": "Resolver Tabela X conforme projeto/poste — NDU 004.1 §15 (qtd p/ Circular/DuploT/PRFV: 2/0/0)"
+      },
+      {
+        "id": null,
+        "descricao": "Suporte para transformador em poste de concreto duplo T.",
+        "qtd": 0.0,
+        "condicao": "Resolver Tabela Z conforme projeto/poste — NDU 004.1 §15 (qtd p/ Circular/DuploT/PRFV: 0/2/2)"
+      },
+      {
+        "id": null,
+        "descricao": "Chave-fusível de distribuição.",
+        "qtd": 3.0,
+        "condicao": "Resolver Tabela U conforme projeto/poste — NDU 004.1 §15"
+      },
+      {
+        "id": null,
+        "descricao": "Para-raios de distribuição.",
+        "qtd": 3.0,
+        "condicao": "Resolver Tabela R conforme projeto/poste — NDU 004.1 §15"
+      },
+      {
+        "id": null,
+        "descricao": "Transformador de distribuição.",
+        "qtd": 1.0,
+        "condicao": "Resolver Tabela V conforme projeto/poste — NDU 004.1 §15"
+      },
+      {
+        "id": null,
+        "descricao": "Cinta para poste circular.",
+        "qtd": 5.0,
+        "condicao": "Resolver Tabela B conforme projeto/poste — NDU 004.1 §15 (qtd p/ Circular/DuploT/PRFV: 5/0/0)"
+      },
+      {
+        "id": null,
+        "descricao": "Parafuso de cabeça quadrada.",
+        "qtd": 0.0,
+        "condicao": "Resolver Tabela M conforme projeto/poste — NDU 004.1 §15 (qtd p/ Circular/DuploT/PRFV: 0/5/5)"
+      },
+      {
+        "id": null,
+        "descricao": "Parafuso de cabeça abaulada.",
+        "qtd": 11.0,
+        "condicao": "Resolver Tabela C (medida) conforme projeto — NDU 004.1 §15"
+      },
+      {
+        "id": null,
+        "descricao": "Parafuso de Rosca Dupla M16 x Tamanho Adequada.",
+        "qtd": 2.0,
+        "condicao": "Resolver Tabela I (medida) conforme projeto — NDU 004.1 §15"
+      },
+      {
+        "id": null,
+        "descricao": "Poste de concreto circular.",
+        "qtd": 1.0,
+        "condicao": "Resolver Tabela D conforme projeto/poste — NDU 004.1 §15 (qtd p/ Circular/DuploT/PRFV: 1/0/0)"
+      },
+      {
+        "id": null,
+        "descricao": "Poste de concreto DT.",
+        "qtd": 0.0,
+        "condicao": "Resolver Tabela E conforme projeto/poste — NDU 004.1 §15 (qtd p/ Circular/DuploT/PRFV: 0/1/0)"
+      },
+      {
+        "id": null,
+        "descricao": "Poste em Fibra de vidro.",
+        "qtd": 0.0,
+        "condicao": "Resolver Tabela F conforme projeto/poste — NDU 004.1 §15 (qtd p/ Circular/DuploT/PRFV: 0/0/1)"
+      }
+    ],
+    "observacoes": "[AUDITORIA] Duplicata exata de K71 (CE3-TR, p.202): a norma desenha CE3-TR em p.202 e p.209 com listas idênticas. Descontinuada para não duplicar no catálogo (mantida válida em orçamentos antigos).",
+    "pagina_origem": "NDU 004.1 p.209"
+  },
+  {
+    "schema_version": 1,
+    "rev": 2,
+    "status": "descontinuado",
+    "id": "K78",
+    "tipo": "CE3-TR",
+    "condutor": null,
+    "tensao_kv": 34.5,
+    "nominal_kv": 19.92,
+    "fases": 3,
+    "categoria": "Trifásico 34,5 kV — Compacta (NDU 004.1)",
+    "poste_ref": "Seção Circular",
+    "base_bom": {
+      "339": 1.0,
+      "374": 1.0,
+      "320": 3.0,
+      "369": 1.0,
+      "322": 3.0,
+      "370": 1.0,
+      "323": 4.0,
+      "371": 6.0,
+      "327": 3.0,
+      "337": 1.0
+    },
+    "postes": [
+      {
+        "poste": "Seção Circular",
+        "delta": {}
+      },
+      {
+        "poste": "Duplo T",
+        "delta": {
+          "14": 5.0
+        }
+      },
+      {
+        "poste": "PRFV",
+        "delta": {
+          "14": 5.0
+        }
+      }
+    ],
+    "norma_origem": "NDU 004.1",
+    "tipo_rede": "compacta",
+    "tipo_base": "CE3-TR",
+    "tipo_fase": "trifasico",
+    "classe_tensao_kv": 36.2,
+    "cruzeta": null,
+    "condicionais": [
+      {
+        "id": null,
+        "descricao": "Suporte para transformador em poste de concreto circular.",
+        "qtd": 2.0,
+        "condicao": "Resolver Tabela X conforme projeto/poste — NDU 004.1 §15 (qtd p/ Circular/DuploT/PRFV: 2/0/0)"
+      },
+      {
+        "id": null,
+        "descricao": "Suporte para transformador em poste de concreto duplo T.",
+        "qtd": 0.0,
+        "condicao": "Resolver Tabela Z conforme projeto/poste — NDU 004.1 §15 (qtd p/ Circular/DuploT/PRFV: 0/2/2)"
+      },
+      {
+        "id": null,
+        "descricao": "Chave-fusível de distribuição.",
+        "qtd": 3.0,
+        "condicao": "Resolver Tabela U conforme projeto/poste — NDU 004.1 §15"
+      },
+      {
+        "id": null,
+        "descricao": "Para-raios de distribuição.",
+        "qtd": 3.0,
+        "condicao": "Resolver Tabela R conforme projeto/poste — NDU 004.1 §15"
+      },
+      {
+        "id": null,
+        "descricao": "Transformador de distribuição.",
+        "qtd": 1.0,
+        "condicao": "Resolver Tabela V conforme projeto/poste — NDU 004.1 §15"
+      },
+      {
+        "id": null,
+        "descricao": "Cinta para poste circular.",
+        "qtd": 5.0,
+        "condicao": "Resolver Tabela B conforme projeto/poste — NDU 004.1 §15 (qtd p/ Circular/DuploT/PRFV: 5/0/0)"
+      },
+      {
+        "id": null,
+        "descricao": "Parafuso de cabeça quadrada.",
+        "qtd": 0.0,
+        "condicao": "Resolver Tabela M conforme projeto/poste — NDU 004.1 §15 (qtd p/ Circular/DuploT/PRFV: 0/5/5)"
+      },
+      {
+        "id": null,
+        "descricao": "Parafuso de cabeça abaulada.",
+        "qtd": 11.0,
+        "condicao": "Resolver Tabela C (medida) conforme projeto — NDU 004.1 §15"
+      },
+      {
+        "id": null,
+        "descricao": "Parafuso de Rosca Dupla M16 x Tamanho Adequada.",
+        "qtd": 2.0,
+        "condicao": "Resolver Tabela I (medida) conforme projeto — NDU 004.1 §15"
+      },
+      {
+        "id": null,
+        "descricao": "Poste de concreto circular.",
+        "qtd": 1.0,
+        "condicao": "Resolver Tabela D conforme projeto/poste — NDU 004.1 §15 (qtd p/ Circular/DuploT/PRFV: 1/0/0)"
+      },
+      {
+        "id": null,
+        "descricao": "Poste de concreto DT.",
+        "qtd": 0.0,
+        "condicao": "Resolver Tabela E conforme projeto/poste — NDU 004.1 §15 (qtd p/ Circular/DuploT/PRFV: 0/1/0)"
+      },
+      {
+        "id": null,
+        "descricao": "Poste em Fibra de vidro.",
+        "qtd": 0.0,
+        "condicao": "Resolver Tabela F conforme projeto/poste — NDU 004.1 §15 (qtd p/ Circular/DuploT/PRFV: 0/0/1)"
+      }
+    ],
+    "observacoes": "[AUDITORIA] Duplicata exata de K72 (CE3-TR, p.202): a norma desenha CE3-TR em p.202 e p.209 com listas idênticas. Descontinuada para não duplicar no catálogo (mantida válida em orçamentos antigos).",
+    "pagina_origem": "NDU 004.1 p.209"
+  }
+]

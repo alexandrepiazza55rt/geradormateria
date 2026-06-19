@@ -1,0 +1,16 @@
+{
+ "schema": 1,
+ "frozen_from": "app/public/data/materiais.json",
+ "generated_at": "2026-06-17",
+ "next_id": 357,
+ "materials": [
+  {
+   "id": 356,
+   "identity_key": "sap:90395",
+   "cod_sap": "90395",
+   "cod_lider7": "",
+   "descricao": "Abraçadeira autotravante",
+   "unidade": "pç"
+  }
+ ]
+}
