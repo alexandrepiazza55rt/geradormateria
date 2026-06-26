@@ -144445,5 +144445,1209 @@
       }
     ],
     "norma_origem": "NDU 004.3"
+  },
+  {
+    "id": "IP-001",
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "categoria": "Iluminação Pública (NDU 004.3)",
+    "tipo": "IP em Poste Duplo T — BT s/ AT,  N1-13.8KV, CLE",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": null,
+    "poste_ref": "150~200",
+    "base_bom": {
+      "904": 2.0,
+      "1035": 1.0,
+      "1036": 9.0,
+      "1037": 1.0,
+      "1038": 1.0,
+      "1039": 1.0,
+      "1040": 1.0,
+      "1041": 1.0,
+      "1042": 2.0,
+      "1043": 1.0
+    },
+    "postes": [
+      {
+        "poste": "150~200",
+        "delta": {}
+      }
+    ],
+    "norma_origem": "NDU 004.3"
+  },
+  {
+    "id": "IP-002",
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "categoria": "Iluminação Pública (NDU 004.3)",
+    "tipo": "IP em Poste Duplo T — CUF3, CUF4, CHS",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": null,
+    "poste_ref": "150~200",
+    "base_bom": {
+      "904": 2.0,
+      "1035": 1.0,
+      "1036": 9.0,
+      "1037": 1.0,
+      "1038": 1.0,
+      "1039": 1.0,
+      "1040": 1.0,
+      "1041": 1.0,
+      "1042": 2.0,
+      "1043": 1.0
+    },
+    "postes": [
+      {
+        "poste": "150~200",
+        "delta": {}
+      },
+      {
+        "poste": "300",
+        "delta": {
+          "897": 2.0,
+          "904": -2.0,
+          "713": 2.0,
+          "905": 2.0
+        }
+      }
+    ],
+    "norma_origem": "NDU 004.3"
+  },
+  {
+    "id": "IP-003",
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "categoria": "Iluminação Pública (NDU 004.3)",
+    "tipo": "IP em Poste Duplo T — CHLS, N1-34.5KV, CLEA1",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": null,
+    "poste_ref": "150~200",
+    "base_bom": {
+      "708": 2.0,
+      "897": 2.0,
+      "904": 2.0,
+      "1035": 1.0,
+      "1036": 9.0,
+      "1037": 1.0,
+      "1038": 1.0,
+      "1039": 1.0,
+      "1040": 1.0,
+      "1041": 1.0,
+      "1042": 2.0,
+      "1043": 1.0
+    },
+    "postes": [
+      {
+        "poste": "150~200",
+        "delta": {}
+      }
+    ],
+    "norma_origem": "NDU 004.3"
+  },
+  {
+    "id": "IP-004",
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "categoria": "Iluminação Pública (NDU 004.3)",
+    "tipo": "IP em Poste Duplo T — CLEA2, N1-N3D-13.8, CC2, CJE",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": null,
+    "poste_ref": "150~200",
+    "base_bom": {
+      "904": 2.0,
+      "1035": 1.0,
+      "1036": 9.0,
+      "1037": 1.0,
+      "1038": 1.0,
+      "1039": 1.0,
+      "1040": 1.0,
+      "1041": 1.0,
+      "1042": 2.0,
+      "1043": 1.0
+    },
+    "postes": [
+      {
+        "poste": "150~200",
+        "delta": {}
+      }
+    ],
+    "norma_origem": "NDU 004.3"
+  },
+  {
+    "id": "IP-005",
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "categoria": "Iluminação Pública (NDU 004.3)",
+    "tipo": "IP em Poste Duplo T — N1-N3D-34.5, N4-N3D-34.5",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": null,
+    "poste_ref": "150~200",
+    "base_bom": {
+      "707": 2.0,
+      "897": 2.0,
+      "904": 2.0,
+      "905": 2.0,
+      "1035": 1.0,
+      "1036": 9.0,
+      "1037": 1.0,
+      "1038": 1.0,
+      "1039": 1.0,
+      "1040": 1.0,
+      "1041": 1.0,
+      "1042": 2.0,
+      "1043": 1.0
+    },
+    "postes": [
+      {
+        "poste": "150~200",
+        "delta": {}
+      },
+      {
+        "poste": "300",
+        "delta": {
+          "707": -2.0,
+          "712": 2.0,
+          "904": -2.0,
+          "906": 2.0,
+          "905": -2.0
+        }
+      },
+      {
+        "poste": "1000",
+        "delta": {
+          "897": -2.0,
+          "707": -2.0,
+          "904": -2.0,
+          "905": -2.0,
+          "907": 2.0
+        }
+      }
+    ],
+    "norma_origem": "NDU 004.3"
+  },
+  {
+    "id": "IP-006",
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "categoria": "Iluminação Pública (NDU 004.3)",
+    "tipo": "IP em Poste Duplo T — N1-T, N3-T, N4-T na 13.8KV",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": null,
+    "poste_ref": "150~200",
+    "base_bom": {
+      "710": 2.0,
+      "897": 2.0,
+      "905": 2.0,
+      "1035": 1.0,
+      "1036": 9.0,
+      "1037": 1.0,
+      "1038": 1.0,
+      "1039": 1.0,
+      "1040": 1.0,
+      "1041": 1.0,
+      "1042": 2.0,
+      "1043": 1.0
+    },
+    "postes": [
+      {
+        "poste": "150~200",
+        "delta": {}
+      },
+      {
+        "poste": "1000",
+        "delta": {
+          "897": -2.0,
+          "710": -2.0,
+          "905": -2.0,
+          "907": 2.0
+        }
+      }
+    ],
+    "norma_origem": "NDU 004.3"
+  },
+  {
+    "id": "IP-007",
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "categoria": "Iluminação Pública (NDU 004.3)",
+    "tipo": "IP em Poste Duplo T — N1-T, N3-T, N4-T na 34.5KV",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": null,
+    "poste_ref": "150~200",
+    "base_bom": {
+      "711": 2.0,
+      "897": 2.0,
+      "906": 2.0,
+      "1035": 1.0,
+      "1036": 9.0,
+      "1037": 1.0,
+      "1038": 1.0,
+      "1039": 1.0,
+      "1040": 1.0,
+      "1041": 1.0,
+      "1042": 2.0,
+      "1043": 1.0
+    },
+    "postes": [
+      {
+        "poste": "150~200",
+        "delta": {}
+      },
+      {
+        "poste": "300",
+        "delta": {
+          "897": 2.0,
+          "711": -2.0,
+          "715": 2.0,
+          "718": 2.0
+        }
+      },
+      {
+        "poste": "600",
+        "delta": {
+          "711": -2.0,
+          "906": -2.0,
+          "907": 2.0,
+          "720": 2.0
+        }
+      },
+      {
+        "poste": "1000",
+        "delta": {
+          "711": -2.0,
+          "906": -2.0,
+          "907": 2.0,
+          "725": 2.0
+        }
+      }
+    ],
+    "norma_origem": "NDU 004.3"
+  },
+  {
+    "id": "IP-008",
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "categoria": "Iluminação Pública (NDU 004.3)",
+    "tipo": "IP em Poste Duplo T — CHS-CH, CLHS-CH, CLEAs-DCUF3",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": null,
+    "poste_ref": "150~200",
+    "base_bom": {
+      "708": 2.0,
+      "897": 2.0,
+      "1035": 1.0,
+      "1036": 9.0,
+      "1037": 1.0,
+      "1038": 1.0,
+      "1039": 1.0,
+      "1040": 1.0,
+      "1041": 1.0,
+      "1042": 2.0,
+      "1043": 1.0
+    },
+    "postes": [
+      {
+        "poste": "150~200",
+        "delta": {}
+      },
+      {
+        "poste": "300",
+        "delta": {
+          "708": -2.0,
+          "713": 2.0
+        }
+      }
+    ],
+    "norma_origem": "NDU 004.3"
+  },
+  {
+    "id": "IP-009",
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "categoria": "Iluminação Pública (NDU 004.3)",
+    "tipo": "IP em Poste Duplo T — 2CUF3, CUF4-CF, CUF4-SU,",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": null,
+    "poste_ref": "1000",
+    "base_bom": {
+      "907": 2.0,
+      "1035": 1.0,
+      "1036": 9.0,
+      "1037": 1.0,
+      "1038": 1.0,
+      "1039": 1.0,
+      "1040": 1.0,
+      "1041": 1.0,
+      "1042": 2.0,
+      "1043": 1.0
+    },
+    "postes": [
+      {
+        "poste": "1000",
+        "delta": {}
+      }
+    ],
+    "norma_origem": "NDU 004.3"
+  },
+  {
+    "id": "IP-010",
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "categoria": "Iluminação Pública (NDU 004.3)",
+    "tipo": "IP em Poste Duplo T — COMPACTA DERIV. C/ CHAVE",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": null,
+    "poste_ref": "150~200",
+    "base_bom": {
+      "710": 2.0,
+      "897": 2.0,
+      "905": 2.0,
+      "1035": 1.0,
+      "1036": 9.0,
+      "1037": 1.0,
+      "1038": 1.0,
+      "1039": 1.0,
+      "1040": 1.0,
+      "1041": 1.0,
+      "1042": 2.0,
+      "1043": 1.0
+    },
+    "postes": [
+      {
+        "poste": "150~200",
+        "delta": {}
+      },
+      {
+        "poste": "300",
+        "delta": {
+          "710": -2.0,
+          "905": -2.0,
+          "906": 2.0,
+          "715": 2.0
+        }
+      },
+      {
+        "poste": "600",
+        "delta": {
+          "897": -2.0,
+          "710": -2.0,
+          "905": -2.0,
+          "906": 2.0
+        }
+      },
+      {
+        "poste": "1000",
+        "delta": {
+          "897": -2.0,
+          "710": -2.0,
+          "905": -2.0,
+          "907": 2.0
+        }
+      }
+    ],
+    "norma_origem": "NDU 004.3"
+  },
+  {
+    "id": "IP-011",
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "categoria": "Iluminação Pública (NDU 004.3)",
+    "tipo": "IP em Poste Duplo T — COMPACTA DERIV. S/ CHAVE",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": null,
+    "poste_ref": "150~200",
+    "base_bom": {
+      "709": 2.0,
+      "897": 2.0,
+      "904": 2.0,
+      "1035": 1.0,
+      "1036": 9.0,
+      "1037": 1.0,
+      "1038": 1.0,
+      "1039": 1.0,
+      "1040": 1.0,
+      "1041": 1.0,
+      "1042": 2.0,
+      "1043": 1.0
+    },
+    "postes": [
+      {
+        "poste": "150~200",
+        "delta": {}
+      },
+      {
+        "poste": "300",
+        "delta": {
+          "709": -2.0,
+          "904": -2.0,
+          "714": 2.0,
+          "906": 4.0
+        }
+      },
+      {
+        "poste": "600",
+        "delta": {
+          "897": -2.0,
+          "709": -2.0,
+          "904": -2.0,
+          "906": 4.0
+        }
+      },
+      {
+        "poste": "1000",
+        "delta": {
+          "897": -2.0,
+          "709": -2.0,
+          "904": -2.0,
+          "907": 2.0
+        }
+      }
+    ],
+    "norma_origem": "NDU 004.3"
+  },
+  {
+    "id": "IP-012",
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "categoria": "Iluminação Pública (NDU 004.3)",
+    "tipo": "IP em Poste Duplo T — CLEA2-DC3-CF",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": null,
+    "poste_ref": "150~200",
+    "base_bom": {
+      "905": 2.0,
+      "1035": 1.0,
+      "1036": 9.0,
+      "1037": 1.0,
+      "1038": 1.0,
+      "1039": 1.0,
+      "1040": 1.0,
+      "1041": 1.0,
+      "1042": 2.0,
+      "1043": 1.0
+    },
+    "postes": [
+      {
+        "poste": "150~200",
+        "delta": {}
+      },
+      {
+        "poste": "300",
+        "delta": {
+          "897": 2.0,
+          "905": -2.0,
+          "906": 2.0,
+          "717": 2.0
+        }
+      },
+      {
+        "poste": "600",
+        "delta": {
+          "897": 2.0,
+          "905": -2.0,
+          "907": 2.0,
+          "718": 2.0
+        }
+      },
+      {
+        "poste": "1000",
+        "delta": {
+          "897": 2.0,
+          "905": -2.0,
+          "907": 2.0,
+          "724": 2.0
+        }
+      }
+    ],
+    "norma_origem": "NDU 004.3"
+  },
+  {
+    "id": "IP-013",
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "categoria": "Iluminação Pública (NDU 004.3)",
+    "tipo": "IP em Poste Circular — BT s/ AT,  N1-13.8KV",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": null,
+    "poste_ref": "150~200C",
+    "base_bom": {
+      "677": 2.0,
+      "897": 1.0,
+      "898": 2.0,
+      "1035": 1.0,
+      "1036": 9.0,
+      "1037": 1.0,
+      "1038": 1.0,
+      "1039": 1.0,
+      "1040": 1.0,
+      "1041": 1.0,
+      "1042": 2.0,
+      "1043": 1.0
+    },
+    "postes": [
+      {
+        "poste": "150~200C",
+        "delta": {}
+      },
+      {
+        "poste": "300C",
+        "delta": {
+          "677": -2.0,
+          "680": 2.0
+        }
+      },
+      {
+        "poste": "600C",
+        "delta": {
+          "677": -2.0,
+          "683": 2.0
+        }
+      },
+      {
+        "poste": "1000C",
+        "delta": {
+          "677": -2.0,
+          "690": 2.0
+        }
+      }
+    ],
+    "norma_origem": "NDU 004.3"
+  },
+  {
+    "id": "IP-014",
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "categoria": "Iluminação Pública (NDU 004.3)",
+    "tipo": "IP em Poste Circular — CUF3, CUF4, CLE, CHS",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": null,
+    "poste_ref": "150~200C",
+    "base_bom": {
+      "678": 2.0,
+      "897": 1.0,
+      "898": 2.0,
+      "1035": 1.0,
+      "1036": 9.0,
+      "1037": 1.0,
+      "1038": 1.0,
+      "1039": 1.0,
+      "1040": 1.0,
+      "1041": 1.0,
+      "1042": 2.0,
+      "1043": 1.0
+    },
+    "postes": [
+      {
+        "poste": "150~200C",
+        "delta": {}
+      },
+      {
+        "poste": "300C",
+        "delta": {
+          "678": -2.0,
+          "681": 2.0
+        }
+      },
+      {
+        "poste": "600C",
+        "delta": {
+          "678": -2.0,
+          "683": 2.0
+        }
+      },
+      {
+        "poste": "1000C",
+        "delta": {
+          "678": -2.0,
+          "691": 2.0
+        }
+      }
+    ],
+    "norma_origem": "NDU 004.3"
+  },
+  {
+    "id": "IP-015",
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "categoria": "Iluminação Pública (NDU 004.3)",
+    "tipo": "IP em Poste Circular — CHLS, N1-34.5KV, CLEA1",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": null,
+    "poste_ref": "150~200C",
+    "base_bom": {
+      "678": 2.0,
+      "897": 1.0,
+      "898": 2.0,
+      "1035": 1.0,
+      "1036": 9.0,
+      "1037": 1.0,
+      "1038": 1.0,
+      "1039": 1.0,
+      "1040": 1.0,
+      "1041": 1.0,
+      "1042": 2.0,
+      "1043": 1.0
+    },
+    "postes": [
+      {
+        "poste": "150~200C",
+        "delta": {}
+      },
+      {
+        "poste": "300C",
+        "delta": {
+          "678": -2.0,
+          "681": 2.0
+        }
+      },
+      {
+        "poste": "600C",
+        "delta": {
+          "678": -2.0,
+          "683": 2.0
+        }
+      },
+      {
+        "poste": "1000C",
+        "delta": {
+          "678": -2.0,
+          "691": 2.0
+        }
+      }
+    ],
+    "norma_origem": "NDU 004.3"
+  },
+  {
+    "id": "IP-016",
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "categoria": "Iluminação Pública (NDU 004.3)",
+    "tipo": "IP em Poste Circular — CLEA2, N1-N3D-13.8, CC2, CJE",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": null,
+    "poste_ref": "150~200C",
+    "base_bom": {
+      "679": 2.0,
+      "897": 1.0,
+      "898": 2.0,
+      "1035": 1.0,
+      "1036": 9.0,
+      "1037": 1.0,
+      "1038": 1.0,
+      "1039": 1.0,
+      "1040": 1.0,
+      "1041": 1.0,
+      "1042": 2.0,
+      "1043": 1.0
+    },
+    "postes": [
+      {
+        "poste": "150~200C",
+        "delta": {}
+      },
+      {
+        "poste": "300C",
+        "delta": {
+          "679": -2.0,
+          "682": 2.0
+        }
+      },
+      {
+        "poste": "600C",
+        "delta": {
+          "679": -2.0,
+          "684": 2.0
+        }
+      },
+      {
+        "poste": "1000C",
+        "delta": {
+          "679": -2.0,
+          "692": 2.0
+        }
+      }
+    ],
+    "norma_origem": "NDU 004.3"
+  },
+  {
+    "id": "IP-017",
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "categoria": "Iluminação Pública (NDU 004.3)",
+    "tipo": "IP em Poste Circular — N1-N3D-34.5, N4-N3D-34.5",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": null,
+    "poste_ref": "150~200C",
+    "base_bom": {
+      "680": 2.0,
+      "897": 1.0,
+      "898": 2.0,
+      "1035": 1.0,
+      "1036": 9.0,
+      "1037": 1.0,
+      "1038": 1.0,
+      "1039": 1.0,
+      "1040": 1.0,
+      "1041": 1.0,
+      "1042": 2.0,
+      "1043": 1.0
+    },
+    "postes": [
+      {
+        "poste": "150~200C",
+        "delta": {}
+      },
+      {
+        "poste": "300C",
+        "delta": {
+          "680": -2.0,
+          "684": 2.0
+        }
+      },
+      {
+        "poste": "600C",
+        "delta": {
+          "680": -2.0,
+          "686": 2.0
+        }
+      },
+      {
+        "poste": "1000C",
+        "delta": {
+          "680": -2.0,
+          "693": 2.0
+        }
+      }
+    ],
+    "norma_origem": "NDU 004.3"
+  },
+  {
+    "id": "IP-018",
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "categoria": "Iluminação Pública (NDU 004.3)",
+    "tipo": "IP em Poste Circular — N1-T, N3-T, N4-T na 13.8KV",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": null,
+    "poste_ref": "150~200C",
+    "base_bom": {
+      "683": 2.0,
+      "897": 1.0,
+      "898": 2.0,
+      "1035": 1.0,
+      "1036": 9.0,
+      "1037": 1.0,
+      "1038": 1.0,
+      "1039": 1.0,
+      "1040": 1.0,
+      "1041": 1.0,
+      "1042": 2.0,
+      "1043": 1.0
+    },
+    "postes": [
+      {
+        "poste": "150~200C",
+        "delta": {}
+      },
+      {
+        "poste": "300C",
+        "delta": {
+          "683": -2.0,
+          "686": 2.0
+        }
+      },
+      {
+        "poste": "600C",
+        "delta": {
+          "683": -2.0,
+          "688": 2.0
+        }
+      },
+      {
+        "poste": "1000C",
+        "delta": {
+          "683": -2.0,
+          "695": 2.0
+        }
+      }
+    ],
+    "norma_origem": "NDU 004.3"
+  },
+  {
+    "id": "IP-019",
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "categoria": "Iluminação Pública (NDU 004.3)",
+    "tipo": "IP em Poste Circular — N1-T, N3-T, N4-T na 34.5KV",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": null,
+    "poste_ref": "150~200C",
+    "base_bom": {
+      "683": 2.0,
+      "897": 1.0,
+      "898": 2.0,
+      "1035": 1.0,
+      "1036": 9.0,
+      "1037": 1.0,
+      "1038": 1.0,
+      "1039": 1.0,
+      "1040": 1.0,
+      "1041": 1.0,
+      "1042": 2.0,
+      "1043": 1.0
+    },
+    "postes": [
+      {
+        "poste": "150~200C",
+        "delta": {}
+      },
+      {
+        "poste": "300C",
+        "delta": {
+          "683": -2.0,
+          "686": 2.0
+        }
+      },
+      {
+        "poste": "600C",
+        "delta": {
+          "683": -2.0,
+          "689": 2.0
+        }
+      },
+      {
+        "poste": "1000C",
+        "delta": {
+          "683": -2.0,
+          "695": 2.0
+        }
+      }
+    ],
+    "norma_origem": "NDU 004.3"
+  },
+  {
+    "id": "IP-020",
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "categoria": "Iluminação Pública (NDU 004.3)",
+    "tipo": "IP em Poste Circular — CHS-CH, CLHS-CH, CLEAs-DCUF3",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": null,
+    "poste_ref": "150~200C",
+    "base_bom": {
+      "682": 2.0,
+      "897": 1.0,
+      "898": 2.0,
+      "1035": 1.0,
+      "1036": 9.0,
+      "1037": 1.0,
+      "1038": 1.0,
+      "1039": 1.0,
+      "1040": 1.0,
+      "1041": 1.0,
+      "1042": 2.0,
+      "1043": 1.0
+    },
+    "postes": [
+      {
+        "poste": "150~200C",
+        "delta": {}
+      },
+      {
+        "poste": "300C",
+        "delta": {
+          "682": -2.0,
+          "685": 2.0
+        }
+      },
+      {
+        "poste": "600C",
+        "delta": {
+          "682": -2.0,
+          "687": 2.0
+        }
+      },
+      {
+        "poste": "1000C",
+        "delta": {
+          "682": -2.0,
+          "694": 2.0
+        }
+      }
+    ],
+    "norma_origem": "NDU 004.3"
+  },
+  {
+    "id": "IP-021",
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "categoria": "Iluminação Pública (NDU 004.3)",
+    "tipo": "IP em Poste Circular — 2CUF3, CUF4-CF, CUF4-SU,",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": null,
+    "poste_ref": "150~200C",
+    "base_bom": {
+      "681": 2.0,
+      "897": 1.0,
+      "898": 2.0,
+      "1035": 1.0,
+      "1036": 9.0,
+      "1037": 1.0,
+      "1038": 1.0,
+      "1039": 1.0,
+      "1040": 1.0,
+      "1041": 1.0,
+      "1042": 2.0,
+      "1043": 1.0
+    },
+    "postes": [
+      {
+        "poste": "150~200C",
+        "delta": {}
+      },
+      {
+        "poste": "300C",
+        "delta": {
+          "681": -2.0,
+          "684": 2.0
+        }
+      },
+      {
+        "poste": "600C",
+        "delta": {
+          "681": -2.0,
+          "687": 2.0
+        }
+      },
+      {
+        "poste": "1000C",
+        "delta": {
+          "681": -2.0,
+          "693": 2.0
+        }
+      }
+    ],
+    "norma_origem": "NDU 004.3"
+  },
+  {
+    "id": "IP-022",
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "categoria": "Iluminação Pública (NDU 004.3)",
+    "tipo": "IP em Poste Circular — COMPACTA DERIV. C/ CHAVE",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": null,
+    "poste_ref": "150~200C",
+    "base_bom": {
+      "683": 2.0,
+      "897": 1.0,
+      "898": 2.0,
+      "1035": 1.0,
+      "1036": 9.0,
+      "1037": 1.0,
+      "1038": 1.0,
+      "1039": 1.0,
+      "1040": 1.0,
+      "1041": 1.0,
+      "1042": 2.0,
+      "1043": 1.0
+    },
+    "postes": [
+      {
+        "poste": "150~200C",
+        "delta": {}
+      },
+      {
+        "poste": "300C",
+        "delta": {
+          "683": -2.0,
+          "686": 2.0
+        }
+      },
+      {
+        "poste": "600C",
+        "delta": {
+          "683": -2.0,
+          "688": 2.0
+        }
+      },
+      {
+        "poste": "1000C",
+        "delta": {
+          "683": -2.0,
+          "695": 2.0
+        }
+      }
+    ],
+    "norma_origem": "NDU 004.3"
+  },
+  {
+    "id": "IP-023",
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "categoria": "Iluminação Pública (NDU 004.3)",
+    "tipo": "IP em Poste Circular — COMPACTA DERIV. S/ CHAVE",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": null,
+    "poste_ref": "150~200C",
+    "base_bom": {
+      "681": 2.0,
+      "897": 1.0,
+      "898": 2.0,
+      "1035": 1.0,
+      "1036": 9.0,
+      "1037": 1.0,
+      "1038": 1.0,
+      "1039": 1.0,
+      "1040": 1.0,
+      "1041": 1.0,
+      "1042": 2.0,
+      "1043": 1.0
+    },
+    "postes": [
+      {
+        "poste": "150~200C",
+        "delta": {}
+      },
+      {
+        "poste": "300C",
+        "delta": {
+          "681": -2.0,
+          "684": 2.0
+        }
+      },
+      {
+        "poste": "1000C",
+        "delta": {
+          "681": -2.0,
+          "694": 2.0
+        }
+      }
+    ],
+    "norma_origem": "NDU 004.3"
+  },
+  {
+    "id": "IP-024",
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "categoria": "Iluminação Pública (NDU 004.3)",
+    "tipo": "IP em Poste Circular — CLEA2-DC3-CF",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": null,
+    "poste_ref": "150~200C",
+    "base_bom": {
+      "683": 2.0,
+      "897": 1.0,
+      "898": 2.0,
+      "1035": 1.0,
+      "1036": 9.0,
+      "1037": 1.0,
+      "1038": 1.0,
+      "1039": 1.0,
+      "1040": 1.0,
+      "1041": 1.0,
+      "1042": 2.0,
+      "1043": 1.0
+    },
+    "postes": [
+      {
+        "poste": "150~200C",
+        "delta": {}
+      },
+      {
+        "poste": "300C",
+        "delta": {
+          "683": -2.0,
+          "686": 2.0
+        }
+      },
+      {
+        "poste": "600C",
+        "delta": {
+          "683": -2.0,
+          "688": 2.0
+        }
+      },
+      {
+        "poste": "1000C",
+        "delta": {
+          "683": -2.0,
+          "695": 2.0
+        }
+      }
+    ],
+    "norma_origem": "NDU 004.3"
   }
 ]

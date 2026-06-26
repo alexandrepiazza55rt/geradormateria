@@ -14,6 +14,7 @@ export const SECTIONS: Secao[] = [
   { titulo: "Neutro Contínuo", subtitulo: "Independente de tensão (NDU 005)", test: (c) => c.includes("Neutro") },
   { titulo: "Baixa Tensão", subtitulo: "Rede multiplexada de BT (NDU 004.3)", test: (c) => c.includes("Baixa Tens") && !c.includes("Isolada") },
   { titulo: "BT Isolada", subtitulo: "Rede secundária isolada de BT (NDU 004.3)", test: (c) => c.includes("Isolada") },
+  { titulo: "Iluminação Pública", subtitulo: "Poste Duplo T e Poste Circular (NDU 004.3)", test: (c) => c.includes("Ilumina") },
   { titulo: "Medições c/ Mureta", subtitulo: "Padrões trifásicos com mureta", test: (c) => c.startsWith("Medi") },
 ];
 

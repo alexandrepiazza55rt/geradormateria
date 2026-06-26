@@ -4128,5 +4128,317 @@
     "cod_lider7": "",
     "descricao": "Poste de concreto armada circular- 12/1000",
     "unidade": "pç"
+  },
+  {
+    "id": 678,
+    "row": 697,
+    "cod_sap": "",
+    "cod_lider7": "3547",
+    "descricao": "Cinta circular de Ø 210 mm",
+    "unidade": "pç"
+  },
+  {
+    "id": 679,
+    "row": 698,
+    "cod_sap": "",
+    "cod_lider7": "3548",
+    "descricao": "Cinta circular de Ø 220 mm",
+    "unidade": "pç"
+  },
+  {
+    "id": 682,
+    "row": 701,
+    "cod_sap": "",
+    "cod_lider7": "3551",
+    "descricao": "Cinta circular de Ø 250 mm",
+    "unidade": "pç"
+  },
+  {
+    "id": 683,
+    "row": 702,
+    "cod_sap": "",
+    "cod_lider7": "3552",
+    "descricao": "Cinta circular de Ø 260 mm",
+    "unidade": "pç"
+  },
+  {
+    "id": 685,
+    "row": 704,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cinta circular de Ø 280 mm",
+    "unidade": "pç"
+  },
+  {
+    "id": 686,
+    "row": 705,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cinta circular de Ø 290 mm",
+    "unidade": "pç"
+  },
+  {
+    "id": 687,
+    "row": 706,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cinta circular de Ø 300 mm",
+    "unidade": "pç"
+  },
+  {
+    "id": 688,
+    "row": 707,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cinta circular de Ø 310 mm",
+    "unidade": "pç"
+  },
+  {
+    "id": 689,
+    "row": 708,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cinta circular de Ø 320 mm",
+    "unidade": "pç"
+  },
+  {
+    "id": 690,
+    "row": 709,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cinta circular de Ø 330 mm",
+    "unidade": "pç"
+  },
+  {
+    "id": 691,
+    "row": 710,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cinta circular de Ø 340 mm",
+    "unidade": "pç"
+  },
+  {
+    "id": 692,
+    "row": 711,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cinta circular de Ø 350 mm",
+    "unidade": "pç"
+  },
+  {
+    "id": 693,
+    "row": 712,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cinta circular de Ø 360 mm",
+    "unidade": "pç"
+  },
+  {
+    "id": 694,
+    "row": 713,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cinta circular de Ø 370 mm",
+    "unidade": "pç"
+  },
+  {
+    "id": 695,
+    "row": 714,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cinta circular de Ø 380 mm",
+    "unidade": "pç"
+  },
+  {
+    "id": 707,
+    "row": 726,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "CINTA POSTE DT ACO 135 X 85MM",
+    "unidade": "pç"
+  },
+  {
+    "id": 708,
+    "row": 727,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "CINTA POSTE DT ACO 135 X 90MM",
+    "unidade": "pç"
+  },
+  {
+    "id": 709,
+    "row": 728,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "CINTA POSTE DT ACO 140 X 95MM",
+    "unidade": "pç"
+  },
+  {
+    "id": 710,
+    "row": 729,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "CINTA POSTE DT ACO 145 X 95MM",
+    "unidade": "pç"
+  },
+  {
+    "id": 711,
+    "row": 730,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "CINTA POSTE DT ACO 150 X 100MM",
+    "unidade": "pç"
+  },
+  {
+    "id": 712,
+    "row": 731,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "CINTA POSTE DT ACO 180 X 120MM",
+    "unidade": "pç"
+  },
+  {
+    "id": 713,
+    "row": 732,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "CINTA POSTE DT ACO 190 X 125MM",
+    "unidade": "pç"
+  },
+  {
+    "id": 714,
+    "row": 733,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "CINTA POSTE DT ACO 195 X130MM",
+    "unidade": "pç"
+  },
+  {
+    "id": 715,
+    "row": 734,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "CINTA POSTE DT ACO 200 X 135MM",
+    "unidade": "pç"
+  },
+  {
+    "id": 717,
+    "row": 736,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "CINTA POSTE DT ACO 205 X 135MM",
+    "unidade": "pç"
+  },
+  {
+    "id": 718,
+    "row": 737,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "CINTA POSTE DT ACO 210 X 140MM",
+    "unidade": "pç"
+  },
+  {
+    "id": 720,
+    "row": 739,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "CINTA POSTE DT ACO 215 X 145MM",
+    "unidade": "pç"
+  },
+  {
+    "id": 724,
+    "row": 743,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "CINTA POSTE DT ACO 235 X 160MM",
+    "unidade": "pç"
+  },
+  {
+    "id": 725,
+    "row": 744,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "CINTA POSTE DT ACO 240 X165MM",
+    "unidade": "pç"
+  },
+  {
+    "id": 898,
+    "row": 917,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Parafuso de cabeça abaulada 100mm",
+    "unidade": "pç"
+  },
+  {
+    "id": 1035,
+    "row": 1054,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "BRAÇO TIPO BR-1",
+    "unidade": "pç"
+  },
+  {
+    "id": 1036,
+    "row": 1055,
+    "cod_sap": "",
+    "cod_lider7": "3595",
+    "descricao": "FIO DE COBRE ISOLADO - 2,5mm²",
+    "unidade": "m"
+  },
+  {
+    "id": 1037,
+    "row": 1056,
+    "cod_sap": "",
+    "cod_lider7": "3596",
+    "descricao": "FITA ISOLANTE PRASTICA N°33 -19mmx 5 M",
+    "unidade": "pç"
+  },
+  {
+    "id": 1038,
+    "row": 1057,
+    "cod_sap": "",
+    "cod_lider7": "3697",
+    "descricao": "LAMPADA VAPOR DE SODIO 100W",
+    "unidade": "pç"
+  },
+  {
+    "id": 1039,
+    "row": 1058,
+    "cod_sap": "",
+    "cod_lider7": "3705",
+    "descricao": "LUMINARIA TIPO LMA - 1",
+    "unidade": "pç"
+  },
+  {
+    "id": 1040,
+    "row": 1059,
+    "cod_sap": "",
+    "cod_lider7": "3700",
+    "descricao": "REATOR USO EXTERNO PARA LÂMPADA  DE VAPOR DE SODIO 100W 220V",
+    "unidade": "pç"
+  },
+  {
+    "id": 1041,
+    "row": 1060,
+    "cod_sap": "",
+    "cod_lider7": "3708",
+    "descricao": "BASE EXTERNA PARA RELE FOTOELETRICO",
+    "unidade": "pç"
+  },
+  {
+    "id": 1042,
+    "row": 1061,
+    "cod_sap": "",
+    "cod_lider7": "3701",
+    "descricao": "CONECTOR PERFURANTE 1,5-6mm² x 10-70 mm²",
+    "unidade": "pç"
+  },
+  {
+    "id": 1043,
+    "row": 1062,
+    "cod_sap": "",
+    "cod_lider7": "3709",
+    "descricao": "RELE FOTOELETRICO(N.F) 220V CARGA NOMINAL 1800 V.A",
+    "unidade": "pç"
   }
 ]

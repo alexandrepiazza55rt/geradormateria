@@ -75,7 +75,9 @@ export function EstruturaCard({
           <span className="rounded bg-slate-100 px-1.5 py-0.5 text-[11px] text-slate-500">
             {neutro
               ? "Neutro"
-              : `${est.fases === 1 ? "1Ø" : "3Ø"} · ${est.tensao_kv.toString().replace(".", ",")} kV`}
+              : est.tensao_kv != null
+              ? `${est.fases === 1 ? "1Ø" : "3Ø"} · ${est.tensao_kv.toString().replace(".", ",")} kV`
+              : "IP"}
           </span>
         </div>
       </div>
