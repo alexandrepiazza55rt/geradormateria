@@ -7,16 +7,34 @@ export function Home() {
   const setView = useStore((s) => s.setView);
 
   function cardTitle(cat: string) {
-    return cat.replace(" — Rural (NDU 005)", "").replace(" (NDU 005)", "");
+    return cat
+      .replace(" — Rural (NDU 005)", "")
+      .replace(" (NDU 005)", "")
+      .replace(" (NDU 004.3)", "")
+      .replace(" (NDU 004.1)", "")
+      .replace("Transformadores ", "");
   }
 
   function Card({ cat }: { cat: string }) {
     const n = byCat.get(cat)?.length ?? 0;
     const neutro = cat.includes("Neutro");
     const trafo = cat.startsWith("Transformadores");
+    const isBT = cat.includes("Baixa Tens");
+    const isIP = cat.includes("Ilumina");
     const is345 = cat.includes("34,5") || cat.includes("34.5");
-    const kv = neutro ? "Neutro" : trafo ? (is345 ? "34,5 kV" : "13,8 kV") : cat.includes("34,5") ? "34,5 kV" : cat.includes("24,2") ? "24,2 kV" : "13,8 kV";
-    const accent = neutro ? "from-emerald-500 to-teal-600" : trafo ? "from-violet-500 to-purple-600" : is345 ? "from-amber-500 to-orange-600" : "from-sky-500 to-blue-600";
+    const kv = neutro ? "Neutro"
+      : trafo ? (is345 ? "34,5 kV" : "13,8 kV")
+      : isBT ? "BT"
+      : isIP ? "IP"
+      : is345 ? "34,5 kV"
+      : cat.includes("24,2") ? "24,2 kV"
+      : "13,8 kV";
+    const accent = neutro ? "from-emerald-500 to-teal-600"
+      : trafo ? "from-violet-500 to-purple-600"
+      : isBT ? "from-teal-500 to-cyan-600"
+      : isIP ? "from-amber-400 to-yellow-500"
+      : is345 ? "from-amber-500 to-orange-600"
+      : "from-sky-500 to-blue-600";
     return (
       <button
         onClick={() => setView({ name: "categoria", categoria: cat })}
@@ -43,8 +61,8 @@ export function Home() {
           <div className="text-white">
             <h1 className="text-2xl font-bold">Gerador de Relação de Materiais</h1>
             <p className="mt-1 max-w-md text-sm text-sky-100">
-              Monte a relação completa de materiais seguindo o fluxo da planilha:
-              estruturas, transformadores e medição.
+              Monte a relação completa de materiais para a obra —
+              estruturas de rede, transformadores e medição.
             </p>
           </div>
           <button
@@ -56,10 +74,8 @@ export function Home() {
         </div>
       </div>
 
-      {/* Seção Consultar */}
-      <div className="mb-4 flex items-center gap-2">
-        <h2 className="text-base font-bold text-slate-700">Consultar por categoria</h2>
-        <span className="rounded-full bg-slate-100 px-2 py-0.5 text-xs text-slate-500">modo livre</span>
+      <div className="mb-4">
+        <h2 className="text-base font-bold text-slate-700">Catálogo de estruturas</h2>
       </div>
 
       <div className="space-y-8">
