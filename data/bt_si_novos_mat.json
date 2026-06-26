@@ -1,0 +1,826 @@
+[
+  {
+    "id": 549,
+    "row": 568,
+    "cod_sap": "",
+    "cod_lider7": "3488",
+    "descricao": "Alça pré formada 10mm",
+    "unidade": "pç"
+  },
+  {
+    "id": 550,
+    "row": 569,
+    "cod_sap": "",
+    "cod_lider7": "3489",
+    "descricao": "Alça pré formada 16mm",
+    "unidade": "pç"
+  },
+  {
+    "id": 551,
+    "row": 570,
+    "cod_sap": "",
+    "cod_lider7": "3490",
+    "descricao": "Alça pré formada 25mm",
+    "unidade": "pç"
+  },
+  {
+    "id": 553,
+    "row": 572,
+    "cod_sap": "",
+    "cod_lider7": "3491",
+    "descricao": "Alça pré formada para cabo 1/0 CAA AWG",
+    "unidade": "pç"
+  },
+  {
+    "id": 554,
+    "row": 573,
+    "cod_sap": "",
+    "cod_lider7": "3492",
+    "descricao": "Alça pré formada para cabo 2 CAA AWG",
+    "unidade": "pç"
+  },
+  {
+    "id": 555,
+    "row": 574,
+    "cod_sap": "",
+    "cod_lider7": "3493",
+    "descricao": "Alça pré formada para cabo 4 CAA AWG",
+    "unidade": "pç"
+  },
+  {
+    "id": 556,
+    "row": 575,
+    "cod_sap": "",
+    "cod_lider7": "3494",
+    "descricao": "Alça pré formada para cabo 4/0 CAA AWG",
+    "unidade": "pç"
+  },
+  {
+    "id": 557,
+    "row": 576,
+    "cod_sap": "",
+    "cod_lider7": "3496",
+    "descricao": "Alça pré-formada de estai p/ cabo de aço -6,4 mm",
+    "unidade": "pç"
+  },
+  {
+    "id": 558,
+    "row": 577,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Alça pré-formada de estai p/ cabo de aço -9,5 mm",
+    "unidade": "pç"
+  },
+  {
+    "id": 559,
+    "row": 578,
+    "cod_sap": "",
+    "cod_lider7": "3497",
+    "descricao": "Anel Amarração",
+    "unidade": "pç"
+  },
+  {
+    "id": 560,
+    "row": 579,
+    "cod_sap": "",
+    "cod_lider7": "3498",
+    "descricao": "Arame Galvanizado 14 BWG 2,10MM",
+    "unidade": "M"
+  },
+  {
+    "id": 561,
+    "row": 580,
+    "cod_sap": "",
+    "cod_lider7": "3501",
+    "descricao": "Armação secundaria 1 estribo zincada",
+    "unidade": "pç"
+  },
+  {
+    "id": 562,
+    "row": 581,
+    "cod_sap": "",
+    "cod_lider7": "3502",
+    "descricao": "Armação secundaria 2 estribos zincada",
+    "unidade": "pç"
+  },
+  {
+    "id": 563,
+    "row": 582,
+    "cod_sap": "",
+    "cod_lider7": "3499",
+    "descricao": "Armação secundaria 3/1/6\" - 1x1 estribo (pesada)",
+    "unidade": "pç"
+  },
+  {
+    "id": 564,
+    "row": 583,
+    "cod_sap": "",
+    "cod_lider7": "3500",
+    "descricao": "Armação secundaria 3/16\" - 2x2 estribo (pesada)",
+    "unidade": "pç"
+  },
+  {
+    "id": 565,
+    "row": 584,
+    "cod_sap": "",
+    "cod_lider7": "4029",
+    "descricao": "Arruela de aluminio 1\"",
+    "unidade": "pç"
+  },
+  {
+    "id": 566,
+    "row": 585,
+    "cod_sap": "",
+    "cod_lider7": "4031",
+    "descricao": "Arruela de aluminio 1.1/2\"",
+    "unidade": "pç"
+  },
+  {
+    "id": 567,
+    "row": 586,
+    "cod_sap": "",
+    "cod_lider7": "4030",
+    "descricao": "Arruela de aluminio 1.1/4\"",
+    "unidade": "pç"
+  },
+  {
+    "id": 568,
+    "row": 587,
+    "cod_sap": "",
+    "cod_lider7": "4027",
+    "descricao": "Arruela de aluminio 1/2\"",
+    "unidade": "pç"
+  },
+  {
+    "id": 569,
+    "row": 588,
+    "cod_sap": "",
+    "cod_lider7": "3503",
+    "descricao": "Arruela de aluminio 2\"",
+    "unidade": "pç"
+  },
+  {
+    "id": 570,
+    "row": 589,
+    "cod_sap": "",
+    "cod_lider7": "4022",
+    "descricao": "Arruela de aluminio 2.1/2\"",
+    "unidade": "pç"
+  },
+  {
+    "id": 571,
+    "row": 590,
+    "cod_sap": "",
+    "cod_lider7": "4028",
+    "descricao": "Arruela de aluminio 3/4\"",
+    "unidade": "pç"
+  },
+  {
+    "id": 572,
+    "row": 591,
+    "cod_sap": "",
+    "cod_lider7": "4033",
+    "descricao": "Arruela de aluminio 4\"",
+    "unidade": "pç"
+  },
+  {
+    "id": 573,
+    "row": 592,
+    "cod_sap": "",
+    "cod_lider7": "3504",
+    "descricao": "Arruela de aluminio de 3\"",
+    "unidade": "pç"
+  },
+  {
+    "id": 574,
+    "row": 593,
+    "cod_sap": "",
+    "cod_lider7": "3505",
+    "descricao": "Arruela espaçadora 50x30mm",
+    "unidade": "pç"
+  },
+  {
+    "id": 575,
+    "row": 594,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "ARRUELA PARA ELETRODUTO 2\"",
+    "unidade": "pç"
+  },
+  {
+    "id": 576,
+    "row": 595,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "ARRUELA PARA ELETRODUTO 3/4\"",
+    "unidade": "pç"
+  },
+  {
+    "id": 577,
+    "row": 596,
+    "cod_sap": "",
+    "cod_lider7": "3506",
+    "descricao": "Arruela quadrada",
+    "unidade": "pç"
+  },
+  {
+    "id": 578,
+    "row": 597,
+    "cod_sap": "",
+    "cod_lider7": "3966",
+    "descricao": "Bastão quimico 9-kg",
+    "unidade": "pç"
+  },
+  {
+    "id": 579,
+    "row": 598,
+    "cod_sap": "",
+    "cod_lider7": "4534",
+    "descricao": "Braço anti-balanço - 15kv",
+    "unidade": "pç"
+  },
+  {
+    "id": 580,
+    "row": 599,
+    "cod_sap": "",
+    "cod_lider7": "4022",
+    "descricao": "Bucha de aluminio 1\"",
+    "unidade": "pç"
+  },
+  {
+    "id": 581,
+    "row": 600,
+    "cod_sap": "",
+    "cod_lider7": "4024",
+    "descricao": "Bucha de aluminio 1.1/2\"",
+    "unidade": "pç"
+  },
+  {
+    "id": 582,
+    "row": 601,
+    "cod_sap": "",
+    "cod_lider7": "4023",
+    "descricao": "Bucha de aluminio 1.1/4\"",
+    "unidade": "pç"
+  },
+  {
+    "id": 583,
+    "row": 602,
+    "cod_sap": "",
+    "cod_lider7": "4020",
+    "descricao": "Bucha de aluminio 1/2\"",
+    "unidade": "pç"
+  },
+  {
+    "id": 584,
+    "row": 603,
+    "cod_sap": "",
+    "cod_lider7": "3508",
+    "descricao": "Bucha de aluminio 2\"",
+    "unidade": "pç"
+  },
+  {
+    "id": 585,
+    "row": 604,
+    "cod_sap": "",
+    "cod_lider7": "4025",
+    "descricao": "Bucha de aluminio 2.1/2\"",
+    "unidade": "pç"
+  },
+  {
+    "id": 586,
+    "row": 605,
+    "cod_sap": "",
+    "cod_lider7": "3509",
+    "descricao": "Bucha de aluminio 3\"",
+    "unidade": "pç"
+  },
+  {
+    "id": 587,
+    "row": 606,
+    "cod_sap": "",
+    "cod_lider7": "4021",
+    "descricao": "Bucha de aluminio 3/4\"",
+    "unidade": "pç"
+  },
+  {
+    "id": 588,
+    "row": 607,
+    "cod_sap": "",
+    "cod_lider7": "4026",
+    "descricao": "Bucha de aluminio 4\"",
+    "unidade": "pç"
+  },
+  {
+    "id": 589,
+    "row": 608,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "BUCHA P/ ELETRODUTO 2\"",
+    "unidade": "pç"
+  },
+  {
+    "id": 590,
+    "row": 609,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "BUCHA P/ ELETRODUTO 3/4",
+    "unidade": "pç"
+  },
+  {
+    "id": 591,
+    "row": 610,
+    "cod_sap": "",
+    "cod_lider7": "4035",
+    "descricao": "Cabeçote de aluminio 1\"",
+    "unidade": "pç"
+  },
+  {
+    "id": 592,
+    "row": 611,
+    "cod_sap": "",
+    "cod_lider7": "4037",
+    "descricao": "Cabeçote de aluminio 1.1/2\"",
+    "unidade": "pç"
+  },
+  {
+    "id": 593,
+    "row": 612,
+    "cod_sap": "",
+    "cod_lider7": "4066",
+    "descricao": "Cabeçote de aluminio 1.1/4\"",
+    "unidade": "pç"
+  },
+  {
+    "id": 594,
+    "row": 613,
+    "cod_sap": "",
+    "cod_lider7": "3510",
+    "descricao": "Cabeçote de aluminio 2\"",
+    "unidade": "pç"
+  },
+  {
+    "id": 595,
+    "row": 614,
+    "cod_sap": "",
+    "cod_lider7": "4038",
+    "descricao": "Cabeçote de aluminio 2.1/2\"",
+    "unidade": "pç"
+  },
+  {
+    "id": 596,
+    "row": 615,
+    "cod_sap": "",
+    "cod_lider7": "3511",
+    "descricao": "Cabeçote de aluminio 3\"",
+    "unidade": "pç"
+  },
+  {
+    "id": 597,
+    "row": 616,
+    "cod_sap": "",
+    "cod_lider7": "4034",
+    "descricao": "Cabeçote de aluminio 3/4\"",
+    "unidade": "pç"
+  },
+  {
+    "id": 599,
+    "row": 618,
+    "cod_sap": "",
+    "cod_lider7": "3531",
+    "descricao": "Cabo aluminio multiplexado quad. Xlpe 3x1x35+35mm²",
+    "unidade": "M"
+  },
+  {
+    "id": 615,
+    "row": 634,
+    "cod_sap": "",
+    "cod_lider7": "3516",
+    "descricao": "Cabo de aço galvanizado - 6,4mm (cordoalha)",
+    "unidade": "kg"
+  },
+  {
+    "id": 655,
+    "row": 674,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cabo isolado cobre singelo 150mm², preto, 750V, PVC",
+    "unidade": "m"
+  },
+  {
+    "id": 673,
+    "row": 692,
+    "cod_sap": "",
+    "cod_lider7": "3542",
+    "descricao": "Cinta circular de Ø 160 mm",
+    "unidade": "pç"
+  },
+  {
+    "id": 675,
+    "row": 694,
+    "cod_sap": "",
+    "cod_lider7": "3544",
+    "descricao": "Cinta circular de Ø 180 mm",
+    "unidade": "pç"
+  },
+  {
+    "id": 677,
+    "row": 696,
+    "cod_sap": "",
+    "cod_lider7": "3546",
+    "descricao": "Cinta circular de Ø 200 mm",
+    "unidade": "pç"
+  },
+  {
+    "id": 680,
+    "row": 699,
+    "cod_sap": "",
+    "cod_lider7": "3549",
+    "descricao": "Cinta circular de Ø 230 mm",
+    "unidade": "pç"
+  },
+  {
+    "id": 681,
+    "row": 700,
+    "cod_sap": "",
+    "cod_lider7": "3550",
+    "descricao": "Cinta circular de Ø 240 mm",
+    "unidade": "pç"
+  },
+  {
+    "id": 684,
+    "row": 703,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cinta circular de Ø 270 mm",
+    "unidade": "pç"
+  },
+  {
+    "id": 721,
+    "row": 740,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "CINTA POSTE DT ACO 220X150MM",
+    "unidade": "pç"
+  },
+  {
+    "id": 741,
+    "row": 760,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "CONECTOR CUNHA DER CN15 AL 9,2-14,5X9,2-14MM",
+    "unidade": "pç"
+  },
+  {
+    "id": 742,
+    "row": 761,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "CONECTOR CUNHA DER CN6 AL 9,2-14,5X6,5-14MM",
+    "unidade": "pç"
+  },
+  {
+    "id": 743,
+    "row": 762,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "CONECTOR CUNHA DER CN13 AL 6,5-10X4,11-6,5MM",
+    "unidade": "pç"
+  },
+  {
+    "id": 744,
+    "row": 763,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "CONECTOR CUNHA DER CN10 AL 8,2-14X4,1-11,7MM",
+    "unidade": "pç"
+  },
+  {
+    "id": 745,
+    "row": 764,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "CONECTOR CUNHA DER CN4 AL 15,2-17,3X6,5-14MM",
+    "unidade": "pç"
+  },
+  {
+    "id": 758,
+    "row": 777,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Conector perfurante 25-120 mm² X 25-120 mm² (rabicho)",
+    "unidade": "pç"
+  },
+  {
+    "id": 759,
+    "row": 778,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Conector perfurante 70-185 mm² X 70-185 mm²",
+    "unidade": "pç"
+  },
+  {
+    "id": 764,
+    "row": 783,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Conector transversal tipo cunha para aterramento - 5/8\" x (25 a 35mm²)",
+    "unidade": "pç"
+  },
+  {
+    "id": 793,
+    "row": 812,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Eletroduto de PVC rígido 12mm² x 300cm (1/2\" x 3m)",
+    "unidade": "pç"
+  },
+  {
+    "id": 823,
+    "row": 842,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Fio de alumínio nú para amarração – 6 AWG",
+    "unidade": "kg"
+  },
+  {
+    "id": 827,
+    "row": 846,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Fio de cobre isolado 6mm²",
+    "unidade": "M"
+  },
+  {
+    "id": 835,
+    "row": 854,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Fita Auto Fusão",
+    "unidade": "pç"
+  },
+  {
+    "id": 836,
+    "row": 855,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Fita de alumínio recozido para proteção de cabo",
+    "unidade": "kg"
+  },
+  {
+    "id": 837,
+    "row": 856,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Fita Isolante Preta 19mm x 10m",
+    "unidade": "pç"
+  },
+  {
+    "id": 853,
+    "row": 872,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Haste de aterramento circular lisa 2400mm",
+    "unidade": "pç"
+  },
+  {
+    "id": 862,
+    "row": 881,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Isolador roldana 76x79mm",
+    "unidade": "pç"
+  },
+  {
+    "id": 897,
+    "row": 916,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Parafuso de cabeça abaulada 50mm",
+    "unidade": "pç"
+  },
+  {
+    "id": 903,
+    "row": 922,
+    "cod_sap": "",
+    "cod_lider7": "4174",
+    "descricao": "Parafuso de cabeça quadrada - 200mm",
+    "unidade": "pç"
+  },
+  {
+    "id": 904,
+    "row": 923,
+    "cod_sap": "",
+    "cod_lider7": "4190",
+    "descricao": "Parafuso de cabeça quadrada - 250mm",
+    "unidade": "pç"
+  },
+  {
+    "id": 905,
+    "row": 924,
+    "cod_sap": "",
+    "cod_lider7": "3712",
+    "descricao": "Parafuso de cabeça quadrada - 300mm",
+    "unidade": "pç"
+  },
+  {
+    "id": 906,
+    "row": 925,
+    "cod_sap": "",
+    "cod_lider7": "3652",
+    "descricao": "Parafuso de cabeça quadrada - 350mm",
+    "unidade": "pç"
+  },
+  {
+    "id": 907,
+    "row": 926,
+    "cod_sap": "",
+    "cod_lider7": "3656",
+    "descricao": "Parafuso de cabeça quadrada - 400mm",
+    "unidade": "pç"
+  },
+  {
+    "id": 922,
+    "row": 941,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Placa de Concreto",
+    "unidade": "pç"
+  },
+  {
+    "id": 923,
+    "row": 942,
+    "cod_sap": "4174",
+    "cod_lider7": "",
+    "descricao": "Poste de concreto armada - 10/150 DT",
+    "unidade": "pç"
+  },
+  {
+    "id": 924,
+    "row": 943,
+    "cod_sap": "4190",
+    "cod_lider7": "",
+    "descricao": "Poste de concreto armada - 10/300 DT",
+    "unidade": "pç"
+  },
+  {
+    "id": 925,
+    "row": 944,
+    "cod_sap": "3712",
+    "cod_lider7": "",
+    "descricao": "Poste de concreto armada - 10/600 DT",
+    "unidade": "pç"
+  },
+  {
+    "id": 926,
+    "row": 945,
+    "cod_sap": "3652",
+    "cod_lider7": "",
+    "descricao": "Poste de concreto armada - 10/1000 DT",
+    "unidade": "pç"
+  },
+  {
+    "id": 927,
+    "row": 946,
+    "cod_sap": "3656",
+    "cod_lider7": "",
+    "descricao": "Poste de concreto armada - 11/200 DT",
+    "unidade": "pç"
+  },
+  {
+    "id": 928,
+    "row": 947,
+    "cod_sap": "3657",
+    "cod_lider7": "4055",
+    "descricao": "Poste de concreto armada - 11/300 DT",
+    "unidade": "pç"
+  },
+  {
+    "id": 929,
+    "row": 948,
+    "cod_sap": "3658",
+    "cod_lider7": "",
+    "descricao": "Poste de concreto armada - 11/600 DT",
+    "unidade": "pç"
+  },
+  {
+    "id": 930,
+    "row": 949,
+    "cod_sap": "3655",
+    "cod_lider7": "",
+    "descricao": "Poste de concreto armada - 11/1000 DT",
+    "unidade": "pç"
+  },
+  {
+    "id": 931,
+    "row": 950,
+    "cod_sap": "3660",
+    "cod_lider7": "3669",
+    "descricao": "Poste de concreto armada - 12/300 DT",
+    "unidade": "pç"
+  },
+  {
+    "id": 932,
+    "row": 951,
+    "cod_sap": "3661",
+    "cod_lider7": "",
+    "descricao": "Poste de concreto armada - 12/600 DT",
+    "unidade": "pç"
+  },
+  {
+    "id": 933,
+    "row": 952,
+    "cod_sap": "3659",
+    "cod_lider7": "",
+    "descricao": "Poste de concreto armada - 12/1000 DT",
+    "unidade": "pç"
+  },
+  {
+    "id": 934,
+    "row": 953,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Poste de concreto armada circular- 10/150",
+    "unidade": "pç"
+  },
+  {
+    "id": 935,
+    "row": 954,
+    "cod_sap": "4043",
+    "cod_lider7": "",
+    "descricao": "Poste de concreto armada circular- 10/300",
+    "unidade": "pç"
+  },
+  {
+    "id": 936,
+    "row": 955,
+    "cod_sap": "3663",
+    "cod_lider7": "",
+    "descricao": "Poste de concreto armada circular- 10/600",
+    "unidade": "pç"
+  },
+  {
+    "id": 937,
+    "row": 956,
+    "cod_sap": "3662",
+    "cod_lider7": "",
+    "descricao": "Poste de concreto armada circular- 10/1000",
+    "unidade": "pç"
+  },
+  {
+    "id": 938,
+    "row": 957,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Poste de concreto armada circular- 11/200",
+    "unidade": "pç"
+  },
+  {
+    "id": 939,
+    "row": 958,
+    "cod_sap": "4044",
+    "cod_lider7": "",
+    "descricao": "Poste de concreto armada circular- 11/300",
+    "unidade": "pç"
+  },
+  {
+    "id": 940,
+    "row": 959,
+    "cod_sap": "3665",
+    "cod_lider7": "",
+    "descricao": "Poste de concreto armada circular- 11/600",
+    "unidade": "pç"
+  },
+  {
+    "id": 941,
+    "row": 960,
+    "cod_sap": "3664",
+    "cod_lider7": "",
+    "descricao": "Poste de concreto armada circular- 11/1000",
+    "unidade": "pç"
+  },
+  {
+    "id": 942,
+    "row": 961,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Poste de concreto armada circular- 12/300",
+    "unidade": "pç"
+  },
+  {
+    "id": 943,
+    "row": 962,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Poste de concreto armada circular- 12/600",
+    "unidade": "pç"
+  },
+  {
+    "id": 944,
+    "row": 963,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Poste de concreto armada circular- 12/1000",
+    "unidade": "pç"
+  }
+]
