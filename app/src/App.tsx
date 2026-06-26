@@ -2,6 +2,8 @@ import { useEffect, useMemo, useState } from "react";
 import { useStore } from "./store";
 import { consolidate } from "./lib/bom";
 import { Home } from "./components/Home";
+import { WizardTensao } from "./components/wizard/WizardTensao";
+import { WizardRede } from "./components/wizard/WizardRede";
 import { CategoriaView } from "./components/CategoriaView";
 import { ResultadoView } from "./components/ResultadoView";
 import { PreviewPanel } from "./components/PreviewPanel";
@@ -49,7 +51,8 @@ export default function App() {
   const nLinhas = itens.length + obraInsumos.length;
 
   const inicioAtivo =
-    view.name === "home" || view.name === "categoria";
+    view.name === "home" || view.name === "categoria" ||
+    view.name === "wizard_tensao" || view.name === "wizard_rede";
 
   // Gate de licença vem ANTES de tudo (não apaga dados; só decide o acesso).
   if (licenca === null) {
@@ -192,6 +195,8 @@ export default function App() {
             <div className="min-w-0">
               {view.name === "home" && <Home />}
               {view.name === "categoria" && <CategoriaView categoria={view.categoria} />}
+              {view.name === "wizard_tensao" && <WizardTensao />}
+              {view.name === "wizard_rede" && <WizardRede />}
             </div>
             <PreviewPanel consolidation={cons} />
           </div>

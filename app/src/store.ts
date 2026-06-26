@@ -60,6 +60,8 @@ export interface ObraMeta {
 export type View =
   | { name: "home" }
   | { name: "categoria"; categoria: string }
+  | { name: "wizard_tensao" }
+  | { name: "wizard_rede"; catRede: string; kv: string }
   | { name: "resultado" }
   | { name: "precos"; filtros_iniciais?: Partial<FiltrosPrecos> }
   | { name: "relatorios" }
