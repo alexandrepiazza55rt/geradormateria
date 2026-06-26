@@ -2,7 +2,7 @@
  "schema": 1,
  "frozen_from": "app/public/data/materiais.json",
  "generated_at": "2026-06-18",
- "next_id": 483,
+ "next_id": 484,
  "materials": [
   {
    "id": 1,
@@ -3477,6 +3477,22 @@
    "cod_sap": "",
    "cod_lider7": "",
    "descricao": "TERMINAL LATÃO 240 mm²",
+   "unidade": "pç"
+  },
+  {
+   "id": 116,
+   "identity_key": "lider7:3595",
+   "cod_sap": "",
+   "cod_lider7": "3595",
+   "descricao": "Elo Fusível 15K",
+   "unidade": "pç"
+  },
+  {
+   "id": 483,
+   "identity_key": "desc:elo fusivel 7k|pc",
+   "cod_sap": "",
+   "cod_lider7": "",
+   "descricao": "Elo Fusível 7K",
    "unidade": "pç"
   }
  ]

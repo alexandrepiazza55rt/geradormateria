@@ -1,0 +1,18 @@
+{
+ "schema_version": 1,
+ "rev": 1,
+ "status": "ativo",
+ "id": "T14",
+ "sheet": "Transformadores",
+ "tipo": "Trifásico 13.8 kV — 75 kVA — 380/220V",
+ "fases": 3,
+ "tensao_kv": 13.8,
+ "potencia_kva": 75,
+ "tensao_sec": "380/220",
+ "categoria": "Transformadores Trifásicos 13.8 kV",
+ "base_bom": {
+  "111": 3.0,
+  "281": 1.0
+ },
+ "postes": []
+}

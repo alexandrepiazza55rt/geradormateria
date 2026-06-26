@@ -145649,5 +145649,2352 @@
       }
     ],
     "norma_origem": "NDU 004.3"
+  },
+  {
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "id": "RC-001",
+    "categoria": "Rede Compacta (NDU 004.1)",
+    "tipo": "CE1",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": 3,
+    "poste_ref": "DT",
+    "base_bom": {
+      "14": 2,
+      "1044": 1,
+      "1046": 2
+    },
+    "postes": [
+      {
+        "poste": "DT",
+        "delta": {}
+      },
+      {
+        "poste": "SC",
+        "delta": {
+          "14": -2,
+          "1045": 2,
+          "1046": -2,
+          "1047": 2
+        }
+      },
+      {
+        "poste": "PRFV",
+        "delta": {}
+      }
+    ],
+    "norma_origem": "NDU 004.1"
+  },
+  {
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "id": "RC-002",
+    "categoria": "Rede Compacta (NDU 004.1)",
+    "tipo": "CE1A",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": 3,
+    "poste_ref": "DT",
+    "base_bom": {
+      "14": 3,
+      "1048": 1,
+      "1049": 1,
+      "1044": 1,
+      "1050": 1,
+      "1046": 3,
+      "1047": 1,
+      "1051": 1
+    },
+    "postes": [
+      {
+        "poste": "DT",
+        "delta": {}
+      },
+      {
+        "poste": "SC",
+        "delta": {
+          "14": -3,
+          "1045": 3,
+          "1046": -3,
+          "1047": 3,
+          "1051": -1
+        }
+      },
+      {
+        "poste": "PRFV",
+        "delta": {}
+      }
+    ],
+    "norma_origem": "NDU 004.1"
+  },
+  {
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "id": "RC-003",
+    "categoria": "Rede Compacta (NDU 004.1)",
+    "tipo": "CE2",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": 3,
+    "poste_ref": "DT",
+    "base_bom": {
+      "14": 3,
+      "233": 2,
+      "1052": 1,
+      "1046": 3,
+      "1053": 3,
+      "323": 1,
+      "1054": 3,
+      "337": 2
+    },
+    "postes": [
+      {
+        "poste": "DT",
+        "delta": {}
+      },
+      {
+        "poste": "SC",
+        "delta": {
+          "14": -3,
+          "1045": 3,
+          "1046": -3,
+          "1047": 3
+        }
+      },
+      {
+        "poste": "PRFV",
+        "delta": {}
+      }
+    ],
+    "norma_origem": "NDU 004.1"
+  },
+  {
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "id": "RC-004",
+    "categoria": "Rede Compacta (NDU 004.1)",
+    "tipo": "CE2SH com Suporte Horizontal",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": 3,
+    "poste_ref": "DT",
+    "base_bom": {
+      "14": 3,
+      "233": 2,
+      "1055": 1,
+      "1046": 3,
+      "1053": 3,
+      "323": 1,
+      "1054": 3,
+      "337": 2
+    },
+    "postes": [
+      {
+        "poste": "DT",
+        "delta": {}
+      },
+      {
+        "poste": "SC",
+        "delta": {
+          "14": -3,
+          "1045": 3,
+          "1046": -3,
+          "1047": 3
+        }
+      },
+      {
+        "poste": "PRFV",
+        "delta": {}
+      }
+    ],
+    "norma_origem": "NDU 004.1"
+  },
+  {
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "id": "RC-005",
+    "categoria": "Rede Compacta (NDU 004.1)",
+    "tipo": "CE3",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": 3,
+    "poste_ref": "DT",
+    "base_bom": {
+      "14": 3,
+      "233": 1,
+      "1056": 1,
+      "320": 3,
+      "322": 2,
+      "1057": 1,
+      "1046": 3,
+      "1058": 3,
+      "323": 3,
+      "1059": 3,
+      "337": 1
+    },
+    "postes": [
+      {
+        "poste": "DT",
+        "delta": {}
+      },
+      {
+        "poste": "SC",
+        "delta": {
+          "14": -3,
+          "1045": 3,
+          "1046": -3,
+          "1058": 3
+        }
+      },
+      {
+        "poste": "PRFV",
+        "delta": {}
+      }
+    ],
+    "norma_origem": "NDU 004.1"
+  },
+  {
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "id": "RC-006",
+    "categoria": "Rede Compacta (NDU 004.1)",
+    "tipo": "CE3 com Perfil U - CE3U",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": 3,
+    "poste_ref": "DT",
+    "base_bom": {
+      "14": 3,
+      "233": 1,
+      "320": 3,
+      "1060": 1,
+      "322": 3,
+      "1046": 3,
+      "1047": 2,
+      "1051": 4,
+      "1061": 1,
+      "323": 4,
+      "337": 1
+    },
+    "postes": [
+      {
+        "poste": "DT",
+        "delta": {}
+      },
+      {
+        "poste": "SC",
+        "delta": {
+          "14": -3,
+          "1045": 3,
+          "1046": -3,
+          "1047": 3,
+          "1051": -2
+        }
+      },
+      {
+        "poste": "PRFV",
+        "delta": {}
+      }
+    ],
+    "norma_origem": "NDU 004.1"
+  },
+  {
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "id": "RC-007",
+    "categoria": "Rede Compacta (NDU 004.1)",
+    "tipo": "CE4",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": 3,
+    "poste_ref": "DT",
+    "base_bom": {
+      "14": 3,
+      "233": 2,
+      "1052": 1,
+      "320": 6,
+      "322": 6,
+      "1047": 9,
+      "1062": 6,
+      "1053": 3,
+      "323": 6,
+      "1059": 6,
+      "1054": 3,
+      "337": 2
+    },
+    "postes": [
+      {
+        "poste": "DT",
+        "delta": {}
+      },
+      {
+        "poste": "SC",
+        "delta": {
+          "14": -2,
+          "1045": 3,
+          "1047": -3
+        }
+      },
+      {
+        "poste": "PRFV",
+        "delta": {}
+      }
+    ],
+    "norma_origem": "NDU 004.1"
+  },
+  {
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "id": "RC-008",
+    "categoria": "Rede Compacta (NDU 004.1)",
+    "tipo": "CE4 – Perfil U - CE4U",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": 3,
+    "poste_ref": "DT",
+    "base_bom": {
+      "14": 3,
+      "233": 2,
+      "320": 6,
+      "1060": 1,
+      "322": 6,
+      "1046": 6,
+      "1051": 4,
+      "1061": 1,
+      "1053": 3,
+      "323": 8,
+      "1059": 6,
+      "1054": 3,
+      "337": 2
+    },
+    "postes": [
+      {
+        "poste": "DT",
+        "delta": {}
+      },
+      {
+        "poste": "SC",
+        "delta": {
+          "14": -3,
+          "1045": 4,
+          "1046": -4,
+          "1047": 5,
+          "1051": -2
+        }
+      },
+      {
+        "poste": "PRFV",
+        "delta": {}
+      }
+    ],
+    "norma_origem": "NDU 004.1"
+  },
+  {
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "id": "RC-009",
+    "categoria": "Rede Compacta (NDU 004.1)",
+    "tipo": "CE3-CE3",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": 3,
+    "poste_ref": "DT",
+    "base_bom": {
+      "14": 6,
+      "233": 2,
+      "1052": 2,
+      "1056": 2,
+      "320": 6,
+      "322": 4,
+      "1057": 2,
+      "1046": 6,
+      "1047": 6,
+      "323": 6,
+      "1059": 6,
+      "337": 2
+    },
+    "postes": [
+      {
+        "poste": "DT",
+        "delta": {}
+      },
+      {
+        "poste": "SC",
+        "delta": {
+          "14": -6,
+          "1045": 6,
+          "1046": -6,
+          "1047": 6
+        }
+      },
+      {
+        "poste": "PRFV",
+        "delta": {}
+      }
+    ],
+    "norma_origem": "NDU 004.1"
+  },
+  {
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "id": "RC-010",
+    "categoria": "Rede Compacta (NDU 004.1)",
+    "tipo": "CE3U-CE3U com Perfil U",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": 3,
+    "poste_ref": "DT",
+    "base_bom": {
+      "14": 7,
+      "233": 2,
+      "1060": 2,
+      "320": 6,
+      "322": 6,
+      "1063": 8,
+      "1061": 1,
+      "1046": 7,
+      "1064": 4,
+      "1057": 2,
+      "323": 8,
+      "1059": 6,
+      "1054": 2,
+      "337": 2,
+      "1065": 3,
+      "1053": 2
+    },
+    "postes": [
+      {
+        "poste": "DT",
+        "delta": {}
+      },
+      {
+        "poste": "SC",
+        "delta": {
+          "322": -2,
+          "14": -7,
+          "1045": 6,
+          "1051": 3,
+          "1063": -4,
+          "1064": 7
+        }
+      },
+      {
+        "poste": "PRFV",
+        "delta": {}
+      }
+    ],
+    "norma_origem": "NDU 004.1"
+  },
+  {
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "id": "RC-011",
+    "categoria": "Rede Compacta (NDU 004.1)",
+    "tipo": "CE2.3",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": 3,
+    "poste_ref": "DT",
+    "base_bom": {
+      "14": 3,
+      "233": 3,
+      "1052": 1,
+      "1056": 1,
+      "320": 3,
+      "322": 2,
+      "1057": 1,
+      "1046": 3,
+      "1047": 3,
+      "1051": 1,
+      "1053": 3,
+      "323": 3,
+      "1059": 3,
+      "1054": 3,
+      "337": 3
+    },
+    "postes": [
+      {
+        "poste": "DT",
+        "delta": {}
+      },
+      {
+        "poste": "SC",
+        "delta": {
+          "14": -3,
+          "1045": 3,
+          "1046": -3,
+          "1047": 3,
+          "1051": -1
+        }
+      },
+      {
+        "poste": "PRFV",
+        "delta": {}
+      }
+    ],
+    "norma_origem": "NDU 004.1"
+  },
+  {
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "id": "RC-012",
+    "categoria": "Rede Compacta (NDU 004.1)",
+    "tipo": "CE2-CE3 com Suporte Horizontal",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": 3,
+    "poste_ref": "DT",
+    "base_bom": {
+      "14": 6,
+      "233": 3,
+      "320": 3,
+      "1060": 1,
+      "322": 2,
+      "1046": 6,
+      "1062": 2,
+      "1056": 1,
+      "1053": 5,
+      "323": 5,
+      "1057": 1,
+      "1059": 3,
+      "1054": 5,
+      "337": 3
+    },
+    "postes": [
+      {
+        "poste": "DT",
+        "delta": {}
+      },
+      {
+        "poste": "SC",
+        "delta": {
+          "14": -6,
+          "1045": 6,
+          "1046": -6,
+          "1062": 6
+        }
+      },
+      {
+        "poste": "PRFV",
+        "delta": {}
+      }
+    ],
+    "norma_origem": "NDU 004.1"
+  },
+  {
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "id": "RC-013",
+    "categoria": "Rede Compacta (NDU 004.1)",
+    "tipo": "CEJ1",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": 3,
+    "poste_ref": "DT",
+    "base_bom": {
+      "14": 2,
+      "1066": 1,
+      "1049": 1,
+      "1050": 1,
+      "1047": 1,
+      "1067": 2
+    },
+    "postes": [
+      {
+        "poste": "DT",
+        "delta": {}
+      },
+      {
+        "poste": "SC",
+        "delta": {
+          "1058": 2,
+          "1067": -2,
+          "14": -2,
+          "1045": 2,
+          "1047": 3
+        }
+      },
+      {
+        "poste": "PRFV",
+        "delta": {}
+      }
+    ],
+    "norma_origem": "NDU 004.1"
+  },
+  {
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "id": "RC-014",
+    "categoria": "Rede Compacta (NDU 004.1)",
+    "tipo": "CEJ1A",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": 3,
+    "poste_ref": "DT",
+    "base_bom": {
+      "14": 2,
+      "1066": 1,
+      "1049": 1,
+      "1050": 1,
+      "1047": 1,
+      "1058": 4,
+      "1067": 2,
+      "1059": 1,
+      "1044": 1,
+      "322": 1
+    },
+    "postes": [
+      {
+        "poste": "DT",
+        "delta": {}
+      },
+      {
+        "poste": "SC",
+        "delta": {
+          "14": -2,
+          "1045": 2,
+          "1047": 3,
+          "1067": -2
+        }
+      },
+      {
+        "poste": "PRFV",
+        "delta": {}
+      }
+    ],
+    "norma_origem": "NDU 004.1"
+  },
+  {
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "id": "RC-015",
+    "categoria": "Rede Compacta (NDU 004.1)",
+    "tipo": "CEJ2",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": 3,
+    "poste_ref": "DT",
+    "base_bom": {
+      "14": 3,
+      "1066": 1,
+      "1067": 3,
+      "1054": 3,
+      "1053": 3
+    },
+    "postes": [
+      {
+        "poste": "DT",
+        "delta": {}
+      },
+      {
+        "poste": "SC",
+        "delta": {
+          "1058": 1,
+          "1067": -3,
+          "1045": 3,
+          "1047": 8
+        }
+      },
+      {
+        "poste": "PRFV",
+        "delta": {}
+      }
+    ],
+    "norma_origem": "NDU 004.1"
+  },
+  {
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "id": "RC-016",
+    "categoria": "Rede Compacta (NDU 004.1)",
+    "tipo": "CEJ4",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": 3,
+    "poste_ref": "DT",
+    "base_bom": {
+      "14": 3,
+      "1068": 6,
+      "1066": 1,
+      "320": 6,
+      "322": 6,
+      "1047": 9,
+      "323": 6,
+      "1059": 6,
+      "1044": 1,
+      "337": 2
+    },
+    "postes": [
+      {
+        "poste": "DT",
+        "delta": {}
+      },
+      {
+        "poste": "SC",
+        "delta": {
+          "14": -2,
+          "1045": 3,
+          "1047": -3,
+          "1062": 3
+        }
+      },
+      {
+        "poste": "PRFV",
+        "delta": {}
+      }
+    ],
+    "norma_origem": "NDU 004.1"
+  },
+  {
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "id": "RC-017",
+    "categoria": "Rede Compacta (NDU 004.1)",
+    "tipo": "CEJ4-M3- CFA",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": 3,
+    "poste_ref": "DT",
+    "base_bom": {
+      "14": 3,
+      "233": 6,
+      "1066": 1,
+      "320": 6,
+      "322": 6,
+      "1047": 9,
+      "323": 3,
+      "1059": 6,
+      "1044": 1,
+      "337": 2,
+      "1069": 2,
+      "1070": 3
+    },
+    "postes": [
+      {
+        "poste": "DT",
+        "delta": {}
+      },
+      {
+        "poste": "SC",
+        "delta": {
+          "14": -2,
+          "1045": 3,
+          "1047": -3,
+          "1062": 3
+        }
+      },
+      {
+        "poste": "PRFV",
+        "delta": {}
+      }
+    ],
+    "norma_origem": "NDU 004.1"
+  },
+  {
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "id": "RC-018",
+    "categoria": "Rede Compacta (NDU 004.1)",
+    "tipo": "CE1AB",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": 3,
+    "poste_ref": "DT",
+    "base_bom": {
+      "14": 3,
+      "1048": 1,
+      "1049": 1,
+      "1044": 1,
+      "1050": 1,
+      "1046": 3,
+      "1047": 1,
+      "1071": 1,
+      "1051": 1
+    },
+    "postes": [
+      {
+        "poste": "DT",
+        "delta": {}
+      },
+      {
+        "poste": "SC",
+        "delta": {
+          "14": -3,
+          "1045": 3,
+          "1046": -3,
+          "1047": 3,
+          "1051": -1
+        }
+      },
+      {
+        "poste": "PRFV",
+        "delta": {}
+      }
+    ],
+    "norma_origem": "NDU 004.1"
+  },
+  {
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "id": "RC-019",
+    "categoria": "Rede Compacta (NDU 004.1)",
+    "tipo": "CE3.N3 PR",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": 3,
+    "poste_ref": "DT",
+    "base_bom": {
+      "14": 13,
+      "233": 1,
+      "1072": 3,
+      "1073": 6,
+      "322": 6,
+      "1046": 10,
+      "1063": 5,
+      "1074": 3,
+      "323": 7,
+      "1075": 3,
+      "1059": 6,
+      "1054": 3,
+      "337": 1,
+      "1076": 3
+    },
+    "postes": [
+      {
+        "poste": "DT",
+        "delta": {}
+      },
+      {
+        "poste": "SC",
+        "delta": {
+          "14": -2,
+          "1045": 4,
+          "1046": -4,
+          "1062": 6,
+          "1063": -1
+        }
+      },
+      {
+        "poste": "PRFV",
+        "delta": {}
+      }
+    ],
+    "norma_origem": "NDU 004.1"
+  },
+  {
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "id": "RC-020",
+    "categoria": "Rede Compacta (NDU 004.1)",
+    "tipo": "CEJ2A",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": 3,
+    "poste_ref": "DT",
+    "base_bom": {
+      "14": 4,
+      "1066": 1,
+      "1044": 1,
+      "1067": 2,
+      "1054": 3,
+      "1053": 3
+    },
+    "postes": [
+      {
+        "poste": "DT",
+        "delta": {}
+      },
+      {
+        "poste": "SC",
+        "delta": {
+          "1067": -2,
+          "14": -3,
+          "1045": 3,
+          "1047": 6
+        }
+      },
+      {
+        "poste": "PRFV",
+        "delta": {}
+      }
+    ],
+    "norma_origem": "NDU 004.1"
+  },
+  {
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "id": "RC-021",
+    "categoria": "Rede Compacta (NDU 004.1)",
+    "tipo": "CEJ2BE",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": 3,
+    "poste_ref": "DT",
+    "base_bom": {
+      "14": 3,
+      "1044": 1,
+      "1076": 1,
+      "1067": 2,
+      "1054": 3,
+      "1053": 3
+    },
+    "postes": [
+      {
+        "poste": "DT",
+        "delta": {}
+      },
+      {
+        "poste": "SC",
+        "delta": {
+          "1067": -2,
+          "14": 1,
+          "1045": 4,
+          "1047": 4
+        }
+      },
+      {
+        "poste": "PRFV",
+        "delta": {}
+      }
+    ],
+    "norma_origem": "NDU 004.1"
+  },
+  {
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "id": "RC-022",
+    "categoria": "Rede Compacta (NDU 004.1)",
+    "tipo": "CEM1",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": 1,
+    "poste_ref": "DT",
+    "base_bom": {
+      "14": 2,
+      "1044": 1,
+      "1077": 1,
+      "1047": 1,
+      "1067": 3
+    },
+    "postes": [
+      {
+        "poste": "DT",
+        "delta": {}
+      },
+      {
+        "poste": "SC",
+        "delta": {
+          "1058": 2,
+          "1067": -3,
+          "14": -2,
+          "1045": 2,
+          "1047": 4
+        }
+      },
+      {
+        "poste": "PRFV",
+        "delta": {}
+      }
+    ],
+    "norma_origem": "NDU 004.1"
+  },
+  {
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "id": "RC-023",
+    "categoria": "Rede Compacta (NDU 004.1)",
+    "tipo": "CEM1A",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": 1,
+    "poste_ref": "DT",
+    "base_bom": {
+      "14": 3,
+      "1044": 1,
+      "1048": 1,
+      "1077": 1,
+      "1047": 1,
+      "1067": 3
+    },
+    "postes": [
+      {
+        "poste": "DT",
+        "delta": {}
+      },
+      {
+        "poste": "SC",
+        "delta": {
+          "1058": 3,
+          "1067": -3,
+          "14": -3,
+          "1045": 4,
+          "1047": 6
+        }
+      },
+      {
+        "poste": "PRFV",
+        "delta": {}
+      }
+    ],
+    "norma_origem": "NDU 004.1"
+  },
+  {
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "id": "RC-024",
+    "categoria": "Rede Compacta (NDU 004.1)",
+    "tipo": "CEM2",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": 1,
+    "poste_ref": "DT",
+    "base_bom": {
+      "337": 2,
+      "1044": 1,
+      "1054": 1,
+      "233": 2,
+      "1053": 1,
+      "1067": 3
+    },
+    "postes": [
+      {
+        "poste": "DT",
+        "delta": {}
+      },
+      {
+        "poste": "SC",
+        "delta": {
+          "1058": 3,
+          "1067": -3,
+          "1045": 3,
+          "1047": 6
+        }
+      },
+      {
+        "poste": "PRFV",
+        "delta": {}
+      }
+    ],
+    "norma_origem": "NDU 004.1"
+  },
+  {
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "id": "RC-025",
+    "categoria": "Rede Compacta (NDU 004.1)",
+    "tipo": "CEM3",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": 1,
+    "poste_ref": "DT",
+    "base_bom": {
+      "337": 2,
+      "14": 2,
+      "1078": 1,
+      "1059": 1,
+      "322": 1,
+      "1079": 1,
+      "1067": 3,
+      "233": 1,
+      "1072": 1,
+      "1080": 1
+    },
+    "postes": [
+      {
+        "poste": "DT",
+        "delta": {}
+      },
+      {
+        "poste": "SC",
+        "delta": {
+          "1045": 3,
+          "1047": 6,
+          "1058": 4,
+          "1067": -3
+        }
+      },
+      {
+        "poste": "PRFV",
+        "delta": {}
+      }
+    ],
+    "norma_origem": "NDU 004.1"
+  },
+  {
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "id": "RC-026",
+    "categoria": "Rede Compacta (NDU 004.1)",
+    "tipo": "CEM4",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": 1,
+    "poste_ref": "DT",
+    "base_bom": {
+      "337": 2,
+      "14": 3,
+      "1044": 1,
+      "1081": 2,
+      "1059": 2,
+      "322": 2,
+      "1079": 1,
+      "1067": 3,
+      "233": 2,
+      "1053": 1,
+      "1054": 1
+    },
+    "postes": [
+      {
+        "poste": "DT",
+        "delta": {}
+      },
+      {
+        "poste": "SC",
+        "delta": {
+          "1045": 4,
+          "1047": 8,
+          "1058": 5,
+          "1067": -3
+        }
+      },
+      {
+        "poste": "PRFV",
+        "delta": {}
+      }
+    ],
+    "norma_origem": "NDU 004.1"
+  },
+  {
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "id": "RC-027",
+    "categoria": "Rede Compacta (NDU 004.1)",
+    "tipo": "CEMJ1",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": 1,
+    "poste_ref": "DT",
+    "base_bom": {
+      "14": 2,
+      "1066": 1,
+      "1049": 1,
+      "1050": 1,
+      "1058": 1,
+      "1067": 2
+    },
+    "postes": [
+      {
+        "poste": "DT",
+        "delta": {}
+      },
+      {
+        "poste": "SC",
+        "delta": {
+          "1067": -2,
+          "14": -2,
+          "1045": 2,
+          "1047": 6
+        }
+      },
+      {
+        "poste": "PRFV",
+        "delta": {}
+      }
+    ],
+    "norma_origem": "NDU 004.1"
+  },
+  {
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "id": "RC-028",
+    "categoria": "Rede Compacta (NDU 004.1)",
+    "tipo": "CEMJ2",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": 1,
+    "poste_ref": "DT",
+    "base_bom": {
+      "14": 2,
+      "1066": 1,
+      "1044": 1,
+      "1067": 2,
+      "1054": 1,
+      "1053": 1
+    },
+    "postes": [
+      {
+        "poste": "DT",
+        "delta": {}
+      },
+      {
+        "poste": "SC",
+        "delta": {
+          "1067": -2,
+          "14": -1,
+          "1045": 2,
+          "1047": 2
+        }
+      },
+      {
+        "poste": "PRFV",
+        "delta": {}
+      }
+    ],
+    "norma_origem": "NDU 004.1"
+  },
+  {
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "id": "RC-029",
+    "categoria": "Rede Compacta (NDU 004.1)",
+    "tipo": "CEM4 - CFU",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": 1,
+    "poste_ref": "DT",
+    "base_bom": {
+      "337": 2,
+      "14": 3,
+      "1082": 1,
+      "1081": 2,
+      "1059": 2,
+      "322": 2,
+      "1083": 1,
+      "1067": 3,
+      "233": 2,
+      "1053": 1,
+      "1054": 1
+    },
+    "postes": [
+      {
+        "poste": "DT",
+        "delta": {}
+      },
+      {
+        "poste": "SC",
+        "delta": {
+          "1045": 4,
+          "1047": 8,
+          "1058": 5,
+          "1067": -3
+        }
+      },
+      {
+        "poste": "PRFV",
+        "delta": {}
+      }
+    ],
+    "norma_origem": "NDU 004.1"
+  },
+  {
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "id": "RC-030",
+    "categoria": "Rede Compacta (NDU 004.1)",
+    "tipo": "CEM2SH TR",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": 1,
+    "poste_ref": "DT",
+    "base_bom": {
+      "337": 1,
+      "1055": 1,
+      "1082": 1,
+      "1083": 1,
+      "1054": 1,
+      "1084": 1,
+      "14": 2,
+      "1065": 1,
+      "233": 2,
+      "1053": 1,
+      "1072": 1,
+      "1046": 3
+    },
+    "postes": [
+      {
+        "poste": "DT",
+        "delta": {}
+      },
+      {
+        "poste": "SC",
+        "delta": {
+          "1045": 3,
+          "1046": -3,
+          "1047": 8,
+          "1058": 1
+        }
+      },
+      {
+        "poste": "PRFV",
+        "delta": {}
+      }
+    ],
+    "norma_origem": "NDU 004.1"
+  },
+  {
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "id": "RC-031",
+    "categoria": "Rede Compacta (NDU 004.1)",
+    "tipo": "CEM1A -TR",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": 1,
+    "poste_ref": "DT",
+    "base_bom": {
+      "14": 3,
+      "1044": 1,
+      "1048": 1,
+      "1077": 1,
+      "1047": 1,
+      "1067": 3
+    },
+    "postes": [
+      {
+        "poste": "DT",
+        "delta": {}
+      },
+      {
+        "poste": "SC",
+        "delta": {
+          "1058": 3,
+          "1067": -3,
+          "14": -3,
+          "1045": 4,
+          "1047": 6
+        }
+      }
+    ],
+    "norma_origem": "NDU 004.1"
+  },
+  {
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "id": "RC-032",
+    "categoria": "Rede Compacta (NDU 004.1)",
+    "tipo": "CEM3 TR (modelo I)",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": 1,
+    "poste_ref": "DT",
+    "base_bom": {
+      "337": 1,
+      "14": 3,
+      "1085": 1,
+      "1079": 1,
+      "1083": 3,
+      "322": 1,
+      "1084": 1,
+      "323": 1,
+      "1081": 1,
+      "1065": 1,
+      "233": 2,
+      "1053": 3,
+      "1072": 1,
+      "1046": 3
+    },
+    "postes": [
+      {
+        "poste": "DT",
+        "delta": {}
+      },
+      {
+        "poste": "SC",
+        "delta": {
+          "14": -3,
+          "1045": 3,
+          "1046": -3,
+          "1047": 8,
+          "1058": 1
+        }
+      },
+      {
+        "poste": "PRFV",
+        "delta": {}
+      }
+    ],
+    "norma_origem": "NDU 004.1"
+  },
+  {
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "id": "RC-033",
+    "categoria": "Rede Compacta (NDU 004.1)",
+    "tipo": "CEM3 TR (modelo II)",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": 1,
+    "poste_ref": "DT",
+    "base_bom": {
+      "337": 1,
+      "14": 3,
+      "1085": 1,
+      "348": 1,
+      "1081": 1,
+      "1083": 3,
+      "322": 1,
+      "1084": 1,
+      "323": 1,
+      "1065": 1,
+      "233": 2,
+      "1053": 3,
+      "1072": 1,
+      "1046": 3
+    },
+    "postes": [
+      {
+        "poste": "DT",
+        "delta": {}
+      },
+      {
+        "poste": "SC",
+        "delta": {
+          "14": -3,
+          "1045": 3,
+          "1046": -3,
+          "1047": 8,
+          "1058": 1
+        }
+      },
+      {
+        "poste": "PRFV",
+        "delta": {}
+      }
+    ],
+    "norma_origem": "NDU 004.1"
+  },
+  {
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "id": "RC-034",
+    "categoria": "Rede Compacta (NDU 004.1)",
+    "tipo": "CEM2 TR",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": 1,
+    "poste_ref": "DT",
+    "base_bom": {
+      "337": 1,
+      "1052": 1,
+      "1082": 1,
+      "1083": 1,
+      "1054": 1,
+      "1084": 1,
+      "14": 2,
+      "1065": 1,
+      "233": 2,
+      "1053": 1,
+      "1072": 1,
+      "1046": 3
+    },
+    "postes": [
+      {
+        "poste": "DT",
+        "delta": {}
+      },
+      {
+        "poste": "SC",
+        "delta": {
+          "1045": 3,
+          "1046": -3,
+          "1047": 8,
+          "1058": 1
+        }
+      },
+      {
+        "poste": "PRFV",
+        "delta": {}
+      }
+    ],
+    "norma_origem": "NDU 004.1"
+  },
+  {
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "id": "RC-035",
+    "categoria": "Rede Compacta (NDU 004.1)",
+    "tipo": "CE2-TR (2°Nível)",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": 3,
+    "poste_ref": "DT",
+    "base_bom": {
+      "14": 5,
+      "233": 2,
+      "1087": 2,
+      "1083": 3,
+      "1072": 3,
+      "1084": 1,
+      "1066": 1,
+      "1046": 5,
+      "1047": 4,
+      "1053": 3,
+      "323": 1,
+      "1082": 1,
+      "1065": 3,
+      "1054": 3,
+      "337": 2
+    },
+    "postes": [
+      {
+        "poste": "DT",
+        "delta": {}
+      },
+      {
+        "poste": "SC",
+        "delta": {
+          "14": -5,
+          "1045": 5,
+          "1046": -5,
+          "1047": 5,
+          "1086": 2
+        }
+      },
+      {
+        "poste": "PRFV",
+        "delta": {}
+      }
+    ],
+    "norma_origem": "NDU 004.1"
+  },
+  {
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "id": "RC-036",
+    "categoria": "Rede Compacta (NDU 004.1)",
+    "tipo": "CE3-TR",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": 3,
+    "poste_ref": "DT",
+    "base_bom": {
+      "14": 5,
+      "233": 1,
+      "1089": 2,
+      "1083": 3,
+      "1072": 3,
+      "1084": 1,
+      "1066": 1,
+      "320": 3,
+      "1060": 1,
+      "322": 3,
+      "1046": 5,
+      "1062": 6,
+      "1067": 3,
+      "1061": 1,
+      "323": 4,
+      "1065": 6,
+      "1059": 3,
+      "337": 1
+    },
+    "postes": [
+      {
+        "poste": "DT",
+        "delta": {}
+      },
+      {
+        "poste": "SC",
+        "delta": {
+          "14": -5,
+          "1045": 5,
+          "1046": -5,
+          "1062": 5,
+          "1067": -1,
+          "1088": 2,
+          "1089": -2
+        }
+      },
+      {
+        "poste": "PRFV",
+        "delta": {}
+      }
+    ],
+    "norma_origem": "NDU 004.1"
+  },
+  {
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "id": "RC-037",
+    "categoria": "Rede Compacta (NDU 004.1)",
+    "tipo": "CE2-TR AP",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": 3,
+    "poste_ref": "DT",
+    "base_bom": {
+      "14": 8,
+      "233": 2,
+      "1087": 2,
+      "1072": 3,
+      "1084": 1,
+      "1073": 2,
+      "1046": 7,
+      "1047": 4,
+      "1051": 1,
+      "1053": 3,
+      "323": 1,
+      "1082": 1,
+      "1054": 6,
+      "337": 2,
+      "1076": 1
+    },
+    "postes": [
+      {
+        "poste": "DT",
+        "delta": {}
+      },
+      {
+        "poste": "SC",
+        "delta": {
+          "14": -5,
+          "1045": 5,
+          "1046": -5,
+          "1047": 5,
+          "1051": -1,
+          "1086": 2,
+          "1087": -2
+        }
+      }
+    ],
+    "norma_origem": "NDU 004.1"
+  },
+  {
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "id": "RC-038",
+    "categoria": "Rede Compacta (NDU 004.1)",
+    "tipo": "CE2-TR",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": 3,
+    "poste_ref": "DT",
+    "base_bom": {
+      "14": 8,
+      "233": 2,
+      "1087": 2,
+      "1072": 3,
+      "1084": 1,
+      "1073": 2,
+      "1046": 7,
+      "1047": 4,
+      "1051": 1,
+      "1053": 3,
+      "323": 1,
+      "1082": 1,
+      "1054": 6,
+      "337": 2,
+      "1076": 1
+    },
+    "postes": [
+      {
+        "poste": "DT",
+        "delta": {}
+      },
+      {
+        "poste": "SC",
+        "delta": {
+          "14": -5,
+          "1045": 5,
+          "1046": -5,
+          "1047": 5,
+          "1051": -1,
+          "1086": 2,
+          "1087": -2
+        }
+      }
+    ],
+    "norma_origem": "NDU 004.1"
+  },
+  {
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "id": "RC-039",
+    "categoria": "Rede Compacta (NDU 004.1)",
+    "tipo": "CE3-TR",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": 3,
+    "poste_ref": "DT",
+    "base_bom": {
+      "14": 5,
+      "233": 1,
+      "1089": 2,
+      "1083": 3,
+      "1072": 3,
+      "1084": 1,
+      "1066": 1,
+      "320": 3,
+      "1060": 1,
+      "322": 3,
+      "1046": 5,
+      "1062": 6,
+      "1067": 3,
+      "1061": 1,
+      "323": 4,
+      "1065": 6,
+      "1059": 3,
+      "337": 1
+    },
+    "postes": [
+      {
+        "poste": "DT",
+        "delta": {}
+      },
+      {
+        "poste": "SC",
+        "delta": {
+          "14": -5,
+          "1045": 5,
+          "1046": -5,
+          "1062": 5,
+          "1067": -1,
+          "1088": 2,
+          "1089": -2
+        }
+      },
+      {
+        "poste": "PRFV",
+        "delta": {}
+      }
+    ],
+    "norma_origem": "NDU 004.1"
+  },
+  {
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "id": "RC-040",
+    "categoria": "Rede Compacta (NDU 004.1)",
+    "tipo": "CE2-N1-TR",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": 3,
+    "poste_ref": "DT",
+    "base_bom": {
+      "14": 8,
+      "233": 2,
+      "1087": 2,
+      "1072": 3,
+      "1084": 1,
+      "1073": 2,
+      "1046": 7,
+      "1047": 4,
+      "1051": 1,
+      "1053": 3,
+      "323": 1,
+      "1082": 1,
+      "1054": 6,
+      "337": 2,
+      "1076": 1
+    },
+    "postes": [
+      {
+        "poste": "DT",
+        "delta": {}
+      },
+      {
+        "poste": "SC",
+        "delta": {
+          "14": -5,
+          "1045": 5,
+          "1046": -5,
+          "1047": 5,
+          "1051": -1,
+          "1086": 2,
+          "1087": -2
+        }
+      }
+    ],
+    "norma_origem": "NDU 004.1"
+  },
+  {
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "id": "RC-041",
+    "categoria": "Rede Compacta (NDU 004.1)",
+    "tipo": "CE2- N1-T-PR",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": 3,
+    "poste_ref": "DT",
+    "base_bom": {
+      "14": 8,
+      "233": 2,
+      "1087": 2,
+      "1072": 3,
+      "1084": 1,
+      "1073": 2,
+      "1046": 7,
+      "1047": 4,
+      "1051": 1,
+      "1053": 3,
+      "323": 1,
+      "1082": 1,
+      "1054": 6,
+      "337": 2,
+      "1076": 1
+    },
+    "postes": [
+      {
+        "poste": "DT",
+        "delta": {}
+      },
+      {
+        "poste": "SC",
+        "delta": {
+          "14": -5,
+          "1045": 5,
+          "1046": -5,
+          "1047": 5,
+          "1051": -1,
+          "1086": 2,
+          "1087": -2
+        }
+      }
+    ],
+    "norma_origem": "NDU 004.1"
+  },
+  {
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "id": "RC-042",
+    "categoria": "Rede Compacta (NDU 004.1)",
+    "tipo": "CE2-T-PR",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": 3,
+    "poste_ref": "DT",
+    "base_bom": {
+      "14": 8,
+      "233": 2,
+      "1087": 2,
+      "1072": 3,
+      "1084": 1,
+      "1073": 2,
+      "1046": 7,
+      "1047": 4,
+      "1051": 1,
+      "1053": 3,
+      "323": 1,
+      "1082": 1,
+      "1054": 6,
+      "337": 2,
+      "1076": 1
+    },
+    "postes": [
+      {
+        "poste": "DT",
+        "delta": {}
+      },
+      {
+        "poste": "SC",
+        "delta": {
+          "14": -5,
+          "1045": 5,
+          "1046": -5,
+          "1047": 5,
+          "1051": -1,
+          "1086": 2,
+          "1087": -2
+        }
+      }
+    ],
+    "norma_origem": "NDU 004.1"
+  },
+  {
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "id": "RC-043",
+    "categoria": "Rede Compacta (NDU 004.1)",
+    "tipo": "CE2 PR",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": 3,
+    "poste_ref": "DT",
+    "base_bom": {
+      "14": 3,
+      "233": 2,
+      "1072": 6,
+      "1082": 1,
+      "1052": 1,
+      "1056": 1,
+      "1046": 10,
+      "1064": 3,
+      "1057": 1,
+      "323": 1,
+      "1054": 3,
+      "337": 2,
+      "1065": 3,
+      "1053": 3,
+      "1073": 2
+    },
+    "postes": [
+      {
+        "poste": "DT",
+        "delta": {}
+      },
+      {
+        "poste": "SC",
+        "delta": {
+          "14": -3,
+          "1045": 3,
+          "1046": -4,
+          "1051": 3,
+          "1064": 3
+        }
+      },
+      {
+        "poste": "PRFV",
+        "delta": {}
+      }
+    ],
+    "norma_origem": "NDU 004.1"
+  },
+  {
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "id": "RC-044",
+    "categoria": "Rede Compacta (NDU 004.1)",
+    "tipo": "CE3 PR",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": 3,
+    "poste_ref": "DT",
+    "base_bom": {
+      "14": 3,
+      "233": 1,
+      "1072": 4,
+      "320": 3,
+      "1052": 1,
+      "1056": 1,
+      "322": 3,
+      "1046": 1,
+      "1064": 3,
+      "1057": 1,
+      "323": 3,
+      "1059": 3,
+      "337": 1,
+      "1065": 3
+    },
+    "postes": [
+      {
+        "poste": "DT",
+        "delta": {}
+      },
+      {
+        "poste": "SC",
+        "delta": {
+          "14": -3,
+          "1045": 3,
+          "1064": 3
+        }
+      },
+      {
+        "poste": "PRFV",
+        "delta": {
+          "233": -1
+        }
+      }
+    ],
+    "norma_origem": "NDU 004.1"
+  },
+  {
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "id": "RC-045",
+    "categoria": "Rede Compacta (NDU 004.1)",
+    "tipo": "CE4U-CFU com Perfil U",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": 3,
+    "poste_ref": "DT",
+    "base_bom": {
+      "14": 3,
+      "233": 2,
+      "1083": 3,
+      "320": 6,
+      "1073": 4,
+      "1072": 3,
+      "1060": 1,
+      "322": 6,
+      "1046": 6,
+      "1061": 1,
+      "1063": 4,
+      "323": 8,
+      "1059": 6,
+      "1054": 3,
+      "337": 2,
+      "1076": 2,
+      "1065": 3
+    },
+    "postes": [
+      {
+        "poste": "DT",
+        "delta": {}
+      },
+      {
+        "poste": "SC",
+        "delta": {
+          "14": -3,
+          "1045": 5,
+          "1046": -4,
+          "1063": -2,
+          "1064": 5,
+          "1090": 2
+        }
+      },
+      {
+        "poste": "PRFV",
+        "delta": {}
+      }
+    ],
+    "norma_origem": "NDU 004.1"
+  },
+  {
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "id": "RC-046",
+    "categoria": "Rede Compacta (NDU 004.1)",
+    "tipo": "CE4U CFA",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": 3,
+    "poste_ref": "DT",
+    "base_bom": {
+      "14": 13,
+      "233": 2,
+      "1091": 3,
+      "320": 6,
+      "1060": 1,
+      "1073": 2,
+      "322": 6,
+      "1046": 4,
+      "1063": 5,
+      "1061": 1,
+      "323": 8,
+      "1054": 4,
+      "337": 2,
+      "1076": 2
+    },
+    "postes": [
+      {
+        "poste": "DT",
+        "delta": {}
+      },
+      {
+        "poste": "SC",
+        "delta": {
+          "1090": 9,
+          "14": -1,
+          "1045": 5,
+          "1063": -3,
+          "1064": 10
+        }
+      },
+      {
+        "poste": "PRFV",
+        "delta": {}
+      }
+    ],
+    "norma_origem": "NDU 004.1"
+  },
+  {
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "id": "RC-047",
+    "categoria": "Rede Compacta (NDU 004.1)",
+    "tipo": "CE3-N3 CFA",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": 3,
+    "poste_ref": "DT",
+    "base_bom": {
+      "14": 8,
+      "233": 1,
+      "1073": 4,
+      "320": 6,
+      "322": 6,
+      "1046": 5,
+      "1051": 5,
+      "1053": 3,
+      "1059": 6,
+      "1054": 3,
+      "323": 8,
+      "337": 1,
+      "1076": 2
+    },
+    "postes": [
+      {
+        "poste": "DT",
+        "delta": {}
+      },
+      {
+        "poste": "SC",
+        "delta": {
+          "1092": 3,
+          "14": -2,
+          "1045": 4,
+          "1046": -1,
+          "1047": 8,
+          "1051": -1,
+          "1058": 3
+        }
+      },
+      {
+        "poste": "PRFV",
+        "delta": {}
+      }
+    ],
+    "norma_origem": "NDU 004.1"
+  },
+  {
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "id": "RC-048",
+    "categoria": "Rede Compacta (NDU 004.1)",
+    "tipo": "CE2-CE3 CFU",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": 3,
+    "poste_ref": "DT",
+    "base_bom": {
+      "14": 14,
+      "233": 2,
+      "1083": 3,
+      "320": 3,
+      "1073": 4,
+      "322": 3,
+      "1046": 4,
+      "1063": 7,
+      "1053": 3,
+      "323": 4,
+      "1052": 1,
+      "1059": 3,
+      "1054": 3,
+      "337": 2,
+      "1076": 2
+    },
+    "postes": [
+      {
+        "poste": "DT",
+        "delta": {}
+      },
+      {
+        "poste": "SC",
+        "delta": {
+          "14": -3,
+          "1045": 5,
+          "1063": -5,
+          "1064": 10,
+          "1090": 3,
+          "1093": 2
+        }
+      },
+      {
+        "poste": "PRFV",
+        "delta": {}
+      }
+    ],
+    "norma_origem": "NDU 004.1"
+  },
+  {
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "id": "RC-049",
+    "categoria": "Rede Compacta (NDU 004.1)",
+    "tipo": "CE2-N3 CFU",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": 3,
+    "poste_ref": "DT",
+    "base_bom": {
+      "14": 14,
+      "233": 2,
+      "1083": 3,
+      "320": 6,
+      "1073": 4,
+      "322": 6,
+      "1046": 4,
+      "1063": 7,
+      "1053": 3,
+      "323": 4,
+      "1052": 1,
+      "1059": 3,
+      "1054": 4,
+      "337": 2,
+      "1076": 2
+    },
+    "postes": [
+      {
+        "poste": "DT",
+        "delta": {}
+      },
+      {
+        "poste": "SC",
+        "delta": {
+          "14": -3,
+          "1045": 5,
+          "1063": -5,
+          "1064": 10,
+          "1090": 3,
+          "1093": 2
+        }
+      },
+      {
+        "poste": "PRFV",
+        "delta": {}
+      }
+    ],
+    "norma_origem": "NDU 004.1"
+  },
+  {
+    "schema_version": 1,
+    "rev": 1,
+    "status": "ativo",
+    "id": "RC-050",
+    "categoria": "Rede Compacta (NDU 004.1)",
+    "tipo": "N1-CE3 CFU",
+    "condutor": null,
+    "tensao_kv": null,
+    "nominal_kv": null,
+    "fases": 3,
+    "poste_ref": "DT",
+    "base_bom": {
+      "14": 14,
+      "233": 1,
+      "1083": 3,
+      "320": 3,
+      "1073": 4,
+      "1072": 3,
+      "322": 3,
+      "1046": 2,
+      "1063": 3,
+      "1053": 3,
+      "323": 4,
+      "1075": 3,
+      "1059": 3,
+      "1054": 1,
+      "337": 1,
+      "1076": 2
+    },
+    "postes": [
+      {
+        "poste": "DT",
+        "delta": {}
+      },
+      {
+        "poste": "SC",
+        "delta": {
+          "14": -3,
+          "1045": 2,
+          "1063": -1,
+          "1064": 4,
+          "1093": 2
+        }
+      },
+      {
+        "poste": "PRFV",
+        "delta": {}
+      }
+    ],
+    "norma_origem": "NDU 004.1"
   }
 ]

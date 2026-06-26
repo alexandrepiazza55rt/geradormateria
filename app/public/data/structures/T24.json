@@ -1,0 +1,18 @@
+{
+ "schema_version": 1,
+ "rev": 1,
+ "status": "ativo",
+ "id": "T24",
+ "sheet": "Transformadores",
+ "tipo": "Trifásico 34.5 kV — 150 kVA — 380/220V",
+ "fases": 3,
+ "tensao_kv": 34.5,
+ "potencia_kva": 150,
+ "tensao_sec": "380/220",
+ "categoria": "Transformadores Trifásicos 34.5 kV",
+ "base_bom": {
+  "109": 3.0,
+  "286": 1.0
+ },
+ "postes": []
+}

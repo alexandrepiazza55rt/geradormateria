@@ -1,0 +1,18 @@
+{
+ "schema_version": 1,
+ "rev": 1,
+ "status": "ativo",
+ "id": "T22",
+ "sheet": "Transformadores",
+ "tipo": "Trifásico 13.8 kV — 150 kVA — 380/220V",
+ "fases": 3,
+ "tensao_kv": 13.8,
+ "potencia_kva": 150,
+ "tensao_sec": "380/220",
+ "categoria": "Transformadores Trifásicos 13.8 kV",
+ "base_bom": {
+  "483": 3.0,
+  "285": 1.0
+ },
+ "postes": []
+}

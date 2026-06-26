@@ -1,0 +1,18 @@
+{
+ "schema_version": 1,
+ "rev": 1,
+ "status": "ativo",
+ "id": "T29",
+ "sheet": "Transformadores",
+ "tipo": "Trifásico 13.8 kV — 300 kVA — 220/127V",
+ "fases": 3,
+ "tensao_kv": 13.8,
+ "potencia_kva": 300,
+ "tensao_sec": "220/127",
+ "categoria": "Transformadores Trifásicos 13.8 kV",
+ "base_bom": {
+  "116": 3.0,
+  "273": 1.0
+ },
+ "postes": []
+}

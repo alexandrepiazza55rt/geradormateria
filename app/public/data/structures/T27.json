@@ -1,0 +1,18 @@
+{
+ "schema_version": 1,
+ "rev": 1,
+ "status": "ativo",
+ "id": "T27",
+ "sheet": "Transformadores",
+ "tipo": "Trifásico 34.5 kV — 225 kVA — 220/127V",
+ "fases": 3,
+ "tensao_kv": 34.5,
+ "potencia_kva": 225,
+ "tensao_sec": "220/127",
+ "categoria": "Transformadores Trifásicos 34.5 kV",
+ "base_bom": {
+  "111": 3.0,
+  "272": 1.0
+ },
+ "postes": []
+}

@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "data_version": "2026.06.18-r4",
- "generated_at": "2026-06-18",
+ "data_version": "2026.06.26-r1",
+ "generated_at": "2026-06-26",
  "structures": [
   {
    "id": "S1",
@@ -7994,6 +7994,294 @@
    "file": "structures/X-2026-012.json",
    "bytes": 2100,
    "sha256": "4e988110f018ea63bd1d491b35344ea5f7279b744f893664fa7feadb34349db2"
+  },
+  {
+   "id": "T1",
+   "rev": 1,
+   "categoria": "Transformadores Trifásicos 13.8 kV",
+   "status": "ativo",
+   "file": "structures/T1.json",
+   "bytes": 346,
+   "sha256": "cabda45e3ea9ceab2e3cb112eec751088cc3fd75a51f9d984b2c47d5217664f6"
+  },
+  {
+   "id": "T10",
+   "rev": 1,
+   "categoria": "Transformadores Trifásicos 13.8 kV",
+   "status": "ativo",
+   "file": "structures/T10.json",
+   "bytes": 347,
+   "sha256": "7b1f16a21130115a78c702dafebccda32791968ce84e3528884f696c8b8287d6"
+  },
+  {
+   "id": "T11",
+   "rev": 1,
+   "categoria": "Transformadores Trifásicos 34.5 kV",
+   "status": "ativo",
+   "file": "structures/T11.json",
+   "bytes": 347,
+   "sha256": "57bb6346aa0d83f4d03bdca485eda74abdd5a9993bbc8f0a350604bb1239b4c0"
+  },
+  {
+   "id": "T12",
+   "rev": 1,
+   "categoria": "Transformadores Trifásicos 34.5 kV",
+   "status": "ativo",
+   "file": "structures/T12.json",
+   "bytes": 347,
+   "sha256": "3001f1c04a9d713a05a7628dde46d6546e5e0f144e6c84f38973c8fdd1388da3"
+  },
+  {
+   "id": "T13",
+   "rev": 1,
+   "categoria": "Transformadores Trifásicos 13.8 kV",
+   "status": "ativo",
+   "file": "structures/T13.json",
+   "bytes": 347,
+   "sha256": "5798a5260c2280919a1aa27a84daf3f18bb4278cb498fae16cf3f19a05fe5675"
+  },
+  {
+   "id": "T14",
+   "rev": 1,
+   "categoria": "Transformadores Trifásicos 13.8 kV",
+   "status": "ativo",
+   "file": "structures/T14.json",
+   "bytes": 347,
+   "sha256": "adfa1d4092537f3b5040b6624a97cabd0db0a5060232bf8df40bfa6eb992bba2"
+  },
+  {
+   "id": "T15",
+   "rev": 1,
+   "categoria": "Transformadores Trifásicos 34.5 kV",
+   "status": "ativo",
+   "file": "structures/T15.json",
+   "bytes": 347,
+   "sha256": "71ecc266548fffcb055aa3e8d33c541e16d765744aea41b2ccbba9f28469c2af"
+  },
+  {
+   "id": "T16",
+   "rev": 1,
+   "categoria": "Transformadores Trifásicos 34.5 kV",
+   "status": "ativo",
+   "file": "structures/T16.json",
+   "bytes": 347,
+   "sha256": "d11677723856314b9b7aca65c462463554a7710c7f1f4099570ef3666c96debe"
+  },
+  {
+   "id": "T17",
+   "rev": 1,
+   "categoria": "Transformadores Trifásicos 13.8 kV",
+   "status": "ativo",
+   "file": "structures/T17.json",
+   "bytes": 353,
+   "sha256": "722549d304209c1f7bfcc06842972225455a28de11f4f410938bfce79b4010db"
+  },
+  {
+   "id": "T18",
+   "rev": 1,
+   "categoria": "Transformadores Trifásicos 13.8 kV",
+   "status": "ativo",
+   "file": "structures/T18.json",
+   "bytes": 353,
+   "sha256": "8c17ff1ec342267d19460293946c8e40720859796437fec8dcc844e0c9f62cc3"
+  },
+  {
+   "id": "T19",
+   "rev": 1,
+   "categoria": "Transformadores Trifásicos 34.5 kV",
+   "status": "ativo",
+   "file": "structures/T19.json",
+   "bytes": 353,
+   "sha256": "5e2a8a997621601b3d73684084ae13ef1449093636c45563737eb9acac1371d5"
+  },
+  {
+   "id": "T2",
+   "rev": 1,
+   "categoria": "Transformadores Trifásicos 13.8 kV",
+   "status": "ativo",
+   "file": "structures/T2.json",
+   "bytes": 346,
+   "sha256": "85bc2e66ff29eec7028135bf99f1cefa8568efa1e644defb04b0ad4a5ce871dc"
+  },
+  {
+   "id": "T20",
+   "rev": 1,
+   "categoria": "Transformadores Trifásicos 34.5 kV",
+   "status": "ativo",
+   "file": "structures/T20.json",
+   "bytes": 353,
+   "sha256": "3ecd698bdb0a7438eafffcc53d07b28b7b73da46d4f7c5ea472bc2a2b97395f1"
+  },
+  {
+   "id": "T21",
+   "rev": 1,
+   "categoria": "Transformadores Trifásicos 13.8 kV",
+   "status": "ativo",
+   "file": "structures/T21.json",
+   "bytes": 349,
+   "sha256": "b2640574279310d1974d06d5e0e354a6cd9704aa252c6732e9a8da29cd0d522f"
+  },
+  {
+   "id": "T22",
+   "rev": 1,
+   "categoria": "Transformadores Trifásicos 13.8 kV",
+   "status": "ativo",
+   "file": "structures/T22.json",
+   "bytes": 349,
+   "sha256": "c303e0499aef11f9be3328d77ca1f9ea87b09d65d32c2713ffd2762ba48aabac"
+  },
+  {
+   "id": "T23",
+   "rev": 1,
+   "categoria": "Transformadores Trifásicos 34.5 kV",
+   "status": "ativo",
+   "file": "structures/T23.json",
+   "bytes": 349,
+   "sha256": "e525a064aa0cdd740e63b27ca4555291e0c8bc517b2ebff6833daf52e8e30770"
+  },
+  {
+   "id": "T24",
+   "rev": 1,
+   "categoria": "Transformadores Trifásicos 34.5 kV",
+   "status": "ativo",
+   "file": "structures/T24.json",
+   "bytes": 349,
+   "sha256": "f12a8ba1ef17d4930a976fdfe0b74389e38f8ea831134fd14207f9fbf98826d1"
+  },
+  {
+   "id": "T25",
+   "rev": 1,
+   "categoria": "Transformadores Trifásicos 13.8 kV",
+   "status": "ativo",
+   "file": "structures/T25.json",
+   "bytes": 349,
+   "sha256": "3c671036d334751aae3f83f16edb031ddd73f3f6750d0b40a9e358ea19f19621"
+  },
+  {
+   "id": "T26",
+   "rev": 1,
+   "categoria": "Transformadores Trifásicos 13.8 kV",
+   "status": "ativo",
+   "file": "structures/T26.json",
+   "bytes": 349,
+   "sha256": "51427bc9f3f8a7e76a63329bba56c06948f9cc171bc54c0856b4ccd06956de74"
+  },
+  {
+   "id": "T27",
+   "rev": 1,
+   "categoria": "Transformadores Trifásicos 34.5 kV",
+   "status": "ativo",
+   "file": "structures/T27.json",
+   "bytes": 349,
+   "sha256": "8a7939cee09c97c8a0a1e2167dddbd8a6987c15d9bf6a3146f62f73cf7748cc1"
+  },
+  {
+   "id": "T28",
+   "rev": 1,
+   "categoria": "Transformadores Trifásicos 34.5 kV",
+   "status": "ativo",
+   "file": "structures/T28.json",
+   "bytes": 349,
+   "sha256": "c64f46724712fb2019cbb984e324c6c928f43bd0bb6e5f02569d6fa8c3d539a1"
+  },
+  {
+   "id": "T29",
+   "rev": 1,
+   "categoria": "Transformadores Trifásicos 13.8 kV",
+   "status": "ativo",
+   "file": "structures/T29.json",
+   "bytes": 349,
+   "sha256": "a0cbee99715e6662f95f8f5b719c11f7eedaf2985454fc0e91e63161dbb62d0b"
+  },
+  {
+   "id": "T3",
+   "rev": 1,
+   "categoria": "Transformadores Trifásicos 34.5 kV",
+   "status": "ativo",
+   "file": "structures/T3.json",
+   "bytes": 346,
+   "sha256": "1cd60cb79cf846bdb6d92cf4fdcd473b0f9245589898b232e8b0e99a46a411b8"
+  },
+  {
+   "id": "T30",
+   "rev": 1,
+   "categoria": "Transformadores Trifásicos 13.8 kV",
+   "status": "ativo",
+   "file": "structures/T30.json",
+   "bytes": 349,
+   "sha256": "f9554b49be4701543c01f1f6a6e3110612338a719e4422c72e14fbdfc30751d4"
+  },
+  {
+   "id": "T31",
+   "rev": 1,
+   "categoria": "Transformadores Trifásicos 34.5 kV",
+   "status": "ativo",
+   "file": "structures/T31.json",
+   "bytes": 349,
+   "sha256": "19b866728bdab11cd4cd3d52ecddeab8a45d59b3a825801ca34e7b186b78fbf3"
+  },
+  {
+   "id": "T32",
+   "rev": 1,
+   "categoria": "Transformadores Trifásicos 34.5 kV",
+   "status": "ativo",
+   "file": "structures/T32.json",
+   "bytes": 349,
+   "sha256": "ba3e1c50b89a918de17844498a172d8f070bcf98d157f9836122f204d16b9cc3"
+  },
+  {
+   "id": "T4",
+   "rev": 1,
+   "categoria": "Transformadores Trifásicos 34.5 kV",
+   "status": "ativo",
+   "file": "structures/T4.json",
+   "bytes": 346,
+   "sha256": "e74e60e4f1bdd9945b3ac36e022b68c32a12d2f5dc0dc3ba13087d73fd5d7989"
+  },
+  {
+   "id": "T5",
+   "rev": 1,
+   "categoria": "Transformadores Trifásicos 13.8 kV",
+   "status": "ativo",
+   "file": "structures/T5.json",
+   "bytes": 346,
+   "sha256": "5508146c4a447902e276632c2ff98cd542bada89c9ac88068aef9d85f493abd8"
+  },
+  {
+   "id": "T6",
+   "rev": 1,
+   "categoria": "Transformadores Trifásicos 13.8 kV",
+   "status": "ativo",
+   "file": "structures/T6.json",
+   "bytes": 346,
+   "sha256": "ca4c29e791b9d5c62b978e4c5f0aca170690009db527cbe4f16f8e179ed6f1e6"
+  },
+  {
+   "id": "T7",
+   "rev": 1,
+   "categoria": "Transformadores Trifásicos 34.5 kV",
+   "status": "ativo",
+   "file": "structures/T7.json",
+   "bytes": 346,
+   "sha256": "7cd820549b9e2d468fbf22dcc7b26da41781d429ec8bcab206f1a25b94b66641"
+  },
+  {
+   "id": "T8",
+   "rev": 1,
+   "categoria": "Transformadores Trifásicos 34.5 kV",
+   "status": "ativo",
+   "file": "structures/T8.json",
+   "bytes": 346,
+   "sha256": "cd105adc11ce63ab914e62107d3c395df839e326c17b5f61bce42421479fc3a0"
+  },
+  {
+   "id": "T9",
+   "rev": 1,
+   "categoria": "Transformadores Trifásicos 13.8 kV",
+   "status": "ativo",
+   "file": "structures/T9.json",
+   "bytes": 346,
+   "sha256": "234a017840c00cc870d1870a51bb2b159a61eab9ac062993a4550a681d6b6c91"
   }
  ]
 }

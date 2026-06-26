@@ -1,0 +1,18 @@
+{
+ "schema_version": 1,
+ "rev": 1,
+ "status": "ativo",
+ "id": "T12",
+ "sheet": "Transformadores",
+ "tipo": "Trifásico 34.5 kV — 45 kVA — 380/220V",
+ "fases": 3,
+ "tensao_kv": 34.5,
+ "potencia_kva": 45,
+ "tensao_sec": "380/220",
+ "categoria": "Transformadores Trifásicos 34.5 kV",
+ "base_bom": {
+  "104": 3.0,
+  "280": 1.0
+ },
+ "postes": []
+}

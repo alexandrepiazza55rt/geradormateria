@@ -1,0 +1,18 @@
+{
+ "schema_version": 1,
+ "rev": 1,
+ "status": "ativo",
+ "id": "T16",
+ "sheet": "Transformadores",
+ "tipo": "Trifásico 34.5 kV — 75 kVA — 380/220V",
+ "fases": 3,
+ "tensao_kv": 34.5,
+ "potencia_kva": 75,
+ "tensao_sec": "380/220",
+ "categoria": "Transformadores Trifásicos 34.5 kV",
+ "base_bom": {
+  "107": 3.0,
+  "282": 1.0
+ },
+ "postes": []
+}

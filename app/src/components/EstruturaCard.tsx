@@ -77,6 +77,8 @@ export function EstruturaCard({
               ? "Neutro"
               : est.tensao_kv != null
               ? `${est.fases === 1 ? "1Ø" : "3Ø"} · ${est.tensao_kv.toString().replace(".", ",")} kV`
+              : est.fases === 1 ? "1Ø"
+              : est.fases === 3 ? "3Ø"
               : "IP"}
           </span>
         </div>

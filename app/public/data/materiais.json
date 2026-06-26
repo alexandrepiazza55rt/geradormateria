@@ -4440,5 +4440,405 @@
     "cod_lider7": "3709",
     "descricao": "RELE FOTOELETRICO(N.F) 220V CARGA NOMINAL 1800 V.A",
     "unidade": "pç"
+  },
+  {
+    "id": 1044,
+    "row": -1,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Braço tipo L",
+    "unidade": "pç"
+  },
+  {
+    "id": 1045,
+    "row": -1,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cinta para poste circular",
+    "unidade": "pç"
+  },
+  {
+    "id": 1046,
+    "row": -1,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Parafuso de cabeça quadrada",
+    "unidade": "pç"
+  },
+  {
+    "id": 1047,
+    "row": -1,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Parafuso Cabeça Abaulada M16 x 70 mm",
+    "unidade": "pç"
+  },
+  {
+    "id": 1048,
+    "row": -1,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Braço antibalanço",
+    "unidade": "pç"
+  },
+  {
+    "id": 1049,
+    "row": -1,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Espaçador losangular Autotravante",
+    "unidade": "pç"
+  },
+  {
+    "id": 1050,
+    "row": -1,
+    "cod_sap": "90399",
+    "cod_lider7": "",
+    "descricao": "Estribo para braço tipo L",
+    "unidade": "pç"
+  },
+  {
+    "id": 1051,
+    "row": -1,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Parafuso de rosca dupla",
+    "unidade": "pç"
+  },
+  {
+    "id": 1052,
+    "row": -1,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Braço tipo C",
+    "unidade": "pç"
+  },
+  {
+    "id": 1053,
+    "row": -1,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Pino curto para isolador",
+    "unidade": "pç"
+  },
+  {
+    "id": 1054,
+    "row": -1,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Isolador polimérico tipo pino",
+    "unidade": "pç"
+  },
+  {
+    "id": 1055,
+    "row": -1,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Suporte afastador horizontal",
+    "unidade": "pç"
+  },
+  {
+    "id": 1056,
+    "row": -1,
+    "cod_sap": "90416",
+    "cod_lider7": "",
+    "descricao": "Cantoneira auxiliar de abas retas",
+    "unidade": "pç"
+  },
+  {
+    "id": 1057,
+    "row": -1,
+    "cod_sap": "90244",
+    "cod_lider7": "",
+    "descricao": "Manilha torcida",
+    "unidade": "pç"
+  },
+  {
+    "id": 1058,
+    "row": -1,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Parafuso Cabeça Abaulada M16 x 45 mm",
+    "unidade": "pç"
+  },
+  {
+    "id": 1059,
+    "row": -1,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Isolador composto tipo bastão",
+    "unidade": "pç"
+  },
+  {
+    "id": 1060,
+    "row": -1,
+    "cod_sap": "90515",
+    "cod_lider7": "",
+    "descricao": "Fixador para perfil U",
+    "unidade": "pç"
+  },
+  {
+    "id": 1061,
+    "row": -1,
+    "cod_sap": "90447",
+    "cod_lider7": "",
+    "descricao": "Perfil U",
+    "unidade": "pç"
+  },
+  {
+    "id": 1062,
+    "row": -1,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Parafuso de cabeça abaulada",
+    "unidade": "pç"
+  },
+  {
+    "id": 1063,
+    "row": -1,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Parafuso de rosca total",
+    "unidade": "pç"
+  },
+  {
+    "id": 1064,
+    "row": -1,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Parafuso francês M 16 x 70 mm",
+    "unidade": "pç"
+  },
+  {
+    "id": 1065,
+    "row": -1,
+    "cod_sap": "90523",
+    "cod_lider7": "",
+    "descricao": "Suporte Z",
+    "unidade": "pç"
+  },
+  {
+    "id": 1066,
+    "row": -1,
+    "cod_sap": "90536",
+    "cod_lider7": "",
+    "descricao": "Braço J",
+    "unidade": "pç"
+  },
+  {
+    "id": 1067,
+    "row": -1,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Parafuso de Rosca Dupla M16 x Tamanho Adequada",
+    "unidade": "pç"
+  },
+  {
+    "id": 1068,
+    "row": -1,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Parafuso de Rosca Dupla M16 x Tamanho",
+    "unidade": "pç"
+  },
+  {
+    "id": 1069,
+    "row": -1,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cruzeta de concreto ou PRFV",
+    "unidade": "pç"
+  },
+  {
+    "id": 1070,
+    "row": -1,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Chave seccionador unipolar",
+    "unidade": "pç"
+  },
+  {
+    "id": 1071,
+    "row": -1,
+    "cod_sap": "90700",
+    "cod_lider7": "",
+    "descricao": "Afastador de braço tipo L",
+    "unidade": "pç"
+  },
+  {
+    "id": 1072,
+    "row": -1,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Para-raios de distribuição",
+    "unidade": "pç"
+  },
+  {
+    "id": 1073,
+    "row": -1,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Mão-francesa plana",
+    "unidade": "pç"
+  },
+  {
+    "id": 1074,
+    "row": -1,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Pino para isolador",
+    "unidade": "pç"
+  },
+  {
+    "id": 1075,
+    "row": -1,
+    "cod_sap": "90552",
+    "cod_lider7": "",
+    "descricao": "Suporte L",
+    "unidade": "pç"
+  },
+  {
+    "id": 1076,
+    "row": -1,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Cruzeta de distribuição",
+    "unidade": "pç"
+  },
+  {
+    "id": 1077,
+    "row": -1,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Espaçador Monofásico",
+    "unidade": "pç"
+  },
+  {
+    "id": 1078,
+    "row": -1,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Grampo de Linha Viva",
+    "unidade": "pç"
+  },
+  {
+    "id": 1079,
+    "row": -1,
+    "cod_sap": "90521",
+    "cod_lider7": "",
+    "descricao": "Suporte L para \"topo de poste\"",
+    "unidade": "pç"
+  },
+  {
+    "id": 1080,
+    "row": -1,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Terminal Compressão",
+    "unidade": "pç"
+  },
+  {
+    "id": 1081,
+    "row": -1,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Grampo de Ancoragem Polimérico",
+    "unidade": "pç"
+  },
+  {
+    "id": 1082,
+    "row": -1,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Suporte horizontal",
+    "unidade": "pç"
+  },
+  {
+    "id": 1083,
+    "row": -1,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Chave  fusível de distribuição",
+    "unidade": "pç"
+  },
+  {
+    "id": 1084,
+    "row": -1,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Transformador de distribuição",
+    "unidade": "pç"
+  },
+  {
+    "id": 1085,
+    "row": -1,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Isolado Composto tipo Bastão",
+    "unidade": "pç"
+  },
+  {
+    "id": 1086,
+    "row": -1,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Suporte para transformador em poste circular",
+    "unidade": "pç"
+  },
+  {
+    "id": 1087,
+    "row": -1,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Suporte para transformador em poste duplo T",
+    "unidade": "pç"
+  },
+  {
+    "id": 1088,
+    "row": -1,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Suporte para transformador em poste de concreto circular",
+    "unidade": "pç"
+  },
+  {
+    "id": 1089,
+    "row": -1,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Suporte para transformador em poste de concreto duplo T",
+    "unidade": "pç"
+  },
+  {
+    "id": 1090,
+    "row": -1,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Parafuso francês M-16 x 45 mm",
+    "unidade": "pç"
+  },
+  {
+    "id": 1091,
+    "row": -1,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Seccionador unipolar",
+    "unidade": "pç"
+  },
+  {
+    "id": 1092,
+    "row": -1,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Parafuso Cabeça Abaulada M16 x 145 mm",
+    "unidade": "pç"
+  },
+  {
+    "id": 1093,
+    "row": -1,
+    "cod_sap": "",
+    "cod_lider7": "",
+    "descricao": "Parafuso francês M-16 x 145 mm",
+    "unidade": "pç"
   }
 ]

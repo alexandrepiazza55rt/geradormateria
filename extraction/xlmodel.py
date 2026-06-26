@@ -265,12 +265,14 @@ class Model:
         if f is None:
             v = self.literal.get(key, 0.0)
         else:
-            if "[" in f:                     # external reference -> use cached value
-                v = self.cached.get(key, 0.0) or 0.0
-            else:
-                try:
-                    v = self.eval(self.get_ast(sheet, f), sheet)
-                except Exception as e:
+            try:
+                # extern nodes inside AST return 0.0, so formulas with [1]Sheet!Cell
+                # are evaluated with the external reference treated as 0.
+                v = self.eval(self.get_ast(sheet, f), sheet)
+            except Exception as e:
+                if "[" in f:               # fall back to cached value if eval fails
+                    v = self.cached.get(key, 0.0) or 0.0
+                else:
                     raise RuntimeError(f"eval failed at {sheet}!{coord}: {f}\n  -> {e}")
         self.cache[key] = v
         return v
